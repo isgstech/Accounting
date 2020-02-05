@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:t-cm-ak="http://www.bundesbank.de/fr/ba/bakisw/t-cm-ak-2007-01">
+  <link:roleRef roleURI="http://xbrl.bundesbank.de/role/betragsbasis" xlink:type="simple" xlink:href="dt-de-2006-03-30.xsd#betragsbasis"/>
+  <link:roleRef roleURI="http://xbrl.bundesbank.de/role/gueltig-bis" xlink:type="simple" xlink:href="dt-de-2006-03-30.xsd#gueltig-bis"/>
+  <link:roleRef roleURI="http://xbrl.bundesbank.de/role/positionLabel" xlink:type="simple" xlink:href="dt-de-2006-03-30.xsd#positionLabel"/>
+  <link:roleRef roleURI="http://xbrl.bundesbank.de/role/primaryDarstellung" xlink:type="simple" xlink:href="dt-de-2006-03-30.xsd#primaryDarstellung"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-ak-2007-01.xsd#d-ak_Deutschland" xlink:label="Deutschland" xlink:title="Deutschland"/>
+    <link:label xlink:type="resource" xlink:label="label_Deutschland" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_Deutschland" xml:lang="de" id="label_Deutschland">010</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Deutschland" xlink:to="label_Deutschland" xlink:title="label: Deutschland to label_Deutschland" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ak-2007-01.xsd#d-ak_Frankreich" xlink:label="Frankreich" xlink:title="Frankreich"/>
+    <link:label xlink:type="resource" xlink:label="label_Frankreich" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_Frankreich" xml:lang="de" id="label_Frankreich">020</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Frankreich" xlink:to="label_Frankreich" xlink:title="label: Frankreich to label_Frankreich" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ak-2007-01.xsd#d-ak_Grossbritannien" xlink:label="Grossbritannien" xlink:title="Grossbritannien"/>
+    <link:label xlink:type="resource" xlink:label="label_Grossbritannien" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_Grossbritannien" xml:lang="de" id="label_Grossbritannien">030</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Grossbritannien" xlink:to="label_Grossbritannien" xlink:title="label: Grossbritannien to label_Grossbritannien" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ak-2007-01.xsd#d-ak_Japan" xlink:label="Japan" xlink:title="Japan"/>
+    <link:label xlink:type="resource" xlink:label="label_Japan" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_Japan" xml:lang="de" id="label_Japan">040</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Japan" xlink:to="label_Japan" xlink:title="label: Japan to label_Japan" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ak-2007-01.xsd#d-ak_USA" xlink:label="USA" xlink:title="USA"/>
+    <link:label xlink:type="resource" xlink:label="label_USA" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_USA" xml:lang="de" id="label_USA">050</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="USA" xlink:to="label_USA" xlink:title="label: USA to label_USA" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ak-2007-01.xsd#d-ak_UebrigeLaender" xlink:label="UebrigeLaender" xlink:title="UebrigeLaender"/>
+    <link:label xlink:type="resource" xlink:label="label_UebrigeLaender" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_UebrigeLaender" xml:lang="de" id="label_UebrigeLaender">060</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="UebrigeLaender" xlink:to="label_UebrigeLaender" xlink:title="label: UebrigeLaender to label_UebrigeLaender" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ak-2007-01.xsd#d-ak_TeilanrechnungsbetragAllgemeineKursrisiko" xlink:label="TeilanrechnungsbetragAllgemeineKursrisiko" xlink:title="TeilanrechnungsbetragAllgemeineKursrisiko"/>
+    <link:label xlink:type="resource" xlink:label="label_TeilanrechnungsbetragAllgemeineKursrisiko" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_TeilanrechnungsbetragAllgemeineKursrisiko" xml:lang="de" id="label_TeilanrechnungsbetragAllgemeineKursrisiko">070</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TeilanrechnungsbetragAllgemeineKursrisiko" xlink:to="label_TeilanrechnungsbetragAllgemeineKursrisiko" xlink:title="label: TeilanrechnungsbetragAllgemeineKursrisiko to label_TeilanrechnungsbetragAllgemeineKursrisiko" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ak-2007-01.xsd#d-ak_Summe" xlink:label="Summe" xlink:title="Summe"/>
+    <link:label xlink:type="resource" xlink:label="label_Summe" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_Summe" xml:lang="de" id="label_Summe">070</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Summe" xlink:to="label_Summe" xlink:title="label: Summe to label_Summe" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ak-2007-01.xsd#d-ak_TeilanrechnungsbetragBesondereKursrisiko" xlink:label="TeilanrechnungsbetragBesondereKursrisiko" xlink:title="TeilanrechnungsbetragBesondereKursrisiko"/>
+    <link:label xlink:type="resource" xlink:label="label_TeilanrechnungsbetragBesondereKursrisiko" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_TeilanrechnungsbetragBesondereKursrisiko" xml:lang="de" id="label_TeilanrechnungsbetragBesondereKursrisiko">080</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TeilanrechnungsbetragBesondereKursrisiko" xlink:to="label_TeilanrechnungsbetragBesondereKursrisiko" xlink:title="label: TeilanrechnungsbetragBesondereKursrisiko to label_TeilanrechnungsbetragBesondereKursrisiko" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-ak-2007-01.xsd#p-ak_AktiennettopositionDomain" xlink:label="AktiennettopositionDomain" xlink:title="AktiennettopositionDomain"/>
+    <link:label xlink:type="resource" xlink:label="label_AktiennettopositionDomain_3" xlink:role="http://xbrl.bundesbank.de/role/primaryDarstellung" xlink:title="label_AktiennettopositionDomain" xml:lang="de" id="label_AktiennettopositionDomain_3">horizontal</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AktiennettopositionDomain" xlink:to="label_AktiennettopositionDomain_3" xlink:title="label: AktiennettopositionDomain to label_AktiennettopositionDomain"/>
+    <link:loc xlink:type="locator" xlink:href="t-cm-ak-2007-01.xsd#t-ak_hcSektionAlles" xlink:label="hcSektionAlles" xlink:title="hcSektionAlles"/>
+    <link:label xlink:type="resource" xlink:label="label_hcSektionAlles" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_hcSektionAlles" xml:lang="de" id="label_hcSektionAlles">Sektion Alles (hypercube)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="hcSektionAlles" xlink:to="label_hcSektionAlles" xlink:title="label: hcSektionAlles to label_hcSektionAlles" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-cm-ak-2007-01.xsd#t-ak_hcAllgemeinesKursrisiko" xlink:label="hcAllgemeinesKursrisiko" xlink:title="hcAllgemeinesKursrisiko"/>
+    <link:label xlink:type="resource" xlink:label="label_hcAllgemeinesKursrisiko" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_hcAllgemeinesKursrisiko" xml:lang="de" id="label_hcAllgemeinesKursrisiko">Allgemeines Kursrisiko (hypercube)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="hcAllgemeinesKursrisiko" xlink:to="label_hcAllgemeinesKursrisiko" xlink:title="label: hcAllgemeinesKursrisiko to label_hcAllgemeinesKursrisiko" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-cm-ak-2007-01.xsd#t-ak_hcSumme" xlink:label="hcSumme" xlink:title="hcSumme"/>
+    <link:label xlink:type="resource" xlink:label="label_hcSumme" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_hcSumme" xml:lang="de" id="label_hcSumme">Summe (hypercube)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="hcSumme" xlink:to="label_hcSumme" xlink:title="label: hcSumme to label_hcSumme" use="optional" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-cm-ak-2007-01.xsd#t-ak_hcBesonderesKursrisikoAktiennettoposition" xlink:label="hcBesonderesKursrisikoAktiennettoposition" xlink:title="hcBesonderesKursrisikoAktiennettoposition"/>
+    <link:label xlink:type="resource" xlink:label="label_hcBesonderesKursrisikoAktiennettoposition" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_hcBesonderesKursrisikoAktiennettoposition" xml:lang="de" id="label_hcBesonderesKursrisikoAktiennettoposition">Besonderes Kursrisiko und Aktiennettoposition (hypercube)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="hcBesonderesKursrisikoAktiennettoposition" xlink:to="label_hcBesonderesKursrisikoAktiennettoposition" xlink:title="label: hcBesonderesKursrisikoAktiennettoposition to label_hcBesonderesKursrisikoAktiennettoposition" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+</link:linkbase>

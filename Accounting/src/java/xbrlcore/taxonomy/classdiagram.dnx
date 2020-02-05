@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.ibm.com/xtools/1.5.0/Notation" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.0/Umlnotation" xmi:id="_z32hYMWuEdua_Ix-atFZJQ" type="Class" name="classdiagram.dnx">
+  <children xmi:id="_z9M7cMWuEdua_Ix-atFZJQ" sourceEdges="_0TWxoMWuEdua_Ix-atFZJQ _0Tc4Q8WuEdua_Ix-atFZJQ _0Tc4S8WuEdua_Ix-atFZJQ" targetEdges="_0Tc4S8WuEdua_Ix-atFZJQ _0Ti-4MWuEdua_Ix-atFZJQ _0TpFiMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_z9M7c8WuEdua_Ix-atFZJQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_z9M7dMWuEdua_Ix-atFZJQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_z9M7dcWuEdua_Ix-atFZJQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_z9M7dsWuEdua_Ix-atFZJQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_z9M7d8WuEdua_Ix-atFZJQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_z9M7eMWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_ckrgYMWvEdua_Ix-atFZJQ" value="0.6003316749585407"/>
+    </children>
+    <children xmi:id="_z9TCEMWuEdua_Ix-atFZJQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_z9TCEcWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_ckrgYcWvEdua_Ix-atFZJQ" value="0.3996683250414594"/>
+    </children>
+    <children xmi:id="_z9TCEsWuEdua_Ix-atFZJQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_z9TCE8WuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_z9xjMMWuEdua_Ix-atFZJQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_z9xjMcWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_z9M7ccWuEdua_Ix-atFZJQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z9M7csWuEdua_Ix-atFZJQ" x="20034" y="6996" height="7036"/>
+  </children>
+  <children xmi:id="_0EE_gMWuEdua_Ix-atFZJQ" sourceEdges="_0Ti-4MWuEdua_Ix-atFZJQ _0Ti-6MWuEdua_Ix-atFZJQ" targetEdges="_0TWxoMWuEdua_Ix-atFZJQ _0TvMIMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0EE_g8WuEdua_Ix-atFZJQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_0EE_hMWuEdua_Ix-atFZJQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_0EE_hcWuEdua_Ix-atFZJQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_0EE_hsWuEdua_Ix-atFZJQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_0EE_h8WuEdua_Ix-atFZJQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_0EE_iMWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_bDvSEMWvEdua_Ix-atFZJQ" value="0.5437956204379562"/>
+    </children>
+    <children xmi:id="_0EE_icWuEdua_Ix-atFZJQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_0EE_isWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_bDvSEcWvEdua_Ix-atFZJQ" value="0.4562043795620438"/>
+    </children>
+    <children xmi:id="_0EE_i8WuEdua_Ix-atFZJQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_0EE_jMWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_0ELGIMWuEdua_Ix-atFZJQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_0ELGIcWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_0EE_gcWuEdua_Ix-atFZJQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0EE_gsWuEdua_Ix-atFZJQ" x="18444" y="-2544" height="7034"/>
+  </children>
+  <children xmi:id="_0GjrwMWuEdua_Ix-atFZJQ" sourceEdges="_0Ti-8MWuEdua_Ix-atFZJQ _0TpFgMWuEdua_Ix-atFZJQ _0TpFiMWuEdua_Ix-atFZJQ _0TvMIMWuEdua_Ix-atFZJQ" targetEdges="_0TpFgMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0Gjrw8WuEdua_Ix-atFZJQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_0GjrxMWuEdua_Ix-atFZJQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_0GjrxcWuEdua_Ix-atFZJQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_0GjrxsWuEdua_Ix-atFZJQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_0Gjrx8WuEdua_Ix-atFZJQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_0GjryMWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_e_fV8MWvEdua_Ix-atFZJQ" value="0.6562721474131822"/>
+    </children>
+    <children xmi:id="_0GjrycWuEdua_Ix-atFZJQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_0GjrysWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_e_fV8cWvEdua_Ix-atFZJQ" value="0.3437278525868179"/>
+    </children>
+    <children xmi:id="_0Gjry8WuEdua_Ix-atFZJQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_0GjrzMWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_0GpyYMWuEdua_Ix-atFZJQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_0GpyYcWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_0GjrwcWuEdua_Ix-atFZJQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0GjrwsWuEdua_Ix-atFZJQ" x="5406" y="-3180"/>
+  </children>
+  <children xmi:id="_0Nbv0MWuEdua_Ix-atFZJQ" sourceEdges="_0TvMKMWuEdua_Ix-atFZJQ" targetEdges="_0Tc4Q8WuEdua_Ix-atFZJQ _0Ti-6MWuEdua_Ix-atFZJQ _0Ti-8MWuEdua_Ix-atFZJQ _0TvMKMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0Nbv08WuEdua_Ix-atFZJQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_0Nbv1MWuEdua_Ix-atFZJQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_0Nbv1cWuEdua_Ix-atFZJQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_0Nbv1sWuEdua_Ix-atFZJQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_0Nbv18WuEdua_Ix-atFZJQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_0Nbv2MWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_d7TVEMWvEdua_Ix-atFZJQ" value="0.7703625853914872"/>
+    </children>
+    <children xmi:id="_0Nbv2cWuEdua_Ix-atFZJQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_0Nbv2sWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_d7TVEcWvEdua_Ix-atFZJQ" value="0.22963741460851286"/>
+    </children>
+    <children xmi:id="_0Nbv28WuEdua_Ix-atFZJQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_0Nbv3MWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <children xmi:id="_0Nbv3cWuEdua_Ix-atFZJQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_0Nbv3sWuEdua_Ix-atFZJQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_0Nbv0cWuEdua_Ix-atFZJQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Nbv0sWuEdua_Ix-atFZJQ" x="1590" y="6996" height="8618"/>
+  </children>
+  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_z32hYcWuEdua_Ix-atFZJQ"/>
+  <edges xmi:id="_0TWxoMWuEdua_Ix-atFZJQ" source="_z9M7cMWuEdua_Ix-atFZJQ" target="_0EE_gMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0TWxo8WuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0Tc4QMWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Tc4QsWuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Tc4QcWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TWxpMWuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0TWxocWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0TWxosWuEdua_Ix-atFZJQ" points="[-635, -3519, 344, 6032]$[-635, -3836, 344, 5715]$[-635, -6032, 344, 3519]"/>
+  </edges>
+  <edges xmi:id="_0Tc4Q8WuEdua_Ix-atFZJQ" source="_z9M7cMWuEdua_Ix-atFZJQ" target="_0Nbv0MWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0Tc4RsWuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0Tc4SMWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Tc4SsWuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Tc4ScWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Tc4R8WuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0Tc4RMWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0Tc4RcWuEdua_Ix-atFZJQ" points="[-3016, 767, 15743, -27]$[-3228, 767, 15531, -27]$[-16033, 767, 2726, -27]"/>
+  </edges>
+  <edges xmi:id="_0Tc4S8WuEdua_Ix-atFZJQ" source="_z9M7cMWuEdua_Ix-atFZJQ" target="_z9M7cMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0Tc4TsWuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0Tc4UMWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Tc4UsWuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Tc4UcWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Tc4T8WuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0Tc4TMWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0Tc4TcWuEdua_Ix-atFZJQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_0Ti-4MWuEdua_Ix-atFZJQ" source="_0EE_gMWuEdua_Ix-atFZJQ" target="_z9M7cMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0Ti-48WuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0Ti-5cWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Ti-58WuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Ti-5sWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Ti-5MWuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0Ti-4cWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0Ti-4sWuEdua_Ix-atFZJQ" points="[1694, 3519, 715, -6032]$[1694, 3624, 715, -5927]$[1720, 4154, 741, -5397]$[1667, 5424, 688, -4127]$[1667, 6032, 688, -3519]"/>
+  </edges>
+  <edges xmi:id="_0Ti-6MWuEdua_Ix-atFZJQ" source="_0EE_gMWuEdua_Ix-atFZJQ" target="_0Nbv0MWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0Ti-68WuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0Ti-7cWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Ti-78WuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Ti-7sWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Ti-7MWuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0Ti-6cWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0Ti-6sWuEdua_Ix-atFZJQ" points="[-3624, -159, 14156, -10504]$[-4894, -159, 12886, -10504]$[-4894, 11906, 12886, 1561]$[-14658, 11879, 3122, 1534]$[-15054, 11879, 2726, 1534]"/>
+  </edges>
+  <edges xmi:id="_0Ti-8MWuEdua_Ix-atFZJQ" source="_0GjrwMWuEdua_Ix-atFZJQ" target="_0Nbv0MWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0Ti-88WuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0Ti-9cWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Ti-98WuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0Ti-9sWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Ti-9MWuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0Ti-8cWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0Ti-8sWuEdua_Ix-atFZJQ" points="[-3042, -635, 1112, -10398]$[-4180, -635, -26, -10398]$[-4180, 5450, -26, -4313]"/>
+  </edges>
+  <edges xmi:id="_0TpFgMWuEdua_Ix-atFZJQ" source="_0GjrwMWuEdua_Ix-atFZJQ" target="_0GjrwMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0TpFg8WuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0TpFhcWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0TpFh8WuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0TpFhsWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TpFhMWuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0TpFgcWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0TpFgsWuEdua_Ix-atFZJQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_0TpFiMWuEdua_Ix-atFZJQ" source="_0GjrwMWuEdua_Ix-atFZJQ" target="_z9M7cMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0TpFi8WuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0TpFjcWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0TpFj8WuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0TpFjsWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TpFjMWuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0TpFicWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=TaxonomySchema[jcu^name=TaxonomySchema.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0TpFisWuEdua_Ix-atFZJQ" points="[159, 4736, -14446, -4233]$[159, 9101, -14446, 132]$[11589, 9101, -3016, 132]"/>
+  </edges>
+  <edges xmi:id="_0TvMIMWuEdua_Ix-atFZJQ" source="_0GjrwMWuEdua_Ix-atFZJQ" target="_0EE_gMWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0TvMI8WuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0TvMJcWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0TvMJ8WuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0TvMJsWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TvMJMWuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0TvMIcWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DTSFactory[jcu^name=DTSFactory.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=DiscoverableTaxonomySet[jcu^name=DiscoverableTaxonomySet.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0TvMIsWuEdua_Ix-atFZJQ" points="[3069, -186, -10557, 396]$[9896, -186, -3730, 396]$[10028, -186, -3598, 396]"/>
+  </edges>
+  <edges xmi:id="_0TvMKMWuEdua_Ix-atFZJQ" source="_0Nbv0MWuEdua_Ix-atFZJQ" target="_0Nbv0MWuEdua_Ix-atFZJQ">
+    <children xmi:id="_0TvMK8WuEdua_Ix-atFZJQ" type="KindLabel">
+      <children xmi:id="_0TvMLcWuEdua_Ix-atFZJQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0TvML8WuEdua_Ix-atFZJQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <children xmi:id="_0TvMLsWuEdua_Ix-atFZJQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TvMLMWuEdua_Ix-atFZJQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0TvMKcWuEdua_Ix-atFZJQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]][jsrctype^name=Concept[jcu^name=Concept.java[jpack^name=xbrlcore.taxonomy[jsrcroot^srcfolder=src[project^vcore.target=uml2.Model^id=XBRLCore]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0TvMKsWuEdua_Ix-atFZJQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

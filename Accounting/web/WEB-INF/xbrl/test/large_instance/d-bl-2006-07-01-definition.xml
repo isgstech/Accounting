@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-bl="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-bl-2006-07-01">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_BusinessLinesDomain" xlink:label="BusinessLinesDomain" xlink:title="BusinessLinesDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_TotalBusinessLines" xlink:label="TotalBusinessLines" xlink:title="TotalBusinessLines"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="BusinessLinesDomain" xlink:to="TotalBusinessLines" xlink:title="definition: BusinessLinesDomain to TotalBusinessLines" use="optional" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_TradingSales" xlink:label="TradingSales" xlink:title="TradingSales"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBusinessLines" xlink:to="TradingSales" xlink:title="definition: TotalBusinessLines to TradingSales" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_RetailBrokerage" xlink:label="RetailBrokerage" xlink:title="RetailBrokerage"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBusinessLines" xlink:to="RetailBrokerage" xlink:title="definition: TotalBusinessLines to RetailBrokerage" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_CommercialBanking" xlink:label="CommercialBanking" xlink:title="CommercialBanking"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBusinessLines" xlink:to="CommercialBanking" xlink:title="definition: TotalBusinessLines to CommercialBanking" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_RetailBanking" xlink:label="RetailBanking" xlink:title="RetailBanking"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBusinessLines" xlink:to="RetailBanking" xlink:title="definition: TotalBusinessLines to RetailBanking" use="optional" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_PaymentSettlement" xlink:label="PaymentSettlement" xlink:title="PaymentSettlement"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBusinessLines" xlink:to="PaymentSettlement" xlink:title="definition: TotalBusinessLines to PaymentSettlement" use="optional" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_AgencyServices" xlink:label="AgencyServices" xlink:title="AgencyServices"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBusinessLines" xlink:to="AgencyServices" xlink:title="definition: TotalBusinessLines to AgencyServices" use="optional" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_AssetManagement" xlink:label="AssetManagement" xlink:title="AssetManagement"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBusinessLines" xlink:to="AssetManagement" xlink:title="definition: TotalBusinessLines to AssetManagement" use="optional" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-bl-2006-07-01.xsd#d-bl_CorporateFinance" xlink:label="CorporateFinance" xlink:title="CorporateFinance"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBusinessLines" xlink:to="CorporateFinance" xlink:title="definition: TotalBusinessLines to CorporateFinance" use="optional" order="8.0"/>
+  </link:definitionLink>
+</link:linkbase>

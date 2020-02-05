@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/ObereDimension" xlink:type="simple" xlink:href="t-ksaqv-2007-01.xsd#RT_1"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/ObereDimension">
+    <link:loc xlink:type="locator" xlink:href="p-ss-2006-07-01.xsd#p-ss_CRSECSADomain" xlink:label="CRSECSADomain" xlink:title="CRSECSADomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-st-2006-07-01.xsd#d-st_SecuritizationTypeDimension" xlink:label="SecuritizationTypeDimension" xlink:title="SecuritizationTypeDimension"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CRSECSADomain" xlink:to="SecuritizationTypeDimension" xlink:title="presentation: CRSECSADomain to SecuritizationTypeDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-st-2006-07-01.xsd#d-st_TotalSecuritisation" xlink:label="TotalSecuritisation" xlink:title="TotalSecuritisation"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="SecuritizationTypeDimension" xlink:to="TotalSecuritisation" xlink:title="presentation: SecuritizationTypeDimension to TotalSecuritisation" order="1.0"/>
+  </link:presentationLink>
+</link:linkbase>

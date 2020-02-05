@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/ce" xlink:type="simple" xlink:href="p-ce-2006-07-01.xsd#rt_ce"/>
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-ce-de/DimensionPresentation" xlink:type="simple" xlink:href="t-ce-de-2007-01.xsd#rt_t-ce-de_DimensionPresentation"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/t-ce-de/DimensionPresentation">
+    <link:loc xlink:type="locator" xlink:href="d-cr-2006-07-01.xsd#d-cr_CreditRiskIRBEquity" xlink:label="CreditRiskIRBEquity" xlink:title="CreditRiskIRBEquity"/>
+    <link:loc xlink:type="locator" xlink:href="d-cr-2006-07-01.xsd#d-cr_CreditRiskIRBEquityPD-LGDApproach" xlink:label="CreditRiskIRBEquityPD-LGDApproach" xlink:title="CreditRiskIRBEquityPD-LGDApproach"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CreditRiskIRBEquity" xlink:to="CreditRiskIRBEquityPD-LGDApproach" xlink:title="presentation: CreditRiskIRBEquity to CreditRiskIRBEquityPD-LGDApproach" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGradeDomain" xlink:label="ObligorGradeDomain" xlink:title="ObligorGradeDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CreditRiskIRBEquityPD-LGDApproach" xlink:to="ObligorGradeDomain" xlink:title="presentation: CreditRiskIRBEquityPD-LGDApproach to ObligorGradeDomain" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade1" xlink:label="ObligorGrade1" xlink:title="ObligorGrade1"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade1" xlink:title="presentation: ObligorGradeDomain to ObligorGrade1" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade2" xlink:label="ObligorGrade2" xlink:title="ObligorGrade2"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade2" xlink:title="presentation: ObligorGradeDomain to ObligorGrade2" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade3" xlink:label="ObligorGrade3" xlink:title="ObligorGrade3"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade3" xlink:title="presentation: ObligorGradeDomain to ObligorGrade3" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade4" xlink:label="ObligorGrade4" xlink:title="ObligorGrade4"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade4" xlink:title="presentation: ObligorGradeDomain to ObligorGrade4" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade5" xlink:label="ObligorGrade5" xlink:title="ObligorGrade5"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade5" xlink:title="presentation: ObligorGradeDomain to ObligorGrade5" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade6" xlink:label="ObligorGrade6" xlink:title="ObligorGrade6"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade6" xlink:title="presentation: ObligorGradeDomain to ObligorGrade6" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade7" xlink:label="ObligorGrade7" xlink:title="ObligorGrade7"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade7" xlink:title="presentation: ObligorGradeDomain to ObligorGrade7" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade8" xlink:label="ObligorGrade8" xlink:title="ObligorGrade8"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade8" xlink:title="presentation: ObligorGradeDomain to ObligorGrade8" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade9" xlink:label="ObligorGrade9" xlink:title="ObligorGrade9"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade9" xlink:title="presentation: ObligorGradeDomain to ObligorGrade9" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade10" xlink:label="ObligorGrade10" xlink:title="ObligorGrade10"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade10" xlink:title="presentation: ObligorGradeDomain to ObligorGrade10" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade11" xlink:label="ObligorGrade11" xlink:title="ObligorGrade11"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade11" xlink:title="presentation: ObligorGradeDomain to ObligorGrade11" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade12" xlink:label="ObligorGrade12" xlink:title="ObligorGrade12"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade12" xlink:title="presentation: ObligorGradeDomain to ObligorGrade12" order="12.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade13" xlink:label="ObligorGrade13" xlink:title="ObligorGrade13"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade13" xlink:title="presentation: ObligorGradeDomain to ObligorGrade13" order="13.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade14" xlink:label="ObligorGrade14" xlink:title="ObligorGrade14"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade14" xlink:title="presentation: ObligorGradeDomain to ObligorGrade14" order="14.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade15" xlink:label="ObligorGrade15" xlink:title="ObligorGrade15"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade15" xlink:title="presentation: ObligorGradeDomain to ObligorGrade15" order="15.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade16" xlink:label="ObligorGrade16" xlink:title="ObligorGrade16"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade16" xlink:title="presentation: ObligorGradeDomain to ObligorGrade16" order="16.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade17" xlink:label="ObligorGrade17" xlink:title="ObligorGrade17"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade17" xlink:title="presentation: ObligorGradeDomain to ObligorGrade17" order="17.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade18" xlink:label="ObligorGrade18" xlink:title="ObligorGrade18"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade18" xlink:title="presentation: ObligorGradeDomain to ObligorGrade18" order="18.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade19" xlink:label="ObligorGrade19" xlink:title="ObligorGrade19"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade19" xlink:title="presentation: ObligorGradeDomain to ObligorGrade19" order="19.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade20" xlink:label="ObligorGrade20" xlink:title="ObligorGrade20"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade20" xlink:title="presentation: ObligorGradeDomain to ObligorGrade20" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade21" xlink:label="ObligorGrade21" xlink:title="ObligorGrade21"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade21" xlink:title="presentation: ObligorGradeDomain to ObligorGrade21" order="21.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade22" xlink:label="ObligorGrade22" xlink:title="ObligorGrade22"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade22" xlink:title="presentation: ObligorGradeDomain to ObligorGrade22" order="22.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade23" xlink:label="ObligorGrade23" xlink:title="ObligorGrade23"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade23" xlink:title="presentation: ObligorGradeDomain to ObligorGrade23" order="23.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade24" xlink:label="ObligorGrade24" xlink:title="ObligorGrade24"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade24" xlink:title="presentation: ObligorGradeDomain to ObligorGrade24" order="24.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade25" xlink:label="ObligorGrade25" xlink:title="ObligorGrade25"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade25" xlink:title="presentation: ObligorGradeDomain to ObligorGrade25" order="25.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade26" xlink:label="ObligorGrade26" xlink:title="ObligorGrade26"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade26" xlink:title="presentation: ObligorGradeDomain to ObligorGrade26" order="26.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade27" xlink:label="ObligorGrade27" xlink:title="ObligorGrade27"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade27" xlink:title="presentation: ObligorGradeDomain to ObligorGrade27" order="27.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade28" xlink:label="ObligorGrade28" xlink:title="ObligorGrade28"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade28" xlink:title="presentation: ObligorGradeDomain to ObligorGrade28" order="28.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade29" xlink:label="ObligorGrade29" xlink:title="ObligorGrade29"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade29" xlink:title="presentation: ObligorGradeDomain to ObligorGrade29" order="29.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade30" xlink:label="ObligorGrade30" xlink:title="ObligorGrade30"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade30" xlink:title="presentation: ObligorGradeDomain to ObligorGrade30" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade31" xlink:label="ObligorGrade31" xlink:title="ObligorGrade31"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade31" xlink:title="presentation: ObligorGradeDomain to ObligorGrade31" order="31.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade32" xlink:label="ObligorGrade32" xlink:title="ObligorGrade32"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade32" xlink:title="presentation: ObligorGradeDomain to ObligorGrade32" order="32.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade33" xlink:label="ObligorGrade33" xlink:title="ObligorGrade33"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade33" xlink:title="presentation: ObligorGradeDomain to ObligorGrade33" order="33.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade34" xlink:label="ObligorGrade34" xlink:title="ObligorGrade34"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade34" xlink:title="presentation: ObligorGradeDomain to ObligorGrade34" order="34.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade35" xlink:label="ObligorGrade35" xlink:title="ObligorGrade35"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade35" xlink:title="presentation: ObligorGradeDomain to ObligorGrade35" order="35.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade36" xlink:label="ObligorGrade36" xlink:title="ObligorGrade36"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade36" xlink:title="presentation: ObligorGradeDomain to ObligorGrade36" order="36.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade37" xlink:label="ObligorGrade37" xlink:title="ObligorGrade37"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade37" xlink:title="presentation: ObligorGradeDomain to ObligorGrade37" order="37.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade38" xlink:label="ObligorGrade38" xlink:title="ObligorGrade38"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade38" xlink:title="presentation: ObligorGradeDomain to ObligorGrade38" order="38.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade39" xlink:label="ObligorGrade39" xlink:title="ObligorGrade39"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade39" xlink:title="presentation: ObligorGradeDomain to ObligorGrade39" order="39.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-og-de-2007-01.xsd#d-og-de_ObligorGrade40" xlink:label="ObligorGrade40" xlink:title="ObligorGrade40"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ObligorGradeDomain" xlink:to="ObligorGrade40" xlink:title="presentation: ObligorGradeDomain to ObligorGrade40" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-cr-2006-07-01.xsd#d-cr_CreditRiskIRBEquitySimpleRiskWeightApproach" xlink:label="CreditRiskIRBEquitySimpleRiskWeightApproach" xlink:title="CreditRiskIRBEquitySimpleRiskWeightApproach"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CreditRiskIRBEquity" xlink:to="CreditRiskIRBEquitySimpleRiskWeightApproach" xlink:title="presentation: CreditRiskIRBEquity to CreditRiskIRBEquitySimpleRiskWeightApproach" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeightDomain" xlink:label="RiskWeightDomain" xlink:title="RiskWeightDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CreditRiskIRBEquitySimpleRiskWeightApproach" xlink:to="RiskWeightDomain" xlink:title="presentation: CreditRiskIRBEquitySimpleRiskWeightApproach to RiskWeightDomain" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight190Percent" xlink:label="RiskWeight190Percent" xlink:title="RiskWeight190Percent"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskWeightDomain" xlink:to="RiskWeight190Percent" xlink:title="presentation: RiskWeightDomain to RiskWeight190Percent" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight290Percent" xlink:label="RiskWeight290Percent" xlink:title="RiskWeight290Percent"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskWeightDomain" xlink:to="RiskWeight290Percent" xlink:title="presentation: RiskWeightDomain to RiskWeight290Percent" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight370Percent" xlink:label="RiskWeight370Percent" xlink:title="RiskWeight370Percent"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskWeightDomain" xlink:to="RiskWeight370Percent" xlink:title="presentation: RiskWeightDomain to RiskWeight370Percent" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-cr-2006-07-01.xsd#d-cr_CreditRiskIRBEquityInternalModelsApproach" xlink:label="CreditRiskIRBEquityInternalModelsApproach" xlink:title="CreditRiskIRBEquityInternalModelsApproach"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CreditRiskIRBEquity" xlink:to="CreditRiskIRBEquityInternalModelsApproach" xlink:title="presentation: CreditRiskIRBEquity to CreditRiskIRBEquityInternalModelsApproach" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-cr-2006-07-01.xsd#d-cr_CreditRiskDomain" xlink:label="CreditRiskDomain" xlink:title="CreditRiskDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CreditRiskDomain" xlink:to="CreditRiskIRBEquity" xlink:title="presentation: CreditRiskDomain to CreditRiskIRBEquity" use="optional" order="1.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/ce">
+    <link:loc xlink:type="locator" xlink:href="p-cm-cr-2006-07-01.xsd#p-cm-cr_SubstitutionExposureCRM" xlink:label="SubstitutionExposureCRM" xlink:title="SubstitutionExposureCRM"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-cr-2006-07-01.xsd#p-cm-cr_SubstitutionExposureCRMTotalOutflows" xlink:label="SubstitutionExposureCRMTotalOutflows" xlink:title="SubstitutionExposureCRMTotalOutflows"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="SubstitutionExposureCRM" xlink:to="SubstitutionExposureCRMTotalOutflows" xlink:title="definition: SubstitutionExposureCRM to SubstitutionExposureCRMTotalOutflows" use="prohibited" priority="1" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-ce-de-2007-01.xsd#t-ce-de_SubstitutionExposureCRMTotalOutflows" xlink:label="SubstitutionExposureCRMTotalOutflows_2" xlink:title="SubstitutionExposureCRMTotalOutflows"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="SubstitutionExposureCRM" xlink:to="SubstitutionExposureCRMTotalOutflows_2" xlink:title="presentation: SubstitutionExposureCRM to SubstitutionExposureCRMTotalOutflows" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-cr-2006-07-01.xsd#p-cm-cr_MemorandumItems" xlink:label="MemorandumItems" xlink:title="MemorandumItems"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-cr-2006-07-01.xsd#p-cm-cr_MemorandumItemsValueAdjustmentsProvisions" xlink:label="MemorandumItemsValueAdjustmentsProvisions" xlink:title="MemorandumItemsValueAdjustmentsProvisions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MemorandumItems" xlink:to="MemorandumItemsValueAdjustmentsProvisions" xlink:title="definition: MemorandumItems to MemorandumItemsValueAdjustmentsProvisions" use="prohibited" priority="1" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-ce-de-2007-01.xsd#t-ce-de_MemorandumItemsValueAdjustmentsProvisions" xlink:label="MemorandumItemsValueAdjustmentsProvisions_2" xlink:title="MemorandumItemsValueAdjustmentsProvisions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MemorandumItems" xlink:to="MemorandumItemsValueAdjustmentsProvisions_2" xlink:title="presentation: MemorandumItems to MemorandumItemsValueAdjustmentsProvisions" order="3.0"/>
+  </link:presentationLink>
+</link:linkbase>

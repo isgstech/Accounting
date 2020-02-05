@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-ca-de/DimensionPresentation" xlink:type="simple" xlink:href="t-ca-de-2007-01.xsd#rt_t-ca-de_DimensionPresentation"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/t-ca-de/DimensionPresentation">
+    <link:loc xlink:type="locator" xlink:href="d-am-2007-01.xsd#d-am_AmountDomain" xlink:label="AmountDomain" xlink:title="AmountDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-am-2007-01.xsd#d-am_Amount" xlink:label="Amount" xlink:title="Amount"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AmountDomain" xlink:to="Amount" xlink:title="presentation: AmountDomain to Amount" order="1.0"/>
+  </link:presentationLink>
+</link:linkbase>

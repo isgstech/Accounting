@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/t-mkrzk-2007-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:t-mkrzk="http://www.bundesbank.de/fr/ba/bakisw/t-mkrzk-2007-01" xmlns:d-az="http://www.bundesbank.de/fr/ba/bakisw/d-az-2007-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:d-cm-report="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:p-zk="http://www.bundesbank.de/fr/ba/bakisw/p-zk-2007-01" xmlns:d-bz="http://www.bundesbank.de/fr/ba/bakisw/d-bz-2007-01" xmlns:d-pa="http://www.bundesbank.de/fr/ba/bakisw/d-pa-2007-01" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:t-cm-zk="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk-2007-01">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-mkrzk-2007-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-mkrzk-2007-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-mkrzk-2007-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk-2007-01" schemaLocation="t-cm-zk-2007-01.xsd"/>
+</xsd:schema>

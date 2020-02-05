@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-fw="http://www.bundesbank.de/fr/ba/bakisw/d-fw-2007-01">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_WaehrungenDomain" xlink:label="WaehrungenDomain" xlink:title="WaehrungenDomain"/>
+    <link:label xlink:type="resource" xlink:label="label_WaehrungenDomain" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_WaehrungenDomain" xml:lang="de" id="label_WaehrungenDomain">Währungsgesamtposition</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="WaehrungenDomain" xlink:to="label_WaehrungenDomain" xlink:title="label: WaehrungenDomain to label_WaehrungenDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_Insgesamt" xlink:label="Insgesamt" xlink:title="Insgesamt"/>
+    <link:label xlink:type="resource" xlink:label="label_Insgesamt" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Insgesamt" xml:lang="de" id="label_Insgesamt">Insgesamt</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Insgesamt" xlink:to="label_Insgesamt" xlink:title="label: Insgesamt to label_Insgesamt"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_USD" xlink:label="USD" xlink:title="USD"/>
+    <link:label xlink:type="resource" xlink:label="label_USD" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_USD" xml:lang="de" id="label_USD">USD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="USD" xlink:to="label_USD" xlink:title="label: USD to label_USD"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_GBP" xlink:label="GBP" xlink:title="GBP"/>
+    <link:label xlink:type="resource" xlink:label="label_GBP" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_GBP" xml:lang="de" id="label_GBP">GBP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="GBP" xlink:to="label_GBP" xlink:title="label: GBP to label_GBP"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_CHF" xlink:label="CHF" xlink:title="CHF"/>
+    <link:label xlink:type="resource" xlink:label="label_CHF" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_CHF" xml:lang="de" id="label_CHF">CHF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CHF" xlink:to="label_CHF" xlink:title="label: CHF to label_CHF"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_JPY" xlink:label="JPY" xlink:title="JPY"/>
+    <link:label xlink:type="resource" xlink:label="label_JPY" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_JPY" xml:lang="de" id="label_JPY">JPY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="JPY" xlink:to="label_JPY" xlink:title="label: JPY to label_JPY"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_CAD" xlink:label="CAD" xlink:title="CAD"/>
+    <link:label xlink:type="resource" xlink:label="label_CAD" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_CAD" xml:lang="de" id="label_CAD">CAD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CAD" xlink:to="label_CAD" xlink:title="label: CAD to label_CAD"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_UebrigeFremdWaehrungen" xlink:label="UebrigeWaehrungen" xlink:title="UebrigeWaehrungen"/>
+    <link:label xlink:type="resource" xlink:label="label_UebrigeWaehrungen" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_UebrigeWaehrungen" xml:lang="de" id="label_UebrigeWaehrungen">Übrige Fremdwährungen</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="UebrigeWaehrungen" xlink:to="label_UebrigeWaehrungen" xlink:title="label: UebrigeWaehrungen to label_UebrigeWaehrungen"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_Gold" xlink:label="Gold" xlink:title="Gold"/>
+    <link:label xlink:type="resource" xlink:label="label_Gold" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Gold" xml:lang="de" id="label_Gold">Gold</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Gold" xlink:to="label_Gold" xlink:title="label: Gold to label_Gold"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_WaehrungenDimension" xlink:label="WaehrungenDimension" xlink:title="WaehrungenDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_WaehrungenDimension" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_WaehrungenDimension" xml:lang="de" id="label_WaehrungenDimension">Waehrungen (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="WaehrungenDimension" xlink:to="label_WaehrungenDimension" xlink:title="label: WaehrungenDimension to label_WaehrungenDimension"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-fw="http://www.bundesbank.de/fr/ba/bakisw/d-fw-2007-01">
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_WaehrungenDomain" xlink:label="WaehrungenDomain" xlink:title="WaehrungenDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_Insgesamt" xlink:label="Insgesamt" xlink:title="Insgesamt"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="WaehrungenDomain" xlink:to="Insgesamt" xlink:title="presentation: WaehrungenDomain to Insgesamt" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_USD" xlink:label="USD" xlink:title="USD"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="USD" xlink:title="presentation: Insgesamt to USD" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_GBP" xlink:label="GBP" xlink:title="GBP"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="GBP" xlink:title="presentation: Insgesamt to GBP" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_CHF" xlink:label="CHF" xlink:title="CHF"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="CHF" xlink:title="presentation: Insgesamt to CHF" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_JPY" xlink:label="JPY" xlink:title="JPY"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="JPY" xlink:title="presentation: Insgesamt to JPY" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_CAD" xlink:label="CAD" xlink:title="CAD"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="CAD" xlink:title="presentation: Insgesamt to CAD" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_UebrigeFremdWaehrungen" xlink:label="UebrigeFremdWaehrungen" xlink:title="UebrigeFremdWaehrungen"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="UebrigeFremdWaehrungen" xlink:title="presentation: Insgesamt to UebrigeFremdWaehrungen" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-fw-2007-01.xsd#d-mkrfw_Gold" xlink:label="Gold" xlink:title="Gold"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="Gold" xlink:title="presentation: Insgesamt to Gold" order="7.0"/>
+  </link:presentationLink>
+</link:linkbase>

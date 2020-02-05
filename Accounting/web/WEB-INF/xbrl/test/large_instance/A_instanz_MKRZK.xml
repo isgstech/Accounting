@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-basis-2006-06" xmlns:t-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/t-basis-2006-06" xmlns:d-bz-2007-01="http://www.bundesbank.de/fr/ba/bakisw/d-bz-2007-01" xmlns:p-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:d-az-2007-01="http://www.bundesbank.de/fr/ba/bakisw/d-az-2007-01" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:t-mkrzk-2007-01="http://www.bundesbank.de/fr/ba/bakisw/t-mkrzk-2007-01" xmlns:d-pa-2007-01="http://www.bundesbank.de/fr/ba/bakisw/d-pa-2007-01" xmlns:p-zk-2007-01="http://www.bundesbank.de/fr/ba/bakisw/p-zk-2007-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:XLink="http://www.xbrl.org/2003/XLink" xmlns:t-cm-zk-2007-01="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk-2007-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:d-cm-report-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06">
+  <!--Automatisiert erzeugt durch die Deutsche Bundesbank am 18.12.2006-->
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-basis-2006-06.xsd" />
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-mkrzk-2007-01.xsd" />
+  <p-zk-2007-01:BesonderesKursrisikoAnrechnungsbetraege precision="INF" unitRef="EUR" contextRef="ctx_4">5</p-zk-2007-01:BesonderesKursrisikoAnrechnungsbetraege>
+  <p-zk-2007-01:PauschalierterAnrechnungsbetragAnrechnungsbetraege precision="INF" unitRef="EUR" contextRef="ctx_5">5</p-zk-2007-01:PauschalierterAnrechnungsbetragAnrechnungsbetraege>
+  <p-zk-2007-01:JahresbandmethodeAktivischeAusrichtung precision="INF" unitRef="EUR" contextRef="ctx_1">12</p-zk-2007-01:JahresbandmethodeAktivischeAusrichtung>
+  <p-zk-2007-01:Zinsnettoposition precision="INF" unitRef="EUR" contextRef="ctx_3">4</p-zk-2007-01:Zinsnettoposition>
+  <p-basis-2006-06:DateCreated contextRef="ctx_basis">2006-12-18</p-basis-2006-06:DateCreated>
+  <p-zk-2007-01:JahresbandmethodePassivischeAusrichtung precision="INF" unitRef="EUR" contextRef="ctx_1">85</p-zk-2007-01:JahresbandmethodePassivischeAusrichtung>
+  <p-basis-2006-06:Stage contextRef="ctx_basis">Produktion</p-basis-2006-06:Stage>
+  <p-zk-2007-01:TeilanrechnungsbetragFuerDasAllgemeineKursrisiko precision="INF" unitRef="EUR" contextRef="ctx_1">85</p-zk-2007-01:TeilanrechnungsbetragFuerDasAllgemeineKursrisiko>
+  <p-zk-2007-01:BesonderesKursrisikoAnrechnungsbetraege precision="INF" unitRef="EUR" contextRef="ctx_3">6</p-zk-2007-01:BesonderesKursrisikoAnrechnungsbetraege>
+  <p-zk-2007-01:RisikogewichteteZinsnettoposition precision="INF" unitRef="EUR" contextRef="ctx_3">5</p-zk-2007-01:RisikogewichteteZinsnettoposition>
+  <p-basis-2006-06:IdentificationCodeType contextRef="ctx_basis">InstitutionNumber</p-basis-2006-06:IdentificationCodeType>
+  <p-basis-2006-06:Version contextRef="ctx_basis">1.0</p-basis-2006-06:Version>
+  <p-zk-2007-01:Zinsnettoposition precision="INF" unitRef="EUR" contextRef="ctx_2">5</p-zk-2007-01:Zinsnettoposition>
+  <p-basis-2006-06:CompanyName contextRef="ctx_basis">---</p-basis-2006-06:CompanyName>
+  <p-basis-2006-06:IdentificationCode contextRef="ctx_basis">99912347</p-basis-2006-06:IdentificationCode>
+  <p-zk-2007-01:MassgeblicherBetrag precision="INF" unitRef="EUR" contextRef="ctx_5">56</p-zk-2007-01:MassgeblicherBetrag>
+  <xbrli:context id="ctx_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>MKRZK</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNOOOOO</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-10-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-bz-2007-01:BesonderesKursrisikoDimension">d-bz-2007-01:NettopositionenIsVon303Abs2</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>MKRZK</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNOOOOO</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-10-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-bz-2007-01:BesonderesKursrisikoDimension">d-bz-2007-01:RestlaufzeitBis6Monate</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>MKRZK</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNOOOOO</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-10-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-az-2007-01:AllgemeinesKursrisikoDimension">d-az-2007-01:Insgesamt</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>MKRZK</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNOOOOO</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-10-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-pa-2007-01:PauschalierterAnrechnungsbetragDimension">d-pa-2007-01:InvestmentanteileNach308Abs1Satz1</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>MKRZK</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNOOOOO</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-10-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-bz-2007-01:BesonderesKursrisikoDimension">d-bz-2007-01:TeilanrechnungsbetragBesondereKursrisiko</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_basis">
+    <xbrli:entity>
+      <xbrli:identifier scheme="scheme_sender">id_sender</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="d-basis-2006-06:DocumentEntitiesDimension">d-basis-2006-06:DocumentSender</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-12-18</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>
+

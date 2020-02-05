@@ -1,0 +1,61 @@
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-basis-2006-06" xmlns:t-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/t-basis-2006-06" xmlns:p-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:d-lve-2007-01="http://www.bundesbank.de/fr/ba/bakisw/d-lve-2007-01" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:XLink="http://www.xbrl.org/2003/XLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t-lve-2007-01="http://www.bundesbank.de/fr/ba/bakisw/t-lve-2007-01" xmlns:p-lve-2007-01="http://www.bundesbank.de/fr/ba/bakisw/p-lve-2007-01" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:d-cm-report-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06">
+  <!--Automatisiert erzeugt durch die Deutsche Bundesbank am 09.01.2007-->
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-basis-2006-06.xsd" />
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-lve-2007-01.xsd" />
+  <p-lve-2007-01:EigenmittelNachKWG precision="INF" unitRef="EUR" contextRef="ctx_1">30001.011</p-lve-2007-01:EigenmittelNachKWG>
+  <p-basis-2006-06:IdentificationCodeType contextRef="ctx_basis">InstitutionNumber</p-basis-2006-06:IdentificationCodeType>
+  <p-lve-2007-01:DarunterSummeAktiva6Bis7 precision="INF" unitRef="EUR" contextRef="ctx_1">20101.011</p-lve-2007-01:DarunterSummeAktiva6Bis7>
+  <p-basis-2006-06:IdentificationCode contextRef="ctx_basis">11060035</p-basis-2006-06:IdentificationCode>
+  <p-basis-2006-06:CompanyName contextRef="ctx_basis">Commerzbank AG. Frankfurt</p-basis-2006-06:CompanyName>
+  <p-basis-2006-06:Stage contextRef="ctx_basis">Produktion</p-basis-2006-06:Stage>
+  <p-lve-2007-01:SummeAktiva1Bis7 precision="INF" unitRef="EUR" contextRef="ctx_1">20001.011</p-lve-2007-01:SummeAktiva1Bis7>
+  <p-lve-2007-01:BetragVerbindlichkeitenAufgrundNochNichtInAnspruchGenommenenGeldes precision="INF" unitRef="EUR" contextRef="ctx_1">10001.011</p-lve-2007-01:BetragVerbindlichkeitenAufgrundNochNichtInAnspruchGenommenenGeldes>
+  <p-lve-2007-01:DeckungsgradInProzent precision="INF" unitRef="PURE" contextRef="ctx_1">40001</p-lve-2007-01:DeckungsgradInProzent>
+  <p-basis-2006-06:DateCreated contextRef="ctx_basis">2007-01-09</p-basis-2006-06:DateCreated>
+  <p-basis-2006-06:Version contextRef="ctx_basis">1.0</p-basis-2006-06:Version>
+  <xbrli:context id="ctx_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="bwtest">1106003</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>LVE</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>Commerzbank AG, Frankfurt</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>Frankfurt am Main</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Bbk-User: bwtest</d-cm-report-2006-06:LastName>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-lve-2007-01:KapitalanlagebeschraenkungenDimension">d-lve-2007-01:BetraegeKennzahl</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_basis">
+    <xbrli:entity>
+      <xbrli:identifier scheme="scheme_sender">id_sender</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="d-basis-2006-06:DocumentEntitiesDimension">d-basis-2006-06:DocumentSender</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-01-09</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="PURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>
+

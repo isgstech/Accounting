@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-rw-2006-07-01" attributeFormDefault="unqualified" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-rw="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-rw-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:xl="http://www.xbrl.org/2003/XLink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-rw-2006-07-01-presentation.xml" xlink:title="Presentation Links, all" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-rw-2006-07-01-definition.xml" xlink:title="Definition Links, all" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-rw-2006-07-01-label.xml" xlink:title="Label Links, all" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-rw-2006-07-01-reference.xml" xlink:title="Reference Links, all" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2004/ref" schemaLocation="http://www.xbrl.org/2004/ref-2004-08-10.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" schemaLocation="ref-corep-2005-09-30.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element name="RiskWeightDomain" id="d-rw_RiskWeightDomain" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeightBreakdownDomain" id="d-rw_RiskWeightBreakdownDomain" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight0Percent" id="d-rw_RiskWeight0Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight10Percent" id="d-rw_RiskWeight10Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight20Percent" id="d-rw_RiskWeight20Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight35Percent" id="d-rw_RiskWeight35Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight50Percent" id="d-rw_RiskWeight50Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight50PercentOfWhichPastDue" id="d-rw_RiskWeight50PercentOfWhichPastDue" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightBreakdownDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight50PercentOfWhichSecuredByCommercialRealEstate" id="d-rw_RiskWeight50PercentOfWhichSecuredByCommercialRealEstate" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightBreakdownDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight50PercentOfWhichWithoutCreditAssessment" id="d-rw_RiskWeight50PercentOfWhichWithoutCreditAssessment" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightBreakdownDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight70Percent" id="d-rw_RiskWeight70Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight70PercentOfWhichCategory1" id="d-rw_RiskWeight70PercentOfWhichCategory1" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightBreakdownDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight75Percent" id="d-rw_RiskWeight75Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight90Percent" id="d-rw_RiskWeight90Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight100Percent" id="d-rw_RiskWeight100Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight100PercentOfWhichPastDue" id="d-rw_RiskWeight100PercentOfWhichPastDue" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightBreakdownDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight100PercentOfWhichSecuredByCommercialRealEstate" id="d-rw_RiskWeight100PercentOfWhichSecuredByCommercialRealEstate" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightBreakdownDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight100PercentOfWhichWithoutCreditAssessment" id="d-rw_RiskWeight100PercentOfWhichWithoutCreditAssessment" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightBreakdownDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight115Percent" id="d-rw_RiskWeight115Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight150Percent" id="d-rw_RiskWeight150Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight150PercentOfWhichPastDue" id="d-rw_RiskWeight150PercentOfWhichPastDue" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightBreakdownDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight190Percent" id="d-rw_RiskWeight190Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight200Percent" id="d-rw_RiskWeight200Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight250Percent" id="d-rw_RiskWeight250Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight290Percent" id="d-rw_RiskWeight290Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeight370Percent" id="d-rw_RiskWeight370Percent" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherRiskWeights" id="d-rw_OtherRiskWeights" type="xbrli:stringItemType" substitutionGroup="d-rw:RiskWeightDomain" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeightDimension" id="d-rw_RiskWeightDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/d-ty-de-2007-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-ty-de="http://www.bundesbank.de/fr/ba/bakisw/d-ty-de-2007-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:d-ty="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ty-2006-07-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:xl="http://www.xbrl.org/2003/XLink">
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ty-2006-07-01" schemaLocation="d-ty-2006-07-01.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element name="NameDimension" id="d-ty-de_NameDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="d-ty-2006-07-01.xsd#d-ty_Name" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CodeDimension" id="d-ty-de_CodeDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="d-ty-de-2007-01.xsd#d-ty-de_Laendercode" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laendercode" id="d-ty-de_Laendercode" type="d-ty-de:laendercodeType"/>
+  <xsd:simpleType name="laendercodeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="(\p{Lu}){2}|U1"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

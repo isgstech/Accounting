@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ut-2006-07-01 d-ut-2006-07-01.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd" xmlns:d-ut="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ut-2006-07-01" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref">
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-ut-2006-07-01.xsd#d-ut_TotalUnsettledTransactionsInTheTradingBook" xlink:label="TotalUnsettledTransactionsInTheTradingBook" xlink:title="TotalUnsettledTransactionsInTheTradingBook"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalUnsettledTransactionsInTheTradingBook" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TotalUnsettledTransactionsInTheTradingBook" id="reference_TotalUnsettledTransactionsInTheTradingBook">
+      <ref-corep:Comment>Unsettled transactions in the Trading Book and their correspondent capital requirements for settlement risk according to article 18 paragraph 1 (a) of Directive 2006/49/EC and paragraph 1 of annex II of Directive 2006/49/EC, and article 75 (b) of Directive 2006/48/EC. Be aware that the counterparty credit risk and the free deliveries referred to in Annex II will be dealt with in the CR SA or CR IRB templates</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalUnsettledTransactionsInTheTradingBook" xlink:to="reference_TotalUnsettledTransactionsInTheTradingBook" xlink:title="reference: TotalUnsettledTransactionsInTheTradingBook to reference_TotalUnsettledTransactionsInTheTradingBook"/>
+    <link:loc xlink:type="locator" xlink:href="d-ut-2006-07-01.xsd#d-ut_TransactionsUnsettledUpTo4Days" xlink:label="TransactionsUnsettledUpTo4Days" xlink:title="TransactionsUnsettledUpTo4Days"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TransactionsUnsettledUpTo4Days" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TransactionsUnsettledUpTo4Days" id="reference_TransactionsUnsettledUpTo4Days">
+      <ref-corep:Comment>Annex II point 1 Table 1 of Directive 2006/49/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TransactionsUnsettledUpTo4Days" xlink:to="reference_TransactionsUnsettledUpTo4Days" xlink:title="reference: TransactionsUnsettledUpTo4Days to reference_TransactionsUnsettledUpTo4Days"/>
+  </link:referenceLink>
+</link:linkbase>

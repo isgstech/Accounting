@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationPositionen" xlink:type="simple" xlink:href="t-cm-rw-2007-01.xsd#rt_t-cm-rw_DimensionPresentationPositionen"/>
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationVereinfachtesVerfahren" xlink:type="simple" xlink:href="t-cm-rw-2007-01.xsd#rt_t-cm-rw_DimensionPresentationVereinfachtesVerfahren"/>
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationZeitfaechermethode" xlink:type="simple" xlink:href="t-cm-rw-2007-01.xsd#rt_t-cm-rw_DimensionPresentationZeitfaechermethode"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationZeitfaechermethode">
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_Zeitfaechermethode" xlink:label="Zeitfaechermethode" xlink:title="Zeitfaechermethode"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_SummeAusgeglichenenBereichspositionen" xlink:label="SummeAusgeglichenenBereichspositionen" xlink:title="SummeAusgeglichenenBereichspositionen"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Zeitfaechermethode" xlink:to="SummeAusgeglichenenBereichspositionen" xlink:title="presentation: Zeitfaechermethode to SummeAusgeglichenenBereichspositionen" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_SummeAusgeglichenenBereichspositionenrVerrechnungZwischenZeitfaechern" xlink:label="SummeAusgeglichenenBereichspositionenrVerrechnungZwischenZeitfaechern" xlink:title="SummeAusgeglichenenBereichspositionenrVerrechnungZwischenZeitfaechern"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Zeitfaechermethode" xlink:to="SummeAusgeglichenenBereichspositionenrVerrechnungZwischenZeitfaechern" xlink:title="presentation: Zeitfaechermethode to SummeAusgeglichenenBereichspositionenrVerrechnungZwischenZeitfaechern" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_SummeOffenenBereichspositionenNachVerrechnung" xlink:label="SummeOffenenBereichspositionenNachVerrechnung" xlink:title="SummeOffenenBereichspositionenNachVerrechnung"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Zeitfaechermethode" xlink:to="SummeOffenenBereichspositionenNachVerrechnung" xlink:title="presentation: Zeitfaechermethode to SummeOffenenBereichspositionenNachVerrechnung" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_VerbleibendeOffeneBereichsposition" xlink:label="VerbleibendeOffeneBereichsposition" xlink:title="VerbleibendeOffeneBereichsposition"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Zeitfaechermethode" xlink:to="VerbleibendeOffeneBereichsposition" xlink:title="presentation: Zeitfaechermethode to VerbleibendeOffeneBereichsposition" use="optional" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_SummeB" xlink:label="SummeB" xlink:title="SummeB"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Zeitfaechermethode" xlink:to="SummeB" xlink:title="presentation: Zeitfaechermethode to SummeB" use="optional" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_AnrechnungsbetragRohwarenposition" xlink:label="AnrechnungsbetragRohwarenposition" xlink:title="AnrechnungsbetragRohwarenposition"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Zeitfaechermethode" xlink:to="AnrechnungsbetragRohwarenposition" xlink:title="presentation: Zeitfaechermethode to AnrechnungsbetragRohwarenposition" use="optional" order="7.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationVereinfachtesVerfahren">
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_VereinfachtesVerfahren" xlink:label="VereinfachtesVerfahren" xlink:title="VereinfachtesVerfahren"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_SummeAktivPassivpositionen" xlink:label="SummeAktivPassivpositionen" xlink:title="SummeAktivPassivpositionen"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="VereinfachtesVerfahren" xlink:to="SummeAktivPassivpositionen" xlink:title="presentation: VereinfachtesVerfahren to SummeAktivPassivpositionen" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_SummeOffenenRohwareneinzelpositionen" xlink:label="SummeOffenenRohwareneinzelpositionen" xlink:title="SummeOffenenRohwareneinzelpositionen"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="VereinfachtesVerfahren" xlink:to="SummeOffenenRohwareneinzelpositionen" xlink:title="presentation: VereinfachtesVerfahren to SummeOffenenRohwareneinzelpositionen" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_SummeA" xlink:label="SummeA" xlink:title="SummeA"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="VereinfachtesVerfahren" xlink:to="SummeA" xlink:title="presentation: VereinfachtesVerfahren to SummeA" use="optional" order="3.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationPositionen">
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_RohwarenpositionenDomain" xlink:label="RohwarenpositionenDomain" xlink:title="RohwarenpositionenDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_Insgesamt" xlink:label="Insgesamt" xlink:title="Insgesamt"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RohwarenpositionenDomain" xlink:to="Insgesamt" xlink:title="presentation: RohwarenpositionenDomain to Insgesamt" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_OelePetroleumGas" xlink:label="OelePetroleumGas" xlink:title="OelePetroleumGas"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="OelePetroleumGas" xlink:title="presentation: Insgesamt to OelePetroleumGas" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_LandwirtschaftlicheErzeugnisse" xlink:label="LandwirtschaftlicheErzeugnisse" xlink:title="LandwirtschaftlicheErzeugnisse"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="LandwirtschaftlicheErzeugnisse" xlink:title="presentation: Insgesamt to LandwirtschaftlicheErzeugnisse" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_Metalle" xlink:label="Metalle" xlink:title="Metalle"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="Metalle" xlink:title="presentation: Insgesamt to Metalle" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_UebrigeRohwaren" xlink:label="UebrigeRohwaren" xlink:title="UebrigeRohwaren"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Insgesamt" xlink:to="UebrigeRohwaren" xlink:title="presentation: Insgesamt to UebrigeRohwaren" use="optional" order="4.0"/>
+  </link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-am="http://www.bundesbank.de/fr/ba/bakisw/d-am-2007-01">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-am-2007-01.xsd#d-am_AmountDomain" xlink:label="AmountDomain" xlink:title="AmountDomain"/>
+    <link:label xlink:type="resource" xlink:label="label_AmountDomain_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_AmountDomain" xml:lang="en" id="label_AmountDomain_2">Amount (Domain)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmountDomain" xlink:to="label_AmountDomain_2" xlink:title="label: AmountDomain to label_AmountDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-am-2007-01.xsd#d-am_Amount" xlink:label="Amount" xlink:title="Amount"/>
+    <link:label xlink:type="resource" xlink:label="label_Amount" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Amount" xml:lang="de" id="label_Amount">Betrag</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Amount" xlink:to="label_Amount" xlink:title="label: Amount to label_Amount"/>
+    <link:label xlink:type="resource" xlink:label="label_Amount_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Amount" xml:lang="en" id="label_Amount_2">Amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Amount" xlink:to="label_Amount_2" xlink:title="label: Amount to label_Amount"/>
+    <link:loc xlink:type="locator" xlink:href="d-am-2007-01.xsd#d-am_AmountDimension" xlink:label="AmountDimension" xlink:title="AmountDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_AmountDimension" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_AmountDimension" xml:lang="en" id="label_AmountDimension">Amount (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmountDimension" xlink:to="label_AmountDimension" xlink:title="label: AmountDimension to label_AmountDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_AmountDimension_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_AmountDimension" xml:lang="de" id="label_AmountDimension_2">Betrag (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmountDimension" xlink:to="label_AmountDimension_2" xlink:title="label: AmountDimension to label_AmountDimension"/>
+  </link:labelLink>
+</link:linkbase>

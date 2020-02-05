@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:t-sd="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-sd-2006-07-01">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="t-sd-2006-07-01.xsd#t-sd_MainSectionHypercube" xlink:label="hcAll" xlink:title="hcAll"/>
+    <link:label xlink:type="resource" xlink:label="label_hcAll" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_hcAll" xml:lang="en" id="label_hcAll">Main Section (Hypercube)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="hcAll" xlink:to="label_hcAll" xlink:title="label: hcAll to label_hcAll"/>
+  </link:labelLink>
+</link:linkbase>

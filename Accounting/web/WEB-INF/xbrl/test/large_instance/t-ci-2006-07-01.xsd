@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-ci-2006-07-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:t-ci="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-ci-2006-07-01" xmlns:d-hh="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-hh-2006-07-01" xmlns:p-cm-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" xmlns:d-ec="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ec-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:d-ty="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ty-2006-07-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:d-oe="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-oe-2006-07-01" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:d-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-cr-2006-07-01" xmlns:d-rw="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-rw-2006-07-01" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-ci-2006-07-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-ci-2006-07-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-ci-2006-07-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/SectionExposures" id="rt_t-ci_SectionExposures">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/SectionExposuresHypercube" id="rt_t-ci_SectionExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/ExcTotalExposuresHypercube" id="rt_t-ci_ExcTotalExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/ExcAlternativeTreatmentForSectionExposuresHypercube" id="rt_t-ci_ExcAlternativeTreatmentForSectionExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/ExcExposuresFromFreeDeliveriesForSectionExposuresHypercube" id="rt_t-ci_ExcExposuresFromFreeDeliveriesForSectionExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/ExcDilutionRiskForSectionExposuresHypercube" id="rt_t-ci_ExcDilutionRiskForSectionExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/SectionExposureTypes" id="rt_t-ci_SectionExposureTypes">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/SectionExposureTypesHypercube" id="rt_t-ci_SectionExposureTypesHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/ExcBalanceSheetForSectionExposureTypesHypercube" id="rt_t-ci_ExcBalanceSheetForSectionExposureTypesHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/SectionObligorGrade" id="rt_t-ci_SectionObligorGrade">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/SectionObligorGradeHypercube" id="rt_t-ci_SectionObligorGradeHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/SectionRiskWeight" id="rt_t-ci_SectionRiskWeight">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/SectionRiskWeightHypercube" id="rt_t-ci_SectionRiskWeightHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/ExcOwnEstimatesNoForSectionExposuresHypercube" id="rt_t-ci_ExcOwnEstimatesNoForSectionExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/ExcOwnEstimatesNoForSectionExposureTypeHypercube" id="rt_t-ci_ExcOwnEstimatesNoForSectionExposureTypeHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/ExcExposureClassesHypercube" id="rt_t-ci_ExcExposureClassesHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/ExcSlottingCriteriaForSectionExposuresHypercube" id="rt_t-ci_ExcSlottingCriteriaForSectionExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-ci/SectionProhibitedItems" id="rt_t-ci_SectionProhibitedItems">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ci-2006-07-01" schemaLocation="p-ci-2006-07-01.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-et-2006-07-01" schemaLocation="d-et-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-cr-2006-07-01" schemaLocation="d-cr-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ec-2006-07-01" schemaLocation="d-ec-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-rw-2006-07-01" schemaLocation="d-rw-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-oe-2006-07-01" schemaLocation="d-oe-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ty-2006-07-01" schemaLocation="d-ty-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-hh-2006-07-01" schemaLocation="d-hh-2006-07-01.xsd"/>
+  <xsd:element name="SectionExposuresHypercube" id="t-ci_SectionExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SectionObligroGradeHypercube" id="t-ci_SectionObligroGradeHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcTotalExposuresHypercube" id="t-ci_ExcTotalExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcAlternativeTreatmentForSectionExposuresHypercube" id="t-ci_ExcAlternativeTreatmentForSectionExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcExposuresFromFreeDeliveriesForSectionExposuresHypercube" id="t-ci_ExcExposuresFromFreeDeliveriesForSectionExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcDilutionRiskForSectionExposuresHypercube" id="t-ci_ExcDilutionRiskForSectionExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SectionExposureTypesHypercube" id="t-ci_SectionExposureTypesHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcBalanceSheetForSectionExposureTypesHypercube" id="t-ci_ExcBalanceSheetForSectionExposureTypesHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SectionRiskWeightHypercube" id="t-ci_SectionRiskWeightHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcExposureClassesHypercube" id="t-ci_ExcExposureClassesHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcSlottingCriteriaForSectionExposuresHypercube" id="t-ci_ExcSlottingCriteriaForSectionExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcOwnEstimatesNoForSectionExposuresHypercube" id="t-ci_ExcOwnEstimatesNoForSectionExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcOwnEstimatesNoForSectionExposureTypesHypercube" id="t-ci_ExcOwnEstimatesNoForSectionExposureTypesHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

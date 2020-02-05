@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:xbrldi="http://xbrl.org/2005/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t-mc="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-mc-2005-12-31" xmlns:p-mc="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/p-mc-2005-12-31" xmlns:d-pc="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/d-pc-2005-12-31" xmlns:d-mz="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/d-mz-2005-12-31" xsi:schemaLocation="http://www.xbrl.org/2003/instance xbrl-instance-2003-12-31.xsd  http://www.xbrl.org/2003/linkbase xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink xlink-2003-12-31.xsd http://xbrl.org/2005/xbrldi xbrldi-2005.xsd http://xbrl.c-ebs.org/dt dt-2005-06-30.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-mc-2005-12-31 t-mc-2005-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/p-mc-2005-12-31 p-mc-2005-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/d-pc-2005-12-31 d-pc-2005-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/d-mz-2005-12-31 d-mz-2005-12-31.xsd">
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-mc-2005-12-31.xsd" />
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_1" decimals="0" unitRef="EUR">10</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_1" decimals="0" unitRef="EUR">11</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_1" decimals="0" unitRef="EUR">12</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_1" decimals="0" unitRef="EUR">10</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_1" decimals="0" unitRef="EUR">23</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_1" decimals="0" unitRef="EUR">14</p-mc:NetPositionsShort>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_1" decimals="0" unitRef="EUR">1</p-mc:PositionsSubjectToCapitalCharge>
+  <xbrli:context id="cxt_t-mc_1_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:Total</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_2" decimals="0" unitRef="EUR">20</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_2" decimals="0" unitRef="EUR">21</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_2" decimals="0" unitRef="EUR">22</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_2" decimals="0" unitRef="EUR">20</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_2" decimals="0" unitRef="EUR">23</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_2" decimals="0" unitRef="EUR">24</p-mc:NetPositionsShort>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_2" decimals="0" unitRef="EUR">2</p-mc:PositionsSubjectToCapitalCharge>
+  <xbrli:context id="cxt_t-mc_1_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_3" decimals="0" unitRef="EUR">30</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_3" decimals="0" unitRef="EUR">31</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_3" decimals="0" unitRef="EUR">32</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_3" decimals="0" unitRef="EUR">33</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_3" decimals="0" unitRef="EUR">34</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_3" decimals="0" unitRef="EUR">35</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneLessEqual1Year</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_4" decimals="0" unitRef="EUR">40</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_4" decimals="0" unitRef="EUR">31</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_4" decimals="0" unitRef="EUR">32</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_4" decimals="0" unitRef="EUR">44</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_4" decimals="0" unitRef="EUR">33</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_4" decimals="0" unitRef="EUR">34</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZone1YearBetween0And1Month</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_5" decimals="0" unitRef="EUR">50</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_5" decimals="0" unitRef="EUR">41</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_5" decimals="0" unitRef="EUR">42</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_5" decimals="0" unitRef="EUR">56</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_5" decimals="0" unitRef="EUR">43</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_5" decimals="0" unitRef="EUR">44</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZone1YearBetween1And3Months</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_6" decimals="0" unitRef="EUR">60</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_6" decimals="0" unitRef="EUR">31</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_6" decimals="0" unitRef="EUR">32</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_6" decimals="0" unitRef="EUR">67</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_6" decimals="0" unitRef="EUR">34</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_6" decimals="0" unitRef="EUR">35</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZone1YearBetween3And6Months</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_7" decimals="0" unitRef="EUR">70</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_7" decimals="0" unitRef="EUR">51</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_7" decimals="0" unitRef="EUR">52</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_7" decimals="0" unitRef="EUR">79</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_7" decimals="0" unitRef="EUR">53</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_7" decimals="0" unitRef="EUR">54</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZone1YearBetween6And12Months</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_8" decimals="0" unitRef="EUR">80</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_8" decimals="0" unitRef="EUR">61</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_8" decimals="0" unitRef="EUR">62</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_8" decimals="0" unitRef="EUR">90</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_8" decimals="0" unitRef="EUR">63</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_8" decimals="0" unitRef="EUR">64</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneBetween1and3Years</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_9" decimals="0" unitRef="EUR">90</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_9" decimals="0" unitRef="EUR">31</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_9" decimals="0" unitRef="EUR">32</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_9" decimals="0" unitRef="EUR">102</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_9" decimals="0" unitRef="EUR">34</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_9" decimals="0" unitRef="EUR">35</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneBetween1And3YearsBetween1And2Years</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_10" decimals="0" unitRef="EUR">100</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_10" decimals="0" unitRef="EUR">71</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_10" decimals="0" unitRef="EUR">72</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_10" decimals="0" unitRef="EUR">113</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_10" decimals="0" unitRef="EUR">73</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_10" decimals="0" unitRef="EUR">74</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneBetween1And3YearsBetween2And3Years</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_11" decimals="0" unitRef="EUR">110</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_11" decimals="0" unitRef="EUR">81</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_11" decimals="0" unitRef="EUR">82</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_11" decimals="0" unitRef="EUR">125</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_11" decimals="0" unitRef="EUR">83</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_11" decimals="0" unitRef="EUR">84</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneGreaterThan3Years</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_12" decimals="0" unitRef="EUR">3</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_12" decimals="0" unitRef="EUR">13</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_12">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MatchedLongAndShortPositionsWithinMaturityBand</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_13" decimals="0" unitRef="EUR">4</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_13" decimals="0" unitRef="EUR">14</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_13">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MatchedPositionsBetweenTwoMaturityBands</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_14" decimals="0" unitRef="EUR">5</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_14" decimals="0" unitRef="EUR">15</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:ResidualUnmatchedPositions</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_15" decimals="0" unitRef="EUR">200</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_15" decimals="0" unitRef="EUR">201</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_15" decimals="0" unitRef="EUR">202</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_15" decimals="0" unitRef="EUR">203</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_15" decimals="0" unitRef="EUR">204</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_15" decimals="0" unitRef="EUR">205</p-mc:NetPositionsShort>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_15" decimals="0" unitRef="EUR">6</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_15" decimals="0" unitRef="EUR">16</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_16" decimals="0" unitRef="EUR">300</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_16" decimals="0" unitRef="EUR">301</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_16" decimals="0" unitRef="EUR">302</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_16" decimals="0" unitRef="EUR">303</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_16" decimals="0" unitRef="EUR">304</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_16" decimals="0" unitRef="EUR">305</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneLessEqual1Year</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_17" decimals="0" unitRef="EUR">400</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_17" decimals="0" unitRef="EUR">401</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_17" decimals="0" unitRef="EUR">402</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_17" decimals="0" unitRef="EUR">403</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_17" decimals="0" unitRef="EUR">404</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_17" decimals="0" unitRef="EUR">405</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZone1YearBetween0And1Month</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_18" decimals="0" unitRef="EUR">500</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_18" decimals="0" unitRef="EUR">501</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_18" decimals="0" unitRef="EUR">502</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_18" decimals="0" unitRef="EUR">503</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_18" decimals="0" unitRef="EUR">504</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_18" decimals="0" unitRef="EUR">505</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_18">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZone1YearBetween1And3Months</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_19" decimals="0" unitRef="EUR">600</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_19" decimals="0" unitRef="EUR">601</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_19" decimals="0" unitRef="EUR">602</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_19" decimals="0" unitRef="EUR">603</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_19" decimals="0" unitRef="EUR">604</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_19" decimals="0" unitRef="EUR">605</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_19">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZone1YearBetween3And6Months</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_20" decimals="0" unitRef="EUR">700</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_20" decimals="0" unitRef="EUR">701</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_20" decimals="0" unitRef="EUR">702</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_20" decimals="0" unitRef="EUR">703</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_20" decimals="0" unitRef="EUR">704</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_20" decimals="0" unitRef="EUR">705</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_20">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZone1YearBetween6And12Months</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_21" decimals="0" unitRef="EUR">800</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_21" decimals="0" unitRef="EUR">801</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_21" decimals="0" unitRef="EUR">802</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_21" decimals="0" unitRef="EUR">803</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_21" decimals="0" unitRef="EUR">804</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_21" decimals="0" unitRef="EUR">805</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneBetween1and3Years</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_22" decimals="0" unitRef="EUR">900</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_22" decimals="0" unitRef="EUR">901</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_22" decimals="0" unitRef="EUR">902</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_22" decimals="0" unitRef="EUR">903</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_22" decimals="0" unitRef="EUR">904</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_22" decimals="0" unitRef="EUR">905</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_22">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneBetween1And3YearsBetween1And2Years</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_23" decimals="0" unitRef="EUR">1000</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_23" decimals="0" unitRef="EUR">1001</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_23" decimals="0" unitRef="EUR">1002</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_23" decimals="0" unitRef="EUR">1003</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_23" decimals="0" unitRef="EUR">1004</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_23" decimals="0" unitRef="EUR">1005</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_23">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneBetween1And3YearsBetween2And3Years</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_24" decimals="0" unitRef="EUR">1100</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_24" decimals="0" unitRef="EUR">1101</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_24" decimals="0" unitRef="EUR">1102</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_24" decimals="0" unitRef="EUR">1103</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_24" decimals="0" unitRef="EUR">1104</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_24" decimals="0" unitRef="EUR">1105</p-mc:NetPositionsShort>
+  <xbrli:context id="cxt_t-mc_1_24">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MaturityZoneGreaterThan3Years</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_25" decimals="0" unitRef="EUR">7</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_25" decimals="0" unitRef="EUR">17</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_25">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MatchedLongAndShortPositionsWithinMaturityBand</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_26" decimals="0" unitRef="EUR">8</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_26" decimals="0" unitRef="EUR">18</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_26">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:MatchedPositionsBetweenTwoMaturityBands</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_27" decimals="0" unitRef="EUR">9</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_27" decimals="0" unitRef="EUR">19</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_27">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:ExtendedMaturityLadderApproach</xbrldi:explicitMember>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:MaturityLadderApproachDimension">d-mz:ResidualUnmatchedPositions</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_28" decimals="0" unitRef="EUR">1</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_28" decimals="0" unitRef="EUR">2</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_28" decimals="0" unitRef="EUR">3</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_28" decimals="0" unitRef="EUR">4</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_28" decimals="0" unitRef="EUR">5</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_28" decimals="0" unitRef="EUR">6</p-mc:NetPositionsShort>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_28" decimals="0" unitRef="EUR">10</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_28" decimals="0" unitRef="EUR">20</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_28">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:SimplifiedApproachAllPositions</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_29" decimals="0" unitRef="EUR">11</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_29" decimals="0" unitRef="EUR">21</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_29">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:SimplifiedApproachNetPositions</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_30" decimals="0" unitRef="EUR">12</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_30" decimals="0" unitRef="EUR">22</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_30">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:SimplifiedApproachGrossPositions</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_31" decimals="0" unitRef="EUR">80</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_31" decimals="0" unitRef="EUR">81</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_31" decimals="0" unitRef="EUR">82</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_31" decimals="0" unitRef="EUR">83</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_31" decimals="0" unitRef="EUR">84</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_31" decimals="0" unitRef="EUR">85</p-mc:NetPositionsShort>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_31" decimals="0" unitRef="EUR">13</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_31" decimals="0" unitRef="EUR">23</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_31">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MarginBasedApproachForExchangeTradedFuturesAndOptions</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:AllPositionsLong contextRef="cxt_t-mc_1_32" decimals="0" unitRef="EUR">81</p-mc:AllPositionsLong>
+  <p-mc:AllPositionsShort contextRef="cxt_t-mc_1_32" decimals="0" unitRef="EUR">82</p-mc:AllPositionsShort>
+  <p-mc:MemorandumItemsLong contextRef="cxt_t-mc_1_32" decimals="0" unitRef="EUR">83</p-mc:MemorandumItemsLong>
+  <p-mc:MemorandumItemsShort contextRef="cxt_t-mc_1_32" decimals="0" unitRef="EUR">84</p-mc:MemorandumItemsShort>
+  <p-mc:NetPositionsLong contextRef="cxt_t-mc_1_32" decimals="0" unitRef="EUR">85</p-mc:NetPositionsLong>
+  <p-mc:NetPositionsShort contextRef="cxt_t-mc_1_32" decimals="0" unitRef="EUR">86</p-mc:NetPositionsShort>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_32" decimals="0" unitRef="EUR">14</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_32" decimals="0" unitRef="EUR">24</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_32">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:MarginBasedApproachForOTCFuturesAndOptions</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_33" decimals="0" unitRef="EUR">15</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_33" decimals="0" unitRef="EUR">25</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_33">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:OtherNonDeltaRisksForCommodityOptions</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mc:PositionsSubjectToCapitalCharge contextRef="cxt_t-mc_1_34" decimals="0" unitRef="EUR">16</p-mc:PositionsSubjectToCapitalCharge>
+  <p-mc:CapitalRequirements contextRef="cxt_t-mc_1_34" decimals="0" unitRef="EUR">26</p-mc:CapitalRequirements>
+  <xbrli:context id="cxt_t-mc_1_34">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mc:TotalPositionsInCommoditiesDimension">d-pc:RiskOfShortageOfLiquidity</xbrldi:explicitMember>
+      <xbrldi:typedMember xlink:type="simple" dimension="t-mc:CommodityDimension">
+        <t-mc:Commodity>base metals</t-mc:Commodity>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="PURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>
+

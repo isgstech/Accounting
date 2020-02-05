@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:xbrldi="http://xbrl.org/2005/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t-mf="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-mf-2005-12-31" xmlns:p-mf="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/p-mf-2005-12-31" xmlns:d-rc="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/d-rc-2005-12-31" xsi:schemaLocation="http://www.xbrl.org/2003/instance xbrl-instance-2003-12-31.xsd  http://www.xbrl.org/2003/linkbase xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink xlink-2003-12-31.xsd http://xbrl.org/2005/xbrldi xbrldi-2005.xsd http://xbrl.c-ebs.org/dt dt-2005-06-30.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-mf-2005-12-31 t-mf-2005-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/p-mf-2005-12-31 p-mf-2005-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/d-rc-2005-12-31 d-rc-2005-12-31.xsd">
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-mf-2005-12-31.xsd" />
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_1" decimals="0" unitRef="EUR">1</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_1" decimals="0" unitRef="EUR">2</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_1" decimals="0" unitRef="EUR">3</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_1" decimals="0" unitRef="EUR">2</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_1" decimals="0" unitRef="EUR">4</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_1" decimals="0" unitRef="EUR">5</p-mf:NetPositionsShort>
+  <p-mf:PositionsSubjectCapitalChargeLong contextRef="cxt_t-mf_1_1" decimals="0" unitRef="EUR">11</p-mf:PositionsSubjectCapitalChargeLong>
+  <p-mf:PositionsSubjectCapitalChargeShort contextRef="cxt_t-mf_1_1" decimals="0" unitRef="EUR">12</p-mf:PositionsSubjectCapitalChargeShort>
+  <p-mf:PositionsSubjectCapitalChargeMatched contextRef="cxt_t-mf_1_1" decimals="0" unitRef="EUR">33</p-mf:PositionsSubjectCapitalChargeMatched>
+  <xbrli:context id="cxt_t-mf_1_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:TotalPositionsNonReportingCurrencies</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_2" decimals="0" unitRef="EUR">2</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_2" decimals="0" unitRef="EUR">3</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_2" decimals="0" unitRef="EUR">4</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_2" decimals="0" unitRef="EUR">2</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_2" decimals="0" unitRef="EUR">5</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_2" decimals="0" unitRef="EUR">6</p-mf:NetPositionsShort>
+  <p-mf:PositionsSubjectCapitalChargeMatched contextRef="cxt_t-mf_1_2" decimals="0" unitRef="EUR">34</p-mf:PositionsSubjectCapitalChargeMatched>
+  <p-mf:CapitalRequirements contextRef="cxt_t-mf_1_2" decimals="0" unitRef="EUR">20</p-mf:CapitalRequirements>
+  <xbrli:context id="cxt_t-mf_1_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:CurrenciesSecondStageEMU</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_3" decimals="0" unitRef="EUR">3</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_3" decimals="0" unitRef="EUR">4</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_3" decimals="0" unitRef="EUR">5</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_3" decimals="0" unitRef="EUR">6</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_3" decimals="0" unitRef="EUR">7</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_3" decimals="0" unitRef="EUR">8</p-mf:NetPositionsShort>
+  <p-mf:PositionsSubjectCapitalChargeMatched contextRef="cxt_t-mf_1_3" decimals="0" unitRef="EUR">35</p-mf:PositionsSubjectCapitalChargeMatched>
+  <p-mf:CapitalRequirements contextRef="cxt_t-mf_1_3" decimals="0" unitRef="EUR">21</p-mf:CapitalRequirements>
+  <xbrli:context id="cxt_t-mf_1_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:CurrenciesSubjectIntergovernmentalAgreements</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_4" decimals="0" unitRef="EUR">4</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_4" decimals="0" unitRef="EUR">4</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_4" decimals="0" unitRef="EUR">5</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_4" decimals="0" unitRef="EUR">4</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_4" decimals="0" unitRef="EUR">6</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_4" decimals="0" unitRef="EUR">7</p-mf:NetPositionsShort>
+  <p-mf:PositionsSubjectCapitalChargeMatched contextRef="cxt_t-mf_1_4" decimals="0" unitRef="EUR">36</p-mf:PositionsSubjectCapitalChargeMatched>
+  <p-mf:CapitalRequirements contextRef="cxt_t-mf_1_4" decimals="0" unitRef="EUR">22</p-mf:CapitalRequirements>
+  <xbrli:context id="cxt_t-mf_1_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:CurrenciesCloselyCorrelated</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_5" decimals="0" unitRef="EUR">5</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_5" decimals="0" unitRef="EUR">5</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_5" decimals="0" unitRef="EUR">6</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_5" decimals="0" unitRef="EUR">5</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_5" decimals="0" unitRef="EUR">7</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_5" decimals="0" unitRef="EUR">8</p-mf:NetPositionsShort>
+  <p-mf:PositionsSubjectCapitalChargeLong contextRef="cxt_t-mf_1_5" decimals="0" unitRef="EUR">13</p-mf:PositionsSubjectCapitalChargeLong>
+  <p-mf:PositionsSubjectCapitalChargeShort contextRef="cxt_t-mf_1_5" decimals="0" unitRef="EUR">14</p-mf:PositionsSubjectCapitalChargeShort>
+  <p-mf:CapitalRequirements contextRef="cxt_t-mf_1_5" decimals="0" unitRef="EUR">23</p-mf:CapitalRequirements>
+  <xbrli:context id="cxt_t-mf_1_5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:AllOtherCurrenciesIncCIUsTratedDifferentCurrencies</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_6" decimals="0" unitRef="EUR">6</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_6" decimals="0" unitRef="EUR">4</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_6" decimals="0" unitRef="EUR">5</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_6" decimals="0" unitRef="EUR">4</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_6" decimals="0" unitRef="EUR">4</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_6" decimals="0" unitRef="EUR">3</p-mf:NetPositionsShort>
+  <p-mf:PositionsSubjectCapitalChargeLong contextRef="cxt_t-mf_1_6" decimals="0" unitRef="EUR">15</p-mf:PositionsSubjectCapitalChargeLong>
+  <p-mf:PositionsSubjectCapitalChargeShort contextRef="cxt_t-mf_1_6" decimals="0" unitRef="EUR">16</p-mf:PositionsSubjectCapitalChargeShort>
+  <p-mf:CapitalRequirements contextRef="cxt_t-mf_1_6" decimals="0" unitRef="EUR">24</p-mf:CapitalRequirements>
+  <xbrli:context id="cxt_t-mf_1_6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:Gold</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:PositionsSubjectCapitalChargeLong contextRef="cxt_t-mf_1_7" decimals="0" unitRef="EUR">17</p-mf:PositionsSubjectCapitalChargeLong>
+  <p-mf:PositionsSubjectCapitalChargeShort contextRef="cxt_t-mf_1_7" decimals="0" unitRef="EUR">18</p-mf:PositionsSubjectCapitalChargeShort>
+  <p-mf:CapitalRequirements contextRef="cxt_t-mf_1_7" decimals="0" unitRef="EUR">25</p-mf:CapitalRequirements>
+  <xbrli:context id="cxt_t-mf_1_7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:OtherNonDeltaRisksCurrencyOptions</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_8" decimals="0" unitRef="EUR">10</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_8" decimals="0" unitRef="EUR">11</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_8" decimals="0" unitRef="EUR">12</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_8" decimals="0" unitRef="EUR">13</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_8" decimals="0" unitRef="EUR">14</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_8" decimals="0" unitRef="EUR">15</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:Euro</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_9" decimals="0" unitRef="EUR">20</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_9" decimals="0" unitRef="EUR">21</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_9" decimals="0" unitRef="EUR">22</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_9" decimals="0" unitRef="EUR">23</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_9" decimals="0" unitRef="EUR">24</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_9" decimals="0" unitRef="EUR">25</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:ERM2Currencies</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_10" decimals="0" unitRef="EUR">30</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_10" decimals="0" unitRef="EUR">31</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_10" decimals="0" unitRef="EUR">32</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_10" decimals="0" unitRef="EUR">33</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_10" decimals="0" unitRef="EUR">34</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_10" decimals="0" unitRef="EUR">35</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:DKK</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_11" decimals="0" unitRef="EUR">40</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_11" decimals="0" unitRef="EUR">41</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_11" decimals="0" unitRef="EUR">42</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_11" decimals="0" unitRef="EUR">43</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_11" decimals="0" unitRef="EUR">44</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_11" decimals="0" unitRef="EUR">45</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:EEK</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_12" decimals="0" unitRef="EUR">50</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_12" decimals="0" unitRef="EUR">51</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_12" decimals="0" unitRef="EUR">52</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_12" decimals="0" unitRef="EUR">53</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_12" decimals="0" unitRef="EUR">54</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_12" decimals="0" unitRef="EUR">55</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_12">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:LTL</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_13" decimals="0" unitRef="EUR">60</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_13" decimals="0" unitRef="EUR">61</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_13" decimals="0" unitRef="EUR">62</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_13" decimals="0" unitRef="EUR">63</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_13" decimals="0" unitRef="EUR">64</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_13" decimals="0" unitRef="EUR">65</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_13">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:SIT</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_14" decimals="0" unitRef="EUR">70</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_14" decimals="0" unitRef="EUR">71</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_14" decimals="0" unitRef="EUR">72</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_14" decimals="0" unitRef="EUR">73</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_14" decimals="0" unitRef="EUR">74</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_14" decimals="0" unitRef="EUR">75</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:GBP</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_15" decimals="0" unitRef="EUR">80</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_15" decimals="0" unitRef="EUR">81</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_15" decimals="0" unitRef="EUR">82</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_15" decimals="0" unitRef="EUR">83</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_15" decimals="0" unitRef="EUR">84</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_15" decimals="0" unitRef="EUR">85</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:SEK</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_16" decimals="0" unitRef="EUR">90</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_16" decimals="0" unitRef="EUR">91</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_16" decimals="0" unitRef="EUR">92</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_16" decimals="0" unitRef="EUR">93</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_16" decimals="0" unitRef="EUR">94</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_16" decimals="0" unitRef="EUR">95</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:CHF</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_17" decimals="0" unitRef="EUR">100</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_17" decimals="0" unitRef="EUR">101</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_17" decimals="0" unitRef="EUR">102</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_17" decimals="0" unitRef="EUR">103</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_17" decimals="0" unitRef="EUR">104</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_17" decimals="0" unitRef="EUR">105</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:OtherEEECurrencies</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_18" decimals="0" unitRef="EUR">110</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_18" decimals="0" unitRef="EUR">111</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_18" decimals="0" unitRef="EUR">112</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_18" decimals="0" unitRef="EUR">113</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_18" decimals="0" unitRef="EUR">114</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_18" decimals="0" unitRef="EUR">115</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_18">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:USD</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_19" decimals="0" unitRef="EUR">120</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_19" decimals="0" unitRef="EUR">121</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_19" decimals="0" unitRef="EUR">122</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_19" decimals="0" unitRef="EUR">123</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_19" decimals="0" unitRef="EUR">124</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_19" decimals="0" unitRef="EUR">125</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_19">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:CAD</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_20" decimals="0" unitRef="EUR">130</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_20" decimals="0" unitRef="EUR">131</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_20" decimals="0" unitRef="EUR">132</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_20" decimals="0" unitRef="EUR">133</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_20" decimals="0" unitRef="EUR">134</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_20" decimals="0" unitRef="EUR">135</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_20">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:AUD</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_21" decimals="0" unitRef="EUR">135</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_21" decimals="0" unitRef="EUR">132</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_21" decimals="0" unitRef="EUR">162</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_21" decimals="0" unitRef="EUR">163</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_21" decimals="0" unitRef="EUR">164</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_21" decimals="0" unitRef="EUR">165</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:JPY</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_22" decimals="0" unitRef="EUR">140</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_22" decimals="0" unitRef="EUR">141</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_22" decimals="0" unitRef="EUR">142</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_22" decimals="0" unitRef="EUR">143</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_22" decimals="0" unitRef="EUR">144</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_22" decimals="0" unitRef="EUR">145</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_22">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:OtherNonEEECurrencies</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mf:AllPositionsLong contextRef="cxt_t-mf_1_23" decimals="0" unitRef="EUR">150</p-mf:AllPositionsLong>
+  <p-mf:AllPositionsShort contextRef="cxt_t-mf_1_23" decimals="0" unitRef="EUR">151</p-mf:AllPositionsShort>
+  <p-mf:HedgingPositionsCapitalRatioLong contextRef="cxt_t-mf_1_23" decimals="0" unitRef="EUR">152</p-mf:HedgingPositionsCapitalRatioLong>
+  <p-mf:HedgingPositionsCapitalRatioShort contextRef="cxt_t-mf_1_23" decimals="0" unitRef="EUR">153</p-mf:HedgingPositionsCapitalRatioShort>
+  <p-mf:NetPositionsLong contextRef="cxt_t-mf_1_23" decimals="0" unitRef="EUR">154</p-mf:NetPositionsLong>
+  <p-mf:NetPositionsShort contextRef="cxt_t-mf_1_23" decimals="0" unitRef="EUR">155</p-mf:NetPositionsShort>
+  <xbrli:context id="cxt_t-mf_1_23">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">140845</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" xlink:href="t-mf-2005-12-31.xsd#t-mf_PositionsNonReportingCurrenciesDimension">d-rc:CIUsTratedSeparateCurrencies</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="PURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>
+

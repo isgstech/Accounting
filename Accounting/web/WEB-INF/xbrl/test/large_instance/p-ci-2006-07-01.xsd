@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ci-2006-07-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:p-ci="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ci-2006-07-01" xmlns:p-cm-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:p-cm-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ci-2006-07-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ci-2006-07-01-calculation.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ci-2006-07-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ci-2006-07-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ci-2006-07-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ci" id="rt_ci">
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+        <link:usedOn>link:referenceLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" schemaLocation="p-cm-cr-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" schemaLocation="p-cm-ca-2006-07-01.xsd"/>
+  <xsd:element name="CRIRBDomain" id="p-ci_CRIRBDomain" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherFundedCreditProtection" id="p-ci_OtherFundedCreditProtection" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RealEstate" id="p-ci_RealEstate" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherPhysicalCollateral" id="p-ci_OtherPhysicalCollateral" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Receivables" id="p-ci_Receivables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SubjectDoubleDefaultTreatment" id="p-ci_SubjectDoubleDefaultTreatment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="UnfundedCreditProtection" id="p-ci_UnfundedCreditProtection" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExposureWeightedAverageMaturityValueDays" id="p-ci_ExposureWeightedAverageMaturityValueDays" type="xbrli:positiveIntegerItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NumberObligors" id="p-ci_NumberObligors" type="xbrli:nonNegativeIntegerItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CreditRiskMitigationTechniquesLGDEstimatesExcludingDoubleDefaultTreatment" id="p-ci_CreditRiskMitigationTechniquesLGDEstimatesExcludingDoubleDefaultTreatment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OwnEstimatesLGDsUsedUnfundedCreditProtection" id="p-ci_OwnEstimatesLGDsUsedUnfundedCreditProtection" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Guarantees" id="p-ci_Guarantees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CreditDerivatives" id="p-ci_CreditDerivatives" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FundedCreditProtection" id="p-ci_FundedCreditProtection" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OwnEstimatesLGDsUsedOtherFundedCreditProtection" id="p-ci_OwnEstimatesLGDsUsedOtherFundedCreditProtection" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="EligibleFinancialCollateral" id="p-ci_EligibleFinancialCollateral" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherEligibleCollateral" id="p-ci_OtherEligibleCollateral" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

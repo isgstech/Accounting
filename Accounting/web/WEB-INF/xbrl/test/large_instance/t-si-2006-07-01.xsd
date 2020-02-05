@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-si-2006-07-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:t-si="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-si-2006-07-01" xmlns:d-hh="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-hh-2006-07-01" xmlns:p-si="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-si-2006-07-01" xmlns:p-cm-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:p-cm-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:d-st="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-st-2006-07-01" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:d-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-cr-2006-07-01" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-si-2006-07-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-si-2006-07-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/SectionExposures" id="rt_t-si_SectionExposures">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/SectionExposuresHypercube" id="rt_t-si_SectionExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/SectionExposureTypesForInvestorHypercube" id="rt_t-si_SectionExposureTypesForInvestorHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/SectionExposureTypesForOriginatorHypercube" id="rt_t-si_SectionExposureTypesForOriginatorHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/SectionExposureTypesForSponsorHypercube" id="rt_t-si_SectionExposureTypesForSponsorHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/ExcOriginatorTotalExposuresHypercube" id="rt_t-si_ExcOriginatorTotalExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/ExcInvestorAndSponsorTotalExposuresHypercube" id="rt_t-si_ExcInvestorAndSponsorTotalExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/ExcEarlyAmortizationHypercube" id="rt_t-si_ExcEarlyAmortizationHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/ExcOffBalanceSheetItemsDerivativesHypercube" id="rt_t-si_ExcOffBalanceSheetItemsDerivativesHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/SectionOriginator" id="rt_t-si_SectionOriginator">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/SectionInvestor" id="rt_t-si_SectionInvestor">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/ExcOriginatorOnBalanceSheetItemsHypercube" id="rt_t-si_ExcOriginatorOnBalanceSheetItemsHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/ExcInvestorOnBalanceSheetItemsHypercube" id="rt_t-si_ExcInvestorOnBalanceSheetItemsHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/ExcSponsorOnBalanceSheetItemsHypercube" id="rt_t-si_ExcSponsorOnBalanceSheetItemsHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/SectionSponsor" id="rt_t-si_SectionSponsor">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/ExcExposuresWithTraditionalSecuritisationHypercube" id="rt_t-si_ExcExposuresWithTraditionalSecuritisationHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/ExcExposureTypesForOriginatorWithTraditionalSecuritisationHypercube" id="rt_t-si_ExcExposureTypesForOriginatorWithTraditionalSecuritisationHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/t-si/SectionProhibitedItems" id="rt_t-si_SectionProhibitedItems">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-si-2006-07-01" schemaLocation="p-si-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-cr-2006-07-01" schemaLocation="d-cr-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-et-2006-07-01" schemaLocation="d-et-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-st-2006-07-01" schemaLocation="d-st-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-hh-2006-07-01" schemaLocation="d-hh-2006-07-01.xsd"/>
+  <xsd:element name="SectionExposuresHypercube" id="t-si_SectionExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcExposuresWithTraditionalSecuritisationHypercube" id="t-si_ExcExposuresWithTraditionalSecuritisationHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SectionExposureTypesForOriginatorHypercube" id="t-si_SectionExposureTypesForOriginatorHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcExposureTypesForOriginatorWithTraditionalSecuritisationHypercube" id="t-si_ExcExposureTypesForOriginatorWithTraditionalSecuritisationHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SectionExposureTypesForInvestorHypercube" id="t-si_SectionExposureTypesForInvestorHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SectionExposureTypesForSponsorHypercube" id="t-si_SectionExposureTypesForSponsorHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcOriginatorTotalExposuresHypercube" id="t-si_ExcOriginatorTotalExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcOriginatorOnBalanceSheetItemsHypercube" id="t-si_ExcOriginatorOnBalanceSheetItemsHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcInvestorAndSponsorTotalExposuresHypercube" id="t-si_ExcInvestorAndSponsorTotalExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcInvestorOnBalanceSheetItemsHypercube" id="t-si_ExcInvestorOnBalanceSheetItemsHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcOffBalanceSheetItemsDerivativesHypercube" id="t-si_ExcOffBalanceSheetItemsDerivativesHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcEarlyAmortizationHypercube" id="t-si_ExcEarlyAmortizationHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcSponsorOnBalanceSheetItemsHypercube" id="t-si_ExcSponsorOnBalanceSheetItemsHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

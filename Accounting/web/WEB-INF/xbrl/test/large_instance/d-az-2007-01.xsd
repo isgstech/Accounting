@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/d-az-2007-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-az="http://www.bundesbank.de/fr/ba/bakisw/d-az-2007-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-az-2007-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-az-2007-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-az-2007-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/d-mkrzk" id="RT_1">
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.bundesbank.de/dt-de" schemaLocation="dt-de-2006-03-30.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element name="AllgemeinesKursrisikoDimension" id="d-az_AllgemeinesKursrisikoDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AllgemeinesKursrisikoPositionenDomain" id="d-az_AllgemeinesKursrisikoPositionenDomain" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Insgesamt" id="d-az_Insgesamt" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="KurzfristigeLaufzeitzone" id="d-az_KurzfristigeLaufzeitzone" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="KurzfristigeLaufzeitzoneNominalverzinsungKleiner3Prozent" id="d-az_KurzfristigeLaufzeitzoneNominalverzinsungKleiner3Prozent" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="KurzfristigeLaufzeitzoneNominalverzinsungGroesserGleich3Prozent" id="d-az_KurzfristigeLaufzeitzoneNominalverzinsungGroesserGleich3Prozent" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="LaufzeitzoneObis1Monat" id="d-az_LaufzeitzoneObis1Monat" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone1bis3Monaten" id="d-az_Laufzeitzone1bis3Monaten" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone3bis6Monaten" id="d-az_Laufzeitzone3bis6Monaten" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone6bis12Monaten" id="d-az_Laufzeitzone6bis12Monaten" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MittelfristigeLaufzeitzone" id="d-az_MittelfristigeLaufzeitzone" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MittelfristigeLaufzeitzoneNominalverzinsungKleiner3Prozent" id="d-az_MittelfristigeLaufzeitzoneNominalverzinsungKleiner3Prozent" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MittelfristigeLaufzeitzoneNominalverzinsungGroesserGleich3Prozent" id="d-az_MittelfristigeLaufzeitzoneNominalverzinsungGroesserGleich3Prozent" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone1bis2Jahre" id="d-az_Laufzeitzone1bis2Jahre" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone2bis3Jahre" id="d-az_Laufzeitzone2bis3Jahre" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone3bis4Jahre" id="d-az_Laufzeitzone3bis4Jahre" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="LangfristigeLaufzeitzone" id="d-az_LangfristigeLaufzeitzone" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="LangfristigeLaufzeitzoneNominalverzinsungKleiner3Prozent" id="d-az_LangfristigeLaufzeitzoneNominalverzinsungKleiner3Prozent" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="LangfristigeLaufzeitzoneNominalverzinsungGroesserGleich3Prozent" id="d-az_LangfristigeLaufzeitzoneNominalverzinsungGroesserGleich3Prozent" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone4bis5Jahre" id="d-az_Laufzeitzone4bis5Jahre" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone5bis7Jahre" id="d-az_Laufzeitzone5bis7Jahre" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone7bis10Jahre" id="d-az_Laufzeitzone7bis10Jahre" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone10bis15Jahre" id="d-az_Laufzeitzone10bis15Jahre" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzone15bis20Jahre" id="d-az_Laufzeitzone15bis20Jahre" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzonegroesser20JahreKleiner12BeiVerzinsungKleiner3Prozent" id="d-az_Laufzeitzonegroesser20JahreKleiner12BeiVerzinsungKleiner3Prozent" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzonegroesser20JahreKleiner20BeiVerzinsungKleiner3Prozent" id="d-az_Laufzeitzonegroesser20JahreKleiner20BeiVerzinsungKleiner3Prozent" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Laufzeitzonegroesser20Jahre" id="d-az_Laufzeitzonegroesser20Jahre" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

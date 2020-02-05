@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-basis-2006-06" xmlns:p-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06" xmlns:p-cm-cr-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" xmlns:d-cr-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-cr-2006-07-01" xmlns:t-irbaeb-2007-01="http://www.bundesbank.de/fr/ba/bakisw/t-irbaeb-2007-01" xmlns:d-hh-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-hh-2006-07-01" xmlns:t-ce-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-ce-2006-07-01" xmlns:p-ce-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ce-2006-07-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ref-corep-2005-09-30="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:t-ce-de-2007-01="http://www.bundesbank.de/fr/ba/bakisw/t-ce-de-2007-01" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:d-cm-report-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:t-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/t-basis-2006-06" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:d-ty-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ty-2006-07-01" xmlns:d-og-de-2007-01="http://www.bundesbank.de/fr/ba/bakisw/d-og-de-2007-01" xmlns:p-cm-ca-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:d-rw-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-rw-2006-07-01" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:XLink="http://www.xbrl.org/2003/XLink" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <!--Automatisiert erzeugt durch die Deutsche Bundesbank am 18.12.2006-->
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-basis-2006-06.xsd" />
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-irbaeb-2007-01.xsd" />
+  <p-cm-cr-2006-07-01:RiskWeightedExposureAmounts precision="INF" unitRef="EUR" contextRef="ctx_2">5</p-cm-cr-2006-07-01:RiskWeightedExposureAmounts>
+  <p-cm-cr-2006-07-01:ExposureCRMSubstitutionEffectsPreConversionFactors precision="INF" unitRef="EUR" contextRef="ctx_3">9</p-cm-cr-2006-07-01:ExposureCRMSubstitutionEffectsPreConversionFactors>
+  <p-basis-2006-06:DateCreated contextRef="ctx_basis">2006-12-18</p-basis-2006-06:DateCreated>
+  <p-cm-cr-2006-07-01:ExposureWeightedAverageLgd precision="INF" unitRef="PURE" contextRef="ctx_2">5</p-cm-cr-2006-07-01:ExposureWeightedAverageLgd>
+  <p-basis-2006-06:IdentificationCodeType contextRef="ctx_basis">InstitutionNumber</p-basis-2006-06:IdentificationCodeType>
+  <p-cm-ca-2006-07-01:CreditRiskCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_2">6</p-cm-ca-2006-07-01:CreditRiskCapitalRequirements>
+  <t-ce-de-2007-01:MemorandumItemsValueAdjustmentsProvisions precision="INF" unitRef="EUR" contextRef="ctx_3">7</t-ce-de-2007-01:MemorandumItemsValueAdjustmentsProvisions>
+  <p-cm-cr-2006-07-01:RiskWeightedExposureAmounts precision="INF" unitRef="EUR" contextRef="ctx_3">8</p-cm-cr-2006-07-01:RiskWeightedExposureAmounts>
+  <p-cm-cr-2006-07-01:OriginalExposurePreConversionFactors precision="INF" unitRef="EUR" contextRef="ctx_3">9</p-cm-cr-2006-07-01:OriginalExposurePreConversionFactors>
+  <p-cm-cr-2006-07-01:SubstitutionExposureCRMTotalInflows precision="INF" unitRef="EUR" contextRef="ctx_3">9</p-cm-cr-2006-07-01:SubstitutionExposureCRMTotalInflows>
+  <p-cm-cr-2006-07-01:SubstitutionExposureCRMTotalInflows precision="INF" unitRef="EUR" contextRef="ctx_2">4</p-cm-cr-2006-07-01:SubstitutionExposureCRMTotalInflows>
+  <p-basis-2006-06:CompanyName contextRef="ctx_basis">---</p-basis-2006-06:CompanyName>
+  <p-cm-ca-2006-07-01:CreditRiskCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_4">8</p-cm-ca-2006-07-01:CreditRiskCapitalRequirements>
+  <p-cm-cr-2006-07-01:ExposureValue precision="INF" unitRef="EUR" contextRef="ctx_3">9</p-cm-cr-2006-07-01:ExposureValue>
+  <p-cm-ca-2006-07-01:CreditRiskCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_3">8</p-cm-ca-2006-07-01:CreditRiskCapitalRequirements>
+  <p-cm-ca-2006-07-01:CreditRiskCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_1">3</p-cm-ca-2006-07-01:CreditRiskCapitalRequirements>
+  <p-cm-cr-2006-07-01:PdAssignedObligorGradePool precision="INF" unitRef="PURE" contextRef="ctx_2">4</p-cm-cr-2006-07-01:PdAssignedObligorGradePool>
+  <p-cm-cr-2006-07-01:ExposureCRMSubstitutionEffectsPreConversionFactors precision="INF" unitRef="EUR" contextRef="ctx_2">5</p-cm-cr-2006-07-01:ExposureCRMSubstitutionEffectsPreConversionFactors>
+  <p-basis-2006-06:Stage contextRef="ctx_basis">Test</p-basis-2006-06:Stage>
+  <p-cm-cr-2006-07-01:ExpectedLossAmount precision="INF" unitRef="EUR" contextRef="ctx_3">7</p-cm-cr-2006-07-01:ExpectedLossAmount>
+  <p-cm-cr-2006-07-01:RiskWeightedExposureAmounts precision="INF" unitRef="EUR" contextRef="ctx_1">2</p-cm-cr-2006-07-01:RiskWeightedExposureAmounts>
+  <p-basis-2006-06:Version contextRef="ctx_basis">1.0</p-basis-2006-06:Version>
+  <p-cm-cr-2006-07-01:OriginalExposurePreConversionFactors precision="INF" unitRef="EUR" contextRef="ctx_2">5</p-cm-cr-2006-07-01:OriginalExposurePreConversionFactors>
+  <p-cm-cr-2006-07-01:ExpectedLossAmount precision="INF" unitRef="EUR" contextRef="ctx_2">4</p-cm-cr-2006-07-01:ExpectedLossAmount>
+  <p-basis-2006-06:IdentificationCode contextRef="ctx_basis">99912347</p-basis-2006-06:IdentificationCode>
+  <t-ce-de-2007-01:MemorandumItemsValueAdjustmentsProvisions precision="INF" unitRef="EUR" contextRef="ctx_2">5</t-ce-de-2007-01:MemorandumItemsValueAdjustmentsProvisions>
+  <p-cm-cr-2006-07-01:ExposureValue precision="INF" unitRef="EUR" contextRef="ctx_2">5</p-cm-cr-2006-07-01:ExposureValue>
+  <xbrli:context id="ctx_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>IRBAEB</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNOOOOO</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-11-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr-2006-07-01:CreditRiskDimension">d-cr-2006-07-01:CreditRiskIRBEquityPD-LGDApproach</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>IRBAEB</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNOOOOO</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-11-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr-2006-07-01:CreditRiskDimension">d-cr-2006-07-01:CreditRiskIRBEquitySimpleRiskWeightApproach</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>IRBAEB</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNOOOOO</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-11-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr-2006-07-01:CreditRiskDimension">d-cr-2006-07-01:CreditRiskIRBEquity</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_basis">
+    <xbrli:entity>
+      <xbrli:identifier scheme="scheme_sender">id_sender</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="d-basis-2006-06:DocumentEntitiesDimension">d-basis-2006-06:DocumentSender</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-12-18</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>IRBAEB</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNOOOOO</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-11-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr-2006-07-01:CreditRiskDimension">d-cr-2006-07-01:CreditRiskIRBEquityInternalModelsApproach</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="PURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>
+

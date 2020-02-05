@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-basis="http://www.bundesbank.de/fr/ba/bakisw/d-basis-2006-06">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-basis-2006-06.xsd#d-basis_DocumentEntitiesDimension" xlink:label="DocumentEntitiesDimension" xlink:title="DocumentEntitiesDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentEntitiesDimension" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentEntitiesDimension" xml:lang="en" id="label_DocumentEntitiesDimension">Document Entities (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentEntitiesDimension" xlink:to="label_DocumentEntitiesDimension" xlink:title="label: DocumentEntitiesDimension to label_DocumentEntitiesDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentEntitiesDimension_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentEntitiesDimension" xml:lang="de" id="label_DocumentEntitiesDimension_2">Einreichungseinheiten (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentEntitiesDimension" xlink:to="label_DocumentEntitiesDimension_2" xlink:title="label: DocumentEntitiesDimension to label_DocumentEntitiesDimension"/>
+    <link:loc xlink:type="locator" xlink:href="d-basis-2006-06.xsd#d-basis_DocumentEntitiesDomain" xlink:label="DocumentEntitiesDomain" xlink:title="DocumentEntitiesDomain"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentEntitiesDomain" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentEntitiesDomain" xml:lang="en" id="label_DocumentEntitiesDomain">Document Entities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentEntitiesDomain" xlink:to="label_DocumentEntitiesDomain" xlink:title="label: DocumentEntitiesDomain to label_DocumentEntitiesDomain"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentEntitiesDomain_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentEntitiesDomain" xml:lang="de" id="label_DocumentEntitiesDomain_2">Einreichungseinheiten</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentEntitiesDomain" xlink:to="label_DocumentEntitiesDomain_2" xlink:title="label: DocumentEntitiesDomain to label_DocumentEntitiesDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-basis-2006-06.xsd#d-basis_DocumentSender" xlink:label="DocumentSender" xlink:title="DocumentSender"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentSender" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentSender" xml:lang="en" id="label_DocumentSender">Document Sender</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentSender" xlink:to="label_DocumentSender" xlink:title="label: DocumentSender to label_DocumentSender"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentSender_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentSender" xml:lang="de" id="label_DocumentSender_2">Sender</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentSender" xlink:to="label_DocumentSender_2" xlink:title="label: DocumentSender to label_DocumentSender"/>
+    <link:loc xlink:type="locator" xlink:href="d-basis-2006-06.xsd#d-basis_DocumentAuthor" xlink:label="DocumentAuthor" xlink:title="DocumentAuthor"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentAuthor" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentAuthor" xml:lang="en" id="label_DocumentAuthor">Document Author</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentAuthor" xlink:to="label_DocumentAuthor" xlink:title="label: DocumentAuthor to label_DocumentAuthor"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentAuthor_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentAuthor" xml:lang="de" id="label_DocumentAuthor_2">Ersteller</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentAuthor" xlink:to="label_DocumentAuthor_2" xlink:title="label: DocumentAuthor to label_DocumentAuthor"/>
+    <link:loc xlink:type="locator" xlink:href="d-basis-2006-06.xsd#d-basis_DocumentAddressee" xlink:label="DocumentAddressee" xlink:title="DocumentAddressee"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentAddressee" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentAddressee" xml:lang="en" id="label_DocumentAddressee">Document Addressee</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentAddressee" xlink:to="label_DocumentAddressee" xlink:title="label: DocumentAddressee to label_DocumentAddressee"/>
+    <link:label xlink:type="resource" xlink:label="label_DocumentAddressee_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DocumentAddressee" xml:lang="de" id="label_DocumentAddressee_2">Adressat</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentAddressee" xlink:to="label_DocumentAddressee_2" xlink:title="label: DocumentAddressee to label_DocumentAddressee"/>
+  </link:labelLink>
+</link:linkbase>

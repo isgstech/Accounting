@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-basis="http://www.bundesbank.de/fr/ba/bakisw/d-basis-2006-06">
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-basis-2006-06.xsd#d-basis_DocumentEntitiesDomain" xlink:label="DocumentEntitiesDomain" xlink:title="DocumentEntitiesDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-basis-2006-06.xsd#d-basis_DocumentSender" xlink:label="DocumentSender" xlink:title="DocumentSender"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentEntitiesDomain" xlink:to="DocumentSender" xlink:title="presentation: DocumentEntitiesDomain to DocumentSender" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-basis-2006-06.xsd#d-basis_DocumentAuthor" xlink:label="DocumentAuthor" xlink:title="DocumentAuthor"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentEntitiesDomain" xlink:to="DocumentAuthor" xlink:title="presentation: DocumentEntitiesDomain to DocumentAuthor" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-basis-2006-06.xsd#d-basis_DocumentAddressee" xlink:label="DocumentAddressee" xlink:title="DocumentAddressee"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentEntitiesDomain" xlink:to="DocumentAddressee" xlink:title="presentation: DocumentEntitiesDomain to DocumentAddressee" order="3.0"/>
+  </link:presentationLink>
+</link:linkbase>

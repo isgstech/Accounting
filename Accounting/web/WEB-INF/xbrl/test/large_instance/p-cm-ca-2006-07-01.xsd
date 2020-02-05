@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" attributeFormDefault="unqualified" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:p-cm-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-cm-ca-2006-07-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-cm-ca-2006-07-01-label.xml" xlink:title="Label Links, all" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/cm-ca" id="rt_cm-ca">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://xbrl.c-ebs.org/dt" schemaLocation="dt-2005-06-30.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" schemaLocation="ref-corep-2005-09-30.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2004/ref" schemaLocation="http://www.xbrl.org/2004/ref-2004-08-10.xsd"/>
+  <xsd:element name="SettlementRiskCapitalRequirements" id="p-cm-ca_SettlementRiskCapitalRequirements" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MarketRiskCapitalRequirements" id="p-cm-ca_MarketRiskCapitalRequirements" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OperationalRiskCapitalRequirements" id="p-cm-ca_OperationalRiskCapitalRequirements" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CommonCAItemsDomain" id="p-cm-ca_CommonCAItemsDomain" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CreditRiskCapitalRequirements" id="p-cm-ca_CreditRiskCapitalRequirements" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CapitalRequirementsRelatedFixedOverheads" id="p-cm-ca_CapitalRequirementsRelatedFixedOverheads" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CapitalRequirements" id="p-cm-ca_CapitalRequirements" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherTransitionalCapitalRequirements" id="p-cm-ca_OtherTransitionalCapitalRequirements" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SurplusDeficitOwnFunds" id="p-cm-ca_SurplusDeficitOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" id="p-cm-ca_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="TotalOwnFundsSolvencyPurposes" id="p-cm-ca_TotalOwnFundsSolvencyPurposes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="TotalOriginalOwnFundsGeneralSolvencyPurposes" id="p-cm-ca_TotalOriginalOwnFundsGeneralSolvencyPurposes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

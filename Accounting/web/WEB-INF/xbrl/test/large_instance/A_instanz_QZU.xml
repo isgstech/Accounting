@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:t-qzu="http://www.bundesbank.de/fr/ba/bakisw/t-qzu-2007-01" xmlns:d-ty-de="http://www.bundesbank.de/fr/ba/bakisw/d-ty-de-2007-01" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:d-ty="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ty-2006-07-01" xmlns:t-gd="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-gd-2006-07-01" xmlns:p-gd-de="http://www.bundesbank.de/fr/ba/bakisw/p-gd-de-2007-01" xmlns:d-cm-report="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:p-gd="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-gd-2006-07-01" xmlns:d-qzu="http://www.bundesbank.de/fr/ba/bakisw/d-qzu-2007-01" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:p-cm-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:d-hh="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-hh-2006-07-01" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:d-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-basis-2006-06" xmlns:p-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06" xmlns:t-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/t-basis-2006-06">
+  <link:schemaRef xlink:type="simple" xlink:href="t-qzu-2007-01.xsd" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+  <link:schemaRef xlink:type="simple" xlink:href="t-basis-2006-06.xsd" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+  <xbrli:context id="ctx_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bundesbank.de/bakisW/test">50400000</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report:ReportDimension">
+          <d-cm-report:Report>
+            <d-cm-report:TemplateName>QZU</d-cm-report:TemplateName>
+            <d-cm-report:GIAIndicator>Inland=Gesamt</d-cm-report:GIAIndicator>
+            <d-cm-report:CodesType>BankIdentifierCode</d-cm-report:CodesType>
+            <d-cm-report:CompanyName>Testunternehmen 1</d-cm-report:CompanyName>
+          </d-cm-report:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-qzu:GruppensolvabilitaetsbetragDimension">d-qzu:Gesamtsumme</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bundesbank.de/bakisW/test">50400000</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report:ReportDimension">
+          <d-cm-report:Report>
+            <d-cm-report:TemplateName>QZU</d-cm-report:TemplateName>
+            <d-cm-report:GIAIndicator>Inland=Gesamt</d-cm-report:GIAIndicator>
+            <d-cm-report:CodesType>BankIdentifierCode</d-cm-report:CodesType>
+            <d-cm-report:CompanyName>Testunternehmen 1</d-cm-report:CompanyName>
+          </d-cm-report:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="d-ty-de:NameDimension">
+        <d-ty:Name>Testtochter 1</d-ty:Name>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="d-ty-de:CodeDimension">
+        <d-ty-de:Laendercode>AT</d-ty-de:Laendercode>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_basis">
+    <xbrli:entity>
+      <xbrli:identifier scheme="scheme_sender">id_sender</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="d-basis-2006-06:DocumentEntitiesDimension">d-basis-2006-06:DocumentSender</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-12-18</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="eur">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <p-gd-de:SettlementRiskCapitalRequirements decimals="0" contextRef="ctx_1" unitRef="eur">10</p-gd-de:SettlementRiskCapitalRequirements>
+  <p-gd-de:OperationalRiskCapitalRequirements decimals="0" contextRef="ctx_1" unitRef="eur">11</p-gd-de:OperationalRiskCapitalRequirements>
+  <p-gd-de:CapitalRequirements decimals="0" contextRef="ctx_1" unitRef="eur">12</p-gd-de:CapitalRequirements>
+  <p-gd-de:TotalOriginalOwnFundsGeneralSolvencyPurposes decimals="0" contextRef="ctx_1" unitRef="eur">13</p-gd-de:TotalOriginalOwnFundsGeneralSolvencyPurposes>
+  <p-gd-de:TotalOwnFundsSolvencyPurposes decimals="0" contextRef="ctx_1" unitRef="eur">14</p-gd-de:TotalOwnFundsSolvencyPurposes>
+  <p-cm-ca:SettlementRiskCapitalRequirements decimals="0" contextRef="ctx_2" unitRef="eur">20</p-cm-ca:SettlementRiskCapitalRequirements>
+  <p-cm-ca:OperationalRiskCapitalRequirements decimals="0" contextRef="ctx_2" unitRef="eur">21</p-cm-ca:OperationalRiskCapitalRequirements>
+  <p-cm-ca:CapitalRequirements decimals="0" contextRef="ctx_2" unitRef="eur">22</p-cm-ca:CapitalRequirements>
+  <p-cm-ca:TotalOriginalOwnFundsGeneralSolvencyPurposes decimals="0" contextRef="ctx_2" unitRef="eur">23</p-cm-ca:TotalOriginalOwnFundsGeneralSolvencyPurposes>
+  <p-basis-2006-06:DateCreated contextRef="ctx_basis">2006-12-18</p-basis-2006-06:DateCreated>
+  <p-basis-2006-06:Stage contextRef="ctx_basis">Test</p-basis-2006-06:Stage>
+  <p-basis-2006-06:IdentificationCodeType contextRef="ctx_basis">InstitutionNumber</p-basis-2006-06:IdentificationCodeType>
+  <p-basis-2006-06:Version contextRef="ctx_basis">1.0</p-basis-2006-06:Version>
+  <p-basis-2006-06:CompanyName contextRef="ctx_basis">---</p-basis-2006-06:CompanyName>
+  <p-basis-2006-06:IdentificationCode contextRef="ctx_basis">99912347</p-basis-2006-06:IdentificationCode>
+</xbrli:xbrl>

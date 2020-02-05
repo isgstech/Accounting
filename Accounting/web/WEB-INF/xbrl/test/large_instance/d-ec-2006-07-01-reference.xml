@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref">
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECCentralGovernmentsCentralBanks" xlink:label="SAECCentralGovernmentsCentralBanks" xlink:title="SAECCentralGovernmentsCentralBanks"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECCentralGovernmentsCentralBanks" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECCentralGovernmentsCentralBanks" id="reference_SAECCentralGovernmentsCentralBanks">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECCentralGovernmentsCentralBanks" xlink:to="reference_SAECCentralGovernmentsCentralBanks" xlink:title="reference: SAECCentralGovernmentsCentralBanks to reference_SAECCentralGovernmentsCentralBanks"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECRegionalGovernmentsLocalAuthorities" xlink:label="SAECRegionalGovernmentsLocalAuthorities" xlink:title="SAECRegionalGovernmentsLocalAuthorities"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECRegionalGovernmentsLocalAuthorities" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECRegionalGovernmentsLocalAuthorities" id="reference_SAECRegionalGovernmentsLocalAuthorities">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECRegionalGovernmentsLocalAuthorities" xlink:to="reference_SAECRegionalGovernmentsLocalAuthorities" xlink:title="reference: SAECRegionalGovernmentsLocalAuthorities to reference_SAECRegionalGovernmentsLocalAuthorities"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECAdministrativeBodiesNonCommercialUndertakings" xlink:label="SAECAdministrativeBodiesNonCommercialUndertakings" xlink:title="SAECAdministrativeBodiesNonCommercialUndertakings"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECAdministrativeBodiesNonCommercialUndertakings" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECAdministrativeBodiesNonCommercialUndertakings" id="reference_SAECAdministrativeBodiesNonCommercialUndertakings">
+      <ref:Publisher>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref:Publisher>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECAdministrativeBodiesNonCommercialUndertakings" xlink:to="reference_SAECAdministrativeBodiesNonCommercialUndertakings" xlink:title="reference: SAECAdministrativeBodiesNonCommercialUndertakings to reference_SAECAdministrativeBodiesNonCommercialUndertakings"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECMultilateralDevelopmentBanks" xlink:label="SAECMultilateralDevelopmentBanks" xlink:title="SAECMultilateralDevelopmentBanks"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECMultilateralDevelopmentBanks" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECMultilateralDevelopmentBanks" id="reference_SAECMultilateralDevelopmentBanks">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECMultilateralDevelopmentBanks" xlink:to="reference_SAECMultilateralDevelopmentBanks" xlink:title="reference: SAECMultilateralDevelopmentBanks to reference_SAECMultilateralDevelopmentBanks"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECInternationalOrganisations" xlink:label="SAECInternationalOrganisations" xlink:title="SAECInternationalOrganisations"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECInternationalOrganisations" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECInternationalOrganisations" id="reference_SAECInternationalOrganisations">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECInternationalOrganisations" xlink:to="reference_SAECInternationalOrganisations" xlink:title="reference: SAECInternationalOrganisations to reference_SAECInternationalOrganisations"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECInstitutions" xlink:label="SAECInstitutions" xlink:title="SAECInstitutions"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECInstitutions" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECInstitutions" id="reference_SAECInstitutions">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECInstitutions" xlink:to="reference_SAECInstitutions" xlink:title="reference: SAECInstitutions to reference_SAECInstitutions"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECCorporates" xlink:label="SAECCorporates" xlink:title="SAECCorporates"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECCorporates" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECCorporates" id="reference_SAECCorporates">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECCorporates" xlink:to="reference_SAECCorporates" xlink:title="reference: SAECCorporates to reference_SAECCorporates"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECRetail" xlink:label="SAECRetail" xlink:title="SAECRetail"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECRetail" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECRetail" id="reference_SAECRetail">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECRetail" xlink:to="reference_SAECRetail" xlink:title="reference: SAECRetail to reference_SAECRetail"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECSecuredOnRealEstateProperty" xlink:label="SAECSecuredOnRealEstateProperty" xlink:title="SAECSecuredOnRealEstateProperty"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECSecuredOnRealEstateProperty" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECSecuredOnRealEstateProperty" id="reference_SAECSecuredOnRealEstateProperty">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECSecuredOnRealEstateProperty" xlink:to="reference_SAECSecuredOnRealEstateProperty" xlink:title="reference: SAECSecuredOnRealEstateProperty to reference_SAECSecuredOnRealEstateProperty"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECPastDueItems" xlink:label="SAECPastDueItems" xlink:title="SAECPastDueItems"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECPastDueItems" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECPastDueItems" id="reference_SAECPastDueItems">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECPastDueItems" xlink:to="reference_SAECPastDueItems" xlink:title="reference: SAECPastDueItems to reference_SAECPastDueItems"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECItemsBelongingRegulatoryHighRiskCategories" xlink:label="SAECItemsBelongingRegulatoryHighRiskCategories" xlink:title="SAECItemsBelongingRegulatoryHighRiskCategories"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECItemsBelongingRegulatoryHighRiskCategories" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECItemsBelongingRegulatoryHighRiskCategories" id="reference_SAECItemsBelongingRegulatoryHighRiskCategories">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECItemsBelongingRegulatoryHighRiskCategories" xlink:to="reference_SAECItemsBelongingRegulatoryHighRiskCategories" xlink:title="reference: SAECItemsBelongingRegulatoryHighRiskCategories to reference_SAECItemsBelongingRegulatoryHighRiskCategories"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECCoveredBonds" xlink:label="SAECCoveredBonds" xlink:title="SAECCoveredBonds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECCoveredBonds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECCoveredBonds" id="reference_SAECCoveredBonds">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECCoveredBonds" xlink:to="reference_SAECCoveredBonds" xlink:title="reference: SAECCoveredBonds to reference_SAECCoveredBonds"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECShortTermClaimsInstitutionsCorporate" xlink:label="SAECShortTermClaimsInstitutionsCorporate" xlink:title="SAECShortTermClaimsInstitutionsCorporate"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECShortTermClaimsInstitutionsCorporate" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECShortTermClaimsInstitutionsCorporate" id="reference_SAECShortTermClaimsInstitutionsCorporate">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECShortTermClaimsInstitutionsCorporate" xlink:to="reference_SAECShortTermClaimsInstitutionsCorporate" xlink:title="reference: SAECShortTermClaimsInstitutionsCorporate to reference_SAECShortTermClaimsInstitutionsCorporate"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECCollectiveInvestmentsUndertakingsCIU" xlink:label="SAECCollectiveInvestmentsUndertakingsCIU" xlink:title="SAECCollectiveInvestmentsUndertakingsCIU"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECCollectiveInvestmentsUndertakingsCIU" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECCollectiveInvestmentsUndertakingsCIU" id="reference_SAECCollectiveInvestmentsUndertakingsCIU">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECCollectiveInvestmentsUndertakingsCIU" xlink:to="reference_SAECCollectiveInvestmentsUndertakingsCIU" xlink:title="reference: SAECCollectiveInvestmentsUndertakingsCIU to reference_SAECCollectiveInvestmentsUndertakingsCIU"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_SAECOtherItems" xlink:label="SAECOtherItems" xlink:title="SAECOtherItems"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SAECOtherItems" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SAECOtherItems" id="reference_SAECOtherItems">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SAECOtherItems" xlink:to="reference_SAECOtherItems" xlink:title="reference: SAECOtherItems to reference_SAECOtherItems"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECCentralGovernmentsAndCentralBanks" xlink:label="IRBECCentralGovernmentsAndCentralBanks" xlink:title="IRBECCentralGovernmentsAndCentralBanks"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECCentralGovernmentsAndCentralBanks" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECCentralGovernmentsAndCentralBanks" id="reference_IRBECCentralGovernmentsAndCentralBanks">
+      <ref-corep:Comment>Article 86, paragraph 1 lit a) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECCentralGovernmentsAndCentralBanks" xlink:to="reference_IRBECCentralGovernmentsAndCentralBanks" xlink:title="reference: IRBECCentralGovernmentsAndCentralBanks to reference_IRBECCentralGovernmentsAndCentralBanks"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECInstitutions" xlink:label="IRBECInstitutions" xlink:title="IRBECInstitutions"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECInstitutions" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECInstitutions" id="reference_IRBECInstitutions">
+      <ref-corep:Comment>Article 86, paragraph 1 lit b) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECInstitutions" xlink:to="reference_IRBECInstitutions" xlink:title="reference: IRBECInstitutions to reference_IRBECInstitutions"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECCorporates" xlink:label="IRBECCorporates" xlink:title="IRBECCorporates"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECCorporates" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECCorporates" id="reference_IRBECCorporates">
+      <ref-corep:Comment>Article 86, paragraph 1 lit c) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECCorporates" xlink:to="reference_IRBECCorporates" xlink:title="reference: IRBECCorporates to reference_IRBECCorporates"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECRetail" xlink:label="IRBECRetail" xlink:title="IRBECRetail"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECRetail" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECRetail" id="reference_IRBECRetail">
+      <ref-corep:Comment>Article 86, paragraph 1 lit d) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECRetail" xlink:to="reference_IRBECRetail" xlink:title="reference: IRBECRetail to reference_IRBECRetail"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECOfWhichSpecialisedLending" xlink:label="IRBECOfWhichSpecialisedLending" xlink:title="IRBECOfWhichSpecialisedLending"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECOfWhichSpecialisedLending" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECOfWhichSpecialisedLending" id="reference_IRBECOfWhichSpecialisedLending">
+      <ref-corep:Comment>Article 86 paragraph 6 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECOfWhichSpecialisedLending" xlink:to="reference_IRBECOfWhichSpecialisedLending" xlink:title="reference: IRBECOfWhichSpecialisedLending to reference_IRBECOfWhichSpecialisedLending"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECCorporatesOfWhichSME" xlink:label="IRBECCorporatesOfWhichSME" xlink:title="IRBECCorporatesOfWhichSME"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECCorporatesOfWhichSME" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECCorporatesOfWhichSME" id="reference_IRBECCorporatesOfWhichSME">
+      <ref-corep:Comment>SSME stands for companies for which the criteria in annex VII part 1 point 5 of Directive 2006/48/EC for size adjustment are satisfied. Includes those exposures falling under annex VII part 1 point 11 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECCorporatesOfWhichSME" xlink:to="reference_IRBECCorporatesOfWhichSME" xlink:title="reference: IRBECCorporatesOfWhichSME to reference_IRBECCorporatesOfWhichSME"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECSecuredByRealEstate" xlink:label="IRBECSecuredByRealEstate" xlink:title="IRBECSecuredByRealEstate"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECSecuredByRealEstate" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECSecuredByRealEstate" id="reference_IRBECSecuredByRealEstate">
+      <ref-corep:Comment>Annex VII part 1 points 10 to 16 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECSecuredByRealEstate" xlink:to="reference_IRBECSecuredByRealEstate" xlink:title="reference: IRBECSecuredByRealEstate to reference_IRBECSecuredByRealEstate"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECQualifyingRevolving" xlink:label="IRBECQualifyingRevolving" xlink:title="IRBECQualifyingRevolving"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECQualifyingRevolving" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECQualifyingRevolving" id="reference_IRBECQualifyingRevolving">
+      <ref-corep:Comment>Annex VII part 1 points 10 to 16 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECQualifyingRevolving" xlink:to="reference_IRBECQualifyingRevolving" xlink:title="reference: IRBECQualifyingRevolving to reference_IRBECQualifyingRevolving"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECOtherRetail" xlink:label="IRBECOtherRetail" xlink:title="IRBECOtherRetail"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECOtherRetail" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECOtherRetail" id="reference_IRBECOtherRetail">
+      <ref-corep:Comment>Annex VII part 1 points 10 to 16 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECOtherRetail" xlink:to="reference_IRBECOtherRetail" xlink:title="reference: IRBECOtherRetail to reference_IRBECOtherRetail"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECRetailOfWhichSME" xlink:label="IRBECRetailOfWhichSME" xlink:title="IRBECRetailOfWhichSME"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECRetailOfWhichSME" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECRetailOfWhichSME" id="reference_IRBECRetailOfWhichSME">
+      <ref-corep:Comment>Article 86 paragraph 4 (a) of Directive 2006/48/EC. Excludes those exposures falling under annex VII part 1 point 11 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECRetailOfWhichSME" xlink:to="reference_IRBECRetailOfWhichSME" xlink:title="reference: IRBECRetailOfWhichSME to reference_IRBECRetailOfWhichSME"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECEquity" xlink:label="IRBECEquity" xlink:title="IRBECEquity"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECEquity" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECEquity" id="reference_IRBECEquity">
+      <ref-corep:Comment>Article 86 paragraph 1 lit e) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECEquity" xlink:to="reference_IRBECEquity" xlink:title="reference: IRBECEquity to reference_IRBECEquity"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECOtherNonCreditObligationAssets" xlink:label="IRBECOtherNonCreditObligationAssets" xlink:title="IRBECOtherNonCreditObligationAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECOtherNonCreditObligationAssets" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECOtherNonCreditObligationAssets" id="reference_IRBECOtherNonCreditObligationAssets">
+      <ref-corep:Comment>No link. In principle the capital requirement will be the 8% of the exposure to non credit-obligation assets (see annex VII part 3 point 13 of Directive 2006/48/EC and annex VII part 1 point 27 of Directive 2006/48/EC).</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECOtherNonCreditObligationAssets" xlink:to="reference_IRBECOtherNonCreditObligationAssets" xlink:title="reference: IRBECOtherNonCreditObligationAssets to reference_IRBECOtherNonCreditObligationAssets"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECOfWhichCreditInstitutionsAndInvestmentFirms" xlink:label="IRBECOfWhichCreditInstitutionsAndInvestmentFirms" xlink:title="IRBECOfWhichCreditInstitutionsAndInvestmentFirms"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBECOfWhichCreditInstitutionsAndInvestmentFirms" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBECOfWhichCreditInstitutionsAndInvestmentFirms" id="reference_IRBECOfWhichCreditInstitutionsAndInvestmentFirms">
+      <ref-corep:Comment>For a definition of credit institution see article 4 definition 1 of Directive 2006/48/EC. For Investment firms see article 3 definition 1(b) of Directive 2006/49/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBECOfWhichCreditInstitutionsAndInvestmentFirms" xlink:to="reference_IRBECOfWhichCreditInstitutionsAndInvestmentFirms" xlink:title="reference: IRBECOfWhichCreditInstitutionsAndInvestmentFirms to reference_IRBECOfWhichCreditInstitutionsAndInvestmentFirms"/>
+  </link:referenceLink>
+</link:linkbase>

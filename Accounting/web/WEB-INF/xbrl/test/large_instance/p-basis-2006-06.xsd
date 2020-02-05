@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:p-basis="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-basis-2006-06-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-basis-2006-06-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-basis-2006-06-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element name="HeaderInformationDomain" id="p-basis_HeaderInformationDomain" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="DeliveryInformation" id="p-basis_DeliveryInformation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="DateCreated" id="p-basis_DateCreated" type="xbrli:dateTimeItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Version" id="p-basis_Version" type="p-basis:versionType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Stage" id="p-basis_Stage" type="p-basis:stageType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FileReference" id="p-basis_FileReference" type="p-basis:referenceType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingReason" id="p-basis_ReportingReason" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Comment" id="p-basis_Comment" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReportingEntityInformation" id="p-basis_ReportingEntityInformation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IdentificationCode" id="p-basis_IdentificationCode" type="p-basis:identificationType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IdentificationCodeType" id="p-basis_IdentificationCodeType" type="p-basis:identificationCodeType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CompanyName" id="p-basis_CompanyName" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Address" id="p-basis_Address" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Street" id="p-basis_Street" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="POBox" id="p-basis_POBox" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="PostalCode" id="p-basis_PostalCode" type="p-basis:postalCodeType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Town" id="p-basis_Town" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="State" id="p-basis_State" type="p-basis:stateType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Contact" id="p-basis_Contact" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FormOfAddress" id="p-basis_FormOfAddress" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FirstName" id="p-basis_FirstName" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="LastName" id="p-basis_LastName" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Division" id="p-basis_Division" type="p-basis:alphaNumType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="PhoneNumber" id="p-basis_PhoneNumber" type="p-basis:phonenumberType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FaxNumber" id="p-basis_FaxNumber" type="p-basis:phonenumberType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="EmailAddress" id="p-basis_EmailAddress" type="p-basis:emailType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExtranetID" id="p-basis_ExtranetID" type="p-basis:extranetIDType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:complexType name="giaIndicatorType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:enumeration value="Ausland"/>
+        <xsd:enumeration value="Gesamt"/>
+        <xsd:enumeration value="Inland"/>
+        <xsd:enumeration value="Inland=Gesamt"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="identificationType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:pattern value="\d{7}|\d{8}|\d{9}"/>
+        <xsd:whiteSpace value="collapse"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="alphaNumType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:whiteSpace value="collapse"/>
+        <xsd:minLength value="1"/>
+        <xsd:maxLength value="80"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="identificationCodeType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:enumeration value="BankIdentifierCode"/>
+        <xsd:enumeration value="InstitutionNumber"/>
+        <xsd:enumeration value="IdentificationNumber"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="referenceType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:integerItemType">
+        <xsd:minInclusive value="1"/>
+        <xsd:maxInclusive value="99"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="stageType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:enumeration value="Produktion"/>
+        <xsd:enumeration value="Test"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="versionType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:enumeration value="1.0"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="postalCodeType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:whiteSpace value="collapse"/>
+        <xsd:minLength value="1"/>
+        <xsd:maxLength value="10"/>
+        <xsd:pattern value="\d+"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="phonenumberType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:whiteSpace value="collapse"/>
+        <xsd:pattern value="(((\+{1,2}|00)[1-9][0-9]{0,2})|0)[1-9][0-9\-\p{Zs}?]+"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="stateType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:pattern value="(\d|\p{Lu})\p{Lu}|\p{Lu}(\d|\p{Lu})"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="extranetIDType">
+    <xsd:simpleContent>
+      <xsd:restriction base="p-basis:alphaNumType">
+        <xsd:pattern value="(e|E)(x|X)(n|N)\p{L}\p{L}\p{L}\p{L}\p{L}"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="emailType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:whiteSpace value="collapse"/>
+        <xsd:pattern value="[\d\w]([\d\w_(\.)(\-)])*@([\d\w]([\d\w_(\-)])*\.)+([a-zA-Z]){2,4}"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ca-2006-07-01" attributeFormDefault="unqualified" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:p-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ca-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ca-2006-07-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ca-2006-07-01-calculation.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ca-2006-07-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ca-2006-07-01-label.xml" xlink:title="Label Links, all" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ca-2006-07-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/Calculation1ForTotalOwnFundsForSolvencyPurposes" id="rt_ca_Calculation1ForTotalOwnFundsForSolvencyPurposes">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/Calculation2ForTotalOwnFundsForSolvencyPurposes" id="rt_ca_Calculation2ForTotalOwnFundsForSolvencyPurposes">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/CalculationForTotalAdditionalOwnFundsSpecificCoverMarketRisks" id="rt_ca_CalculationForTotalAdditionalOwnFundsSpecificCoverMarketRisks">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/CalculationForDeductionsFromTotalOwnFunds" id="rt_ca_CalculationForDeductionsFromTotalOwnFunds">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/CalculationForOriginalOwnFunds" id="rt_ca_CalculationForOriginalOwnFunds">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/CalculationForAdditionalOwnFunds" id="rt_ca_CalculationForAdditionalOwnFunds">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/Calculation1ForDeductionsFromOriginalAndAdditionalOwnFunds" id="rt_ca_Calculation1ForDeductionsFromOriginalAndAdditionalOwnFunds">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/Calculation2ForDeductionsFromOriginalAndAdditionalOwnFunds" id="rt_ca_Calculation2ForDeductionsFromOriginalAndAdditionalOwnFunds">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/CalculationForMemorandumItemsIRBProvisionExcessShortfall" id="rt_ca_CalculationForMemorandumItemsIRBProvisionExcessShortfall">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/CalculationForCapitalRequirements" id="rt_ca_CalculationForCapitalRequirements">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/CalculationForMemorandumItemTotalOwnFundsRelevantLimitsLargeExposures" id="rt_ca_CalculationForMemorandumItemTotalOwnFundsRelevantLimitsLargeExposures">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/CalculationForSurplusDeficitOwnFunds" id="rt_ca_CalculationForSurplusDeficitOwnFunds">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca/CalculationForInternalAssessmentSurplusDeficitCapital" id="rt_ca_CalculationForInternalAssessmentSurplusDeficitCapital">
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/ca" id="rt_ca">
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:referenceLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://xbrl.c-ebs.org/dt" schemaLocation="dt-2005-06-30.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" schemaLocation="ref-corep-2005-09-30.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2004/ref" schemaLocation="http://www.xbrl.org/2004/ref-2004-08-10.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" schemaLocation="p-cm-ca-2006-07-01.xsd"/>
+  <xsd:element name="AdditionalOwnFunds" id="p-ca_AdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentOtherValuationDifferencesAffectingEligibleReserves" id="p-ca_AdjustmentOtherValuationDifferencesAffectingEligibleReserves" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds" id="p-ca_AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesAFSAssets" id="p-ca_AdjustmentValuationDifferencesAFSAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesAFSEquities" id="p-ca_AdjustmentValuationDifferencesAFSEquities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds" id="p-ca_AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesAFSLoansReceivables" id="p-ca_AdjustmentValuationDifferencesAFSLoansReceivables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesCashFlowHedges" id="p-ca_AdjustmentValuationDifferencesCashFlowHedges" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk" id="p-ca_AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesInvestmentProperty" id="p-ca_AdjustmentValuationDifferencesInvestmentProperty" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds" id="p-ca_AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds" id="p-ca_AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesPropertyPlantEquipment" id="p-ca_AdjustmentValuationDifferencesPropertyPlantEquipment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds" id="p-ca_AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AmountProvisionsIRB" id="p-ca_AmountProvisionsIRB" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CADomain" id="p-ca_CADomain" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CertainSecuritisationExposuresNotIncludedRiskWeightedAssets" id="p-ca_CertainSecuritisationExposuresNotIncludedRiskWeightedAssets" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties" id="p-ca_CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComplementCapitalRequirementsInvestmentFirmsArticle46" id="p-ca_ComplementCapitalRequirementsInvestmentFirmsArticle46" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ComplementsOverallFloorCapitalRequirements" id="p-ca_ComplementsOverallFloorCapitalRequirements" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CoreAdditionalOwnFunds" id="p-ca_CoreAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CoreAdditionalOwnFundsOtherItems" id="p-ca_CoreAdditionalOwnFundsOtherItems" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CountrySpecificCoreAdditionalOwnFunds" id="p-ca_CountrySpecificCoreAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CountrySpecificDeductionsOriginalAdditionalOwnFunds" id="p-ca_CountrySpecificDeductionsOriginalAdditionalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks" id="p-ca_CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CountrySpecificDeductionsTotalOwnFunds" id="p-ca_CountrySpecificDeductionsTotalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CountrySpecificSupplementaryAdditionalOwnFunds" id="p-ca_CountrySpecificSupplementaryAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CreditRevaluationReserves" id="p-ca_CreditRevaluationReserves" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="DeductionsAdditionalOwnFunds" id="p-ca_DeductionsAdditionalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="DeductionsOriginalAdditionalOwnFunds" id="p-ca_DeductionsOriginalAdditionalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="DeductionsTotalOwnFunds" id="p-ca_DeductionsTotalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="EligibleCapital" id="p-ca_EligibleCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit" id="p-ca_EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit" id="p-ca_EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="EligibleReserves" id="p-ca_EligibleReserves" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital" id="p-ca_ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcessLimitOwnFundsSpecificCoverMarketRisks" id="p-ca_ExcessLimitOwnFundsSpecificCoverMarketRisks" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcessLimitsAdditionalOwnFunds" id="p-ca_ExcessLimitsAdditionalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks" id="p-ca_ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcessLimitsInnovativeInstruments" id="p-ca_ExcessLimitsInnovativeInstruments" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcessLimitsNonInnovativeInstruments" id="p-ca_ExcessLimitsNonInnovativeInstruments" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds" id="p-ca_ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcessLimitsSupplementaryAdditionalOwnFunds" id="p-ca_ExcessLimitsSupplementaryAdditionalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FixedTermCumulativePreferentialShares" id="p-ca_FixedTermCumulativePreferentialShares" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction" id="p-ca_FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FundsGeneralBankingRisks" id="p-ca_FundsGeneralBankingRisks" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="GrossAmountSubordinatedLoanCapital" id="p-ca_GrossAmountSubordinatedLoanCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital" id="p-ca_HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IlliquidAssets" id="p-ca_IlliquidAssets" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IncomeCurrentYearUnaudited" id="p-ca_IncomeCurrentYearUnaudited" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IncomeNegativeCurrentYear" id="p-ca_IncomeNegativeCurrentYear" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IncomePositiveCurrentYear" id="p-ca_IncomePositiveCurrentYear" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InnovativeInstrumentsSubjectLimit" id="p-ca_InnovativeInstrumentsSubjectLimit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IntangibleAssets" id="p-ca_IntangibleAssets" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InterimProfits" id="p-ca_InterimProfits" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InterimProfitsMaterialLossesCurrentFinancialYear" id="p-ca_InterimProfitsMaterialLossesCurrentFinancialYear" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InternalAssessmentCapital" id="p-ca_InternalAssessmentCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InternalAssessmentCapitalNeeds" id="p-ca_InternalAssessmentCapitalNeeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InternalAssessmentSurplusDeficitCapital" id="p-ca_InternalAssessmentSurplusDeficitCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IRBMeasurementExpectedLosses" id="p-ca_IRBMeasurementExpectedLosses" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IRBProvisionExcess" id="p-ca_IRBProvisionExcess" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IRBProvisionExcessShortfall" id="p-ca_IRBProvisionExcessShortfall" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="IRBProvisionShortfall" id="p-ca_IRBProvisionShortfall" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MaterialLossesCurrentFinancialYear" id="p-ca_MaterialLossesCurrentFinancialYear" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests" id="p-ca_MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MemorandumItems" id="p-ca_MemorandumItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MemorandumItemsIRBProvisionExcessShortfall" id="p-ca_MemorandumItemsIRBProvisionExcessShortfall" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed" id="p-ca_MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MinimumInitialCapitalRequired" id="p-ca_MinimumInitialCapitalRequired" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MinorityInterest" id="p-ca_MinorityInterest" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit" id="p-ca_MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit" id="p-ca_MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NegativeFilterFirstTimeAdoptionIASTypeAccountingRules" id="p-ca_NegativeFilterFirstTimeAdoptionIASTypeAccountingRules" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NetGainsCapitalisationFutureMarginIncomeSecuritisations" id="p-ca_NetGainsCapitalisationFutureMarginIncomeSecuritisations" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NetTradingBookProfits" id="p-ca_NetTradingBookProfits" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NonInnovativeInstrumentsSubjectLimit" id="p-ca_NonInnovativeInstrumentsSubjectLimit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OfWhichFromAdditionalOwnFunds" id="p-ca_OfWhichFromAdditionalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OfWhichGeneralProvisionCollectiveImpairment" id="p-ca_OfWhichGeneralProvisionCollectiveImpairment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CapitalRequirementsOfWhichInvestmentFirmsArticle20And24" id="p-ca_CapitalRequirementsOfWhichInvestmentFirmsArticle20And24" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CapitalRequirementsOfWhichInvestmentFirmsArticle20And25" id="p-ca_CapitalRequirementsOfWhichInvestmentFirmsArticle20And25" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CapitalRequirementsOfWhichInvestmentFirmsArticle46" id="p-ca_CapitalRequirementsOfWhichInvestmentFirmsArticle46" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OfWhichOriginalOwnFunds" id="p-ca_OfWhichOriginalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OriginalOwnFunds" id="p-ca_OriginalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds" id="p-ca_OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherCountrySpecificDeductionsAdditionalOwnFunds" id="p-ca_OtherCountrySpecificDeductionsAdditionalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds" id="p-ca_OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherCountrySpecificDeductionsOriginalOwnFunds" id="p-ca_OtherCountrySpecificDeductionsOriginalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherCountrySpecificDeductionsOriginalOwnFundsOther" id="p-ca_OtherCountrySpecificDeductionsOriginalOwnFundsOther" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherCountrySpecificOriginalOwnFunds" id="p-ca_OtherCountrySpecificOriginalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherCountrySpecificOriginalOwnFundsOther" id="p-ca_OtherCountrySpecificOriginalOwnFundsOther" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherCountrySpecificOwnFundsRequirements" id="p-ca_OtherCountrySpecificOwnFundsRequirements" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherDeductionsOriginalOwnFunds" id="p-ca_OtherDeductionsOriginalOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherInstrumentsEligibleCapital" id="p-ca_OtherInstrumentsEligibleCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained" id="p-ca_OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherValuationDifferencesAffectingEligibleReserves" id="p-ca_OtherValuationDifferencesAffectingEligibleReserves" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OwnShares" id="p-ca_OwnShares" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="PaidUpCapital" id="p-ca_PaidUpCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies" id="p-ca_ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ParticipationsInInsuranceUndertakings" id="p-ca_ParticipationsInInsuranceUndertakings" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="PartIncomeNegativeCurrentYearFilteredOutValuationDifferences" id="p-ca_PartIncomeNegativeCurrentYearFilteredOutValuationDifferences" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="PartIncomePositiveCurrentYearFilteredOutValuationDifferences" id="p-ca_PartIncomePositiveCurrentYearFilteredOutValuationDifferences" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences" id="p-ca_PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="PositiveFilterFirstTimeAdoptionIASTypeAccountingRules" id="p-ca_PositiveFilterFirstTimeAdoptionIASTypeAccountingRules" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="QualifiedParticipatingInterestNonFinancialInstitutions" id="p-ca_QualifiedParticipatingInterestNonFinancialInstitutions" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Reserves" id="p-ca_Reserves" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RevaluationReserves" id="p-ca_RevaluationReserves" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SecuritiesIndeterminateDurationOtherInstruments" id="p-ca_SecuritiesIndeterminateDurationOtherInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SharePremium" id="p-ca_SharePremium" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ShortTermSubordinatedLoanCapital" id="p-ca_ShortTermSubordinatedLoanCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SolvencyRatioBeforeOtherAndTransitionalCapitalRequirements" id="p-ca_SolvencyRatioBeforeOtherAndTransitionalCapitalRequirements" type="xbrli:pureItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SolvencyRatio" id="p-ca_SolvencyRatio" type="xbrli:pureItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SpecificProvisionIndividualImpairment" id="p-ca_SpecificProvisionIndividualImpairment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital" id="p-ca_SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SubordinatedLoanCapital" id="p-ca_SubordinatedLoanCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SupplementaryAdditionalOwnFunds" id="p-ca_SupplementaryAdditionalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SurplusDeficitOwnFundsBeforeOtherAndTransitionalCapitalRequirements" id="p-ca_SurplusDeficitOwnFundsBeforeOtherAndTransitionalCapitalRequirements" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="TotalAdditionalOwnFundsGeneralSolvencyPurposes" id="p-ca_TotalAdditionalOwnFundsGeneralSolvencyPurposes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="TotalAdditionalOwnFundsSpecificCoverMarketRisks" id="p-ca_TotalAdditionalOwnFundsSpecificCoverMarketRisks" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess" id="p-ca_SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess" type="xbrli:pureItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="UnusedEligibleOwnFundsSpecificCoverMarketRisks" id="p-ca_UnusedEligibleOwnFundsSpecificCoverMarketRisks" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ValuationDifferencesAFSAssets" id="p-ca_ValuationDifferencesAFSAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ValuationDifferencesAFSLoansReceivables" id="p-ca_ValuationDifferencesAFSLoansReceivables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets" id="p-ca_ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ValuationDifferencesEligibleOriginalOwnFunds" id="p-ca_ValuationDifferencesEligibleOriginalOwnFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk" id="p-ca_ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ValuationDifferencesInAFSEquities" id="p-ca_ValuationDifferencesInAFSEquities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ValuationDifferencesInvestmentProperty" id="p-ca_ValuationDifferencesInvestmentProperty" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ValuationDifferencesPropertyPlantEquipment" id="p-ca_ValuationDifferencesPropertyPlantEquipment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ValueAdjustmentsCreditRiskPositionsStandardisedApproach" id="p-ca_ValueAdjustmentsCreditRiskPositionsStandardisedApproach" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

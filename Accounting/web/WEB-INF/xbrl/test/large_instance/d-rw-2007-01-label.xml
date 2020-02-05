@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-rw="http://www.bundesbank.de/fr/ba/bakisw/d-rw-2007-01">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_RohwarenpositionenDomain" xlink:label="RohwarenpositionenDomain" xlink:title="RohwarenpositionenDomain"/>
+    <link:label xlink:type="resource" xlink:label="label_RohwarenpositionenDomain" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RohwarenpositionenDomain" xml:lang="de" id="label_RohwarenpositionenDomain">Rohwarenpositionen</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RohwarenpositionenDomain" xlink:to="label_RohwarenpositionenDomain" xlink:title="label: RohwarenpositionenDomain to label_RohwarenpositionenDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_OelePetroleumGas" xlink:label="OelePetroleumGas" xlink:title="OelePetroleumGas"/>
+    <link:label xlink:type="resource" xlink:label="label_OelePetroleumGas" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OelePetroleumGas" xml:lang="de" id="label_OelePetroleumGas">Öle, Petroleum und Gas</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OelePetroleumGas" xlink:to="label_OelePetroleumGas" xlink:title="label: OelePetroleumGas to label_OelePetroleumGas"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_LandwirtschaftlicheErzeugnisse" xlink:label="LandwirtschaftlicheErzeugnisse" xlink:title="LandwirtschaftlicheErzeugnisse"/>
+    <link:label xlink:type="resource" xlink:label="label_LandwirtschaftlicheErzeugnisse" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_LandwirtschaftlicheErzeugnisse" xml:lang="de" id="label_LandwirtschaftlicheErzeugnisse">Landwirtschaftl. Erzeugnisse</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LandwirtschaftlicheErzeugnisse" xlink:to="label_LandwirtschaftlicheErzeugnisse" xlink:title="label: LandwirtschaftlicheErzeugnisse to label_LandwirtschaftlicheErzeugnisse"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_Metalle" xlink:label="Metalle" xlink:title="Metalle"/>
+    <link:label xlink:type="resource" xlink:label="label_Metalle" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Metalle" xml:lang="de" id="label_Metalle">Metalle</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Metalle" xlink:to="label_Metalle" xlink:title="label: Metalle to label_Metalle"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_UebrigeRohwaren" xlink:label="UebrigeRohwaren" xlink:title="UebrigeRohwaren"/>
+    <link:label xlink:type="resource" xlink:label="label_UebrigeRohwaren" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_UebrigeRohwaren" xml:lang="de" id="label_UebrigeRohwaren">Übrige Rohwaren</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="UebrigeRohwaren" xlink:to="label_UebrigeRohwaren" xlink:title="label: UebrigeRohwaren to label_UebrigeRohwaren"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_Insgesamt" xlink:label="Insgesamt" xlink:title="Insgesamt"/>
+    <link:label xlink:type="resource" xlink:label="label_Insgesamt" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Insgesamt" xml:lang="de" id="label_Insgesamt">Insgesamt</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Insgesamt" xlink:to="label_Insgesamt" xlink:title="label: Insgesamt to label_Insgesamt"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2007-01.xsd#d-rw_RohwarenpositionenDimension" xlink:label="RohwarenpositionenDimension" xlink:title="RohwarenpositionenDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_RohwarenpositionenDimension" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RohwarenpositionenDimension" xml:lang="de" id="label_RohwarenpositionenDimension">Rohwarenpositionen (dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RohwarenpositionenDimension" xlink:to="label_RohwarenpositionenDimension" xlink:title="label: RohwarenpositionenDimension to label_RohwarenpositionenDimension"/>
+  </link:labelLink>
+</link:linkbase>

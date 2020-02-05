@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-ba="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ba-2006-07-01">
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_BankingActivitiesDomain" xlink:label="BankingActivitiesDomain" xlink:title="BankingActivitiesDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivities" xlink:label="TotalBankingActivities" xlink:title="TotalBankingActivities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="BankingActivitiesDomain" xlink:to="TotalBankingActivities" xlink:title="presentation: BankingActivitiesDomain to TotalBankingActivities" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectBIA" xlink:label="TotalBankingActivitiesSubjectBIA" xlink:title="TotalBankingActivitiesSubjectBIA"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="TotalBankingActivities" xlink:to="TotalBankingActivitiesSubjectBIA" xlink:title="presentation: TotalBankingActivities to TotalBankingActivitiesSubjectBIA" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectSTAAlternative" xlink:label="TotalBankingActivitiesSubjectSTAAlternative" xlink:title="TotalBankingActivitiesSubjectSTAAlternative"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="TotalBankingActivities" xlink:to="TotalBankingActivitiesSubjectSTAAlternative" xlink:title="presentation: TotalBankingActivities to TotalBankingActivitiesSubjectSTAAlternative" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectSTA" xlink:label="TotalBankingActivitiesSubjectSTA" xlink:title="TotalBankingActivitiesSubjectSTA"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="TotalBankingActivitiesSubjectSTAAlternative" xlink:to="TotalBankingActivitiesSubjectSTA" xlink:title="presentation: TotalBankingActivitiesSubjectSTAAlternative to TotalBankingActivitiesSubjectSTA" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectASA" xlink:label="TotalBankingActivitiesSubjectASA" xlink:title="TotalBankingActivitiesSubjectASA"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="TotalBankingActivitiesSubjectSTAAlternative" xlink:to="TotalBankingActivitiesSubjectASA" xlink:title="presentation: TotalBankingActivitiesSubjectSTAAlternative to TotalBankingActivitiesSubjectASA" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectAMA" xlink:label="TotalBankingActivitiesSubjectAMA" xlink:title="TotalBankingActivitiesSubjectAMA"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="TotalBankingActivities" xlink:to="TotalBankingActivitiesSubjectAMA" xlink:title="presentation: TotalBankingActivities to TotalBankingActivitiesSubjectAMA" use="optional" order="3.0"/>
+  </link:presentationLink>
+</link:linkbase>

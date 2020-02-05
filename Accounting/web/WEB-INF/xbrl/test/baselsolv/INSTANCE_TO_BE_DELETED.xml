@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:ns_d-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-basis-2006-06" xmlns:ns_t-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/t-basis-2006-06" xmlns:ns_p-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06" xmlns:ns_t-eueb-2007-03="http://www.bundesbank.de/fr/ba/bakisw/t-eueb-2007-03" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ns_d-am-2007-03="http://www.bundesbank.de/fr/ba/bakisw/d-am-2007-03" xmlns:ns_p-cm-ca-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:ns_xbrldt="http://xbrl.org/2005/xbrldt" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ns_XLink="http://www.xbrl.org/2003/XLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_t-ca-de-2007-03="http://www.bundesbank.de/fr/ba/bakisw/t-ca-de-2007-03" xmlns:ns_p-ca-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ca-2006-07-01" xmlns:ns_ref-corep-2005-09-30="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ns_p-ca-de-2007-03="http://www.bundesbank.de/fr/ba/bakisw/p-ca-de-2007-03" xmlns:ns_ref="http://www.xbrl.org/2004/ref" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:ns_d-cm-report-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-basis-2006-06.xsd" />
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-eueb-2007-03.xsd" />
+  <ns_p-basis-2006-06:CompanyName contextRef="ctx_basis">Volksbank Ludwigsburg</ns_p-basis-2006-06:CompanyName>
+  <ns_p-basis-2006-06:DateCreated contextRef="ctx_basis">2006-08-16</ns_p-basis-2006-06:DateCreated>
+  <ns_p-basis-2006-06:IdentificationCodeType contextRef="ctx_basis">BankIdentifierCode</ns_p-basis-2006-06:IdentificationCodeType>
+  <ns_p-basis-2006-06:Version contextRef="ctx_basis">1.0</ns_p-basis-2006-06:Version>
+  <ns_p-ca-2006-07-01:OriginalOwnFunds precision="INF" unitRef="EUR" contextRef="con_1">5.05</ns_p-ca-2006-07-01:OriginalOwnFunds>
+  <ns_p-basis-2006-06:Stage contextRef="ctx_basis">Test</ns_p-basis-2006-06:Stage>
+  <ns_p-basis-2006-06:IdentificationCode contextRef="ctx_basis">60490150</ns_p-basis-2006-06:IdentificationCode>
+  <xbrli:context id="ctx_basis">
+    <xbrli:entity>
+      <xbrli:identifier scheme="scheme_sender">id_sender</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="ns_d-basis-2006-06:DocumentEntitiesDimension">ns_d-basis-2006-06:DocumentSender</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="con_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bundesbank.de">id</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="ns_d-cm-report-2006-06:ReportDimension">
+          <ns_d-cm-report-2006-06:Report>
+            <ns_d-cm-report-2006-06:TemplateName>IRBAQV</ns_d-cm-report-2006-06:TemplateName>
+            <ns_d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</ns_d-cm-report-2006-06:GIAIndicator>
+            <ns_d-cm-report-2006-06:CodesType>BankIdentifierCode</ns_d-cm-report-2006-06:CodesType>
+            <ns_d-cm-report-2006-06:CompanyName>DeutscheBank</ns_d-cm-report-2006-06:CompanyName>
+            <ns_d-cm-report-2006-06:Address>
+              <ns_d-cm-report-2006-06:Town>Stättgart</ns_d-cm-report-2006-06:Town>
+              <ns_d-cm-report-2006-06:Contact>
+                <ns_d-cm-report-2006-06:LastName>Meier</ns_d-cm-report-2006-06:LastName>
+              </ns_d-cm-report-2006-06:Contact>
+            </ns_d-cm-report-2006-06:Address>
+          </ns_d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-08-16</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ns_d-am-2007-03:AmountDimension">ns_d-am-2007-03:Amount</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>
+

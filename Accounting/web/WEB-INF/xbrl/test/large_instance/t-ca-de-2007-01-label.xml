@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:t-ca-de="http://www.bundesbank.de/fr/ba/bakisw/t-ca-de-2007-01">
+  <link:roleRef roleURI="http://xbrl.bundesbank.de/role/positionLabel" xlink:type="simple" xlink:href="dt-de-2006-03-30.xsd#positionLabel"/>
+  <link:roleRef roleURI="http://xbrl.bundesbank.de/role/primaryDarstellung" xlink:type="simple" xlink:href="dt-de-2006-03-30.xsd#primaryDarstellung"/>
+  <link:roleRef roleURI="http://xbrl.bundesbank.de/role/Dimensionszuweisung" xlink:type="simple" xlink:href="dt-de-2006-03-30.xsd#Dimensionszuweisung"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CADomain" xlink:label="CADomain" xlink:title="CADomain"/>
+    <link:label xlink:type="resource" xlink:label="label_CADomain" xlink:role="http://xbrl.bundesbank.de/role/primaryDarstellung" xlink:title="label_CADomain" xml:lang="de" id="label_CADomain">vertikal</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CADomain" xlink:to="label_CADomain" xlink:title="label: CADomain to label_CADomain"/>
+    <link:label xlink:type="resource" xlink:label="label_CADomain_2" xlink:role="http://xbrl.bundesbank.de/role/Dimensionszuweisung" xlink:title="label_CADomain" xml:lang="de" id="label_CADomain_2">http://www.bundesbank.de/fr/ba/bakisw/t-ca-de/DimensionPresentation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CADomain" xlink:to="label_CADomain_2" xlink:title="label: CADomain to label_CADomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-am-2007-01.xsd#d-am_AmountDomain" xlink:label="AmountDomain" xlink:title="AmountDomain"/>
+    <link:label xlink:type="resource" xlink:label="label_AmountDomain" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_AmountDomain" xml:lang="de" id="label_AmountDomain"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmountDomain" xlink:to="label_AmountDomain" xlink:title="label: AmountDomain to label_AmountDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-am-2007-01.xsd#d-am_Amount" xlink:label="Amount" xlink:title="Amount"/>
+    <link:label xlink:type="resource" xlink:label="label_Amount" xlink:role="http://xbrl.bundesbank.de/role/positionLabel" xlink:title="label_Amount" xml:lang="de" id="label_Amount">01</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Amount" xlink:to="label_Amount" xlink:title="label: Amount to label_Amount"/>
+    <link:loc xlink:type="locator" xlink:href="t-ca-de-2007-01.xsd#t-ca-de_AmountHypercube" xlink:label="AmountHypercube" xlink:title="AmountHypercube"/>
+    <link:label xlink:type="resource" xlink:label="label_AmountHypercube" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_AmountHypercube" xml:lang="en" id="label_AmountHypercube">Amount (Hypercube)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmountHypercube" xlink:to="label_AmountHypercube" xlink:title="label: AmountHypercube to label_AmountHypercube"/>
+    <link:label xlink:type="resource" xlink:label="label_AmountHypercube_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_AmountHypercube" xml:lang="de" id="label_AmountHypercube_2">Betrag (Hypercube)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmountHypercube" xlink:to="label_AmountHypercube_2" xlink:title="label: AmountHypercube to label_AmountHypercube"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:t-mi="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-mi-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/t-mi/ExcMemorandumItemsHypercube" xlink:type="simple" xlink:href="t-mi-2006-07-01.xsd#rt_t-mi_ExcMemorandumItemsHypercube"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/t-mi/ExcRisksHypercube" xlink:type="simple" xlink:href="t-mi-2006-07-01.xsd#rt_t-mi_ExcRisksHypercube"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/t-mi/SectionProhibitedItems" xlink:type="simple" xlink:href="t-mi-2006-07-01.xsd#rt_t-mi_SectionProhibitedItems"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/t-mi/SectionMainHypercube" xlink:type="simple" xlink:href="t-mi-2006-07-01.xsd#rt_t-mi_SectionMainHypercube"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/mi" xlink:type="simple" xlink:href="p-mi-2006-07-01.xsd#rt_mi"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/notAll" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#notAll"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/t-mi/SectionMainHypercube">
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MarketRiskDimension" xlink:label="MarketRiskDimension" xlink:title="MarketRiskDimension"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MRiskIMTotalPositions" xlink:label="MRiskIMTotalPositions" xlink:title="MRiskIMTotalPositions"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="MarketRiskDimension" xlink:to="MRiskIMTotalPositions" xlink:title="definition: MarketRiskDimension to MRiskIMTotalPositions" order="1.0" xbrldt:targetRole="http://www.xbrl.org/2003/role/link"/>
+    <link:loc xlink:type="locator" xlink:href="t-mi-2006-07-01.xsd#t-mi_SectionMainHypercube" xlink:label="SectionAllHypercube" xlink:title="SectionAllHypercube"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="SectionAllHypercube" xlink:to="MarketRiskDimension" xlink:title="definition: SectionAllHypercube to MarketRiskDimension" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/t-mi/ExcMemorandumItemsHypercube">
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MarketRiskDimension" xlink:label="MarketRiskDimension" xlink:title="MarketRiskDimension"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MRiskIMMemorandumItemsBreakdownOfMarketRisk" xlink:label="MRiskIMMemorandumItemsBreakdownOfMarketRisk" xlink:title="MRiskIMMemorandumItemsBreakdownOfMarketRisk"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="MarketRiskDimension" xlink:to="MRiskIMMemorandumItemsBreakdownOfMarketRisk" xlink:title="definition: MarketRiskDimension to MRiskIMMemorandumItemsBreakdownOfMarketRisk" order="1.0" xbrldt:targetRole="http://www.xbrl.org/2003/role/link" xbrldt:usable="false"/>
+    <link:loc xlink:type="locator" xlink:href="t-mi-2006-07-01.xsd#t-mi_ExcMemorandumItemsHypercube" xlink:label="ExcMemorandumItemsHypercube" xlink:title="ExcMemorandumItemsHypercube"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ExcMemorandumItemsHypercube" xlink:to="MarketRiskDimension" xlink:title="definition: ExcMemorandumItemsHypercube to MarketRiskDimension" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/t-mi/ExcRisksHypercube">
+    <link:loc xlink:type="locator" xlink:href="t-mi-2006-07-01.xsd#t-mi_ExcRisksHypercube" xlink:label="ExcRisksHypercube" xlink:title="ExcRisksHypercube"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MarketRiskDimension" xlink:label="MarketRiskDimension" xlink:title="MarketRiskDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ExcRisksHypercube" xlink:to="MarketRiskDimension" xlink:title="definition: ExcRisksHypercube to MarketRiskDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MRiskIMTDIGeneralRisk" xlink:label="MRiskIMTDIGeneralRisk" xlink:title="MRiskIMTDIGeneralRisk"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="MarketRiskDimension" xlink:to="MRiskIMTDIGeneralRisk" xlink:title="definition: MarketRiskDimension to MRiskIMTDIGeneralRisk" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MRiskIMTDISpecificRisk" xlink:label="MRiskIMTDISpecificRisk" xlink:title="MRiskIMTDISpecificRisk"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="MarketRiskDimension" xlink:to="MRiskIMTDISpecificRisk" xlink:title="definition: MarketRiskDimension to MRiskIMTDISpecificRisk" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MRiskIMEquitiesGeneralRisk" xlink:label="MRiskIMEquitiesGeneralRisk" xlink:title="MRiskIMEquitiesGeneralRisk"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="MarketRiskDimension" xlink:to="MRiskIMEquitiesGeneralRisk" xlink:title="definition: MarketRiskDimension to MRiskIMEquitiesGeneralRisk" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MRiskIMEquitiesSpecificRisk" xlink:label="MRiskIMEquitiesSpecificRisk" xlink:title="MRiskIMEquitiesSpecificRisk"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="MarketRiskDimension" xlink:to="MRiskIMEquitiesSpecificRisk" xlink:title="definition: MarketRiskDimension to MRiskIMEquitiesSpecificRisk" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MRiskIMForeignExchangeRisk" xlink:label="MRiskIMForeignExchangeRisk" xlink:title="MRiskIMForeignExchangeRisk"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="MarketRiskDimension" xlink:to="MRiskIMForeignExchangeRisk" xlink:title="definition: MarketRiskDimension to MRiskIMForeignExchangeRisk" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MRiskIMCommodityRisk" xlink:label="MRiskIMCommodityRisk" xlink:title="MRiskIMCommodityRisk"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="MarketRiskDimension" xlink:to="MRiskIMCommodityRisk" xlink:title="definition: MarketRiskDimension to MRiskIMCommodityRisk" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-mr-2006-07-01.xsd#d-mr_MRiskIMTotalAmountForGeneralRisk" xlink:label="MRiskIMTotalAmountForGeneralRisk" xlink:title="MRiskIMTotalAmountForGeneralRisk"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="MarketRiskDimension" xlink:to="MRiskIMTotalAmountForGeneralRisk" xlink:title="definition: MarketRiskDimension to MRiskIMTotalAmountForGeneralRisk" order="7.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/t-mi/SectionProhibitedItems">
+    <link:loc xlink:type="locator" xlink:href="d-hh-2006-07-01.xsd#hyp-cm_ProhibitedItemsPlaceholder" xlink:label="ProhibitedItemsPlaceholder" xlink:title="ProhibitedItemsPlaceholder"/>
+    <link:loc xlink:type="locator" xlink:href="d-hh-2006-07-01.xsd#hyp-cm_ProhibitingHypercube" xlink:label="ProhibitingHypercube" xlink:title="ProhibitingHypercube"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ProhibitedItemsPlaceholder" xlink:to="ProhibitingHypercube" xlink:title="definition: ProhibitedItemsPlaceholder to ProhibitingHypercube" order="2.0" xbrldt:contextElement="scenario"/>
+    <link:loc xlink:type="locator" xlink:href="d-hh-2006-07-01.xsd#hyp-cm_NullDimension" xlink:label="NullDimension" xlink:title="NullDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ProhibitingHypercube" xlink:to="NullDimension" xlink:title="definition: ProhibitingHypercube to NullDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CommonCAItemsDomain" xlink:label="CommonCAItemsDomain" xlink:title="CommonCAItemsDomain"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProhibitedItemsPlaceholder" xlink:to="CommonCAItemsDomain" xlink:title="definition: ProhibitedItemsPlaceholder to CommonCAItemsDomain" order="1.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/cm-ca"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/mi">
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_SpecificRiskSurcharge" xlink:label="SpecificRiskSurcharge" xlink:title="SpecificRiskSurcharge"/>
+    <link:loc xlink:type="locator" xlink:href="t-mi-2006-07-01.xsd#t-mi_ExcRisksHypercube" xlink:label="ExcRisksHypercube" xlink:title="ExcRisksHypercube"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/notAll" xlink:from="SpecificRiskSurcharge" xlink:to="ExcRisksHypercube" xlink:title="definition: SpecificRiskSurcharge to ExcRisksHypercube" use="optional" order="1.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/t-mi/ExcRisksHypercube" xbrldt:contextElement="scenario"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_IncrementalDefaultRiskSurcharge" xlink:label="IncrementalDefaultRiskSurcharge" xlink:title="IncrementalDefaultRiskSurcharge"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/notAll" xlink:from="IncrementalDefaultRiskSurcharge" xlink:to="ExcRisksHypercube" xlink:title="definition: IncrementalDefaultRiskSurcharge to ExcRisksHypercube" use="optional" order="1.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/t-mi/ExcRisksHypercube" xbrldt:contextElement="scenario"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MemorandumItems" xlink:label="MemorandumItems" xlink:title="MemorandumItems"/>
+    <link:loc xlink:type="locator" xlink:href="t-mi-2006-07-01.xsd#t-mi_ExcMemorandumItemsHypercube" xlink:label="ExcMemorandumItemsHypercube" xlink:title="ExcMemorandumItemsHypercube"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/notAll" xlink:from="MemorandumItems" xlink:to="ExcMemorandumItemsHypercube" xlink:title="definition: MemorandumItems to ExcMemorandumItemsHypercube" use="optional" order="3.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/t-mi/ExcMemorandumItemsHypercube" xbrldt:contextElement="scenario"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CapitalRequirements" xlink:label="CapitalRequirements" xlink:title="CapitalRequirements"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/notAll" xlink:from="CapitalRequirements" xlink:to="ExcMemorandumItemsHypercube" xlink:title="definition: CapitalRequirements to ExcMemorandumItemsHypercube" use="optional" order="1.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/t-mi/ExcMemorandumItemsHypercube" xbrldt:contextElement="scenario"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MarketRiskInternalModels" xlink:label="MarketRiskInternalModels" xlink:title="MarketRiskInternalModels"/>
+    <link:loc xlink:type="locator" xlink:href="t-mi-2006-07-01.xsd#t-mi_SectionMainHypercube" xlink:label="SectionMainHypercube" xlink:title="SectionAllHypercube"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="MarketRiskInternalModels" xlink:to="SectionMainHypercube" xlink:title="definition: MarketRiskInternalModels to SectionMainHypercube" use="optional" order="7.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/t-mi/SectionMainHypercube" xbrldt:contextElement="scenario" xbrldt:closed="true"/>
+  </link:definitionLink>
+</link:linkbase>

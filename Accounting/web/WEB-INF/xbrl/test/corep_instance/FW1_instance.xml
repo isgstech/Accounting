@@ -1,0 +1,55 @@
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-basis-2006-06" xmlns:t-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/t-basis-2006-06" xmlns:p-fw-2007-01="http://www.bundesbank.de/fr/ba/bakisw/p-fw-2007-01" xmlns:p-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06" xmlns:t-cm-fw-2007-01="http://www.bundesbank.de/fr/ba/bakisw/t-cm-fw-2007-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:t-mkrfw-2007-01="http://www.bundesbank.de/fr/ba/bakisw/t-mkrfw-2007-01" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:d-fw-2007-01="http://www.bundesbank.de/fr/ba/bakisw/d-fw-2007-01" xmlns:XLink="http://www.xbrl.org/2003/XLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:d-cm-report-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06">
+  <!--Automatisiert erzeugt durch die Deutsche Bundesbank-->
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-basis-2006-06.xsd" />
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-mkrfw-2007-01.xsd" />
+  <p-fw-2007-01:SonstigeEigeneOptionsrechte precision="INF" unitRef="EUR" contextRef="con_1">1.0</p-fw-2007-01:SonstigeEigeneOptionsrechte>
+  <p-basis-2006-06:CompanyName contextRef="ctx_basis">Volksbank Ludwigsburg</p-basis-2006-06:CompanyName>
+  <p-basis-2006-06:DateCreated contextRef="ctx_basis">2006-08-16</p-basis-2006-06:DateCreated>
+  <p-basis-2006-06:IdentificationCodeType contextRef="ctx_basis">BankIdentifierCode</p-basis-2006-06:IdentificationCodeType>
+  <p-basis-2006-06:Version contextRef="ctx_basis">1.0</p-basis-2006-06:Version>
+  <p-basis-2006-06:Stage contextRef="ctx_basis">Test</p-basis-2006-06:Stage>
+  <p-basis-2006-06:IdentificationCode contextRef="ctx_basis">60490150</p-basis-2006-06:IdentificationCode>
+  <xbrli:context id="ctx_basis">
+    <xbrli:entity>
+      <xbrli:identifier scheme="scheme_sender">id_sender</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="d-basis-2006-06:DocumentEntitiesDimension">d-basis-2006-06:DocumentSender</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="con_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bundesbank.de">id</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>IRBAQV</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Ausland</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>BankIdentifierCode</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>DeutscheBank</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>Stuttgart</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Meier</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:PhoneNumber>0711 9442768</d-cm-report-2006-06:PhoneNumber>
+                <d-cm-report-2006-06:ExtranetID>exnaaaaa</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-01-01</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-fw-2007-01:WaehrungenDimension">d-fw-2007-01:JPY</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>

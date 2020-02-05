@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationBesonderesKursrisiko" xlink:type="simple" xlink:href="t-cm-zk-2007-01.xsd#rt_t-cm-zk_DimensionPresentationBesonderesKursrisiko"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationBesonderesKursrisiko">
+    <link:loc xlink:type="locator" xlink:href="d-bz-2007-01.xsd#d-bz_BesondersKursrisikoPositionenDomain" xlink:label="BesondersKursrisikoPositionenDomain" xlink:title="BesondersKursrisikoPositionenDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-bz-2007-01.xsd#d-bz_AnrechnungsbetraegeSumme" xlink:label="AnrechnungsbetraegeSumme" xlink:title="AnrechnungsbetraegeSumme"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="BesondersKursrisikoPositionenDomain" xlink:to="AnrechnungsbetraegeSumme" xlink:title="presentation: BesondersKursrisikoPositionenDomain to AnrechnungsbetraegeSumme" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-bz-2007-01.xsd#d-bz_AnrechnungsbetraegeNach4Abs3SolvV" xlink:label="AnrechnungsbetraegeNach4Abs3SolvV" xlink:title="AnrechnungsbetraegeNach4Abs3SolvV"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="BesondersKursrisikoPositionenDomain" xlink:to="AnrechnungsbetraegeNach4Abs3SolvV" xlink:title="presentation: BesondersKursrisikoPositionenDomain to AnrechnungsbetraegeNach4Abs3SolvV" order="9.0"/>
+  </link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2005/xbrldt xbrldt-2005.xsd" xmlns:t-sd="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-sd-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/sd" xlink:type="simple" xlink:href="p-sd-2006-07-01.xsd#rt_sd"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/t-sd/MainSectionHypercube" xlink:type="simple" xlink:href="t-sd-2006-07-01.xsd#rt_t-sd_MainSectionHypercube"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/t-sd/SectionProhibitedItems" xlink:type="simple" xlink:href="t-sd-2006-07-01.xsd#rt_t-sd_SectionProhibitedItems"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/cm-ca" xlink:type="simple" xlink:href="p-cm-ca-2006-07-01.xsd#rt_cm-ca"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/cm-cr" xlink:type="simple" xlink:href="p-cm-cr-2006-07-01.xsd#rt_cm-cr"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/t-sd/MainSectionHypercube">
+    <link:loc xlink:type="locator" xlink:href="t-sd-2006-07-01.xsd#t-sd_MainSectionHypercube" xlink:label="MainSectionHypercube" xlink:title="MainSectionHypercube"/>
+    <link:loc xlink:type="locator" xlink:href="d-ty-2006-07-01.xsd#d-ty_SecuritizationInternalCodeDimension" xlink:label="SecuritizationInternalCodeDimension" xlink:title="SecuritizationInternalCodeDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="MainSectionHypercube" xlink:to="SecuritizationInternalCodeDimension" xlink:title="definition: MainSectionHypercube to SecuritizationInternalCodeDimension" use="optional" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/t-sd/SectionProhibitedItems">
+    <link:loc xlink:type="locator" xlink:href="d-hh-2006-07-01.xsd#hyp-cm_ProhibitedItemsPlaceholder" xlink:label="ProhibitedItemsPlaceholder" xlink:title="ProhibitedItemsPlaceholder"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CommonCAItemsDomain" xlink:label="CommonCAItemsDomain" xlink:title="CommonCAItemsDomain"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProhibitedItemsPlaceholder" xlink:to="CommonCAItemsDomain" xlink:title="definition: ProhibitedItemsPlaceholder to CommonCAItemsDomain" order="1.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/cm-ca"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-cr-2006-07-01.xsd#p-cm-cr_CommonCRItemsDomain" xlink:label="CommonCRItemsDomain" xlink:title="CommonCRItemsDomain"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProhibitedItemsPlaceholder" xlink:to="CommonCRItemsDomain" xlink:title="definition: ProhibitedItemsPlaceholder to CommonCRItemsDomain" order="2.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/cm-cr"/>
+    <link:loc xlink:type="locator" xlink:href="d-hh-2006-07-01.xsd#hyp-cm_ProhibitingHypercube" xlink:label="ProhibitingHypercube" xlink:title="ProhibitingHypercube"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ProhibitedItemsPlaceholder" xlink:to="ProhibitingHypercube" xlink:title="definition: ProhibitedItemsPlaceholder to ProhibitingHypercube" order="3.0" xbrldt:contextElement="scenario"/>
+    <link:loc xlink:type="locator" xlink:href="d-hh-2006-07-01.xsd#hyp-cm_NullDimension" xlink:label="NullDimension" xlink:title="NullDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ProhibitingHypercube" xlink:to="NullDimension" xlink:title="definition: ProhibitingHypercube to NullDimension" order="1.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/sd">
+    <link:loc xlink:type="locator" xlink:href="p-sd-2006-07-01.xsd#p-sd_CRSECDetailsDomain" xlink:label="CRSECDetailsDomain" xlink:title="CRSECDetailsDomain"/>
+    <link:loc xlink:type="locator" xlink:href="t-sd-2006-07-01.xsd#t-sd_MainSectionHypercube" xlink:label="MainSectionHypercube" xlink:title="hcAll"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="CRSECDetailsDomain" xlink:to="MainSectionHypercube" xlink:title="definition: CRSECDetailsDomain to MainSectionHypercube" use="optional" order="11.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/t-sd/MainSectionHypercube" xbrldt:contextElement="scenario" xbrldt:closed="true"/>
+  </link:definitionLink>
+</link:linkbase>

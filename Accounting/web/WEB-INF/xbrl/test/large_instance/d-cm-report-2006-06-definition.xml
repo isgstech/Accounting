@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report/Report" xlink:type="simple" xlink:href="d-cm-report-2006-06.xsd#rt_d-cm-report_Report"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report/Report">
+    <link:loc xlink:type="locator" xlink:href="d-cm-report-2006-06.xsd#d-cm-report_ReportHypercube" xlink:label="ReportHypercube" xlink:title="ReportHypercube"/>
+    <link:loc xlink:type="locator" xlink:href="d-cm-report-2006-06.xsd#d-cm-report_ReportDimension" xlink:label="ReportDimension" xlink:title="ReportDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ReportHypercube" xlink:to="ReportDimension" xlink:title="definition: ReportHypercube to ReportDimension" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

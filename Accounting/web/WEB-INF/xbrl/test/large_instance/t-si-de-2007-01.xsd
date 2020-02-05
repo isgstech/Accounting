@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/t-si-de-2007-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:t-si-de="http://www.bundesbank.de/fr/ba/bakisw/t-si-de-2007-01" xmlns:d-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-cr-2006-07-01" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:p-si="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-si-2006-07-01" xmlns:p-cm-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:d-st="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-st-2006-07-01" xmlns:d-cm-report="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:d-et="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-et-2006-07-01" xmlns:p-cm-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:d-hh="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-hh-2006-07-01" xmlns:t-si="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-si-2006-07-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-si-de-2007-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-si-de-2007-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-si-de-2007-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-si-2006-07-01-label-de.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-et-2006-07-01-label-de.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-si-de/ExcSponsorTotalExposuresHypercube" id="rt_t-si-de_ExcSponsorTotalExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-si-de/DimensionPresentation" id="rt_t-si-de_DimensionPresentation">
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/ObereDimension" id="rt_t-si-de_ObereDimension">
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-si-2006-07-01" schemaLocation="t-si-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" schemaLocation="d-cm-report-2006-06.xsd"/>
+  <xsd:import namespace="http://xbrl.bundesbank.de/dt-de" schemaLocation="dt-de-2006-03-30.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://xbrl.c-ebs.org/dt" schemaLocation="dt-2005-06-30.xsd"/>
+  <xsd:element name="SubstitutionExposureCRMTotalOutflows" id="t-si-de_SubstitutionExposureCRMTotalOutflows" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SyntheticSecuritizationsCreditProtectionSecuritisedExposuresUnfundedCreditProtectionAdjustedValues" id="t-si-de_SyntheticSecuritizationsCreditProtectionSecuritisedExposuresUnfundedCreditProtectionAdjustedValues" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CreditRiskMitigationTechniquesAffectingAmountExposureFundedCreditProtection" id="t-si-de_CreditRiskMitigationTechniquesAffectingAmountExposureFundedCreditProtection" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="DeductedOwnFunds" id="t-si-de_DeductedOwnFunds" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FundedCreditProtection" id="t-si-de_FundedCreditProtection" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ReductionInRiskWeightedExposureAmountDueToValudeAdjustmentsAndProvisions" id="t-si-de_ReductionInRiskWeightedExposureAmountDueToValudeAdjustmentsAndProvisions" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InvestorOnBalanceSheetItems" id="t-si-de_InvestorOnBalanceSheetItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InvestorOnBalanceSheetItemsFirstLoss" id="t-si-de_InvestorOnBalanceSheetItemsFirstLoss" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InvestorOnBalanceSheetItemsMezzanine" id="t-si-de_InvestorOnBalanceSheetItemsMezzanine" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InvestorOnBalanceSheetItemsMostSenior" id="t-si-de_InvestorOnBalanceSheetItemsMostSenior" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InvestorOffBalanceSheetItemsDerivatives" id="t-si-de_InvestorOffBalanceSheetItemsDerivatives" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SponsorOnBalanceSheetItems" id="t-si-de_SponsorOnBalanceSheetItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SponsorOffBalanceSheetItemsDerivatives" id="t-si-de_SponsorOffBalanceSheetItemsDerivatives" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcSponsorTotalExposuresHypercube" id="t-si-de_ExcSponsorTotalExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

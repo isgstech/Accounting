@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/t-irban-2007-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:t-irban="http://www.bundesbank.de/fr/ba/bakisw/t-irban-2007-01" xmlns:p-ci="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ci-2006-07-01" xmlns:p-ci-de="http://www.bundesbank.de/fr/ba/bakisw/p-ci-de-2007-01" xmlns:p-cm-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:p-cm-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" xmlns:d-ec="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ec-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:d-cm-report="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-irban-2007-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-irban-2007-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-irban-2007-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-irban/NachrichtlicheAngabenzuIRBAForderungsklassenHypercube" id="rt_t-irban_NachrichtlicheAngabenzuIRBAForderungsklassenHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-irban/DimensionPresentation" id="rt_t-irban_DimensionPresentation">
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-irban/AusschliessenMengengeschaeftHypercube" id="rt_t-irban_AusschliessenMengengeschaeftHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ci-2006-07-01" schemaLocation="p-ci-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ec-2006-07-01" schemaLocation="d-ec-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" schemaLocation="d-cm-report-2006-06.xsd"/>
+  <xsd:import namespace="http://xbrl.bundesbank.de/dt-de" schemaLocation="dt-de-2006-03-30.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/p-ci-de-2007-01" schemaLocation="p-ci-de-2007-01.xsd"/>
+  <xsd:import namespace="http://xbrl.c-ebs.org/dt" schemaLocation="dt-2005-06-30.xsd"/>
+  <xsd:element name="WhichCreditInstitutionsAndInvestmentFirms" id="t-irban_WhichCreditInstitutionsAndInvestmentFirms" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="WhichSpecialisedLending" id="t-irban_WhichSpecialisedLending" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CorporatesOfWhichSME" id="t-irban_CorporatesOfWhichSME" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SecuredByRealEstate" id="t-irban_SecuredByRealEstate" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="QualifyingRevolving" id="t-irban_QualifyingRevolving" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RetailOfWhichSME" id="t-irban_RetailOfWhichSME" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SubstitutionExposureCRMTotalOutflows" id="t-irban_SubstitutionExposureCRMTotalOutflows" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MemorandumItemsValueAdjustmentsProvisions" id="t-irban_MemorandumItemsValueAdjustmentsProvisions" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NachrichtlicheAngabenzuIRBAForderungsklassenDimension" id="t-irban_NachrichtlicheAngabenzuIRBAForderungsklassenDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NachrichtlicheAngabenzuIRBAForderungsklassenHypercube" id="t-irban_NachrichtlicheAngabenzuIRBAForderungsklassenHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OhneDimensionHypercube" id="t-irban_OhneDimensionHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AusschliessenMengengeschaeftHypercube" id="t-irban_AusschliessenMengengeschaeftHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

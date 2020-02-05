@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ca-2006-07-01 p-ca-2006-07-01.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd" xmlns:p-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ca-2006-07-01" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref">
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdditionalOwnFunds" xlink:label="AdditionalOwnFunds" xlink:title="AdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdditionalOwnFunds" id="reference_AdditionalOwnFunds">
+      <ref:Article>66</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Letter>a</ref-corep:Letter>
+      <ref-corep:Comment>Eligible Tier 2 capital</ref-corep:Comment>
+      <ref-corep:Directive>2000/12/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdditionalOwnFunds" xlink:to="reference_AdditionalOwnFunds" xlink:title="reference: AdditionalOwnFunds to reference_AdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentOtherValuationDifferencesAffectingEligibleReserves" xlink:label="AdjustmentOtherValuationDifferencesAffectingEligibleReserves" xlink:title="AdjustmentOtherValuationDifferencesAffectingEligibleReserves"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentOtherValuationDifferencesAffectingEligibleReserves" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentOtherValuationDifferencesAffectingEligibleReserves" id="reference_AdjustmentOtherValuationDifferencesAffectingEligibleReserves">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentOtherValuationDifferencesAffectingEligibleReserves" xlink:to="reference_AdjustmentOtherValuationDifferencesAffectingEligibleReserves" xlink:title="reference: AdjustmentOtherValuationDifferencesAffectingEligibleReserves to reference_AdjustmentOtherValuationDifferencesAffectingEligibleReserves"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:label="AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:title="AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds" id="reference_AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds">
+      <ref-corep:Comment>Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004)</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:to="reference_AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:title="reference: AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds to reference_AdjustmentsMadeValuationDifferencesOriginalOwnFundsTransferredCoreAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesAFSAssets" xlink:label="AdjustmentValuationDifferencesAFSAssets" xlink:title="AdjustmentValuationDifferencesAFSAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesAFSAssets" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesAFSAssets" id="reference_AdjustmentValuationDifferencesAFSAssets">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesAFSAssets" xlink:to="reference_AdjustmentValuationDifferencesAFSAssets" xlink:title="reference: AdjustmentValuationDifferencesAFSAssets to reference_AdjustmentValuationDifferencesAFSAssets"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesAFSEquities" xlink:label="AdjustmentValuationDifferencesAFSEquities" xlink:title="AdjustmentValuationDifferencesAFSEquities"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesAFSEquities" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesAFSEquities" id="reference_AdjustmentValuationDifferencesAFSEquities">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesAFSEquities" xlink:to="reference_AdjustmentValuationDifferencesAFSEquities" xlink:title="reference: AdjustmentValuationDifferencesAFSEquities to reference_AdjustmentValuationDifferencesAFSEquities"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds" xlink:label="AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds" xlink:title="AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds" id="reference_AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+      <ref-corep:Comment>The amount or part of the amount in "Adjustment To Valuation Differences In AFS Equities"</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds" xlink:to="reference_AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds" xlink:title="reference: AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds to reference_AdjustmentValuationDifferencesAFSEquitiesTransferredCoreAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesAFSLoansReceivables" xlink:label="AdjustmentValuationDifferencesAFSLoansReceivables" xlink:title="AdjustmentValuationDifferencesAFSLoansReceivables"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesAFSLoansReceivables" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesAFSLoansReceivables" id="reference_AdjustmentValuationDifferencesAFSLoansReceivables">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesAFSLoansReceivables" xlink:to="reference_AdjustmentValuationDifferencesAFSLoansReceivables" xlink:title="reference: AdjustmentValuationDifferencesAFSLoansReceivables to reference_AdjustmentValuationDifferencesAFSLoansReceivables"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesCashFlowHedges" xlink:label="AdjustmentValuationDifferencesCashFlowHedges" xlink:title="AdjustmentValuationDifferencesCashFlowHedges"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesCashFlowHedges" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesCashFlowHedges" id="reference_AdjustmentValuationDifferencesCashFlowHedges">
+      <ref:Article>64</ref:Article>
+      <ref:Paragraph>4</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesCashFlowHedges" xlink:to="reference_AdjustmentValuationDifferencesCashFlowHedges" xlink:title="reference: AdjustmentValuationDifferencesCashFlowHedges to reference_AdjustmentValuationDifferencesCashFlowHedges"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk" xlink:label="AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk" xlink:title="AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk" id="reference_AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk">
+      <ref:Article>64</ref:Article>
+      <ref:Paragraph>4</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+      <ref-corep:Comment>≈FINREP : table 15, fourth column "Amount of cumulative change in fair values attributable to changes in credit risk"</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk" xlink:to="reference_AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk" xlink:title="reference: AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk to reference_AdjustmentValuationDifferencesFVOFinanciaLiabilitiesOwnCreditRisk"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesInvestmentProperty" xlink:label="AdjustmentValuationDifferencesInvestmentProperty" xlink:title="AdjustmentValuationDifferencesInvestmentProperty"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesInvestmentProperty" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesInvestmentProperty" id="reference_AdjustmentValuationDifferencesInvestmentProperty">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesInvestmentProperty" xlink:to="reference_AdjustmentValuationDifferencesInvestmentProperty" xlink:title="reference: AdjustmentValuationDifferencesInvestmentProperty to reference_AdjustmentValuationDifferencesInvestmentProperty"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds" xlink:label="AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds" xlink:title="AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds" id="reference_AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+      <ref-corep:Comment>The amount or part of the amount in "Adjustment To Valuation Differences In Investment Property"</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds" xlink:to="reference_AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds" xlink:title="reference: AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds to reference_AdjustmentValuationDifferencesInvestmentPropertyTransferredAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds" xlink:label="AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds" xlink:title="AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds" id="reference_AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+      <ref-corep:Comment>The amount or part of the amount in "Adjustment To Valuation Differences In AFS Assets”</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds" xlink:to="reference_AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds" xlink:title="reference: AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds to reference_AdjustmentValuationDifferencesOtherAFSAssetsTransferredCoreAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesPropertyPlantEquipment" xlink:label="AdjustmentValuationDifferencesPropertyPlantEquipment" xlink:title="AdjustmentValuationDifferencesPropertyPlantEquipment"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesPropertyPlantEquipment" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesPropertyPlantEquipment" id="reference_AdjustmentValuationDifferencesPropertyPlantEquipment">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesPropertyPlantEquipment" xlink:to="reference_AdjustmentValuationDifferencesPropertyPlantEquipment" xlink:title="reference: AdjustmentValuationDifferencesPropertyPlantEquipment to reference_AdjustmentValuationDifferencesPropertyPlantEquipment"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds" xlink:label="AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds" xlink:title="AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds" id="reference_AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+      <ref-corep:Comment>The amount or part of the amount in "Adjustment To Valuation Differences In Property, Plant And Equipment"</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds" xlink:to="reference_AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds" xlink:title="reference: AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds to reference_AdjustmentValuationDifferencesPropertyPlantEquipmentTransferredAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CapitalRequirementsRelatedFixedOverheads" xlink:label="CapitalRequirementsRelatedFixedOverheads" xlink:title="CapitalRequirementsRelatedFixedOverheads"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirementsRelatedFixedOverheads" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirementsRelatedFixedOverheads" id="reference_CapitalRequirementsRelatedFixedOverheads">
+      <ref-corep:Comment>Only for investment firms under articles 20(2), 24, 20(3), 25 and 46 45b of Directive 2006/49/EC. See also article 21 of Directive 2006/49/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirementsRelatedFixedOverheads" xlink:to="reference_CapitalRequirementsRelatedFixedOverheads" xlink:title="reference: CapitalRequirementsRelatedFixedOverheads to reference_CapitalRequirementsRelatedFixedOverheads"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CapitalRequirements" xlink:label="CapitalRequirements" xlink:title="CapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirements" id="reference_CapitalRequirements">
+      <ref-corep:Comment>' =2.1+2.2+2.3+2.4+2.5+2.6 For investment firms under article 20(2) and 24 of Directive 2006/49/EC = Max [2.1+2.2+2.3+2.6, 2.5] For investment firms under article 20(3) and 25 of Directive 2006/49/EC = 2.1+2.2+2.3+2.5+2.6 For investment firms under article 46 of Directive 2006/49/EC = Min[2.4,(12/88)*max(2.1+2.2+2.3, 2.5)] plus, if applicable, an incremental increase + 2.6</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirements" xlink:to="reference_CapitalRequirements" xlink:title="reference: CapitalRequirements to reference_CapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CertainSecuritisationExposuresNotIncludedRiskWeightedAssets" xlink:label="CertainSecuritisationExposuresNotIncludedRiskWeightedAssets" xlink:title="CertainSecuritisationExposuresNotIncludedRiskWeightedAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CertainSecuritisationExposuresNotIncludedRiskWeightedAssets" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CertainSecuritisationExposuresNotIncludedRiskWeightedAssets" id="reference_CertainSecuritisationExposuresNotIncludedRiskWeightedAssets">
+      <ref-corep:Comment>Article 57, sentence 2 lit (r) of Directive 2006/48/EC, unless Article 66, paragraph 2, sentence 3 of Directive 2006/48/EC applies.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CertainSecuritisationExposuresNotIncludedRiskWeightedAssets" xlink:to="reference_CertainSecuritisationExposuresNotIncludedRiskWeightedAssets" xlink:title="reference: CertainSecuritisationExposuresNotIncludedRiskWeightedAssets to reference_CertainSecuritisationExposuresNotIncludedRiskWeightedAssets"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties" xlink:label="CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties" xlink:title="CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties" id="reference_CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>g</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties" xlink:to="reference_CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties" xlink:title="reference: CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties to reference_CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ComplementCapitalRequirementsInvestmentFirmsArticle46" xlink:label="ComplementCapitalRequirementsInvestmentFirmsArticle46" xlink:title="ComplementCapitalRequirementsInvestmentFirmsArticle46"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ComplementCapitalRequirementsInvestmentFirmsArticle46" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ComplementCapitalRequirementsInvestmentFirmsArticle46" id="reference_ComplementCapitalRequirementsInvestmentFirmsArticle46">
+      <ref-corep:Comment>For investment firms under article 46 of Directive 2006/49/EC, the amount referred to in paragraph 4 of article 46 of Directive 2006/49/EC (starting "Applying this ….").</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ComplementCapitalRequirementsInvestmentFirmsArticle46" xlink:to="reference_ComplementCapitalRequirementsInvestmentFirmsArticle46" xlink:title="reference: ComplementCapitalRequirementsInvestmentFirmsArticle46 to reference_ComplementCapitalRequirementsInvestmentFirmsArticle46"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ComplementsOverallFloorCapitalRequirements" xlink:label="ComplementsOverallFloorCapitalRequirements" xlink:title="ComplementsOverallFloorCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ComplementsOverallFloorCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ComplementsOverallFloorCapitalRequirements" id="reference_ComplementsOverallFloorCapitalRequirements">
+      <ref-corep:Comment>Includes complements to capital requirements stemming from provisions in article 152 of Directive 2006/48/EC Without link to any template  &gt;= 0</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ComplementsOverallFloorCapitalRequirements" xlink:to="reference_ComplementsOverallFloorCapitalRequirements" xlink:title="reference: ComplementsOverallFloorCapitalRequirements to reference_ComplementsOverallFloorCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CoreAdditionalOwnFundsOtherItems" xlink:label="CoreAdditionalOwnFundsOtherItems" xlink:title="CoreAdditionalOwnFundsOtherItems"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CoreAdditionalOwnFundsOtherItems" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CoreAdditionalOwnFundsOtherItems" id="reference_CoreAdditionalOwnFundsOtherItems">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>f</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+      <ref-corep:Comment>In conjunction with Article 63 paragraph 1, Directive 2000/12/EC</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CoreAdditionalOwnFundsOtherItems" xlink:to="reference_CoreAdditionalOwnFundsOtherItems" xlink:title="reference: CoreAdditionalOwnFundsOtherItems to reference_CoreAdditionalOwnFundsOtherItems"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CoreAdditionalOwnFunds" xlink:label="CoreAdditionalOwnFunds" xlink:title="CoreAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CoreAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CoreAdditionalOwnFunds" id="reference_CoreAdditionalOwnFunds">
+      <ref-corep:Comment>Eligible Upper Tier 2 capital</ref-corep:Comment>
+      <ref-corep:Comment>= Excess on limits for original own funds transferred to core additional own funds + Adjustments made to valuation differences in original own funds transferred to core additional own funds + Revaluation reserves + Value adjustments for credit risk positions in standardised approach + Other items + Securities of indeterminate duration and other instruments + IRB Provision excess + Country specific Core Additional Own Funds</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CoreAdditionalOwnFunds" xlink:to="reference_CoreAdditionalOwnFunds" xlink:title="reference: CoreAdditionalOwnFunds to reference_CoreAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks" xlink:label="CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks" xlink:title="CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks" id="reference_CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks">
+      <ref-corep:Comment>For instance, capital amounts for backing any overshooting of the large exposure limits in the trading book</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+      <ref:Article>31</ref:Article>
+      <ref-corep:Letter>b</ref-corep:Letter>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks" xlink:to="reference_CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks" xlink:title="reference: CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks to reference_CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CountrySpecificDeductionsTotalOwnFunds" xlink:label="CountrySpecificDeductionsTotalOwnFunds" xlink:title="CountrySpecificDeductionsTotalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CountrySpecificDeductionsTotalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CountrySpecificDeductionsTotalOwnFunds" id="reference_CountrySpecificDeductionsTotalOwnFunds">
+      <ref-corep:Comment>Country specific deductions from own funds not allocated to original, additional or addtional to cover market risks own funds</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CountrySpecificDeductionsTotalOwnFunds" xlink:to="reference_CountrySpecificDeductionsTotalOwnFunds" xlink:title="reference: CountrySpecificDeductionsTotalOwnFunds to reference_CountrySpecificDeductionsTotalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit" xlink:label="EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit" xlink:title="EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit"/>
+    <link:reference xlink:type="resource" xlink:label="reference_EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit" id="reference_EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit">
+      <ref-corep:Comment>Corresponds to the type of instruments referred to in the Basel Committee on Banking Supervision' s press release (Sydney, October 1998). See Item (-) Excess On Limits For Innovative Instruments</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit" xlink:to="reference_EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit" xlink:title="reference: EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit to reference_EligibleCapitalOfWhichInnovativeInstrumentsSubjectLimit"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital" xlink:label="ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital" xlink:title="ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital" id="reference_ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital">
+      <ref:Article>66</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Letter>c</ref-corep:Letter>
+      <ref-corep:Comment>In conjunction with Article 57, Sentence 2, Letter n, Directive 2006/48/EC, 1st alternative</ref-corep:Comment>
+      <ref-corep:Directive>2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital" xlink:to="reference_ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital" xlink:title="reference: ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital to reference_ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ExcessLimitOwnFundsSpecificCoverMarketRisks" xlink:label="ExcessLimitOwnFundsSpecificCoverMarketRisks" xlink:title="ExcessLimitOwnFundsSpecificCoverMarketRisks"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ExcessLimitOwnFundsSpecificCoverMarketRisks" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ExcessLimitOwnFundsSpecificCoverMarketRisks" id="reference_ExcessLimitOwnFundsSpecificCoverMarketRisks">
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+      <ref:Article>13</ref:Article>
+      <ref:Paragraph>4</ref:Paragraph>
+      <ref-corep:Comment>In conjunction with Article 14</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExcessLimitOwnFundsSpecificCoverMarketRisks" xlink:to="reference_ExcessLimitOwnFundsSpecificCoverMarketRisks" xlink:title="reference: ExcessLimitOwnFundsSpecificCoverMarketRisks to reference_ExcessLimitOwnFundsSpecificCoverMarketRisks"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ExcessLimitsAdditionalOwnFunds" xlink:label="ExcessLimitsAdditionalOwnFunds" xlink:title="ExcessLimitsAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ExcessLimitsAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ExcessLimitsAdditionalOwnFunds" id="reference_ExcessLimitsAdditionalOwnFunds">
+      <ref:Article>66</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Letter>a</ref-corep:Letter>
+      <ref-corep:Comment>According to the particular rules governing the deductions in "(-) Other Country-Specific Deductions To Additional Own Funds", the latter may be deducted before calculating the excess on limits for additional own funds".</ref-corep:Comment>
+      <ref-corep:Directive>2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExcessLimitsAdditionalOwnFunds" xlink:to="reference_ExcessLimitsAdditionalOwnFunds" xlink:title="reference: ExcessLimitsAdditionalOwnFunds to reference_ExcessLimitsAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks" xlink:label="ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks" xlink:title="ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks" id="reference_ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks">
+      <ref-corep:Directive>Directive 2006/49/CE</ref-corep:Directive>
+      <ref:Article>13</ref:Article>
+      <ref:Paragraph>5</ref:Paragraph>
+      <ref-corep:Comment>In conjunction with Paragraph 2, Letter c.</ref-corep:Comment>
+      <ref-corep:Comment>The excess on limits for additional own funds (see items "(-) Excess On Limits For Additional Own Funds")  that is allowed to be eligible for inclusion within additional own funds specific to cover market risks.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks" xlink:to="reference_ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks" xlink:title="reference: ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks to reference_ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ExcessLimitsInnovativeInstruments" xlink:label="ExcessLimitsInnovativeInstruments" xlink:title="ExcessLimitsInnovativeInstruments"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ExcessLimitsInnovativeInstruments" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ExcessLimitsInnovativeInstruments" id="reference_ExcessLimitsInnovativeInstruments">
+      <ref-corep:Comment>Is the result of the application of the limit on instruments referred to "Of Which: Innovative Instruments Subject To Limit", "Of Which: Innovative Instruments Subject To Limit" and "Innovative Instruments Subject To Limit" in relation with item "Original Own Funds" following the Basel Committee on Banking Supervision' s press release (Sydney, October 1998).</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExcessLimitsInnovativeInstruments" xlink:to="reference_ExcessLimitsInnovativeInstruments" xlink:title="reference: ExcessLimitsInnovativeInstruments to reference_ExcessLimitsInnovativeInstruments"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ExcessLimitsNonInnovativeInstruments" xlink:label="ExcessLimitsNonInnovativeInstruments" xlink:title="ExcessLimitsNonInnovativeInstruments"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ExcessLimitsNonInnovativeInstruments" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ExcessLimitsNonInnovativeInstruments" id="reference_ExcessLimitsNonInnovativeInstruments">
+      <ref-corep:Comment>Is the result of the application of the limit on instruments referred to in "Of Which: Innovative Instruments Subject To Limit", "Of Which: Non-Innovative Instruments Subject To Limit" and "Non-Innovative Instruments Subject To Limit" in relation with item "Original Own Funds" following the International Convergence of Capital Measurement and Capital Standards, Basel Committee on Banking Supervision (July 1988).</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExcessLimitsNonInnovativeInstruments" xlink:to="reference_ExcessLimitsNonInnovativeInstruments" xlink:title="reference: ExcessLimitsNonInnovativeInstruments to reference_ExcessLimitsNonInnovativeInstruments"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:label="ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:title="ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds" id="reference_ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds">
+      <ref-corep:Comment>The excess on limits for original own funds (see items "(-) Excess On Limits For Non Innovative Instruments" and "(-) Excess On Limits For Innovative Instruments")  that are eligible for inclusion within "Core Additional Own Funds".</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:to="reference_ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds" xlink:title="reference: ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds to reference_ExcessLimitsOriginalOwnFundsTransferredCoreAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ExcessLimitsSupplementaryAdditionalOwnFunds" xlink:label="ExcessLimitsSupplementaryAdditionalOwnFunds" xlink:title="ExcessLimitsSupplementaryAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ExcessLimitsSupplementaryAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ExcessLimitsSupplementaryAdditionalOwnFunds" id="reference_ExcessLimitsSupplementaryAdditionalOwnFunds">
+      <ref:Article>66</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Letter>b</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExcessLimitsSupplementaryAdditionalOwnFunds" xlink:to="reference_ExcessLimitsSupplementaryAdditionalOwnFunds" xlink:title="reference: ExcessLimitsSupplementaryAdditionalOwnFunds to reference_ExcessLimitsSupplementaryAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_FixedTermCumulativePreferentialShares" xlink:label="FixedTermCumulativePreferentialShares" xlink:title="FixedTermCumulativePreferentialShares"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FixedTermCumulativePreferentialShares" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_FixedTermCumulativePreferentialShares" id="reference_FixedTermCumulativePreferentialShares">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>h</ref-corep:Letter>
+      <ref-corep:Comment>In conjunction with Article 64, Paragraph 3, Sentence 1</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FixedTermCumulativePreferentialShares" xlink:to="reference_FixedTermCumulativePreferentialShares" xlink:title="reference: FixedTermCumulativePreferentialShares to reference_FixedTermCumulativePreferentialShares"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction" xlink:label="FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction" xlink:title="FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction" id="reference_FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction">
+      <ref-corep:Comment>Annex II paragraph 2 Table 2 of Directive 2006/49/EC</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction" xlink:to="reference_FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction" xlink:title="reference: FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction to reference_FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_FundsGeneralBankingRisks" xlink:label="FundsGeneralBankingRisks" xlink:title="FundsGeneralBankingRisks"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FundsGeneralBankingRisks" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_FundsGeneralBankingRisks" id="reference_FundsGeneralBankingRisks">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>c</ref-corep:Letter>
+      <ref-corep:Comment>When applicable according to accounting rules</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FundsGeneralBankingRisks" xlink:to="reference_FundsGeneralBankingRisks" xlink:title="reference: FundsGeneralBankingRisks to reference_FundsGeneralBankingRisks"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_GrossAmountSubordinatedLoanCapital" xlink:label="GrossAmountSubordinatedLoanCapital" xlink:title="GrossAmountSubordinatedLoanCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GrossAmountSubordinatedLoanCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_GrossAmountSubordinatedLoanCapital" id="reference_GrossAmountSubordinatedLoanCapital">
+      <ref-corep:Comment>Without taking into account the reduction in the eligible amount during the five years before repayment.</ref-corep:Comment>
+      <ref:Article>64</ref:Article>
+      <ref:Paragraph>3</ref:Paragraph>
+      <ref-corep:Letter>c</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GrossAmountSubordinatedLoanCapital" xlink:to="reference_GrossAmountSubordinatedLoanCapital" xlink:title="reference: GrossAmountSubordinatedLoanCapital to reference_GrossAmountSubordinatedLoanCapital"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_IlliquidAssets" xlink:label="IlliquidAssets" xlink:title="IlliquidAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IlliquidAssets" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IlliquidAssets" id="reference_IlliquidAssets">
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+      <ref:Article>13</ref:Article>
+      <ref:Paragraph>2</ref:Paragraph>
+      <ref-corep:Letter>d</ref-corep:Letter>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IlliquidAssets" xlink:to="reference_IlliquidAssets" xlink:title="reference: IlliquidAssets to reference_IlliquidAssets"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_IncomeCurrentYearUnaudited" xlink:label="IncomeCurrentYearUnaudited" xlink:title="IncomeCurrentYearUnaudited"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IncomeCurrentYearUnaudited" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IncomeCurrentYearUnaudited" id="reference_IncomeCurrentYearUnaudited">
+      <ref-corep:Comment>≈ FINREP: (Part of) Income - interim dividends when conditions in Art 57, sentence 3 are not fulfilled and so the amount has not been verified by persons responsible for the auditing of the accounts.</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IncomeCurrentYearUnaudited" xlink:to="reference_IncomeCurrentYearUnaudited" xlink:title="reference: IncomeCurrentYearUnaudited to reference_IncomeCurrentYearUnaudited"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_IncomeNegativeCurrentYear" xlink:label="IncomeNegativeCurrentYear" xlink:title="IncomeNegativeCurrentYear"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IncomeNegativeCurrentYear" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IncomeNegativeCurrentYear" id="reference_IncomeNegativeCurrentYear">
+      <ref-corep:Comment>≈ FINREP: Negative Income from current year - interim dividends, when verified by persons responsible for the auditing of the accounts according to Article 57, sentence 3.</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IncomeNegativeCurrentYear" xlink:to="reference_IncomeNegativeCurrentYear" xlink:title="reference: IncomeNegativeCurrentYear to reference_IncomeNegativeCurrentYear"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_IncomePositiveCurrentYear" xlink:label="IncomePositiveCurrentYear" xlink:title="IncomePositiveCurrentYear"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IncomePositiveCurrentYear" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IncomePositiveCurrentYear" id="reference_IncomePositiveCurrentYear">
+      <ref-corep:Comment>≈ FINREP: Part of (positive Income from current year - interim dividends), when verified by persons responsible for the auditing of the accounts</ref-corep:Comment>
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>3</ref:Sentence>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IncomePositiveCurrentYear" xlink:to="reference_IncomePositiveCurrentYear" xlink:title="reference: IncomePositiveCurrentYear to reference_IncomePositiveCurrentYear"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_InnovativeInstrumentsSubjectLimit" xlink:label="InnovativeInstrumentsSubjectLimit" xlink:title="InnovativeInstrumentsSubjectLimit"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InnovativeInstrumentsSubjectLimit" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InnovativeInstrumentsSubjectLimit" id="reference_InnovativeInstrumentsSubjectLimit">
+      <ref-corep:Comment>Corresponds to the type of instruments referred to Basel Committee on Banking Supervision' s press release (Sydney, October 1998). See Item "(-) Excess on limits for innovative instruments"</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InnovativeInstrumentsSubjectLimit" xlink:to="reference_InnovativeInstrumentsSubjectLimit" xlink:title="reference: InnovativeInstrumentsSubjectLimit to reference_InnovativeInstrumentsSubjectLimit"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_IntangibleAssets" xlink:label="IntangibleAssets" xlink:title="IntangibleAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IntangibleAssets" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IntangibleAssets" id="reference_IntangibleAssets">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>2</ref:Sentence>
+      <ref-corep:Letter>j</ref-corep:Letter>
+      <ref-corep:Comment>Includes any goodwill not already deducted (first consolidation difference) within Reserves.</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IntangibleAssets" xlink:to="reference_IntangibleAssets" xlink:title="reference: IntangibleAssets to reference_IntangibleAssets"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_InterimProfitsMaterialLossesCurrentFinancialYear" xlink:label="InterimProfitsMaterialLossesCurrentFinancialYear" xlink:title="InterimProfitsMaterialLossesCurrentFinancialYear"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterimProfitsMaterialLossesCurrentFinancialYear_2" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InterimProfitsMaterialLossesCurrentFinancialYear" id="reference_InterimProfitsMaterialLossesCurrentFinancialYear">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>3</ref:Sentence>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+      <ref-corep:Comment>If positive</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterimProfitsMaterialLossesCurrentFinancialYear" xlink:to="reference_InterimProfitsMaterialLossesCurrentFinancialYear_2" xlink:title="reference: InterimProfitsMaterialLossesCurrentFinancialYear to reference_InterimProfitsMaterialLossesCurrentFinancialYear"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterimProfitsMaterialLossesCurrentFinancialYear" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InterimProfitsMaterialLossesCurrentFinancialYear" id="reference_InterimProfitsMaterialLossesCurrentFinancialYear_2">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>2</ref:Sentence>
+      <ref-corep:Letter>k</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+      <ref-corep:Comment>If negative</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterimProfitsMaterialLossesCurrentFinancialYear" xlink:to="reference_InterimProfitsMaterialLossesCurrentFinancialYear" xlink:title="reference: InterimProfitsMaterialLossesCurrentFinancialYear to reference_InterimProfitsMaterialLossesCurrentFinancialYear"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_InterimProfits" xlink:label="InterimProfits" xlink:title="InterimProfits"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterimProfits" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InterimProfits" id="reference_InterimProfits">
+      <ref:Sentence>3 (starting "For the purposes….")</ref:Sentence>
+      <ref:Article>57</ref:Article>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterimProfits" xlink:to="reference_InterimProfits" xlink:title="reference: InterimProfits to reference_InterimProfits"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_InternalAssessmentCapitalNeeds" xlink:label="InternalAssessmentCapitalNeeds" xlink:title="InternalAssessmentCapitalNeeds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InternalAssessmentCapitalNeeds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InternalAssessmentCapitalNeeds" id="reference_InternalAssessmentCapitalNeeds">
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+      <ref:Article>123</ref:Article>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InternalAssessmentCapitalNeeds" xlink:to="reference_InternalAssessmentCapitalNeeds" xlink:title="reference: InternalAssessmentCapitalNeeds to reference_InternalAssessmentCapitalNeeds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_InternalAssessmentCapital" xlink:label="InternalAssessmentCapital" xlink:title="InternalAssessmentCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InternalAssessmentCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InternalAssessmentCapital" id="reference_InternalAssessmentCapital">
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+      <ref:Article>123</ref:Article>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InternalAssessmentCapital" xlink:to="reference_InternalAssessmentCapital" xlink:title="reference: InternalAssessmentCapital to reference_InternalAssessmentCapital"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_IRBProvisionExcess" xlink:label="IRBProvisionExcess" xlink:title="IRBProvisionExcess"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBProvisionExcess" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBProvisionExcess" id="reference_IRBProvisionExcess">
+      <ref:Article>63</ref:Article>
+      <ref:Paragraph>3</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBProvisionExcess" xlink:to="reference_IRBProvisionExcess" xlink:title="reference: IRBProvisionExcess to reference_IRBProvisionExcess"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_IRBProvisionShortfall" xlink:label="IRBProvisionShortfall" xlink:title="IRBProvisionShortfall"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IRBProvisionShortfall" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IRBProvisionShortfall" id="reference_IRBProvisionShortfall">
+      <ref-corep:Comment>Article 57 sentence 2 lit. (q) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IRBProvisionShortfall" xlink:to="reference_IRBProvisionShortfall" xlink:title="reference: IRBProvisionShortfall to reference_IRBProvisionShortfall"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests" xlink:label="MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests" xlink:title="MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests" id="reference_MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests">
+      <ref-corep:Comment>Nonetheless, if specific local rules are applied for the definition of capital relevant for large exposures or for limits to qualifying participating interests, other components might be taken into account in the formula.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests" xlink:to="reference_MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests" xlink:title="reference: MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests to reference_MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed" xlink:label="MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed" xlink:title="MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed" id="reference_MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed">
+      <ref-corep:Comment>Nonetheless, if specific local rules are applied for the definition of capital relevant for large exposures, other components might be taken into account in the formula.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed" xlink:to="reference_MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed" xlink:title="reference: MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed to reference_MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_MinimumInitialCapitalRequired" xlink:label="MinimumInitialCapitalRequired" xlink:title="MinimumInitialCapitalRequired"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinimumInitialCapitalRequired_8" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinimumInitialCapitalRequired" id="reference_MinimumInitialCapitalRequired">
+      <ref:Article>9</ref:Article>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinimumInitialCapitalRequired" xlink:to="reference_MinimumInitialCapitalRequired_8" xlink:title="reference: MinimumInitialCapitalRequired to reference_MinimumInitialCapitalRequired"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinimumInitialCapitalRequired" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinimumInitialCapitalRequired" id="reference_MinimumInitialCapitalRequired_2">
+      <ref:Article>10</ref:Article>
+      <ref:Paragraph>4</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinimumInitialCapitalRequired" xlink:to="reference_MinimumInitialCapitalRequired" xlink:title="reference: MinimumInitialCapitalRequired to reference_MinimumInitialCapitalRequired"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinimumInitialCapitalRequired_2" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinimumInitialCapitalRequired" id="reference_MinimumInitialCapitalRequired_3">
+      <ref:Article>5</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinimumInitialCapitalRequired" xlink:to="reference_MinimumInitialCapitalRequired_2" xlink:title="reference: MinimumInitialCapitalRequired to reference_MinimumInitialCapitalRequired"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinimumInitialCapitalRequired_3" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinimumInitialCapitalRequired" id="reference_MinimumInitialCapitalRequired_4">
+      <ref:Article>5</ref:Article>
+      <ref:Paragraph>3</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinimumInitialCapitalRequired" xlink:to="reference_MinimumInitialCapitalRequired_3" xlink:title="reference: MinimumInitialCapitalRequired to reference_MinimumInitialCapitalRequired"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinimumInitialCapitalRequired_4" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinimumInitialCapitalRequired" id="reference_MinimumInitialCapitalRequired_5">
+      <ref:Article>6</ref:Article>
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinimumInitialCapitalRequired" xlink:to="reference_MinimumInitialCapitalRequired_4" xlink:title="reference: MinimumInitialCapitalRequired to reference_MinimumInitialCapitalRequired"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinimumInitialCapitalRequired_5" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinimumInitialCapitalRequired" id="reference_MinimumInitialCapitalRequired_6">
+      <ref:Article>9</ref:Article>
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinimumInitialCapitalRequired" xlink:to="reference_MinimumInitialCapitalRequired_5" xlink:title="reference: MinimumInitialCapitalRequired to reference_MinimumInitialCapitalRequired"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinimumInitialCapitalRequired_6" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinimumInitialCapitalRequired" id="reference_MinimumInitialCapitalRequired_7">
+      <ref:Article>10</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinimumInitialCapitalRequired" xlink:to="reference_MinimumInitialCapitalRequired_6" xlink:title="reference: MinimumInitialCapitalRequired to reference_MinimumInitialCapitalRequired"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinimumInitialCapitalRequired_7" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinimumInitialCapitalRequired" id="reference_MinimumInitialCapitalRequired_8">
+      <ref:Article>10</ref:Article>
+      <ref:Paragraph>3</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinimumInitialCapitalRequired" xlink:to="reference_MinimumInitialCapitalRequired_7" xlink:title="reference: MinimumInitialCapitalRequired to reference_MinimumInitialCapitalRequired"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit" xlink:label="MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit" xlink:title="MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit" id="reference_MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit">
+      <ref-corep:Comment>Corresponds to the type of instruments referred to Basel Committee on Banking Supervision' s press release (Sydney, October 1998).</ref-corep:Comment>
+      <ref-corep:Comment>See Item (-) Excess On Limits For Innovative Instruments</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit" xlink:to="reference_MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit" xlink:title="reference: MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit to reference_MinorityInterestOfWhichInnovativeInstrumentsSubjectLimit"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_MinorityInterest" xlink:label="MinorityInterest" xlink:title="MinorityInterest"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinorityInterest_2" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinorityInterest" id="reference_MinorityInterest">
+      <ref:Article>65</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Letter>a</ref-corep:Letter>
+      <ref-corep:Directive>2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinorityInterest" xlink:to="reference_MinorityInterest_2" xlink:title="reference: MinorityInterest to reference_MinorityInterest"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinorityInterest" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinorityInterest" id="reference_MinorityInterest_2">
+      <ref:Article>65</ref:Article>
+      <ref:Paragraph>2</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+      <ref-corep:Comment>≈ FINREP: Minority interest (excludes the Valuation Differences Included In Valuation Differences Eligible As Original Own Funds)</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinorityInterest" xlink:to="reference_MinorityInterest" xlink:title="reference: MinorityInterest to reference_MinorityInterest"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_NegativeFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:label="NegativeFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:title="NegativeFilterFirstTimeAdoptionIASTypeAccountingRules"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NegativeFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NegativeFilterFirstTimeAdoptionIASTypeAccountingRules" id="reference_NegativeFilterFirstTimeAdoptionIASTypeAccountingRules">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NegativeFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:to="reference_NegativeFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:title="reference: NegativeFilterFirstTimeAdoptionIASTypeAccountingRules to reference_NegativeFilterFirstTimeAdoptionIASTypeAccountingRules"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_NetGainsCapitalisationFutureMarginIncomeSecuritisations" xlink:label="NetGainsCapitalisationFutureMarginIncomeSecuritisations" xlink:title="NetGainsCapitalisationFutureMarginIncomeSecuritisations"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NetGainsCapitalisationFutureMarginIncomeSecuritisations" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NetGainsCapitalisationFutureMarginIncomeSecuritisations" id="reference_NetGainsCapitalisationFutureMarginIncomeSecuritisations">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>4</ref:Sentence>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NetGainsCapitalisationFutureMarginIncomeSecuritisations" xlink:to="reference_NetGainsCapitalisationFutureMarginIncomeSecuritisations" xlink:title="reference: NetGainsCapitalisationFutureMarginIncomeSecuritisations to reference_NetGainsCapitalisationFutureMarginIncomeSecuritisations"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_NetTradingBookProfits" xlink:label="NetTradingBookProfits" xlink:title="NetTradingBookProfits"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NetTradingBookProfits" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NetTradingBookProfits" id="reference_NetTradingBookProfits">
+      <ref-corep:Directive>Directive 2006/49/CE</ref-corep:Directive>
+      <ref:Article>13</ref:Article>
+      <ref:Paragraph>2</ref:Paragraph>
+      <ref-corep:Letter>b</ref-corep:Letter>
+      <ref-corep:Comment>Includes the profit/losses originating from valuation adjustments/reserves as laid down in Annex VII, Part B, Points 14-14a of Directive 2006/49/CE</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NetTradingBookProfits" xlink:to="reference_NetTradingBookProfits" xlink:title="reference: NetTradingBookProfits to reference_NetTradingBookProfits"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OfWhichFromAdditionalOwnFunds" xlink:label="OfWhichFromAdditionalOwnFunds" xlink:title="OfWhichFromAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OfWhichFromAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OfWhichFromAdditionalOwnFunds" id="reference_OfWhichFromAdditionalOwnFunds">
+      <ref:Article>66</ref:Article>
+      <ref:Paragraph>2</ref:Paragraph>
+      <ref-corep:Directive>2006/48/EC</ref-corep:Directive>
+      <ref-corep:Comment>When 50% of item "(-) Deductions From Original And Additional Own Funds" exceeds item "Additional Own Funds", the excess will also be deducted from item "Original Own Funds", so being included in "Of which: (-) From Original Own Funds".</ref-corep:Comment>
+      <ref-corep:Comment>See item "Total Additional Own Funds For General Sovency Purposes"</ref-corep:Comment>
+      <ref-corep:Comment>In the case of item "(-) Other Country Specific Deductions From Original And Additional Own Funds", the competent authorities may decide to apply deductions from original or additional  own funds in different proportions according to Article 61, Paragraph 1, Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OfWhichFromAdditionalOwnFunds" xlink:to="reference_OfWhichFromAdditionalOwnFunds" xlink:title="reference: OfWhichFromAdditionalOwnFunds to reference_OfWhichFromAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CapitalRequirementsOfWhichInvestmentFirmsArticle20And24" xlink:label="CapitalRequirementsOfWhichInvestmentFirmsArticle20And24" xlink:title="CapitalRequirementsOfWhichInvestmentFirmsArticle20And24"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And24" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And24" id="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And24">
+      <ref-corep:Comment>For investment firms under Article 20, Paragraph 2 and Paragraph 24 of Directive 2006/49/EC = Max [TOTAL CAPITAL REQUIREMENTS FOR CREDIT, COUNTERPARTY CREDIT, DILUTION AND DELIVERY RISKS+SETTLEMENT RISK+TOTAL CAPITAL REQUIREMENTS FOR POSITION, FOREIGN EXCHANGE AND COMMODITY RISKS+OTHER AND TRANSITIONAL CAPITAL REQUIREMENTS,CAPITAL REQUIREMENTS RELATED TO FIXED OVERHEADS]</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirementsOfWhichInvestmentFirmsArticle20And24" xlink:to="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And24" xlink:title="reference: CapitalRequirementsOfWhichInvestmentFirmsArticle20And24 to reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And24"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CapitalRequirementsOfWhichInvestmentFirmsArticle20And25" xlink:label="CapitalRequirementsOfWhichInvestmentFirmsArticle20And25" xlink:title="CapitalRequirementsOfWhichInvestmentFirmsArticle20And25"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And25" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And25" id="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And25">
+      <ref-corep:Comment>For investment firms under Article 20, Paragraph 3 and Paragraph 25 of Directive 2006/49/EC = TOTAL CAPITAL REQUIREMENTS FOR CREDIT, COUNTERPARTY CREDIT, DILUTION AND DELIVERY RISKS+SETTLEMENT RISK+TOTAL CAPITAL REQUIREMENTS FOR POSITION, FOREIGN EXCHANGE AND COMMODITY RISKS+CAPITAL REQUIREMENTS RELATED TO FIXED OVERHEADS+OTHER AND TRANSITIONAL CAPITAL REQUIREMENTS</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirementsOfWhichInvestmentFirmsArticle20And25" xlink:to="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And25" xlink:title="reference: CapitalRequirementsOfWhichInvestmentFirmsArticle20And25 to reference_CapitalRequirementsOfWhichInvestmentFirmsArticle20And25"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_CapitalRequirementsOfWhichInvestmentFirmsArticle46" xlink:label="CapitalRequirementsOfWhichInvestmentFirmsArticle46" xlink:title="CapitalRequirementsOfWhichInvestmentFirmsArticle46"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle46" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle46" id="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle46">
+      <ref-corep:Comment>For investment firms under article 46, paragraphs 1 to 3 of Directive 2006/49/EC = Min[2.4,(12/88)*max(2.1+2.2+2.3, 2.5)] plus, if applicable, an incremental increase + 2.6</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirementsOfWhichInvestmentFirmsArticle46" xlink:to="reference_CapitalRequirementsOfWhichInvestmentFirmsArticle46" xlink:title="reference: CapitalRequirementsOfWhichInvestmentFirmsArticle46 to reference_CapitalRequirementsOfWhichInvestmentFirmsArticle46"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OfWhichOriginalOwnFunds" xlink:label="OfWhichOriginalOwnFunds" xlink:title="OfWhichOriginalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OfWhichOriginalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OfWhichOriginalOwnFunds" id="reference_OfWhichOriginalOwnFunds">
+      <ref:Article>66</ref:Article>
+      <ref:Paragraph>2</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+      <ref-corep:Comment>Deduction from original own funds (item "Original Own Funds") is, at least, 50% of ("(-) Deductions From Original And Additional Own Funds" less "(-) Other Country Specific Deductions From Original And Additional Own Funds") (see "Of Which: (-) From Additional Own Funds").</ref-corep:Comment>
+      <ref-corep:Comment>See also item "Total Original Own Funds For General Solvency Purposes"</ref-corep:Comment>
+      <ref-corep:Comment>In the case of item "(-) Other Country Specific Deductions From Original And Additional Own Funds", the competent authorities may decide to apply deductions from original or additional  own funds in different proportions according to Article 61, Paragraph 1, Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OfWhichOriginalOwnFunds" xlink:to="reference_OfWhichOriginalOwnFunds" xlink:title="reference: OfWhichOriginalOwnFunds to reference_OfWhichOriginalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds" xlink:label="OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds" xlink:title="OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds" id="reference_OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+      <ref-corep:Comment>The amount or part of the amount in "Adjustment To Other Valuation Differences Affecting The Eligible Reserves" and any other adjusments not explicitly listed above.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds" xlink:to="reference_OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds" xlink:title="reference: OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds to reference_OtherAdjustmentsValuationDifferencesAffectingEligibleReservesTransferredCoreAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds" xlink:label="OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds" xlink:title="OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds" id="reference_OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds">
+      <ref:Article>61</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds" xlink:to="reference_OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds" xlink:title="reference: OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds to reference_OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OtherCountrySpecificDeductionsOriginalOwnFundsOther" xlink:label="OtherCountrySpecificDeductionsOriginalOwnFundsOther" xlink:title="OtherCountrySpecificDeductionsOriginalOwnFundsOther"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherCountrySpecificDeductionsOriginalOwnFundsOther" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherCountrySpecificDeductionsOriginalOwnFundsOther" id="reference_OtherCountrySpecificDeductionsOriginalOwnFundsOther">
+      <ref-corep:Comment>Includes those prudential filters not listed above that reduce the original own funds</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherCountrySpecificDeductionsOriginalOwnFundsOther" xlink:to="reference_OtherCountrySpecificDeductionsOriginalOwnFundsOther" xlink:title="reference: OtherCountrySpecificDeductionsOriginalOwnFundsOther to reference_OtherCountrySpecificDeductionsOriginalOwnFundsOther"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OtherCountrySpecificOriginalOwnFundsOther" xlink:label="OtherCountrySpecificOriginalOwnFundsOther" xlink:title="OtherCountrySpecificOriginalOwnFundsOther"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherCountrySpecificOriginalOwnFundsOther" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherCountrySpecificOriginalOwnFundsOther" id="reference_OtherCountrySpecificOriginalOwnFundsOther">
+      <ref-corep:Comment>Includes those prudential filters not listed above that increase the original own funds</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherCountrySpecificOriginalOwnFundsOther" xlink:to="reference_OtherCountrySpecificOriginalOwnFundsOther" xlink:title="reference: OtherCountrySpecificOriginalOwnFundsOther to reference_OtherCountrySpecificOriginalOwnFundsOther"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OtherCountrySpecificOwnFundsRequirements" xlink:label="OtherCountrySpecificOwnFundsRequirements" xlink:title="OtherCountrySpecificOwnFundsRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherCountrySpecificOwnFundsRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherCountrySpecificOwnFundsRequirements" id="reference_OtherCountrySpecificOwnFundsRequirements">
+      <ref-corep:Comment>Without link to any template. To introduce national flexibility.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherCountrySpecificOwnFundsRequirements" xlink:to="reference_OtherCountrySpecificOwnFundsRequirements" xlink:title="reference: OtherCountrySpecificOwnFundsRequirements to reference_OtherCountrySpecificOwnFundsRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OtherInstrumentsEligibleCapital" xlink:label="OtherInstrumentsEligibleCapital" xlink:title="OtherInstrumentsEligibleCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherInstrumentsEligibleCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherInstrumentsEligibleCapital" id="reference_OtherInstrumentsEligibleCapital">
+      <ref-corep:Comment>See also Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules. This item includes the instruments eligible as original own funds but classified as debt under the IAS-type accounting rules.</ref-corep:Comment>
+      <ref-corep:Comment>≈ FINREP: Includes amongst others the item "Other equity:other" and "share capital repayable on demand (e.g. cooperative shares)"</ref-corep:Comment>
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>a</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC.</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherInstrumentsEligibleCapital" xlink:to="reference_OtherInstrumentsEligibleCapital" xlink:title="reference: OtherInstrumentsEligibleCapital to reference_OtherInstrumentsEligibleCapital"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained" xlink:label="OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained" xlink:title="OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained" id="reference_OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained">
+      <ref-corep:Comment>Article 57, sentence 2 lit. (p) of Directive 2006/48/EC. It must be noted that supervisors may not apply deductions referred in this line (see article 59 of Directive 2006/48/EC) and apply mutatis mutandis methods 1, 2 or 3 of annex I to Directive 2002/87. The issue as how credit institutions considered as conglomerate apply for reporting purposes the joint forum method should be dealt with (further clarification necessary)</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained" xlink:to="reference_OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained" xlink:title="reference: OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained to reference_OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OtherValuationDifferencesAffectingEligibleReserves" xlink:label="OtherValuationDifferencesAffectingEligibleReserves" xlink:title="OtherValuationDifferencesAffectingEligibleReserves"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherValuationDifferencesAffectingEligibleReserves" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherValuationDifferencesAffectingEligibleReserves" id="reference_OtherValuationDifferencesAffectingEligibleReserves">
+      <ref-corep:Comment>≈ FINREP: Respective part of Revaluation reserves (valuation diferences) + Minority interest: revaluation reserves</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherValuationDifferencesAffectingEligibleReserves" xlink:to="reference_OtherValuationDifferencesAffectingEligibleReserves" xlink:title="reference: OtherValuationDifferencesAffectingEligibleReserves to reference_OtherValuationDifferencesAffectingEligibleReserves"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OwnShares" xlink:label="OwnShares" xlink:title="OwnShares"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OwnShares" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OwnShares" id="reference_OwnShares">
+      <ref-corep:Comment>≈ FINREP: Treasury shares</ref-corep:Comment>
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>2</ref:Sentence>
+      <ref-corep:Letter>i</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC.</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OwnShares" xlink:to="reference_OwnShares" xlink:title="reference: OwnShares to reference_OwnShares"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_PaidUpCapital" xlink:label="PaidUpCapital" xlink:title="PaidUpCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PaidUpCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_PaidUpCapital" id="reference_PaidUpCapital">
+      <ref-corep:Comment>≈ FINREP: Paid in capital</ref-corep:Comment>
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>a</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC.</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PaidUpCapital" xlink:to="reference_PaidUpCapital" xlink:title="reference: PaidUpCapital to reference_PaidUpCapital"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies" xlink:label="ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies" xlink:title="ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies" id="reference_ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>2</ref:Sentence>
+      <ref-corep:Letter>o</ref-corep:Letter>
+      <ref-corep:Comment>It must be noted that supervisors may not apply deductions referred in this line (see article 59) and apply mutatis mutandis methods 1, 2 or 3 of Annex 1 to Directive 2002/87. The issue as to how credit institutions considered as conglomerate apply for reporting pursposes the joint forum method should be dealt with (further clarification necessary)</ref-corep:Comment>
+      <ref-corep:Directive>2000/12/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies" xlink:to="reference_ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies" xlink:title="reference: ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies to reference_ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ParticipationsInInsuranceUndertakings" xlink:label="ParticipationsInInsuranceUndertakings" xlink:title="ParticipationsInInsuranceUndertakings"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ParticipationsInInsuranceUndertakings" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ParticipationsInInsuranceUndertakings" id="reference_ParticipationsInInsuranceUndertakings">
+      <ref-corep:Comment>Transitional treatment under article 154 paragraph 4 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ParticipationsInInsuranceUndertakings" xlink:to="reference_ParticipationsInInsuranceUndertakings" xlink:title="reference: ParticipationsInInsuranceUndertakings to reference_ParticipationsInInsuranceUndertakings"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_PartIncomeNegativeCurrentYearFilteredOutValuationDifferences" xlink:label="PartIncomeNegativeCurrentYearFilteredOutValuationDifferences" xlink:title="PartIncomeNegativeCurrentYearFilteredOutValuationDifferences"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PartIncomeNegativeCurrentYearFilteredOutValuationDifferences" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_PartIncomeNegativeCurrentYearFilteredOutValuationDifferences" id="reference_PartIncomeNegativeCurrentYearFilteredOutValuationDifferences">
+      <ref-corep:Comment>Component of the Income (negative) from current year subject to prudential filter in Valuation differences eligible as original own funds (Valuation differences in FVO financial liabilities (own credit risk), Valuation differences in investment property and Valuation differences in property, plant and equipment)</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PartIncomeNegativeCurrentYearFilteredOutValuationDifferences" xlink:to="reference_PartIncomeNegativeCurrentYearFilteredOutValuationDifferences" xlink:title="reference: PartIncomeNegativeCurrentYearFilteredOutValuationDifferences to reference_PartIncomeNegativeCurrentYearFilteredOutValuationDifferences"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_PartIncomePositiveCurrentYearFilteredOutValuationDifferences" xlink:label="PartIncomePositiveCurrentYearFilteredOutValuationDifferences" xlink:title="PartIncomePositiveCurrentYearFilteredOutValuationDifferences"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PartIncomePositiveCurrentYearFilteredOutValuationDifferences" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_PartIncomePositiveCurrentYearFilteredOutValuationDifferences" id="reference_PartIncomePositiveCurrentYearFilteredOutValuationDifferences">
+      <ref-corep:Comment>Component of the Income (positive) from the current year subject to prudential filter in Valuation differences eligible as original own funds (Valuation differences in FVO financial liabilities (own credit risk), Valuation differences in investment property and Valuation differences in property, plant and equipment)</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PartIncomePositiveCurrentYearFilteredOutValuationDifferences" xlink:to="reference_PartIncomePositiveCurrentYearFilteredOutValuationDifferences" xlink:title="reference: PartIncomePositiveCurrentYearFilteredOutValuationDifferences to reference_PartIncomePositiveCurrentYearFilteredOutValuationDifferences"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences" xlink:label="PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences" xlink:title="PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences" id="reference_PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences">
+      <ref-corep:Comment>Component of the unaudited Income from current year subject to prudential filter in 1.1.2.6 (1.1.2.6.07, 1.1.2.6.11 and 1.1.2.6.13)</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences" xlink:to="reference_PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences" xlink:title="reference: PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences to reference_PartUnauditedIncomeCurrentYearFilteredOutValuationDifferences"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_QualifiedParticipatingInterestNonFinancialInstitutions" xlink:label="QualifiedParticipatingInterestNonFinancialInstitutions" xlink:title="QualifiedParticipatingInterestNonFinancialInstitutions"/>
+    <link:reference xlink:type="resource" xlink:label="reference_QualifiedParticipatingInterestNonFinancialInstitutions_2" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_QualifiedParticipatingInterestNonFinancialInstitutions" id="reference_QualifiedParticipatingInterestNonFinancialInstitutions">
+      <ref:Article>120</ref:Article>
+      <ref-corep:Directive>2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="QualifiedParticipatingInterestNonFinancialInstitutions" xlink:to="reference_QualifiedParticipatingInterestNonFinancialInstitutions_2" xlink:title="reference: QualifiedParticipatingInterestNonFinancialInstitutions to reference_QualifiedParticipatingInterestNonFinancialInstitutions"/>
+    <link:reference xlink:type="resource" xlink:label="reference_QualifiedParticipatingInterestNonFinancialInstitutions" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_QualifiedParticipatingInterestNonFinancialInstitutions" id="reference_QualifiedParticipatingInterestNonFinancialInstitutions_2">
+      <ref:Article>122</ref:Article>
+      <ref:Paragraph>2</ref:Paragraph>
+      <ref-corep:Directive>2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="QualifiedParticipatingInterestNonFinancialInstitutions" xlink:to="reference_QualifiedParticipatingInterestNonFinancialInstitutions" xlink:title="reference: QualifiedParticipatingInterestNonFinancialInstitutions to reference_QualifiedParticipatingInterestNonFinancialInstitutions"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_Reserves" xlink:label="Reserves" xlink:title="Reserves"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Reserves_3" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_Reserves" id="reference_Reserves">
+      <ref-corep:Comment>≈ FINREP: Reserve+Revaluation reserves (excludes the valuation differences included in Valuation Differences Eligible as Original Own Funds)</ref-corep:Comment>
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>b</ref-corep:Letter>
+      <ref-corep:Comment>Including Profit and Losses Brought Forward as a Result of the Application of the Final Profit or Loss</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Reserves" xlink:to="reference_Reserves_3" xlink:title="reference: Reserves to reference_Reserves"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Reserves" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_Reserves" id="reference_Reserves_2">
+      <ref:Article>65</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Letter>b, c, d</ref-corep:Letter>
+      <ref-corep:Directive>2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Reserves" xlink:to="reference_Reserves" xlink:title="reference: Reserves to reference_Reserves"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Reserves_2" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_Reserves" id="reference_Reserves_3">
+      <ref:Article>65</ref:Article>
+      <ref:Paragraph>2</ref:Paragraph>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Reserves" xlink:to="reference_Reserves_2" xlink:title="reference: Reserves to reference_Reserves"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_RevaluationReserves" xlink:label="RevaluationReserves" xlink:title="RevaluationReserves"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RevaluationReserves" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_RevaluationReserves" id="reference_RevaluationReserves">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>d</ref-corep:Letter>
+      <ref-corep:Comment>Net of valuation differences airising from IAS-type accounting rules which have already been included and filtered within the original own funds, some of them having been transferred to core additional own funds (item "Adjustments Made To Valuation Differences In Original Own Funds Transferred To Core Additional Own Funds")</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RevaluationReserves" xlink:to="reference_RevaluationReserves" xlink:title="reference: RevaluationReserves to reference_RevaluationReserves"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_SecuritiesIndeterminateDurationOtherInstruments" xlink:label="SecuritiesIndeterminateDurationOtherInstruments" xlink:title="SecuritiesIndeterminateDurationOtherInstruments"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SecuritiesIndeterminateDurationOtherInstruments" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SecuritiesIndeterminateDurationOtherInstruments" id="reference_SecuritiesIndeterminateDurationOtherInstruments">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>f</ref-corep:Letter>
+      <ref-corep:Comment>In conjunction with Article 63, paragraph 2, Directive 2000/12/EC</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SecuritiesIndeterminateDurationOtherInstruments" xlink:to="reference_SecuritiesIndeterminateDurationOtherInstruments" xlink:title="reference: SecuritiesIndeterminateDurationOtherInstruments to reference_SecuritiesIndeterminateDurationOtherInstruments"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SettlementRiskCapitalRequirements" xlink:label="SettlementRiskCapitalRequirements" xlink:title="SettlementRiskCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SettlementRiskCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SettlementRiskCapitalRequirements" id="reference_SettlementRiskCapitalRequirements">
+      <ref-corep:Comment>CR TB SETT</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SettlementRiskCapitalRequirements" xlink:to="reference_SettlementRiskCapitalRequirements" xlink:title="reference: SettlementRiskCapitalRequirements to reference_SettlementRiskCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_SharePremium" xlink:label="SharePremium" xlink:title="SharePremium"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SharePremium" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SharePremium" id="reference_SharePremium">
+      <ref-corep:Comment>≈ FINREP: Share premium</ref-corep:Comment>
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>a</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC.</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SharePremium" xlink:to="reference_SharePremium" xlink:title="reference: SharePremium to reference_SharePremium"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital" xlink:label="SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital" xlink:title="SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital" id="reference_SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital">
+      <ref-corep:Comment>Article 66 (2) of Directive 2006/48/EC in conjunction with Article 57 sentence 2 lit. (m) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital" xlink:to="reference_SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital" xlink:title="reference: SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital to reference_SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_SubordinatedLoanCapital" xlink:label="SubordinatedLoanCapital" xlink:title="SubordinatedLoanCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SubordinatedLoanCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SubordinatedLoanCapital" id="reference_SubordinatedLoanCapital">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>h</ref-corep:Letter>
+      <ref-corep:Comment>In conjunction with Article 64 (3), Sentence 2, paying particular attention to Letter c whose calendar effects have been considered"</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SubordinatedLoanCapital" xlink:to="reference_SubordinatedLoanCapital" xlink:title="reference: SubordinatedLoanCapital to reference_SubordinatedLoanCapital"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_SupplementaryAdditionalOwnFunds" xlink:label="SupplementaryAdditionalOwnFunds" xlink:title="SupplementaryAdditionalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SupplementaryAdditionalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SupplementaryAdditionalOwnFunds" id="reference_SupplementaryAdditionalOwnFunds">
+      <ref:Article>66</ref:Article>
+      <ref:Paragraph>1</ref:Paragraph>
+      <ref-corep:Letter>b</ref-corep:Letter>
+      <ref-corep:Comment>Eligible Lower Tier 2 capital.</ref-corep:Comment>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SupplementaryAdditionalOwnFunds" xlink:to="reference_SupplementaryAdditionalOwnFunds" xlink:title="reference: SupplementaryAdditionalOwnFunds to reference_SupplementaryAdditionalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_OperationalRiskCapitalRequirements" xlink:label="OperationalRiskCapitalRequirements" xlink:title="OperationalRiskCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OperationalRiskCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OperationalRiskCapitalRequirements" id="reference_OperationalRiskCapitalRequirements">
+      <ref-corep:Comment>For investment firms under Article 20 Paragraph 2, Article 24, Article 20 Paragraph 3 and Article 25 of Directive 2006/49/EC this element will be zero.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OperationalRiskCapitalRequirements" xlink:to="reference_OperationalRiskCapitalRequirements" xlink:title="reference: OperationalRiskCapitalRequirements to reference_OperationalRiskCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_UnusedEligibleOwnFundsSpecificCoverMarketRisks" xlink:label="UnusedEligibleOwnFundsSpecificCoverMarketRisks" xlink:title="UnusedEligibleOwnFundsSpecificCoverMarketRisks"/>
+    <link:reference xlink:type="resource" xlink:label="reference_UnusedEligibleOwnFundsSpecificCoverMarketRisks" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_UnusedEligibleOwnFundsSpecificCoverMarketRisks" id="reference_UnusedEligibleOwnFundsSpecificCoverMarketRisks">
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+      <ref:Article>13</ref:Article>
+      <ref:Paragraph>2</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UnusedEligibleOwnFundsSpecificCoverMarketRisks" xlink:to="reference_UnusedEligibleOwnFundsSpecificCoverMarketRisks" xlink:title="reference: UnusedEligibleOwnFundsSpecificCoverMarketRisks to reference_UnusedEligibleOwnFundsSpecificCoverMarketRisks"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ValuationDifferencesAFSAssets" xlink:label="ValuationDifferencesAFSAssets" xlink:title="ValuationDifferencesAFSAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ValuationDifferencesAFSAssets" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ValuationDifferencesAFSAssets" id="reference_ValuationDifferencesAFSAssets">
+      <ref-corep:Comment>Includes the cash flow hedges related to other AFS assets (see also "Valuation Differences In Cash Flow Hedges Not Related To AFS Assets" )</ref-corep:Comment>
+      <ref-corep:Comment>≈ FINREP: Respective part of Revaluation reserves (valuation diferences) + Minority interest: revaluation reserves</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ValuationDifferencesAFSAssets" xlink:to="reference_ValuationDifferencesAFSAssets" xlink:title="reference: ValuationDifferencesAFSAssets to reference_ValuationDifferencesAFSAssets"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ValuationDifferencesAFSLoansReceivables" xlink:label="ValuationDifferencesAFSLoansReceivables" xlink:title="ValuationDifferencesAFSLoansReceivables"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ValuationDifferencesAFSLoansReceivables" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ValuationDifferencesAFSLoansReceivables" id="reference_ValuationDifferencesAFSLoansReceivables">
+      <ref-corep:Comment>Includes the cashflow hedges related to AFS loans and recievables (see also "Valuation Differences In Cash Flow Hedges Not Related To AFS Assets").</ref-corep:Comment>
+      <ref-corep:Comment>≈ FINREP: Respective part of Revaluation reserves (valuation diferences) + Minority interest: revaluation reserves</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ValuationDifferencesAFSLoansReceivables" xlink:to="reference_ValuationDifferencesAFSLoansReceivables" xlink:title="reference: ValuationDifferencesAFSLoansReceivables to reference_ValuationDifferencesAFSLoansReceivables"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets" xlink:label="ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets" xlink:title="ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets" id="reference_ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets">
+      <ref-corep:Comment>In principle cash flow hedges related to AFS assets are excluded. Nevertheless, in case of neutralisation of AFS assets to which the  cash flow hedges are related, these cash flow hedges may be included in this item.</ref-corep:Comment>
+      <ref-corep:Comment>≈ FINREP: Respective part of Revaluation reserves (valuation diferences) + Minority interest: revaluation reserves</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets" xlink:to="reference_ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets" xlink:title="reference: ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets to reference_ValuationDifferencesCashFlowHedgesNotRelatedAFSAssets"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ValuationDifferencesEligibleOriginalOwnFunds" xlink:label="ValuationDifferencesEligibleOriginalOwnFunds" xlink:title="ValuationDifferencesEligibleOriginalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ValuationDifferencesEligibleOriginalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ValuationDifferencesEligibleOriginalOwnFunds" id="reference_ValuationDifferencesEligibleOriginalOwnFunds">
+      <ref-corep:Comment>For reporting purposes all valuation differences must be included in this item. Nevertheless, this does not preclude the whole amount of an item being transferred to additional own funds</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ValuationDifferencesEligibleOriginalOwnFunds" xlink:to="reference_ValuationDifferencesEligibleOriginalOwnFunds" xlink:title="reference: ValuationDifferencesEligibleOriginalOwnFunds to reference_ValuationDifferencesEligibleOriginalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk" xlink:label="ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk" xlink:title="ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk" id="reference_ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk">
+      <ref-corep:Comment>≈ FINREP: Respective part of Income from current year + Reserves (included retained earnings) + Minority interest: other (relationed to income)</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk" xlink:to="reference_ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk" xlink:title="reference: ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk to reference_ValuationDifferencesFVOFinancialLiabilitiesOwnCreditRisk"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ValuationDifferencesInAFSEquities" xlink:label="ValuationDifferencesInAFSEquities" xlink:title="ValuationDifferencesInAFSEquities"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ValuationDifferencesInAFSEquities" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ValuationDifferencesInAFSEquities" id="reference_ValuationDifferencesInAFSEquities">
+      <ref-corep:Comment>Includes the cash flow hedges related to AFS equities (See also "Valuation Differences In Cash Flow Hedges Not Related To AFS Assets")</ref-corep:Comment>
+      <ref-corep:Comment>≈ FINREP: Respective part of Revaluation reserves (valuation diferences) + Minority interest: revaluation reserves</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ValuationDifferencesInAFSEquities" xlink:to="reference_ValuationDifferencesInAFSEquities" xlink:title="reference: ValuationDifferencesInAFSEquities to reference_ValuationDifferencesInAFSEquities"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ValuationDifferencesInvestmentProperty" xlink:label="ValuationDifferencesInvestmentProperty" xlink:title="ValuationDifferencesInvestmentProperty"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ValuationDifferencesInvestmentProperty" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ValuationDifferencesInvestmentProperty" id="reference_ValuationDifferencesInvestmentProperty">
+      <ref-corep:Directive>≈ FINREP: Respective part of Income from current year + Reserves (included retained earnings) + Minority interest: other (in relation to income)</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ValuationDifferencesInvestmentProperty" xlink:to="reference_ValuationDifferencesInvestmentProperty" xlink:title="reference: ValuationDifferencesInvestmentProperty to reference_ValuationDifferencesInvestmentProperty"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ValuationDifferencesPropertyPlantEquipment" xlink:label="ValuationDifferencesPropertyPlantEquipment" xlink:title="ValuationDifferencesPropertyPlantEquipment"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ValuationDifferencesPropertyPlantEquipment" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ValuationDifferencesPropertyPlantEquipment" id="reference_ValuationDifferencesPropertyPlantEquipment">
+      <ref-corep:Comment>≈ FINREP: Respective part of Revaluation reserves (positive valuation diferences in tangible assets) + Minority interest: revaluation reserves (positive valuation differences in tangible assets)</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ValuationDifferencesPropertyPlantEquipment" xlink:to="reference_ValuationDifferencesPropertyPlantEquipment" xlink:title="reference: ValuationDifferencesPropertyPlantEquipment to reference_ValuationDifferencesPropertyPlantEquipment"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ValueAdjustmentsCreditRiskPositionsStandardisedApproach" xlink:label="ValueAdjustmentsCreditRiskPositionsStandardisedApproach" xlink:title="ValueAdjustmentsCreditRiskPositionsStandardisedApproach"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ValueAdjustmentsCreditRiskPositionsStandardisedApproach" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ValueAdjustmentsCreditRiskPositionsStandardisedApproach" id="reference_ValueAdjustmentsCreditRiskPositionsStandardisedApproach">
+      <ref:Article>57</ref:Article>
+      <ref:Sentence>1</ref:Sentence>
+      <ref-corep:Letter>e</ref-corep:Letter>
+      <ref-corep:Directive>Directive 2006/48/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ValueAdjustmentsCreditRiskPositionsStandardisedApproach" xlink:to="reference_ValueAdjustmentsCreditRiskPositionsStandardisedApproach" xlink:title="reference: ValueAdjustmentsCreditRiskPositionsStandardisedApproach to reference_ValueAdjustmentsCreditRiskPositionsStandardisedApproach"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OriginalOwnFunds" xlink:label="OriginalOwnFunds" xlink:title="OriginalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OriginalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OriginalOwnFunds" id="reference_OriginalOwnFunds">
+      <ref-corep:Comment>Eligible Tier 1 Capital</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OriginalOwnFunds" xlink:to="reference_OriginalOwnFunds" xlink:title="reference: OriginalOwnFunds to reference_OriginalOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:label="EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:title="EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit"/>
+    <link:reference xlink:type="resource" xlink:label="reference_EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit" id="reference_EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit">
+      <ref-corep:Comment>See Item (-) Excess On Limits For Non Innovative Instruments</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:to="reference_EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:title="reference: EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit to reference_EligibleCapitalOfWhichNonInnovativeInstrumentsSubjectLimit"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:label="MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:title="MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit" id="reference_MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit">
+      <ref-corep:Comment>See item (-) Excess On Limits For Non Innovative Instruments</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:to="reference_MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit" xlink:title="reference: MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit to reference_MinorityInterestOfWhichNonInnovativeInstrumentsSubjectLimit"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_NonInnovativeInstrumentsSubjectLimit" xlink:label="NonInnovativeInstrumentsSubjectLimit" xlink:title="NonInnovativeInstrumentsSubjectLimit"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NonInnovativeInstrumentsSubjectLimit" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NonInnovativeInstrumentsSubjectLimit" id="reference_NonInnovativeInstrumentsSubjectLimit">
+      <ref-corep:Comment>See Item "(-) Excess on limits for non innovative instruments"</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NonInnovativeInstrumentsSubjectLimit" xlink:to="reference_NonInnovativeInstrumentsSubjectLimit" xlink:title="reference: NonInnovativeInstrumentsSubjectLimit to reference_NonInnovativeInstrumentsSubjectLimit"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital" xlink:label="HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital" xlink:title="HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital" id="reference_HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital">
+      <ref-corep:Comment>Article 66 (2) of Directive 2006/48/EC in conjunction with Article 57 sentence 2 lit. (l) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital" xlink:to="reference_HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital" xlink:title="reference: HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital to reference_HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_TotalAdditionalOwnFundsSpecificCoverMarketRisks" xlink:label="TotalAdditionalOwnFundsSpecificCoverMarketRisks" xlink:title="TotalAdditionalOwnFundsSpecificCoverMarketRisks"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalAdditionalOwnFundsSpecificCoverMarketRisks" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TotalAdditionalOwnFundsSpecificCoverMarketRisks" id="reference_TotalAdditionalOwnFundsSpecificCoverMarketRisks">
+      <ref-corep:Comment>Tier 3 Capital</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalAdditionalOwnFundsSpecificCoverMarketRisks" xlink:to="reference_TotalAdditionalOwnFundsSpecificCoverMarketRisks" xlink:title="reference: TotalAdditionalOwnFundsSpecificCoverMarketRisks to reference_TotalAdditionalOwnFundsSpecificCoverMarketRisks"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:label="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:title="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" id="reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess">
+      <ref-corep:Comment>Includes the effect of the review and evaluation performed by competent authorities as indicated in article 124 and annex XI of Directive 2006/48/EC. Accordingly it takes into account the specific own funds requirements laid down in paragraph 2 of article 136 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:to="reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:title="reference: SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess to reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess" xlink:label="SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess" xlink:title="SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess" id="reference_SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess">
+      <ref-corep:Comment>Total own funds for solvency purposes/ capital requirements* 8%. Both figures are those used for assessing the surplus (+) / deficit (-) in "Surplus (+) / Deficit (-) Of Own Funds Taking Into Account The Supervisory Review Process"</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess" xlink:to="reference_SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess" xlink:title="reference: SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess to reference_SolvencyIndexRatioTakingIntoAccountSupervisoryReviewProcess"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_MaterialLossesCurrentFinancialYear" xlink:label="MaterialLossesCurrentFinancialYear" xlink:title="MaterialLossesCurrentFinancialYear"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MaterialLossesCurrentFinancialYear" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MaterialLossesCurrentFinancialYear" id="reference_MaterialLossesCurrentFinancialYear">
+      <ref-corep:Comment>Min [(Income from current year when it is unaudited + Part of the unaudited income from the current year to be filtered out to valuation differences); 0] if material according to article 57, sentence 2 lit. (k) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaterialLossesCurrentFinancialYear" xlink:to="reference_MaterialLossesCurrentFinancialYear" xlink:title="reference: MaterialLossesCurrentFinancialYear to reference_MaterialLossesCurrentFinancialYear"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_EligibleReserves" xlink:label="EligibleReserves" xlink:title="EligibleReserves"/>
+    <link:reference xlink:type="resource" xlink:label="reference_EligibleReserves" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_EligibleReserves" id="reference_EligibleReserves">
+      <ref-corep:Comment>Reserves + Minority interest + Interim profits + (-) Material losses of the current financial year + Interim profits or material losses of the current financial year + (-) Net gains from capitalisation of future margin income from securitisations + Valuation differences eligible as original own funds</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="EligibleReserves" xlink:to="reference_EligibleReserves" xlink:title="reference: EligibleReserves to reference_EligibleReserves"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_PositiveFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:label="PositiveFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:title="PositiveFilterFirstTimeAdoptionIASTypeAccountingRules"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PositiveFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_PositiveFilterFirstTimeAdoptionIASTypeAccountingRules" id="reference_PositiveFilterFirstTimeAdoptionIASTypeAccountingRules">
+      <ref-corep:Comment>See Guidelines on Prudential Filters for Regulatory Capital (CEBS, 21.12.2004) due to the application of IAS-type accounting rules.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PositiveFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:to="reference_PositiveFilterFirstTimeAdoptionIASTypeAccountingRules" xlink:title="reference: PositiveFilterFirstTimeAdoptionIASTypeAccountingRules to reference_PositiveFilterFirstTimeAdoptionIASTypeAccountingRules"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_ShortTermSubordinatedLoanCapital" xlink:label="ShortTermSubordinatedLoanCapital" xlink:title="ShortTermSubordinatedLoanCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ShortTermSubordinatedLoanCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ShortTermSubordinatedLoanCapital" id="reference_ShortTermSubordinatedLoanCapital">
+      <ref-corep:Comment>Article 13 paragraph 2 lit. (c) of Directive 2006/49/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ShortTermSubordinatedLoanCapital" xlink:to="reference_ShortTermSubordinatedLoanCapital" xlink:title="reference: ShortTermSubordinatedLoanCapital to reference_ShortTermSubordinatedLoanCapital"/>
+    <link:loc xlink:type="locator" xlink:href="p-ca-2006-07-01.xsd#p-ca_OtherCountrySpecificOriginalOwnFunds" xlink:label="OtherCountrySpecificOriginalOwnFunds" xlink:title="OtherCountrySpecificOriginalOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherCountrySpecificOriginalOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherCountrySpecificOriginalOwnFunds" id="reference_OtherCountrySpecificOriginalOwnFunds">
+      <ref-corep:Comment>Without link to any template. To introduce national flexibility.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherCountrySpecificOriginalOwnFunds" xlink:to="reference_OtherCountrySpecificOriginalOwnFunds" xlink:title="reference: OtherCountrySpecificOriginalOwnFunds to reference_OtherCountrySpecificOriginalOwnFunds"/>
+  </link:referenceLink>
+</link:linkbase>
