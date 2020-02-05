@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="p-fw-2007-01.xsd#p-fw_Positionen" xlink:label="Positionen" xlink:title="Positionen"/>
+    <link:loc xlink:type="locator" xlink:href="p-fw-2007-01.xsd#p-fw_AnrechnungsBetraege" xlink:label="AnrechnungsBetraege" xlink:title="AnrechnungsBetraege"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Positionen" xlink:to="AnrechnungsBetraege" xlink:title="presentation: Positionen to AnrechnungsBetraege" use="prohibited" priority="1" order="10.0"/>
+  </link:presentationLink>
+</link:linkbase>

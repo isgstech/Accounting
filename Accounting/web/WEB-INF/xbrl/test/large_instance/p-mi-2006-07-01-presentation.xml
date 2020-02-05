@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/mi" xlink:type="simple" xlink:href="p-mi-2006-07-01.xsd#rt_mi"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/mi">
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MarketRiskInternalModels" xlink:label="MarketRiskInternalModels" xlink:title="MarketRiskInternalModels"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MultiplicationFactorXAveragePrevious60WorkingDaysVaR" xlink:label="MultiplicationFactorXAveragePrevious60WorkingDaysVaR" xlink:title="MultiplicationFactorXAveragePrevious60WorkingDaysVaR"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MarketRiskInternalModels" xlink:to="MultiplicationFactorXAveragePrevious60WorkingDaysVaR" xlink:title="presentation: MarketRiskInternalModels to MultiplicationFactorXAveragePrevious60WorkingDaysVaR" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_PreviousDayVaR" xlink:label="PreviousDayVaR" xlink:title="PreviousDayVaR"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MarketRiskInternalModels" xlink:to="PreviousDayVaR" xlink:title="presentation: MarketRiskInternalModels to PreviousDayVaR" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_SpecificRiskSurcharge" xlink:label="SpecificRiskSurcharge" xlink:title="SpecificRiskSurcharge"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MarketRiskInternalModels" xlink:to="SpecificRiskSurcharge" xlink:title="presentation: MarketRiskInternalModels to SpecificRiskSurcharge" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_IncrementalDefaultRiskSurcharge" xlink:label="IncrementalDefaultRiskSurcharge" xlink:title="IncrementalDefaultRiskSurcharge"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MarketRiskInternalModels" xlink:to="IncrementalDefaultRiskSurcharge" xlink:title="presentation: MarketRiskInternalModels to IncrementalDefaultRiskSurcharge" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CapitalRequirements" xlink:label="CapitalRequirements" xlink:title="CapitalRequirements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MarketRiskInternalModels" xlink:to="CapitalRequirements" xlink:title="presentation: MarketRiskInternalModels to CapitalRequirements" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MemorandumItems" xlink:label="MemorandumItems" xlink:title="MemorandumItems"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MarketRiskInternalModels" xlink:to="MemorandumItems" xlink:title="presentation: MarketRiskInternalModels to MemorandumItems" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_NumberOfOvershootingsDuringPrevious250WorkingDays" xlink:label="NumberOfOvershootingsDuringPrevious250WorkingDays" xlink:title="NumberOfOvershootingsDuringPrevious250WorkingDays"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MemorandumItems" xlink:to="NumberOfOvershootingsDuringPrevious250WorkingDays" xlink:title="presentation: MemorandumItems to NumberOfOvershootingsDuringPrevious250WorkingDays" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MultiplicationFactor" xlink:label="MultiplicationFactor" xlink:title="MultiplicationFactor"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MemorandumItems" xlink:to="MultiplicationFactor" xlink:title="presentation: MemorandumItems to MultiplicationFactor" order="2.0"/>
+  </link:presentationLink>
+</link:linkbase>

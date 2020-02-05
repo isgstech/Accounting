@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-qzu="http://www.bundesbank.de/fr/ba/bakisw/d-qzu-2007-01">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-qzu-2007-01.xsd#d-qzu_Gesamtsumme" xlink:label="Gesamtsumme" xlink:title="Gesamtsumme"/>
+    <link:label xlink:type="resource" xlink:label="label_Gesamtsumme" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Gesamtsumme" xml:lang="de" id="label_Gesamtsumme">Gesamtsumme</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Gesamtsumme" xlink:to="label_Gesamtsumme" xlink:title="label: Gesamtsumme to label_Gesamtsumme"/>
+    <link:loc xlink:type="locator" xlink:href="d-qzu-2007-01.xsd#d-qzu_GruppensolvabilitaetsbetragDomain" xlink:label="GruppensolvabilitaetsbetragDomain" xlink:title="GruppensolvabilitaetsbetragDomain"/>
+    <link:label xlink:type="resource" xlink:label="label_GruppensolvabilitaetsbetragDomain" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_GruppensolvabilitaetsbetragDomain" xml:lang="de" id="label_GruppensolvabilitaetsbetragDomain">Gruppensolvabilitätsbetrag Gesamtsumme</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="GruppensolvabilitaetsbetragDomain" xlink:to="label_GruppensolvabilitaetsbetragDomain" xlink:title="label: GruppensolvabilitaetsbetragDomain to label_GruppensolvabilitaetsbetragDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-qzu-2007-01.xsd#d-qzu_GruppensolvabilitaetsbetragDimension" xlink:label="GruppensolvabilitaetsbetragDimension" xlink:title="GruppensolvabilitaetsbetragDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_GruppensolvabilitaetsbetragDimension" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_GruppensolvabilitaetsbetragDimension" xml:lang="de" id="label_GruppensolvabilitaetsbetragDimension">Gruppensolvabilitätsbetrag (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="GruppensolvabilitaetsbetragDimension" xlink:to="label_GruppensolvabilitaetsbetragDimension" xlink:title="label: GruppensolvabilitaetsbetragDimension to label_GruppensolvabilitaetsbetragDimension"/>
+  </link:labelLink>
+</link:linkbase>

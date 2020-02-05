@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:xbrldi="http://xbrl.org/2005/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t-md="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-md-2005-12-31" xmlns:p-md="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/p-md-2005-12-31" xsi:schemaLocation="http://www.xbrl.org/2003/instance xbrl-instance-2003-12-31.xsd  http://www.xbrl.org/2003/linkbase xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink xlink-2003-12-31.xsd http://xbrl.org/2005/xbrldi xbrldi-2005.xsd http://xbrl.c-ebs.org/dt dt-2005-06-30.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-md-2005-12-31 t-md-2005-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/p-md-2005-12-31 p-md-2005-12-31.xsd">
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-md-2005-12-31.xsd" />
+  <p-md:VaRT10 contextRef="cxt_t-md_1_1" decimals="0" unitRef="EUR">10</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_1" decimals="0" unitRef="EUR">11</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_1" decimals="0" unitRef="EUR">12</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_1" decimals="0" unitRef="EUR">13</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_1" decimals="0" unitRef="EUR">14</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_1" decimals="0" unitRef="EUR">15</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_1" decimals="0" unitRef="EUR">16</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_1" decimals="0" unitRef="EUR">17</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>1</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_2" decimals="0" unitRef="EUR">11</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_2" decimals="0" unitRef="EUR">12</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_2" decimals="0" unitRef="EUR">13</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_2" decimals="0" unitRef="EUR">14</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_2" decimals="0" unitRef="EUR">15</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_2" decimals="0" unitRef="EUR">16</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_2" decimals="0" unitRef="EUR">17</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_2" decimals="0" unitRef="EUR">18</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>2</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_3" decimals="0" unitRef="EUR">12</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_3" decimals="0" unitRef="EUR">13</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_3" decimals="0" unitRef="EUR">14</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_3" decimals="0" unitRef="EUR">15</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_3" decimals="0" unitRef="EUR">16</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_3" decimals="0" unitRef="EUR">17</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_3" decimals="0" unitRef="EUR">18</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_3" decimals="0" unitRef="EUR">19</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>3</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_4" decimals="0" unitRef="EUR">13</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_4" decimals="0" unitRef="EUR">14</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_4" decimals="0" unitRef="EUR">15</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_4" decimals="0" unitRef="EUR">16</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_4" decimals="0" unitRef="EUR">17</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_4" decimals="0" unitRef="EUR">18</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_4" decimals="0" unitRef="EUR">19</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_4" decimals="0" unitRef="EUR">20</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>4</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_5" decimals="0" unitRef="EUR">14</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_5" decimals="0" unitRef="EUR">15</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_5" decimals="0" unitRef="EUR">16</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_5" decimals="0" unitRef="EUR">17</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_5" decimals="0" unitRef="EUR">18</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_5" decimals="0" unitRef="EUR">19</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_5" decimals="0" unitRef="EUR">20</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_5" decimals="0" unitRef="EUR">21</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>5</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_6" decimals="0" unitRef="EUR">15</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_6" decimals="0" unitRef="EUR">16</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_6" decimals="0" unitRef="EUR">17</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_6" decimals="0" unitRef="EUR">18</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_6" decimals="0" unitRef="EUR">19</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_6" decimals="0" unitRef="EUR">20</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_6" decimals="0" unitRef="EUR">21</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_6" decimals="0" unitRef="EUR">22</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>6</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_7" decimals="0" unitRef="EUR">16</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_7" decimals="0" unitRef="EUR">17</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_7" decimals="0" unitRef="EUR">18</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_7" decimals="0" unitRef="EUR">19</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_7" decimals="0" unitRef="EUR">20</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_7" decimals="0" unitRef="EUR">21</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_7" decimals="0" unitRef="EUR">22</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_7" decimals="0" unitRef="EUR">23</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>7</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_8" decimals="0" unitRef="EUR">17</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_8" decimals="0" unitRef="EUR">18</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_8" decimals="0" unitRef="EUR">19</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_8" decimals="0" unitRef="EUR">20</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_8" decimals="0" unitRef="EUR">21</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_8" decimals="0" unitRef="EUR">22</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_8" decimals="0" unitRef="EUR">23</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_8" decimals="0" unitRef="EUR">24</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>8</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_9" decimals="0" unitRef="EUR">18</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_9" decimals="0" unitRef="EUR">19</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_9" decimals="0" unitRef="EUR">20</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_9" decimals="0" unitRef="EUR">21</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_9" decimals="0" unitRef="EUR">22</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_9" decimals="0" unitRef="EUR">23</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_9" decimals="0" unitRef="EUR">24</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_9" decimals="0" unitRef="EUR">25</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>9</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_10" decimals="0" unitRef="EUR">19</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_10" decimals="0" unitRef="EUR">20</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_10" decimals="0" unitRef="EUR">21</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_10" decimals="0" unitRef="EUR">22</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_10" decimals="0" unitRef="EUR">23</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_10" decimals="0" unitRef="EUR">24</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_10" decimals="0" unitRef="EUR">25</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_10" decimals="0" unitRef="EUR">26</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>10</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_11" decimals="0" unitRef="EUR">20</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_11" decimals="0" unitRef="EUR">21</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_11" decimals="0" unitRef="EUR">22</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_11" decimals="0" unitRef="EUR">23</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_11" decimals="0" unitRef="EUR">24</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_11" decimals="0" unitRef="EUR">25</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_11" decimals="0" unitRef="EUR">26</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_11" decimals="0" unitRef="EUR">27</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>11</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_12" decimals="0" unitRef="EUR">21</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_12" decimals="0" unitRef="EUR">22</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_12" decimals="0" unitRef="EUR">23</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_12" decimals="0" unitRef="EUR">24</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_12" decimals="0" unitRef="EUR">25</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_12" decimals="0" unitRef="EUR">26</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_12" decimals="0" unitRef="EUR">27</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_12" decimals="0" unitRef="EUR">28</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_12">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>12</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_13" decimals="0" unitRef="EUR">22</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_13" decimals="0" unitRef="EUR">23</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_13" decimals="0" unitRef="EUR">24</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_13" decimals="0" unitRef="EUR">25</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_13" decimals="0" unitRef="EUR">26</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_13" decimals="0" unitRef="EUR">27</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_13" decimals="0" unitRef="EUR">28</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_13" decimals="0" unitRef="EUR">29</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_13">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>13</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-md:VaRT10 contextRef="cxt_t-md_1_14" decimals="0" unitRef="EUR">23</p-md:VaRT10>
+  <p-md:VaRT1 contextRef="cxt_t-md_1_14" decimals="0" unitRef="EUR">24</p-md:VaRT1>
+  <p-md:SpecificRiskSurchage contextRef="cxt_t-md_1_14" decimals="0" unitRef="EUR">25</p-md:SpecificRiskSurchage>
+  <p-md:IncrementalDefaultRiskSurcharge contextRef="cxt_t-md_1_14" decimals="0" unitRef="EUR">26</p-md:IncrementalDefaultRiskSurcharge>
+  <p-md:InternalVaR contextRef="cxt_t-md_1_14" decimals="0" unitRef="EUR">27</p-md:InternalVaR>
+  <p-md:InternalVaRLimit contextRef="cxt_t-md_1_14" decimals="0" unitRef="EUR">28</p-md:InternalVaRLimit>
+  <p-md:Hypothetical contextRef="cxt_t-md_1_14" decimals="0" unitRef="EUR">29</p-md:Hypothetical>
+  <p-md:Actual contextRef="cxt_t-md_1_14" decimals="0" unitRef="EUR">30</p-md:Actual>
+  <xbrli:context id="cxt_t-md_1_14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_DayDimension">
+        <t-md:Day>14</t-md:Day>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember xlink:type="simple" xlink:href="t-md-2005-12-31.xsd#t-md_BasicInformationDimension">
+        <t-md:BasicInformation>
+          <t-md:HoldingPeriodInternalVaR>INTERNAL VaR
+(c)</t-md:HoldingPeriodInternalVaR>
+        </t-md:BasicInformation>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="PURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>
+

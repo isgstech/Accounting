@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/t-cm-fw-2007-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:t-cm-fw="http://www.bundesbank.de/fr/ba/bakisw/t-cm-fw-2007-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:d-cm-report="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:p-fw="http://www.bundesbank.de/fr/ba/bakisw/p-fw-2007-01" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:d-fw="http://www.bundesbank.de/fr/ba/bakisw/d-fw-2007-01">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-cm-fw-2007-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-cm-fw-2007-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-fw/InsgesamtHypercube" id="rt_t-cm-fw_InsgesamtHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-fw/GoldHypercube" id="rt_t-cm-fw_GoldHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-fw/WaehrungenHypercube" id="rt_t-cm-fw_WaehrungenHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-fw/SektionAllesHypercube" id="rt_t-cm-fw_SektionAllesHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/p-fw-2007-01" schemaLocation="p-fw-2007-01.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-fw-2007-01" schemaLocation="d-fw-2007-01.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" schemaLocation="d-cm-report-2006-06.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element name="SektionAllesHypercube" id="t-cm-fw_SektionAllesHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="WaehrungenHypercube" id="t-cm-fw_WaehrungenHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="GoldHypercube" id="t-cm-fw_GoldHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OhneDimensionHypercube" id="t-cm-fw_OhneDimensionHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InsgesamtHypercube" id="t-cm-fw_InsgesamtHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

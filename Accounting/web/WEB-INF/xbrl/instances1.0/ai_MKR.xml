@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:xbrldi="http://xbrl.org/2005/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t-mi="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-mi-2005-12-31" xmlns:p-mi="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/p-mi-2005-12-31" xmlns:d-pm="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/d-pm-2005-12-31" xsi:schemaLocation="http://www.xbrl.org/2003/instance xbrl-instance-2003-12-31.xsd  http://www.xbrl.org/2003/linkbase xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink xlink-2003-12-31.xsd http://xbrl.org/2005/xbrldi xbrldi-2005.xsd http://xbrl.c-ebs.org/dt dt-2005-06-30.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-mi-2005-12-31 t-mi-2005-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/p-mi-2005-12-31 p-mi-2005-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/d-pm-2005-12-31 d-pm-2005-12-31.xsd">
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-mi-2005-12-31.xsd" />
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_2" decimals="0" unitRef="EUR">10</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_2" decimals="0" unitRef="EUR">20</p-mi:PreviousDayVaR>
+  <p-mi:SpecificRiskSurcharge contextRef="cxt_t-mi_1_2" decimals="0" unitRef="EUR">30</p-mi:SpecificRiskSurcharge>
+  <p-mi:IncrementalDefaultRiskSurcharge contextRef="cxt_t-mi_1_2" decimals="0" unitRef="EUR">40</p-mi:IncrementalDefaultRiskSurcharge>
+  <xbrli:context id="cxt_t-mi_1_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:TradedDebtInstruments</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_3" decimals="0" unitRef="EUR">20</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_3" decimals="0" unitRef="EUR">30</p-mi:PreviousDayVaR>
+  <xbrli:context id="cxt_t-mi_1_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant><xbrli:forever/></xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:TDIGeneralRisk</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_4" decimals="0" unitRef="EUR">30</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_4" decimals="0" unitRef="EUR">40</p-mi:PreviousDayVaR>
+  <xbrli:context id="cxt_t-mi_1_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2005-09-30</xbrli:startDate>
+      <xbrli:endDate>2005-10-01</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:TDISpecificRisk</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_5" decimals="0" unitRef="EUR">40</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_5" decimals="0" unitRef="EUR">50</p-mi:PreviousDayVaR>
+  <p-mi:SpecificRiskSurcharge contextRef="cxt_t-mi_1_5" decimals="0" unitRef="EUR">60</p-mi:SpecificRiskSurcharge>
+  <p-mi:IncrementalDefaultRiskSurcharge contextRef="cxt_t-mi_1_5" decimals="0" unitRef="EUR">70</p-mi:IncrementalDefaultRiskSurcharge>
+  <xbrli:context id="cxt_t-mi_1_5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:Equities</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_6" decimals="0" unitRef="EUR">50</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_6" decimals="0" unitRef="EUR">60</p-mi:PreviousDayVaR>
+  <xbrli:context id="cxt_t-mi_1_6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:EquitiesGeneralRisk</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_7" decimals="0" unitRef="EUR">60</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_7" decimals="0" unitRef="EUR">70</p-mi:PreviousDayVaR>
+  <xbrli:context id="cxt_t-mi_1_7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:EquitiesSpecificRisk</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_8" decimals="0" unitRef="EUR">70</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_8" decimals="0" unitRef="EUR">80</p-mi:PreviousDayVaR>
+  <xbrli:context id="cxt_t-mi_1_8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:ForeignExchangeRisk</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_9" decimals="0" unitRef="EUR">80</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_9" decimals="0" unitRef="EUR">90</p-mi:PreviousDayVaR>
+  <xbrli:context id="cxt_t-mi_1_9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:CommodityRisk</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_10" decimals="0" unitRef="EUR">90</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_10" decimals="0" unitRef="EUR">100</p-mi:PreviousDayVaR>
+  <xbrli:context id="cxt_t-mi_1_10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:TotalAmountForGeneralRisk</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR contextRef="cxt_t-mi_1_11" decimals="0" unitRef="EUR">100</p-mi:MultiplicationFactorXAveragePrevious60WorkingDaysVaR>
+  <p-mi:PreviousDayVaR contextRef="cxt_t-mi_1_11" decimals="0" unitRef="EUR">110</p-mi:PreviousDayVaR>
+  <p-mi:SpecificRiskSurcharge contextRef="cxt_t-mi_1_11" decimals="0" unitRef="EUR">120</p-mi:SpecificRiskSurcharge>
+  <p-mi:IncrementalDefaultRiskSurcharge contextRef="cxt_t-mi_1_11" decimals="0" unitRef="EUR">130</p-mi:IncrementalDefaultRiskSurcharge>
+  <xbrli:context id="cxt_t-mi_1_11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.c-ebs.org/eu/fr/esrs/corep">091328</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2005-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember xlink:type="simple" dimension="t-mi:MarketRiskBreakdownDimension">d-pm:TotalAmountForSpecificRisk</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="PURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:p-cm-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-cm-cr-2006-07-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-cm-cr-2006-07-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.c-ebs.org/2006/corep/eu/cm-cr" id="rt_cm-cr">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://xbrl.c-ebs.org/dt" schemaLocation="dt-2005-06-30.xsd"/>
+  <xsd:element name="OriginalExposurePreConversionFactors" id="p-cm-cr_OriginalExposurePreConversionFactors" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="UnfundedCreditProtectionCreditDerivatives" id="p-cm-cr_UnfundedCreditProtectionCreditDerivatives" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OfWhichArisingCounterpartyCreditRisk" id="p-cm-cr_OfWhichArisingCounterpartyCreditRisk" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CreditRiskMitigationTechniquesSubstitutionEffectsExposureFundedCreditProtection" id="p-cm-cr_CreditRiskMitigationTechniquesSubstitutionEffectsExposureFundedCreditProtection" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CommonCRItemsDomain" id="p-cm-cr_CommonCRItemsDomain" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CreditRiskMitigationTechniquesSubstitutionEffectsExposure" id="p-cm-cr_CreditRiskMitigationTechniquesSubstitutionEffectsExposure" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SyntheticSecuritizationsCreditProtectionSecuritisedExposuresUnfundedCreditProtectionAdjustedValues" id="p-cm-cr_SyntheticSecuritizationsCreditProtectionSecuritisedExposuresUnfundedCreditProtectionAdjustedValues" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="UnfundedCreditProtectionGuarantees" id="p-cm-cr_UnfundedCreditProtectionGuarantees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SubstitutionExposureCRM" id="p-cm-cr_SubstitutionExposureCRM" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="TotalCapitalRequirementsBeforeCAP" id="p-cm-cr_TotalCapitalRequirementsBeforeCAP" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SubstitutionExposureCRMTotalOutflows" id="p-cm-cr_SubstitutionExposureCRMTotalOutflows" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="UnfundedCreditProtection" id="p-cm-cr_UnfundedCreditProtection" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BreakdownFullyAdjustedExposureValueOffBalanceSheetItemsConversionFactors" id="p-cm-cr_BreakdownFullyAdjustedExposureValueOffBalanceSheetItemsConversionFactors" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConversionFactor0Percent" id="p-cm-cr_ConversionFactor0Percent" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExposureValue" id="p-cm-cr_ExposureValue" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="RiskWeightedExposureAmounts" id="p-cm-cr_RiskWeightedExposureAmounts" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InternalRatingSystem" id="p-cm-cr_InternalRatingSystem" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="PdAssignedObligorGradePool" id="p-cm-cr_PdAssignedObligorGradePool" type="xbrli:pureItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExposureCRMSubstitutionEffectsPreConversionFactors" id="p-cm-cr_ExposureCRMSubstitutionEffectsPreConversionFactors" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExposureCRMSubstitutionEffectsPreConversionFactorsOfWhichOffBalanceSheetItems" id="p-cm-cr_ExposureCRMSubstitutionEffectsPreConversionFactorsOfWhichOffBalanceSheetItems" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExposureValueOfWhichOffBalanceSheetItems" id="p-cm-cr_ExposureValueOfWhichOffBalanceSheetItems" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExposureWeightedAverageLgd" id="p-cm-cr_ExposureWeightedAverageLgd" type="xbrli:pureItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConversionFactorBetween0And20Percent" id="p-cm-cr_ConversionFactorBetween0And20Percent" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MemorandumItems" id="p-cm-cr_MemorandumItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExpectedLossAmount" id="p-cm-cr_ExpectedLossAmount" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MemorandumItemsValueAdjustmentsProvisions" id="p-cm-cr_MemorandumItemsValueAdjustmentsProvisions" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="TotalAmountSecuritisedExposuresOriginated" id="p-cm-cr_TotalAmountSecuritisedExposuresOriginated" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SyntheticSecuritizationsCreditProtectionSecuritisedExposures" id="p-cm-cr_SyntheticSecuritizationsCreditProtectionSecuritisedExposures" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FundedCreditProtection" id="p-cm-cr_FundedCreditProtection" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SyntheticSecuritizationsCreditProtectionSecuritisedExposuresTotalOutflows" id="p-cm-cr_SyntheticSecuritizationsCreditProtectionSecuritisedExposuresTotalOutflows" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NotionalAmountRetainedRepurchasedCreditProtection" id="p-cm-cr_NotionalAmountRetainedRepurchasedCreditProtection" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SecuritisationPositions" id="p-cm-cr_SecuritisationPositions" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CreditRiskMitigationTechniquesAffectingAmountExposureFundedCreditProtection" id="p-cm-cr_CreditRiskMitigationTechniquesAffectingAmountExposureFundedCreditProtection" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="DeductedOwnFunds" id="p-cm-cr_DeductedOwnFunds" type="dt:nonPositiveMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SubjectRiskWeights" id="p-cm-cr_SubjectRiskWeights" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConversionFactorBetween20And50Percent" id="p-cm-cr_ConversionFactorBetween20And50Percent" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ConversionFactorBetween50And100Percent" id="p-cm-cr_ConversionFactorBetween50And100Percent" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CreditRiskMitigationTechniquesAffectingAmountExposureFundedCreditProtectionUnfundedCreditProtectionAdjustedValues" id="p-cm-cr_CreditRiskMitigationTechniquesAffectingAmountExposureFundedCreditProtectionUnfundedCreditProtectionAdjustedValues" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MemorandumItemCapitalRequirementsOutflowsSecuritisationsExposureClasses" id="p-cm-cr_MemorandumItemCapitalRequirementsOutflowsSecuritisationsExposureClasses" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FullyAdjustedExposureValue" id="p-cm-cr_FullyAdjustedExposureValue" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SubstitutionExposureCRMTotalInflows" id="p-cm-cr_SubstitutionExposureCRMTotalInflows" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

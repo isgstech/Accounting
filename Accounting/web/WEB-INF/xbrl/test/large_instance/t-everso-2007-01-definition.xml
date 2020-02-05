@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:t-everso="http://www.bundesbank.de/fr/ba/bakisw/t-everso-2007-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/sd" xlink:type="simple" xlink:href="p-sd-2006-07-01.xsd#rt_sd"/>
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report/Report" xlink:type="simple" xlink:href="d-cm-report-2006-06.xsd#rt_d-cm-report_Report"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/sd">
+    <link:loc xlink:type="locator" xlink:href="p-sd-2006-07-01.xsd#p-sd_CRSECDetailsDomain" xlink:label="CRSECDetailsDomain" xlink:title="CRSECDetailsDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-cm-report-2006-06.xsd#d-cm-report_ReportHypercube" xlink:label="ReportHypercube" xlink:title="ReportHypercube"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="CRSECDetailsDomain" xlink:to="ReportHypercube" xlink:title="definition: CRSECDetailsDomain to ReportHypercube" order="12.0" xbrldt:targetRole="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report/Report" xbrldt:contextElement="segment" xbrldt:closed="true"/>
+  </link:definitionLink>
+</link:linkbase>

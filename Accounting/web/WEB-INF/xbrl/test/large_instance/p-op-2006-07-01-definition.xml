@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:p-op="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-op-2006-07-01">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/op" xlink:type="simple" xlink:href="p-op-2006-07-01.xsd#rt_op"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/op">
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_OperationalRiskCapitalRequirements" xlink:label="OperationalRiskCapitalRequirements" xlink:title="OperationalRiskCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_OfWhichAllocationMechanism" xlink:label="OfWhichAllocationMechanism" xlink:title="OfWhichAllocationMechanism"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OperationalRiskCapitalRequirements" xlink:to="OfWhichAllocationMechanism" xlink:title="definition: OperationalRiskCapitalRequirements to OfWhichAllocationMechanism" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_OPRDomain" xlink:label="OPRDomain" xlink:title="OPRDomain"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_GrossIncome" xlink:label="GrossIncome" xlink:title="GrossIncome"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OPRDomain" xlink:to="GrossIncome" xlink:title="definition: OPRDomain to GrossIncome" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_Year3GrossIncome" xlink:label="Year3GrossIncome" xlink:title="Year3GrossIncome"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GrossIncome" xlink:to="Year3GrossIncome" xlink:title="definition: GrossIncome to Year3GrossIncome" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_Year2GrossIncome" xlink:label="Year2GrossIncome" xlink:title="Year2GrossIncome"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GrossIncome" xlink:to="Year2GrossIncome" xlink:title="definition: GrossIncome to Year2GrossIncome" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_LastYearGrossIncome" xlink:label="LastYearGrossIncome" xlink:title="LastYearGrossIncome"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="GrossIncome" xlink:to="LastYearGrossIncome" xlink:title="definition: GrossIncome to LastYearGrossIncome" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_LoansAdvances" xlink:label="LoansAdvances" xlink:title="LoansAdvances"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OPRDomain" xlink:to="LoansAdvances" xlink:title="definition: OPRDomain to LoansAdvances" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_Year3LoansAdvances" xlink:label="Year3LoansAdvances" xlink:title="Year3LoansAdvances"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LoansAdvances" xlink:to="Year3LoansAdvances" xlink:title="definition: LoansAdvances to Year3LoansAdvances" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_Year2LoansAdvances" xlink:label="Year2LoansAdvances" xlink:title="Year2LoansAdvances"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LoansAdvances" xlink:to="Year2LoansAdvances" xlink:title="definition: LoansAdvances to Year2LoansAdvances" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_LastYearLoansAdvances" xlink:label="LastYearLoansAdvances" xlink:title="LastYearLoansAdvances"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="LoansAdvances" xlink:to="LastYearLoansAdvances" xlink:title="definition: LoansAdvances to LastYearLoansAdvances" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_AMAMemorandumItems" xlink:label="AMAMemorandumItems" xlink:title="AMAMemorandumItems"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OPRDomain" xlink:to="AMAMemorandumItems" xlink:title="definition: OPRDomain to AMAMemorandumItems" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_CapitalRequirementsBeforeAlleviation" xlink:label="CapitalRequirementsBeforeAlleviation" xlink:title="CapitalRequirementsBeforeAlleviation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="AMAMemorandumItems" xlink:to="CapitalRequirementsBeforeAlleviation" xlink:title="definition: AMAMemorandumItems to CapitalRequirementsBeforeAlleviation" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_AlleviationCapitalRequirementsDueRiskTransferMechanisms" xlink:label="AlleviationCapitalRequirementsDueRiskTransferMechanisms" xlink:title="AlleviationCapitalRequirementsDueRiskTransferMechanisms"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="AMAMemorandumItems" xlink:to="AlleviationCapitalRequirementsDueRiskTransferMechanisms" xlink:title="definition: AMAMemorandumItems to AlleviationCapitalRequirementsDueRiskTransferMechanisms" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_OfWhichDueInsurance" xlink:label="OfWhichDueInsurance" xlink:title="OfWhichDueInsurance"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="AlleviationCapitalRequirementsDueRiskTransferMechanisms" xlink:to="OfWhichDueInsurance" xlink:title="definition: AlleviationCapitalRequirementsDueRiskTransferMechanisms to OfWhichDueInsurance" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_AlleviationCapitalRequirementsCapturedInBusinessPractices" xlink:label="AlleviationCapitalRequirementsCapturedInBusinessPractices" xlink:title="AlleviationCapitalRequirementsCapturedInBusinessPractices"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="AMAMemorandumItems" xlink:to="AlleviationCapitalRequirementsCapturedInBusinessPractices" xlink:title="definition: AMAMemorandumItems to AlleviationCapitalRequirementsCapturedInBusinessPractices" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_ExcessOnLimitCapitalAlleviation" xlink:label="ExcessOnLimitCapitalAlleviation" xlink:title="ExcessOnLimitCapitalAlleviation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="AMAMemorandumItems" xlink:to="ExcessOnLimitCapitalAlleviation" xlink:title="definition: AMAMemorandumItems to ExcessOnLimitCapitalAlleviation" order="4.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="OPRDomain" xlink:to="OperationalRiskCapitalRequirements" xlink:title="definition: OPRDomain to OperationalRiskCapitalRequirements" order="3.0"/>
+  </link:definitionLink>
+</link:linkbase>

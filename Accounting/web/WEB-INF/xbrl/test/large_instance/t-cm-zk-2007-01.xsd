@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk-2007-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:t-cm-zk="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk-2007-01" xmlns:d-az="http://www.bundesbank.de/fr/ba/bakisw/d-az-2007-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:d-cm-report="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:p-zk="http://www.bundesbank.de/fr/ba/bakisw/p-zk-2007-01" xmlns:d-bz="http://www.bundesbank.de/fr/ba/bakisw/d-bz-2007-01" xmlns:d-pa="http://www.bundesbank.de/fr/ba/bakisw/d-pa-2007-01" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-cm-zk-2007-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-cm-zk-2007-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-cm-zk-2007-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk/LaufzeitzoneHypercube" id="rt_t-cm-zk_LaufzeitzoneHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk/AllgemeinesKursrisikoHypercube" id="rt_t-cm-zk_AllgemeinesKursrisikoHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk/TeilanrechnungsbetragHypercube" id="rt_t-cm-zk_TeilanrechnungsbetragHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk/BesonderesKursrisikoHypercube" id="rt_t-cm-zk_BesonderesKursrisikoHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk/NettopositionenFuerGewichtungHypercube" id="rt_t-cm-zk_NettopositionenFuerGewichtungHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk/SummeZinsnettopositionenHypercube" id="rt_t-cm-zk_SummeZinsnettopositionenHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk/PauschalierterAnrechnungsbetragHypercube" id="rt_t-cm-zk_PauschalierterAnrechnungsbetragHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-cm-zk/AusschliessenNettopositionenvon303Abs2Hypercube" id="rt_t-cm-zk_AusschliessenNettopositionenvon303Abs2Hypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationAllgemeinesKursrisiko" id="rt_t-cm-zk_DimensionPresentationAllgemeinesKursrisiko">
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationBesonderesKursrisiko" id="rt_t-cm-zk_DimensionPresentationBesonderesKursrisiko">
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/DimensionPresentationPauschalierterAnrechnungsbetrag" id="rt_t-cm-zk_DimensionPresentationPauschalierterAnrechnungsbetrag">
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/p-zk-2007-01" schemaLocation="p-zk-2007-01.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-bz-2007-01" schemaLocation="d-bz-2007-01.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-pa-2007-01" schemaLocation="d-pa-2007-01.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-az-2007-01" schemaLocation="d-az-2007-01.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" schemaLocation="d-cm-report-2006-06.xsd"/>
+  <xsd:element name="AllgemeinesKursrisikoHypercube" id="t-cm-zk_AllgemeinesKursrisikoHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BesonderesKursrisikoHypercube" id="t-cm-zk_BesonderesKursrisikoHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="PauschalierterAnrechnungsbetragHypercube" id="t-cm-zk_PauschalierterAnrechnungsbetragHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NettopositionenFuerGewichtungHypercube" id="t-cm-zk_NettopositionenFuerGewichtungHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SummeZinsnettopositionenHypercube" id="t-cm-zk_SummeZinsnettopositionenHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="TeilanrechnungsbetragHypercube" id="t-cm-zk_TeilanrechnungsbetragHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="LaufzeitzoneHypercube" id="t-cm-zk_LaufzeitzoneHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AusschliessenNettopositionenvon303Abs2Hypercube" id="t-cm-zk_AusschliessenNettopositionenvon303Abs2Hypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

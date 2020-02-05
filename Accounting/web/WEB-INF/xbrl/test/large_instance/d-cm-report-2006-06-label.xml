@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-cm-report-2006-06.xsd#d-cm-report_ReportHypercube" xlink:label="ReportHypercube" xlink:title="ReportHypercube"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportHypercube" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_ReportHypercube" xml:lang="en" id="label_ReportHypercube">Report (Hypercube)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportHypercube" xlink:to="label_ReportHypercube" xlink:title="label: ReportHypercube to label_ReportHypercube"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportHypercube_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_ReportHypercube" xml:lang="de" id="label_ReportHypercube_2">Meldung (Hypercube)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportHypercube" xlink:to="label_ReportHypercube_2" xlink:title="label: ReportHypercube to label_ReportHypercube"/>
+    <link:loc xlink:type="locator" xlink:href="d-cm-report-2006-06.xsd#d-cm-report_ReportDimension" xlink:label="ReportDimension" xlink:title="ReportDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportDimension" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_ReportDimension" xml:lang="en" id="label_ReportDimension">Report (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportDimension" xlink:to="label_ReportDimension" xlink:title="label: ReportDimension to label_ReportDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_ReportDimension_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_ReportDimension" xml:lang="de" id="label_ReportDimension_2">Meldung (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReportDimension" xlink:to="label_ReportDimension_2" xlink:title="label: ReportDimension to label_ReportDimension"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_Zeitfaechermethode" xlink:label="Zeitfaechermethode" xlink:title="Zeitfaechermethode"/>
+    <link:loc xlink:type="locator" xlink:href="d-rv-2007-01.xsd#d-rv_AnrechnungsbetraegeNachPara4" xlink:label="AnrechnungsbetraegeNachPara4" xlink:title="AnrechnungsbetraegeNachPara4"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Zeitfaechermethode" xlink:to="AnrechnungsbetraegeNachPara4" xlink:title="definition: Zeitfaechermethode to AnrechnungsbetraegeNachPara4" use="prohibited" priority="1" order="6.0"/>
+  </link:definitionLink>
+</link:linkbase>

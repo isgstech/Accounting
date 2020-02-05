@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd http://www.xbrl.org/2004/ref ref-2004-08-10.xsd" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/p-mi" xlink:type="simple" xlink:href="p-mi-2006-07-01.xsd#RT_1"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/mi" xlink:type="simple" xlink:href="p-mi-2006-07-01.xsd#RT_2"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/mi">
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_IncrementalDefaultRiskSurcharge" xlink:label="IncrementalDefaultRiskSurcharge" xlink:title="IncrementalDefaultRiskSurcharge"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IncrementalDefaultRiskSurcharge" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IncrementalDefaultRiskSurcharge" id="reference_IncrementalDefaultRiskSurcharge">
+      <ref-corep:Directive>93/6/EEC</ref-corep:Directive>
+      <ref-corep:Annex>V</ref-corep:Annex>
+      <ref-corep:Comment>If applicable, the incremental default risk surcharge according to annex V paragraph 4 of Directive 93/6/EEC should be included</ref-corep:Comment>
+      <ref:Paragraph>4</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IncrementalDefaultRiskSurcharge" xlink:to="reference_IncrementalDefaultRiskSurcharge" xlink:title="reference: IncrementalDefaultRiskSurcharge to reference_IncrementalDefaultRiskSurcharge"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MultiplicationFactor" xlink:label="MultiplicationFactor" xlink:title="MultiplicationFactor"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MultiplicationFactor" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MultiplicationFactor" id="reference_MultiplicationFactor">
+      <ref-corep:Directive>93/6/EEC</ref-corep:Directive>
+      <ref-corep:Annex>V</ref-corep:Annex>
+      <ref:Paragraph>6 and 7</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MultiplicationFactor" xlink:to="reference_MultiplicationFactor" xlink:title="reference: MultiplicationFactor to reference_MultiplicationFactor"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MultiplicationFactorXAveragePrevious60WorkingDaysVaR" xlink:label="MultiplicationFactorXAveragePrevious60WorkingDaysVaR" xlink:title="MultiplicationFactorXAveragePrevious60WorkingDaysVaR"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MultiplicationFactorXAveragePrevious60WorkingDaysVaR" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MultiplicationFactorXAveragePrevious60WorkingDaysVaR" id="reference_MultiplicationFactorXAveragePrevious60WorkingDaysVaR">
+      <ref-corep:Directive>93/6/EEC</ref-corep:Directive>
+      <ref-corep:Annex>V</ref-corep:Annex>
+      <ref-corep:Comment>Excludes the incremental default risk surcharge</ref-corep:Comment>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref-corep:Letter>b</ref-corep:Letter>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MultiplicationFactorXAveragePrevious60WorkingDaysVaR" xlink:to="reference_MultiplicationFactorXAveragePrevious60WorkingDaysVaR" xlink:title="reference: MultiplicationFactorXAveragePrevious60WorkingDaysVaR to reference_MultiplicationFactorXAveragePrevious60WorkingDaysVaR"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_NumberOfOvershootingsDuringPrevious250WorkingDays" xlink:label="NumberOfOvershootingsDuringPrevious250WorkingDays" xlink:title="NumberOfOvershootingsDuringPrevious250WorkingDays"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NumberOfOvershootingsDuringPrevious250WorkingDays" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NumberOfOvershootingsDuringPrevious250WorkingDays" id="reference_NumberOfOvershootingsDuringPrevious250WorkingDays">
+      <ref-corep:Directive>93/6/EEC</ref-corep:Directive>
+      <ref-corep:Annex>V</ref-corep:Annex>
+      <ref:Paragraph>7</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumberOfOvershootingsDuringPrevious250WorkingDays" xlink:to="reference_NumberOfOvershootingsDuringPrevious250WorkingDays" xlink:title="reference: NumberOfOvershootingsDuringPrevious250WorkingDays to reference_NumberOfOvershootingsDuringPrevious250WorkingDays"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_PreviousDayVaR" xlink:label="PreviousDayVaR" xlink:title="PreviousDayVaR"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PreviousDayVaR" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_PreviousDayVaR" id="reference_PreviousDayVaR">
+      <ref-corep:Directive>93/6/EEC</ref-corep:Directive>
+      <ref-corep:Annex>V</ref-corep:Annex>
+      <ref-corep:Comment>Excludes the incremental default risk surchage</ref-corep:Comment>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref-corep:Letter>a</ref-corep:Letter>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PreviousDayVaR" xlink:to="reference_PreviousDayVaR" xlink:title="reference: PreviousDayVaR to reference_PreviousDayVaR"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_SpecificRiskSurcharge" xlink:label="SpecificRiskSurcharge" xlink:title="SpecificRiskSurcharge"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SpecificRiskSurcharge" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SpecificRiskSurcharge" id="reference_SpecificRiskSurcharge">
+      <ref-corep:Directive>93/6/EEC</ref-corep:Directive>
+      <ref-corep:Comment>If applicable, the specific risk surcharge according to annex V paragraph 8 of Directive 93/6/EEC as stood prior to 31 December 2006</ref-corep:Comment>
+      <ref:Article>45c</ref:Article>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SpecificRiskSurcharge" xlink:to="reference_SpecificRiskSurcharge" xlink:title="reference: SpecificRiskSurcharge to reference_SpecificRiskSurcharge"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CapitalRequirements" xlink:label="CapitalRequirements" xlink:title="CapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirements" id="reference_CapitalRequirements">
+      <ref-corep:Directive>93/6/EEC</ref-corep:Directive>
+      <ref-corep:Annex>V</ref-corep:Annex>
+      <ref-corep:Comment>Directive 93/6/EEC, annex V paragraph 10: total VaR of all risk factors taking into account correlation effects if applicable.</ref-corep:Comment>
+      <ref:Paragraph>10</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirements" xlink:to="reference_CapitalRequirements" xlink:title="reference: CapitalRequirements to reference_CapitalRequirements"/>
+  </link:referenceLink>
+</link:linkbase>

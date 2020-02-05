@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:d-et="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-et-2006-07-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_Derivatives" xlink:label="d-et_Derivatives"/>
+    <link:label xlink:type="resource" xlink:label="label_Derivatives_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Derivatives" xml:lang="de" id="label_Derivatives_2">Derivative Adressenausfallrisikopositionen und Aufrechnungspositionen nach § 12 Abs. 1 SolvV</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-et_Derivatives" xlink:to="label_Derivatives_2" xlink:title="label: Derivatives to label_Derivatives" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_EarlyAmortization" xlink:label="d-et_EarlyAmortization"/>
+    <link:label xlink:type="resource" xlink:label="label_EarlyAmortization_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_EarlyAmortization" xml:lang="de" id="label_EarlyAmortization_2">Vorzeitige Tilgung</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-et_EarlyAmortization" xlink:to="label_EarlyAmortization_2" xlink:title="label: EarlyAmortization to label_EarlyAmortization" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_FromContractualCrossProductNetting" xlink:label="d-et_FromContractualCrossProductNetting"/>
+    <link:label xlink:type="resource" xlink:label="label_FromContractualCrossProductNetting_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_FromContractualCrossProductNetting" xml:lang="de" id="label_FromContractualCrossProductNetting_2">Aufrechnungspositionen aus berücksichtigungsfähigen produktübergreifenden Aufrechnungsvereinbarungen nach § 12 Abs. 4 SolvV</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-et_FromContractualCrossProductNetting" xlink:to="label_FromContractualCrossProductNetting_2" xlink:title="label: FromContractualCrossProductNetting to label_FromContractualCrossProductNetting" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_OffBalanceSheetItemsDerivatives" xlink:label="d-et_OffBalanceSheetItemsDerivatives"/>
+    <link:label xlink:type="resource" xlink:label="label_OffBalanceSheetItemsDerivatives_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OffBalanceSheetItemsDerivatives" xml:lang="de" id="label_OffBalanceSheetItemsDerivatives_2">Außerbilanzielle und derivative Adressenausfallrisikopositionen</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-et_OffBalanceSheetItemsDerivatives" xlink:to="label_OffBalanceSheetItemsDerivatives_2" xlink:title="label: OffBalanceSheetItemsDerivatives to label_OffBalanceSheetItemsDerivatives" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_OffBalanceSheetItems" xlink:label="d-et_OffBalanceSheetItems"/>
+    <link:label xlink:type="resource" xlink:label="label_OffBalanceSheetItems_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OffBalanceSheetItems" xml:lang="de" id="label_OffBalanceSheetItems_2">Außerbilanzielle Adressenausfallrisikopositionen</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-et_OffBalanceSheetItems" xlink:to="label_OffBalanceSheetItems_2" xlink:title="label: OffBalanceSheetItems to label_OffBalanceSheetItems" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_OnBalanceSheetItemsFirstLoss" xlink:label="d-et_OnBalanceSheetItemsFirstLoss"/>
+    <link:label xlink:type="resource" xlink:label="label_OnBalanceSheetItemsFirstLoss_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OnBalanceSheetItemsFirstLoss" xml:lang="de" id="label_OnBalanceSheetItemsFirstLoss_2">Höchstrangig</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-et_OnBalanceSheetItemsFirstLoss" xlink:to="label_OnBalanceSheetItemsFirstLoss_2" xlink:title="label: OnBalanceSheetItemsFirstLoss to label_OnBalanceSheetItemsFirstLoss" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_OnBalanceSheetItemsMezzanine" xlink:label="d-et_OnBalanceSheetItemsMezzanine"/>
+    <link:label xlink:type="resource" xlink:label="label_OnBalanceSheetItemsMezzanine_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OnBalanceSheetItemsMezzanine" xml:lang="de" id="label_OnBalanceSheetItemsMezzanine_2">Mezzanine</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-et_OnBalanceSheetItemsMezzanine" xlink:to="label_OnBalanceSheetItemsMezzanine_2" xlink:title="label: OnBalanceSheetItemsMezzanine to label_OnBalanceSheetItemsMezzanine" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_OnBalanceSheetItemsMostSenior" xlink:label="d-et_OnBalanceSheetItemsMostSenior"/>
+    <link:label xlink:type="resource" xlink:label="label_OnBalanceSheetItemsMostSenior_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OnBalanceSheetItemsMostSenior" xml:lang="de" id="label_OnBalanceSheetItemsMostSenior_2">Erstverlustpositionen</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-et_OnBalanceSheetItemsMostSenior" xlink:to="label_OnBalanceSheetItemsMostSenior_2" xlink:title="label: OnBalanceSheetItemsMostSenior to label_OnBalanceSheetItemsMostSenior" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_SecuritiesFinancingTransactionsLongSettlementTransactions" xlink:label="d-et_SecuritiesFinancingTransactionsLongSettlementTransactions"/>
+    <link:label xlink:type="resource" xlink:label="label_SecuritiesFinancingTransactionsLongSettlementTransactions_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_SecuritiesFinancingTransactionsLongSettlementTransactions" xml:lang="de" id="label_SecuritiesFinancingTransactionsLongSettlementTransactions_2">Nichtderivative Geschäfte mit Sicherheitennachschüssen sowie sonstige Pensions-,  Darlehens- und vergleichbare Geschäfte über Wertpapiere oder Waren und Aufrechnungspositionen nach § 12 Abs. 3 SolvV</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-et_SecuritiesFinancingTransactionsLongSettlementTransactions" xlink:to="label_SecuritiesFinancingTransactionsLongSettlementTransactions_2" xlink:title="label: SecuritiesFinancingTransactionsLongSettlementTransactions to label_SecuritiesFinancingTransactionsLongSettlementTransactions" use="optional" priority="0" order="1.0"/>
+  </link:labelLink>
+</link:linkbase>

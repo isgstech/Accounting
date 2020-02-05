@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright © 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street,  London, EC2N 1HQ, United Kingdom.-->
+<?taxonomy-version 1.2.2?>
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ty-2006-07-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-ty="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ty-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-ty-2006-07-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element name="NationalMarket" id="d-ty_NationalMarket" type="xsd:string"/>
+  <xsd:element name="NationalMarketDimension" id="d-ty_NationalMarketDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="d-ty-2006-07-01.xsd#d-ty_NationalMarket" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SecuritizationInternalCode" id="d-ty_SecuritizationInternalCode" type="d-ty:SecuritizationInternalCodeType"/>
+  <xsd:element name="Commodity" id="d-ty_Commodity" type="xsd:string"/>
+  <xsd:element name="CommodityDimension" id="d-ty_CommodityDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="d-ty-2006-07-01.xsd#d-ty_Commodity" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Day" id="d-ty_Day" type="d-ty:dayType"/>
+  <xsd:element name="DayDimension" id="d-ty_DayDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="d-ty-2006-07-01.xsd#d-ty_Day" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BasicInformation" id="d-ty_BasicInformation" type="d-ty:BasicInformationType"/>
+  <xsd:element name="InstrumentCodeRegulatoryModel" id="d-ty_InstrumentCodeRegulatoryModel" type="d-ty:instrumentCodeType"/>
+  <xsd:element name="SpecificRiskEquitiesCalculationCode" id="d-ty_SpecificRiskEquitiesCalculationCode" type="d-ty:codeType"/>
+  <xsd:element name="SpecificRiskDebtInstrumentsCalculationCode" id="d-ty_SpecificRiskDebtInstrumentsCalculationCode" type="d-ty:codeType"/>
+  <xsd:element name="PLCodeUsedForCalculationNumberOvershootings" id="d-ty_PLCodeUsedForCalculationNumberOvershootings" type="d-ty:overshootingType"/>
+  <xsd:element name="ConfidenceIntervalInternalVaR" id="d-ty_ConfidenceIntervalInternalVaR" type="xsd:decimal"/>
+  <xsd:element name="HoldingPeriodInternalVaR" id="d-ty_HoldingPeriodInternalVaR" type="xsd:decimal"/>
+  <xsd:element name="BasicInformationDimension" id="d-ty_BasicInformationDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="d-ty-2006-07-01.xsd#d-ty_BasicInformation" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ObligorGradeOrPool" id="d-ty_ObligorGradeOrPool" type="xsd:nonNegativeInteger"/>
+  <xsd:element name="ObligorGradeOrPoolDimension" id="d-ty_ObligorGradeOrPoolDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="d-ty-2006-07-01.xsd#d-ty_ObligorGradeOrPool" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InternalReferenceNumberDimension" id="d-ty_InternalReferenceNumberDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="#d-ty_InternalReferenceNumber" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="InternalReferenceNumber" id="d-ty_InternalReferenceNumber" type="xsd:string"/>
+  <xsd:element name="ObligorGrade" id="d-ty_ObligorGrade" type="xsd:nonNegativeInteger"/>
+  <xsd:element name="Name" id="d-ty_Name" type="xsd:string"/>
+  <xsd:element name="Code" id="d-ty_Code" type="xsd:string"/>
+  <xsd:element name="ConsolidatedSubgroupsAndRegulatedEntities" id="d-ty_ConsolidatedSubgroupsAndRegulatedEntities" type="d-ty:ConsolidatedSubgroupsAndRegulatedEntitiesType"/>
+  <xsd:element name="ConsolidatedSubgroupsRegulatedEntitiesDimension" id="d-ty_ConsolidatedSubgroupsRegulatedEntitiesDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="#d-ty_ConsolidatedSubgroupsAndRegulatedEntities" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ObligorGradeDimension" id="d-ty_ObligorGradeDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="#d-ty_ObligorGrade" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="SecuritizationInternalCodeDimension" id="d-ty_SecuritizationInternalCodeDimension" type="xbrli:stringItemType" xbrldt:typedDomainRef="#d-ty_SecuritizationInternalCode" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:simpleType name="dayType">
+    <xsd:restriction base="xsd:nonNegativeInteger">
+      <xsd:minInclusive value="1"/>
+      <xsd:maxInclusive value="92"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="SecuritizationInternalCodeType">
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="codeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[1-4]"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="overshootingType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[1-2]"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="instrumentCodeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[1-4]|[1][2-4]|[2][3-4]|[1][2][3-4]|[1-2][3][4]|[1][2][3][4]"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="ConsolidatedSubgroupsAndRegulatedEntitiesType">
+    <xsd:sequence>
+      <xsd:element ref="d-ty:Name"/>
+      <xsd:element ref="d-ty:Code"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="BasicInformationType">
+    <xsd:sequence>
+      <xsd:element ref="d-ty:InstrumentCodeRegulatoryModel"/>
+      <xsd:element ref="d-ty:SpecificRiskEquitiesCalculationCode"/>
+      <xsd:element ref="d-ty:SpecificRiskDebtInstrumentsCalculationCode"/>
+      <xsd:element ref="d-ty:PLCodeUsedForCalculationNumberOvershootings"/>
+      <xsd:element minOccurs="0" ref="d-ty:ConfidenceIntervalInternalVaR"/>
+      <xsd:element minOccurs="0" ref="d-ty:HoldingPeriodInternalVaR"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

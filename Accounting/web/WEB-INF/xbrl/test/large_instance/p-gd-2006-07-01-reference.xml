@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/gd" xlink:type="simple" xlink:href="p-gd-2006-07-01.xsd#rt_gd"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/gd">
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CreditRiskCapitalRequirements" xlink:label="CreditRiskCapitalRequirements" xlink:title="CreditRiskCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CreditRiskCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CreditRiskCapitalRequirements" id="reference_CreditRiskCapitalRequirements">
+      <ref-corep:Comment>See CA template</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CreditRiskCapitalRequirements" xlink:to="reference_CreditRiskCapitalRequirements" xlink:title="reference: CreditRiskCapitalRequirements to reference_CreditRiskCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SettlementRiskCapitalRequirements" xlink:label="SettlementRiskCapitalRequirements" xlink:title="SettlementRiskCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SettlementRiskCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SettlementRiskCapitalRequirements" id="reference_SettlementRiskCapitalRequirements">
+      <ref-corep:Comment>See CA template</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SettlementRiskCapitalRequirements" xlink:to="reference_SettlementRiskCapitalRequirements" xlink:title="reference: SettlementRiskCapitalRequirements to reference_SettlementRiskCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_MarketRiskCapitalRequirements" xlink:label="MarketRiskCapitalRequirements" xlink:title="MarketRiskCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MarketRiskCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MarketRiskCapitalRequirements" id="reference_MarketRiskCapitalRequirements">
+      <ref-corep:Comment>See CA template</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MarketRiskCapitalRequirements" xlink:to="reference_MarketRiskCapitalRequirements" xlink:title="reference: MarketRiskCapitalRequirements to reference_MarketRiskCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_OperationalRiskCapitalRequirements" xlink:label="OperationalRiskCapitalRequirements" xlink:title="OperationalRiskCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OperationalRiskCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OperationalRiskCapitalRequirements" id="reference_OperationalRiskCapitalRequirements">
+      <ref-corep:Comment>See CA template</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OperationalRiskCapitalRequirements" xlink:to="reference_OperationalRiskCapitalRequirements" xlink:title="reference: OperationalRiskCapitalRequirements to reference_OperationalRiskCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_OtherTransitionalCapitalRequirements" xlink:label="OtherTransitionalCapitalRequirements" xlink:title="OtherTransitionalCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherTransitionalCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherTransitionalCapitalRequirements" id="reference_OtherTransitionalCapitalRequirements">
+      <ref-corep:Comment>See CA template</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherTransitionalCapitalRequirements" xlink:to="reference_OtherTransitionalCapitalRequirements" xlink:title="reference: OtherTransitionalCapitalRequirements to reference_OtherTransitionalCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CapitalRequirements" xlink:label="CapitalRequirements" xlink:title="CapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirements" id="reference_CapitalRequirements">
+      <ref-corep:Directive>See CA template</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirements" xlink:to="reference_CapitalRequirements" xlink:title="reference: CapitalRequirements to reference_CapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_TotalOwnFundsSolvencyPurposes" xlink:label="TotalOwnFundsSolvencyPurposes" xlink:title="TotalOwnFundsSolvencyPurposes"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalOwnFundsSolvencyPurposes" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TotalOwnFundsSolvencyPurposes" id="reference_TotalOwnFundsSolvencyPurposes">
+      <ref-corep:Comment>See CA template</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalOwnFundsSolvencyPurposes" xlink:to="reference_TotalOwnFundsSolvencyPurposes" xlink:title="reference: TotalOwnFundsSolvencyPurposes to reference_TotalOwnFundsSolvencyPurposes"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_TotalOriginalOwnFundsGeneralSolvencyPurposes" xlink:label="TotalOriginalOwnFundsGeneralSolvencyPurposes" xlink:title="TotalOriginalOwnFundsGeneralSolvencyPurposes"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalOriginalOwnFundsGeneralSolvencyPurposes" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TotalOriginalOwnFundsGeneralSolvencyPurposes" id="reference_TotalOriginalOwnFundsGeneralSolvencyPurposes">
+      <ref-corep:Comment>See CA template</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalOriginalOwnFundsGeneralSolvencyPurposes" xlink:to="reference_TotalOriginalOwnFundsGeneralSolvencyPurposes" xlink:title="reference: TotalOriginalOwnFundsGeneralSolvencyPurposes to reference_TotalOriginalOwnFundsGeneralSolvencyPurposes"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SurplusDeficitOwnFunds" xlink:label="SurplusDeficitOwnFunds" xlink:title="SurplusDeficitOwnFunds"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SurplusDeficitOwnFunds" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SurplusDeficitOwnFunds" id="reference_SurplusDeficitOwnFunds">
+      <ref-corep:Comment>See CA template</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SurplusDeficitOwnFunds" xlink:to="reference_SurplusDeficitOwnFunds" xlink:title="reference: SurplusDeficitOwnFunds to reference_SurplusDeficitOwnFunds"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:label="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:title="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" id="reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess">
+      <ref-corep:Comment>See CA template</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:to="reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:title="reference: SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess to reference_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess"/>
+  </link:referenceLink>
+</link:linkbase>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/ci" xlink:type="simple" xlink:href="p-ci-2006-07-01.xsd#rt_ci"/>
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-irban/DimensionPresentation" xlink:type="simple" xlink:href="t-irban-2007-01.xsd#rt_t-irban_DimensionPresentation"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/t-irban/DimensionPresentation">
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_ExposureClassesDomain" xlink:label="ExposureClassesDomain" xlink:title="ExposureClassesDomain"/>
+    <link:loc xlink:type="locator" xlink:href="t-irban-2007-01.xsd#t-irban_WhichCreditInstitutionsAndInvestmentFirms" xlink:label="WhichCreditInstitutionsAndInvestmentFirms" xlink:title="WhichCreditInstitutionsAndInvestmentFirms"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExposureClassesDomain" xlink:to="WhichCreditInstitutionsAndInvestmentFirms" xlink:title="presentation: ExposureClassesDomain to WhichCreditInstitutionsAndInvestmentFirms" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECOfWhichCreditInstitutionsAndInvestmentFirms" xlink:label="IRBECOfWhichCreditInstitutionsAndInvestmentFirms" xlink:title="IRBECOfWhichCreditInstitutionsAndInvestmentFirms"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="WhichCreditInstitutionsAndInvestmentFirms" xlink:to="IRBECOfWhichCreditInstitutionsAndInvestmentFirms" xlink:title="presentation: WhichCreditInstitutionsAndInvestmentFirms to IRBECOfWhichCreditInstitutionsAndInvestmentFirms" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-irban-2007-01.xsd#t-irban_WhichSpecialisedLending" xlink:label="WhichSpecialisedLending" xlink:title="WhichSpecialisedLending"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExposureClassesDomain" xlink:to="WhichSpecialisedLending" xlink:title="presentation: ExposureClassesDomain to WhichSpecialisedLending" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECOfWhichSpecialisedLending" xlink:label="IRBECOfWhichSpecialisedLending" xlink:title="IRBECOfWhichSpecialisedLending"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="WhichSpecialisedLending" xlink:to="IRBECOfWhichSpecialisedLending" xlink:title="presentation: WhichSpecialisedLending to IRBECOfWhichSpecialisedLending" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-irban-2007-01.xsd#t-irban_CorporatesOfWhichSME" xlink:label="CorporatesOfWhichSME" xlink:title="CorporatesOfWhichSME"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExposureClassesDomain" xlink:to="CorporatesOfWhichSME" xlink:title="presentation: ExposureClassesDomain to CorporatesOfWhichSME" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECCorporatesOfWhichSME" xlink:label="IRBECCorporatesOfWhichSME" xlink:title="IRBECCorporatesOfWhichSME"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CorporatesOfWhichSME" xlink:to="IRBECCorporatesOfWhichSME" xlink:title="presentation: CorporatesOfWhichSME to IRBECCorporatesOfWhichSME" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-irban-2007-01.xsd#t-irban_SecuredByRealEstate" xlink:label="SecuredByRealEstate" xlink:title="SecuredByRealEstate"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExposureClassesDomain" xlink:to="SecuredByRealEstate" xlink:title="presentation: ExposureClassesDomain to SecuredByRealEstate" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECSecuredByRealEstate" xlink:label="IRBECSecuredByRealEstate" xlink:title="IRBECSecuredByRealEstate"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="SecuredByRealEstate" xlink:to="IRBECSecuredByRealEstate" xlink:title="presentation: SecuredByRealEstate to IRBECSecuredByRealEstate" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-irban-2007-01.xsd#t-irban_QualifyingRevolving" xlink:label="QualifyingRevolving" xlink:title="QualifyingRevolving"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExposureClassesDomain" xlink:to="QualifyingRevolving" xlink:title="presentation: ExposureClassesDomain to QualifyingRevolving" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECQualifyingRevolving" xlink:label="IRBECQualifyingRevolving" xlink:title="IRBECQualifyingRevolving"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="QualifyingRevolving" xlink:to="IRBECQualifyingRevolving" xlink:title="presentation: QualifyingRevolving to IRBECQualifyingRevolving" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-irban-2007-01.xsd#t-irban_RetailOfWhichSME" xlink:label="RetailOfWhichSME" xlink:title="RetailOfWhichSME"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExposureClassesDomain" xlink:to="RetailOfWhichSME" xlink:title="presentation: ExposureClassesDomain to RetailOfWhichSME" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_IRBECRetailOfWhichSME" xlink:label="IRBECRetailOfWhichSME" xlink:title="IRBECRetailOfWhichSME"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RetailOfWhichSME" xlink:to="IRBECRetailOfWhichSME" xlink:title="presentation: RetailOfWhichSME to IRBECRetailOfWhichSME" order="1.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/ci">
+    <link:loc xlink:type="locator" xlink:href="p-cm-cr-2006-07-01.xsd#p-cm-cr_MemorandumItems" xlink:label="MemorandumItems" xlink:title="MemorandumItems"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-cr-2006-07-01.xsd#p-cm-cr_MemorandumItemsValueAdjustmentsProvisions" xlink:label="MemorandumItemsValueAdjustmentsProvisions_2" xlink:title="MemorandumItemsValueAdjustmentsProvisions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MemorandumItems" xlink:to="MemorandumItemsValueAdjustmentsProvisions_2" xlink:title="presentation: MemorandumItems to MemorandumItemsValueAdjustmentsProvisions" use="prohibited" priority="1" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-irban-2007-01.xsd#t-irban_MemorandumItemsValueAdjustmentsProvisions" xlink:label="MemorandumItemsValueAdjustmentsProvisions" xlink:title="MemorandumItemsValueAdjustmentsProvisions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="MemorandumItems" xlink:to="MemorandumItemsValueAdjustmentsProvisions" xlink:title="presentation: MemorandumItems to MemorandumItemsValueAdjustmentsProvisions" order="2.0"/>
+  </link:presentationLink>
+</link:linkbase>

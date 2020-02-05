@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-st="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-st-2006-07-01">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-st-2006-07-01.xsd#d-st_SecuritisationTypeDomain" xlink:label="d-st_SecuritisationTypeDomain"/>
+    <link:label xlink:type="resource" xlink:label="d-st_SecuritisationTypeDomain_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_newItem4" xml:lang="en" id="label_newItem4_1134459207187_1">Securitisation Type (domain)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-st_SecuritisationTypeDomain" xlink:to="d-st_SecuritisationTypeDomain_lbl"/>
+    <link:label xlink:type="resource" xlink:label="label_SecuritisationTypeDomain" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:title="label_SecuritisationTypeDomain" xml:lang="en" id="label_SecuritisationTypeDomain">Detailed layer </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-st_SecuritisationTypeDomain" xlink:to="label_SecuritisationTypeDomain" xlink:title="label: SecuritisationTypeDomain to label_SecuritisationTypeDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-st-2006-07-01.xsd#d-st_SyntheticSecuritisation" xlink:label="d-st_SyntheticSecuritisation"/>
+    <link:label xlink:type="resource" xlink:label="d-st_SyntheticSecuritisation_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_newItem3" xml:lang="en" id="label_newItem3_1134459141951_1">Synthetic Securitisation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-st_SyntheticSecuritisation" xlink:to="d-st_SyntheticSecuritisation_lbl"/>
+    <link:label xlink:type="resource" xlink:label="label_SyntheticSecuritisation" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:title="label_SyntheticSecuritisation" xml:lang="en" id="label_SyntheticSecuritisation">Detailed layer  </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-st_SyntheticSecuritisation" xlink:to="label_SyntheticSecuritisation" xlink:title="label: SyntheticSecuritisation to label_SyntheticSecuritisation"/>
+    <link:loc xlink:type="locator" xlink:href="d-st-2006-07-01.xsd#d-st_TotalSecuritisation" xlink:label="d-st_TotalSecuritisation"/>
+    <link:label xlink:type="resource" xlink:label="d-st_TotalSecuritisation_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_newItem" xml:lang="en" id="label_newItem_1134459130897_1">Total Securitisation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-st_TotalSecuritisation" xlink:to="d-st_TotalSecuritisation_lbl"/>
+    <link:label xlink:type="resource" xlink:label="label_TotalSecuritisation" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:title="label_TotalSecuritisation" xml:lang="en" id="label_TotalSecuritisation">Core layer</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-st_TotalSecuritisation" xlink:to="label_TotalSecuritisation" xlink:title="label: TotalSecuritisation to label_TotalSecuritisation"/>
+    <link:loc xlink:type="locator" xlink:href="d-st-2006-07-01.xsd#d-st_TraditionalSecuritisation" xlink:label="d-st_TraditionalSecuritisation"/>
+    <link:label xlink:type="resource" xlink:label="d-st_TraditionalSecuritisation_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_newItem2" xml:lang="en" id="label_newItem2_1134459140525_1">Traditional Securitisation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-st_TraditionalSecuritisation" xlink:to="d-st_TraditionalSecuritisation_lbl"/>
+    <link:label xlink:type="resource" xlink:label="label_TraditionalSecuritisation" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:title="label_TraditionalSecuritisation" xml:lang="en" id="label_TraditionalSecuritisation">Detailed layer </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-st_TraditionalSecuritisation" xlink:to="label_TraditionalSecuritisation" xlink:title="label: TraditionalSecuritisation to label_TraditionalSecuritisation"/>
+    <link:loc xlink:type="locator" xlink:href="d-st-2006-07-01.xsd#d-st_SecuritizationTypeDimension" xlink:label="SecuritizationTypeDimension" xlink:title="SecuritizationTypeDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_SecuritizationTypeDimension" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_SecuritizationTypeDimension" xml:lang="en" id="label_SecuritizationTypeDimension">Securitization Type (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SecuritizationTypeDimension" xlink:to="label_SecuritizationTypeDimension" xlink:title="label: SecuritizationTypeDimension to label_SecuritizationTypeDimension"/>
+  </link:labelLink>
+</link:linkbase>

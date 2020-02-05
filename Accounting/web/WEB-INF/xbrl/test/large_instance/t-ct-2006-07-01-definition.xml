@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/t-ct/SectionMain" xlink:type="simple" xlink:href="t-ct-2006-07-01.xsd#rt_t-ct_SectionMain"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/t-ct/SectionProhibitedItems" xlink:type="simple" xlink:href="t-ct-2006-07-01.xsd#rt_t-ct_SectionProhibitedItems"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/t-ct/SectionMainHypercube" xlink:type="simple" xlink:href="t-ct-2006-07-01.xsd#rt_t-ct_SectionMainHypercube"/>
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/cm-ca" xlink:type="simple" xlink:href="p-cm-ca-2006-07-01.xsd#rt_cm-ca"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/t-ct/SectionMain">
+    <link:loc xlink:type="locator" xlink:href="p-ct-2006-07-01.xsd#p-ct_CRTBSETTDomain" xlink:label="CRTBSETTDomain" xlink:title="CRTBSETTDomain"/>
+    <link:loc xlink:type="locator" xlink:href="p-ct-2006-07-01.xsd#p-ct_UnsettledTransactionsAtSettlementPrice" xlink:label="UnsettledTransactionsAtSettlementPrice" xlink:title="UnsettledTransactionsAtSettlementPrice"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="CRTBSETTDomain" xlink:to="UnsettledTransactionsAtSettlementPrice" xlink:title="definition: CRTBSETTDomain to UnsettledTransactionsAtSettlementPrice" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-ct-2006-07-01.xsd#p-ct_PriceDifferenceExposureDueToUnsettledTransactions" xlink:label="PriceDifferenceExposureDueToUnsettledTransactions" xlink:title="PriceDifferenceExposureDueToUnsettledTransactions"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="CRTBSETTDomain" xlink:to="PriceDifferenceExposureDueToUnsettledTransactions" xlink:title="definition: CRTBSETTDomain to PriceDifferenceExposureDueToUnsettledTransactions" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SettlementRiskCapitalRequirements" xlink:label="SettlementRiskCapitalRequirements" xlink:title="SettlementRiskCapitalRequirements"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="CRTBSETTDomain" xlink:to="SettlementRiskCapitalRequirements" xlink:title="definition: CRTBSETTDomain to SettlementRiskCapitalRequirements" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="t-ct-2006-07-01.xsd#t-ct_SectionMainHypercube" xlink:label="hcSectionAll" xlink:title="hcSectionAll"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="CRTBSETTDomain" xlink:to="hcSectionAll" xlink:title="definition: CRTBSETTDomain to hcSectionAll" order="4.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/t-ct/SectionMainHypercube" xbrldt:contextElement="scenario" xbrldt:closed="true"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/t-ct/SectionMainHypercube">
+    <link:loc xlink:type="locator" xlink:href="t-ct-2006-07-01.xsd#t-ct_SectionMainHypercube" xlink:label="hcSectionAll" xlink:title="hcSectionAll"/>
+    <link:loc xlink:type="locator" xlink:href="d-ut-2006-07-01.xsd#d-ut_UnsettledTransactionsDimension" xlink:label="UnsettledTransactionsDimension" xlink:title="UnsettledTransactionsDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="hcSectionAll" xlink:to="UnsettledTransactionsDimension" xlink:title="definition: hcSectionAll to UnsettledTransactionsDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ut-2006-07-01.xsd#d-ut_TotalUnsettledTransactionsInTheTradingBook" xlink:label="TotalUnsettledTransactionsInTheTradingBook" xlink:title="TotalUnsettledTransactionsInTheTradingBook"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="UnsettledTransactionsDimension" xlink:to="TotalUnsettledTransactionsInTheTradingBook" xlink:title="definition: UnsettledTransactionsDimension to TotalUnsettledTransactionsInTheTradingBook" order="1.0" xbrldt:targetRole="http://www.xbrl.org/2003/role/link"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/t-ct/SectionProhibitedItems">
+    <link:loc xlink:type="locator" xlink:href="d-hh-2006-07-01.xsd#hyp-cm_ProhibitedItemsPlaceholder" xlink:label="ProhibitedItemsPlaceholder" xlink:title="ProhibitedItemsPlaceholder"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CommonCAItemsDomain" xlink:label="CommonCAItemsDomain" xlink:title="CommonCAItemsDomain"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ProhibitedItemsPlaceholder" xlink:to="CommonCAItemsDomain" xlink:title="definition: ProhibitedItemsPlaceholder to CommonCAItemsDomain" order="1.0" xbrldt:targetRole="http://www.c-ebs.org/2006/corep/eu/cm-ca"/>
+    <link:loc xlink:type="locator" xlink:href="d-hh-2006-07-01.xsd#hyp-cm_ProhibitingHypercube" xlink:label="ProhibitingHypercube" xlink:title="ProhibitingHypercube"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ProhibitedItemsPlaceholder" xlink:to="ProhibitingHypercube" xlink:title="definition: ProhibitedItemsPlaceholder to ProhibitingHypercube" use="optional" order="2.0" xbrldt:contextElement="scenario"/>
+    <link:loc xlink:type="locator" xlink:href="d-hh-2006-07-01.xsd#hyp-cm_NullDimension" xlink:label="NullDimension" xlink:title="NullDimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="ProhibitingHypercube" xlink:to="NullDimension" xlink:title="definition: ProhibitingHypercube to NullDimension" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

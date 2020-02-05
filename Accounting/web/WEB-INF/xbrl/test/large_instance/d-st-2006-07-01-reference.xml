@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-st-2006-07-01 d-st-2006-07-01.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd" xmlns:d-st="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-st-2006-07-01" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref">
+	<link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:loc xlink:type="locator" xlink:href="d-st-2006-07-01.xsd#d-st_SyntheticSecuritisation" xlink:label="d-st_SyntheticSecuritisation"/>
+		<link:reference xlink:type="resource" xlink:label="d-st_SyntheticSecuritisation_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SyntheticSecuritisation" id="reference_SyntheticSecuritisation_1134459438505_1">
+			<ref-corep:Directive>2000/12/EC</ref-corep:Directive>
+			<ref:Article>4</ref:Article>
+			<ref-corep:Definition>38</ref-corep:Definition>
+		</link:reference>
+		<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="d-st_SyntheticSecuritisation" xlink:to="d-st_SyntheticSecuritisation_ref"/>
+		<link:loc xlink:type="locator" xlink:href="d-st-2006-07-01.xsd#d-st_TraditionalSecuritisation" xlink:label="d-st_TraditionalSecuritisation"/>
+		<link:reference xlink:type="resource" xlink:label="d-st_TraditionalSecuritisation_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TraditionalSecuritisation" id="reference_TraditionalSecuritisation_1134459378670_1">
+			<ref-corep:Directive>2000/12/EC</ref-corep:Directive>
+			<ref:Article>4</ref:Article>
+			<ref-corep:Definition>37</ref-corep:Definition>
+		</link:reference>
+		<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="d-st_TraditionalSecuritisation" xlink:to="d-st_TraditionalSecuritisation_ref"/>
+	</link:referenceLink>
+</link:linkbase>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref">
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_OnBalanceSheetItems" xlink:label="OnBalanceSheetItems" xlink:title="OnBalanceSheetItems"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OnBalanceSheetItems" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OnBalanceSheetItems" id="reference_OnBalanceSheetItems">
+      <ref-corep:Comment>Assets referred to in article 74 of Directive 2006/48/EC not included in any other category</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OnBalanceSheetItems" xlink:to="reference_OnBalanceSheetItems" xlink:title="reference: OnBalanceSheetItems to reference_OnBalanceSheetItems"/>
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_OffBalanceSheetItems" xlink:label="OffBalanceSheetItems" xlink:title="OffBalanceSheetItems"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OffBalanceSheetItems" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OffBalanceSheetItems" id="reference_OffBalanceSheetItems">
+      <ref-corep:Comment>Items included in annex II of Directive 2006/48/EC except those included as Securities Financing Transactions &amp; Long Settlement Transactions or from Contractual Cross Product Netting</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OffBalanceSheetItems" xlink:to="reference_OffBalanceSheetItems" xlink:title="reference: OffBalanceSheetItems to reference_OffBalanceSheetItems"/>
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_Derivatives" xlink:label="Derivatives" xlink:title="Derivatives"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Derivatives" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_Derivatives" id="reference_Derivatives">
+      <ref:Publisher>Items included in Annex 4 of Directive 2000/12/EC.</ref:Publisher>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Derivatives" xlink:to="reference_Derivatives" xlink:title="reference: Derivatives to reference_Derivatives"/>
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_SecuritiesFinancingTransactionsLongSettlementTransactions" xlink:label="SecuritiesFinancingTransactionsLongSettlementTransactions" xlink:title="SecuritiesFinancingTransactionsLongSettlementTransactions"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SecuritiesFinancingTransactionsLongSettlementTransactions" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SecuritiesFinancingTransactionsLongSettlementTransactions" id="reference_SecuritiesFinancingTransactionsLongSettlementTransactions">
+      <ref-corep:Comment>Securities Financing Transactions (SFT), as defined in paragraph 17 of the Basle Committe document "The Application of Basel II to Trading Activities and the Treatment of Double Default Effects", includes: (i) Repurchase and reverse repurchase agreements as well as securities or commodities lending and borrowing transactions as defined in article 3 paragraph 1, lit (m) and (n) of Directive 2006/49/EC; (ii) margin lending transactions as defined in part 1 of annex III of Directive 2006/48/EC. Long Settlement Transactions as defined in part 1 of annex III, paragraph 4 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SecuritiesFinancingTransactionsLongSettlementTransactions" xlink:to="reference_SecuritiesFinancingTransactionsLongSettlementTransactions" xlink:title="reference: SecuritiesFinancingTransactionsLongSettlementTransactions to reference_SecuritiesFinancingTransactionsLongSettlementTransactions"/>
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_FromContractualCrossProductNetting" xlink:label="FromContractualCrossProductNetting" xlink:title="FromContractualCrossProductNetting"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FromContractualCrossProductNetting" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_FromContractualCrossProductNetting" id="reference_FromContractualCrossProductNetting">
+      <ref-corep:Comment>Exposures that due to the existence of a contractual cross product netting (as defined in part 1, point 12 of annex III of Directive 2006/48/EC) can not be assigned to either Derivatives or Securities Financing Transactions &amp; Long Settlement Transactions will be included under this category. </ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FromContractualCrossProductNetting" xlink:to="reference_FromContractualCrossProductNetting" xlink:title="reference: FromContractualCrossProductNetting to reference_FromContractualCrossProductNetting"/>
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_OnBalanceSheetItemsMostSenior" xlink:label="OnBalanceSheetItemsMostSenior" xlink:title="OnBalanceSheetItemsMostSenior"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OnBalanceSheetItemsMostSenior" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OnBalanceSheetItemsMostSenior" id="reference_OnBalanceSheetItemsMostSenior">
+      <ref-corep:Comment>Annex IX part 4 point 47 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OnBalanceSheetItemsMostSenior" xlink:to="reference_OnBalanceSheetItemsMostSenior" xlink:title="reference: OnBalanceSheetItemsMostSenior to reference_OnBalanceSheetItemsMostSenior"/>
+    <link:loc xlink:type="locator" xlink:href="d-et-2006-07-01.xsd#d-et_OnBalanceSheetItemsFirstLoss" xlink:label="OnBalanceSheetItemsFirstLoss" xlink:title="OnBalanceSheetItemsFirstLoss"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OnBalanceSheetItemsFirstLoss" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OnBalanceSheetItemsFirstLoss" id="reference_OnBalanceSheetItemsFirstLoss">
+      <ref-corep:Comment>Positions in those securitisation tranches (Article 4 (39) of Directive 2006/48/EC) that will take the first Euro of loss (e.g. refundable purchase discounts, subordinated loans, or credit protection provided to such tranches). Nevertheless, if this tranche does not provide a significant meaningful credit enhancement (as referred in annex IX part 4 point 12 of Directive 2006/48/EC) to the next tranch in the ranking of the securitisantion, also this latter tranche will be considered as a first loss tranche. This assessment of the credit enhancement provided by the different tranches will be repeated until the credit enhancement provided by first loss tranche or tranches is deemed to be meaningful.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OnBalanceSheetItemsFirstLoss" xlink:to="reference_OnBalanceSheetItemsFirstLoss" xlink:title="reference: OnBalanceSheetItemsFirstLoss to reference_OnBalanceSheetItemsFirstLoss"/>
+  </link:referenceLink>
+</link:linkbase>

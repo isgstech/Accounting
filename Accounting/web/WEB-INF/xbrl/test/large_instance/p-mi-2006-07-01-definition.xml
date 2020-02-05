@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:p-mi="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-mi-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/mi" xlink:type="simple" xlink:href="p-mi-2006-07-01.xsd#rt_mi"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/mi">
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MarketRiskInternalModels" xlink:label="MarketRiskInternalModels_1134776710390_1" xlink:title="MarketRiskInternalModels"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MultiplicationFactorXAveragePrevious60WorkingDaysVaR" xlink:label="MultiplicationFactorXAveragePrevious60WorkingDaysVaR_1134776710390_2" xlink:title="MultiplicationFactorXAveragePrevious60WorkingDaysVaR"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="MarketRiskInternalModels_1134776710390_1" xlink:to="MultiplicationFactorXAveragePrevious60WorkingDaysVaR_1134776710390_2" xlink:title="definition: MarketRiskInternalModels to MultiplicationFactorXAveragePrevious60WorkingDaysVaR" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_PreviousDayVaR" xlink:label="PreviousDayVaR_1134776713828_0" xlink:title="PreviousDayVaR"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="MarketRiskInternalModels_1134776710390_1" xlink:to="PreviousDayVaR_1134776713828_0" xlink:title="definition: MarketRiskInternalModels to PreviousDayVaR" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_SpecificRiskSurcharge" xlink:label="SpecificRiskSurcharge_1134776718250_0" xlink:title="SpecificRiskSurcharge"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="MarketRiskInternalModels_1134776710390_1" xlink:to="SpecificRiskSurcharge_1134776718250_0" xlink:title="definition: MarketRiskInternalModels to SpecificRiskSurcharge" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_IncrementalDefaultRiskSurcharge" xlink:label="IncrementalDefaultRiskSurcharge_1134776722953_0" xlink:title="IncrementalDefaultRiskSurcharge"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="MarketRiskInternalModels_1134776710390_1" xlink:to="IncrementalDefaultRiskSurcharge_1134776722953_0" xlink:title="definition: MarketRiskInternalModels to IncrementalDefaultRiskSurcharge" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MemorandumItems" xlink:label="MemorandumItems_1134776734140_0" xlink:title="MemorandumItems"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="MarketRiskInternalModels_1134776710390_1" xlink:to="MemorandumItems_1134776734140_0" xlink:title="definition: MarketRiskInternalModels to MemorandumItems" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_NumberOfOvershootingsDuringPrevious250WorkingDays" xlink:label="NumberOfOvershootingsDuringPrevious250WorkingDays_1134776741515_0" xlink:title="NumberOfOvershootingsDuringPrevious250WorkingDays"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="MemorandumItems_1134776734140_0" xlink:to="NumberOfOvershootingsDuringPrevious250WorkingDays_1134776741515_0" xlink:title="definition: MemorandumItems to NumberOfOvershootingsDuringPrevious250WorkingDays" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-mi-2006-07-01.xsd#p-mi_MultiplicationFactor" xlink:label="MultiplicationFactor_1134776755968_0" xlink:title="MultiplicationFactor"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="MemorandumItems_1134776734140_0" xlink:to="MultiplicationFactor_1134776755968_0" xlink:title="definition: MemorandumItems to MultiplicationFactor" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CapitalRequirements" xlink:label="CapitalRequirements" xlink:title="CapitalRequirements"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="MarketRiskInternalModels_1134776710390_1" xlink:to="CapitalRequirements" xlink:title="definition: MarketRiskInternalModels to CapitalRequirements" order="5.0"/>
+  </link:definitionLink>
+</link:linkbase>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-basis-2006-06" xmlns:t-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/t-basis-2006-06" xmlns:p-basis-2006-06="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06" xmlns:p-ca-de-2007-01="http://www.bundesbank.de/fr/ba/bakisw/p-ca-de-2007-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:t-ca-de-2007-01="http://www.bundesbank.de/fr/ba/bakisw/t-ca-de-2007-01" xmlns:p-cm-ca-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:d-am-2007-01="http://www.bundesbank.de/fr/ba/bakisw/d-am-2007-01" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:XLink="http://www.xbrl.org/2003/XLink" xmlns:t-eueb-2007-01="http://www.bundesbank.de/fr/ba/bakisw/t-eueb-2007-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p-ca-2006-07-01="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ca-2006-07-01" xmlns:ref-corep-2005-09-30="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:d-cm-report-2006-06="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <!--Automatisiert erzeugt durch die Deutsche Bundesbank am 18.12.2006-->
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-basis-2006-06.xsd" />
+  <link:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="t-eueb-2007-01.xsd" />
+  <p-cm-ca-2006-07-01:CapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_1">3</p-cm-ca-2006-07-01:CapitalRequirements>
+  <p-ca-de-2007-01:NotOwnEstimatesInstitutions precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-de-2007-01:NotOwnEstimatesInstitutions>
+  <p-basis-2006-06:DateCreated contextRef="ctx_basis">2006-12-18</p-basis-2006-06:DateCreated>
+  <p-ca-de-2007-01:CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:CountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks>
+  <p-ca-de-2007-01:OwnEstimatesLGDGovernmentsCentralBanks precision="INF" unitRef="EUR" contextRef="ctx_1">3</p-ca-de-2007-01:OwnEstimatesLGDGovernmentsCentralBanks>
+  <p-ca-2006-07-01:IRBProvisionExcessShortfall precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-2006-07-01:IRBProvisionExcessShortfall>
+  <p-ca-de-2007-01:IRBProvisionShortfall precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:IRBProvisionShortfall>
+  <p-ca-de-2007-01:OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained>
+  <p-ca-de-2007-01:SAECInternationalOrganisations precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:SAECInternationalOrganisations>
+  <p-ca-2006-07-01:InterimProfitsMaterialLossesCurrentFinancialYear precision="INF" unitRef="EUR" contextRef="ctx_1">13</p-ca-2006-07-01:InterimProfitsMaterialLossesCurrentFinancialYear>
+  <p-ca-de-2007-01:ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital>
+  <p-ca-de-2007-01:MRiskIMTotalPositions precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-de-2007-01:MRiskIMTotalPositions>
+  <p-ca-de-2007-01:CreditRiskSASecuritization precision="INF" unitRef="EUR" contextRef="ctx_1">456</p-ca-de-2007-01:CreditRiskSASecuritization>
+  <p-ca-2006-07-01:MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:MemorandumItemTotalOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsUsed>
+  <p-ca-de-2007-01:SAECItemsBelongingRegulatoryHighRiskCategories precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:SAECItemsBelongingRegulatoryHighRiskCategories>
+  <p-ca-de-2007-01:OfWhichFromAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:OfWhichFromAdditionalOwnFunds>
+  <p-ca-de-2007-01:OtherCountrySpecificDeductionsOriginalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">9</p-ca-de-2007-01:OtherCountrySpecificDeductionsOriginalOwnFunds>
+  <p-ca-2006-07-01:ComplementsOverallFloorCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-2006-07-01:ComplementsOverallFloorCapitalRequirements>
+  <p-cm-ca-2006-07-01:CapitalRequirementsRelatedFixedOverheads precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-cm-ca-2006-07-01:CapitalRequirementsRelatedFixedOverheads>
+  <p-ca-de-2007-01:DeductionsOriginalAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:DeductionsOriginalAdditionalOwnFunds>
+  <p-ca-2006-07-01:ShortTermSubordinatedLoanCapital precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:ShortTermSubordinatedLoanCapital>
+  <p-ca-2006-07-01:SubordinatedLoanCapital precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-2006-07-01:SubordinatedLoanCapital>
+  <p-basis-2006-06:Stage contextRef="ctx_basis">Produktion</p-basis-2006-06:Stage>
+  <p-ca-2006-07-01:CoreAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-2006-07-01:CoreAdditionalOwnFunds>
+  <p-cm-ca-2006-07-01:MarketRiskCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-cm-ca-2006-07-01:MarketRiskCapitalRequirements>
+  <p-ca-de-2007-01:DeductionsTotalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-de-2007-01:DeductionsTotalOwnFunds>
+  <p-ca-2006-07-01:SpecificProvisionIndividualImpairment precision="INF" unitRef="EUR" contextRef="ctx_1">45</p-ca-2006-07-01:SpecificProvisionIndividualImpairment>
+  <p-ca-de-2007-01:MRiskSAEQUTotal precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:MRiskSAEQUTotal>
+  <p-ca-de-2007-01:ExcessLimitOwnFundsSpecificCoverMarketRisks precision="INF" unitRef="EUR" contextRef="ctx_1">9</p-ca-de-2007-01:ExcessLimitOwnFundsSpecificCoverMarketRisks>
+  <p-ca-2006-07-01:IRBProvisionExcess precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:IRBProvisionExcess>
+  <p-ca-de-2007-01:ExcessLimitsAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">3</p-ca-de-2007-01:ExcessLimitsAdditionalOwnFunds>
+  <p-ca-de-2007-01:SAECCollectiveInvestmentsUndertakingsCIU precision="INF" unitRef="EUR" contextRef="ctx_1">7</p-ca-de-2007-01:SAECCollectiveInvestmentsUndertakingsCIU>
+  <p-ca-de-2007-01:DeductionsAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">2</p-ca-de-2007-01:DeductionsAdditionalOwnFunds>
+  <p-ca-2006-07-01:SolvencyRatio precision="INF" unitRef="PURE" contextRef="ctx_1">7</p-ca-2006-07-01:SolvencyRatio>
+  <p-ca-de-2007-01:OtherCountrySpecificDeductionsAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:OtherCountrySpecificDeductionsAdditionalOwnFunds>
+  <p-ca-de-2007-01:CreditRiskIRB precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:CreditRiskIRB>
+  <p-ca-de-2007-01:OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:OtherCountrySpecificDeductionsOriginalAdditionalOwnFunds>
+  <p-ca-de-2007-01:NotOwnEstimatesLGDConversionFactors precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:NotOwnEstimatesLGDConversionFactors>
+  <p-cm-ca-2006-07-01:OtherTransitionalCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-cm-ca-2006-07-01:OtherTransitionalCapitalRequirements>
+  <p-ca-2006-07-01:SecuritiesIndeterminateDurationOtherInstruments precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-2006-07-01:SecuritiesIndeterminateDurationOtherInstruments>
+  <p-ca-de-2007-01:ExcessLimitsCountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:ExcessLimitsCountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks>
+  <p-ca-2006-07-01:RevaluationReserves precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:RevaluationReserves>
+  <p-ca-de-2007-01:MRiskSACOMTotal precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:MRiskSACOMTotal>
+  <p-ca-de-2007-01:SAECOtherItems precision="INF" unitRef="EUR" contextRef="ctx_1">9</p-ca-de-2007-01:SAECOtherItems>
+  <p-ca-de-2007-01:UnusedEligibleOwnFundsSpecificCoverMarketRisks precision="INF" unitRef="EUR" contextRef="ctx_1">7</p-ca-de-2007-01:UnusedEligibleOwnFundsSpecificCoverMarketRisks>
+  <p-ca-de-2007-01:CreditRiskIRBEquity precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:CreditRiskIRBEquity>
+  <p-ca-de-2007-01:OtherDeductionsOriginalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">7</p-ca-de-2007-01:OtherDeductionsOriginalOwnFunds>
+  <p-ca-de-2007-01:ExcessLimitsOtherCountrySpecificDeductionsAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:ExcessLimitsOtherCountrySpecificDeductionsAdditionalOwnFunds>
+  <p-ca-2006-07-01:CoreAdditionalOwnFundsOtherItems precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-2006-07-01:CoreAdditionalOwnFundsOtherItems>
+  <p-ca-de-2007-01:NotOwnEstimatesCorporates precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:NotOwnEstimatesCorporates>
+  <p-basis-2006-06:CompanyName contextRef="ctx_basis">---</p-basis-2006-06:CompanyName>
+  <p-ca-de-2007-01:OtherCountrySpecificDeductionsOriginalOwnFundsOther precision="INF" unitRef="EUR" contextRef="ctx_1">1</p-ca-de-2007-01:OtherCountrySpecificDeductionsOriginalOwnFundsOther>
+  <p-ca-de-2007-01:MaterialLossesCurrentFinancialYear precision="INF" unitRef="EUR" contextRef="ctx_1">12</p-ca-de-2007-01:MaterialLossesCurrentFinancialYear>
+  <p-ca-de-2007-01:SAECInstitutions precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:SAECInstitutions>
+  <p-ca-de-2007-01:OfWhichOriginalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:OfWhichOriginalOwnFunds>
+  <p-ca-2006-07-01:SupplementaryAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">3</p-ca-2006-07-01:SupplementaryAdditionalOwnFunds>
+  <p-ca-de-2007-01:TotalBankingActivitiesSubjectAMA precision="INF" unitRef="EUR" contextRef="ctx_1">7</p-ca-de-2007-01:TotalBankingActivitiesSubjectAMA>
+  <p-ca-de-2007-01:SAECMultilateralDevelopmentBanks precision="INF" unitRef="EUR" contextRef="ctx_1">2</p-ca-de-2007-01:SAECMultilateralDevelopmentBanks>
+  <p-ca-2006-07-01:ValueAdjustmentsCreditRiskPositionsStandardisedApproach precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-2006-07-01:ValueAdjustmentsCreditRiskPositionsStandardisedApproach>
+  <p-ca-2006-07-01:OriginalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">2</p-ca-2006-07-01:OriginalOwnFunds>
+  <p-ca-de-2007-01:OwnEstimatesLGDConversionFactors precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:OwnEstimatesLGDConversionFactors>
+  <p-ca-2006-07-01:CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-2006-07-01:CommitmentsMembersCreditInstitutionsSetUpCooperativeSocieties>
+  <p-ca-de-2007-01:TotalBankingActivitiesSubjectSTAAlternative precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:TotalBankingActivitiesSubjectSTAAlternative>
+  <p-ca-2006-07-01:PaidUpCapital precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-2006-07-01:PaidUpCapital>
+  <p-ca-de-2007-01:SAECPastDueItems precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:SAECPastDueItems>
+  <p-ca-de-2007-01:CreditRiskIRBSecuritization precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-de-2007-01:CreditRiskIRBSecuritization>
+  <p-ca-de-2007-01:MRiskSATDITotal precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:MRiskSATDITotal>
+  <p-ca-2006-07-01:CreditRevaluationReserves precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:CreditRevaluationReserves>
+  <p-ca-de-2007-01:IntangibleAssets precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-de-2007-01:IntangibleAssets>
+  <p-ca-2006-07-01:NetTradingBookProfits precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-2006-07-01:NetTradingBookProfits>
+  <p-ca-de-2007-01:MRiskSAFXTotalPositionsNonReportingCurrencies precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:MRiskSAFXTotalPositionsNonReportingCurrencies>
+  <p-ca-2006-07-01:OtherCountrySpecificOwnFundsRequirements precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-2006-07-01:OtherCountrySpecificOwnFundsRequirements>
+  <p-ca-2006-07-01:FundsGeneralBankingRisks precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:FundsGeneralBankingRisks>
+  <p-ca-de-2007-01:QualifiedParticipatingInterestNonFinancialInstitutions precision="INF" unitRef="EUR" contextRef="ctx_1">2</p-ca-de-2007-01:QualifiedParticipatingInterestNonFinancialInstitutions>
+  <p-ca-de-2007-01:OwnEstimatesLGDInstitutions precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:OwnEstimatesLGDInstitutions>
+  <p-cm-ca-2006-07-01:CreditRiskCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-cm-ca-2006-07-01:CreditRiskCapitalRequirements>
+  <p-ca-2006-07-01:ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:ExcessLimitsAdditionalOwnFundsTransferredAdditionalOwnFundsSpecificCoverMarketRisks>
+  <p-ca-de-2007-01:IlliquidAssets precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:IlliquidAssets>
+  <p-ca-2006-07-01:EligibleReserves precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-2006-07-01:EligibleReserves>
+  <p-ca-2006-07-01:InterimProfits precision="INF" unitRef="EUR" contextRef="ctx_1">10</p-ca-2006-07-01:InterimProfits>
+  <p-ca-de-2007-01:IRBMeasurementExpectedLosses precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:IRBMeasurementExpectedLosses>
+  <p-ca-2006-07-01:CountrySpecificCoreAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">2</p-ca-2006-07-01:CountrySpecificCoreAdditionalOwnFunds>
+  <p-ca-2006-07-01:ComplementCapitalRequirementsInvestmentFirmsArticle46 precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-2006-07-01:ComplementCapitalRequirementsInvestmentFirmsArticle46>
+  <p-ca-de-2007-01:SAECSecuredOnRealEstateProperty precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:SAECSecuredOnRealEstateProperty>
+  <p-ca-de-2007-01:NetGainsCapitalisationFutureMarginIncomeSecuritisations precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:NetGainsCapitalisationFutureMarginIncomeSecuritisations>
+  <p-ca-2006-07-01:SharePremium precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:SharePremium>
+  <p-ca-de-2007-01:SAECRetail precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-de-2007-01:SAECRetail>
+  <p-ca-de-2007-01:TotalSAExposureClasses precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-de-2007-01:TotalSAExposureClasses>
+  <p-ca-de-2007-01:ExcessLimitsSupplementaryAdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">9</p-ca-de-2007-01:ExcessLimitsSupplementaryAdditionalOwnFunds>
+  <p-ca-2006-07-01:IncomePositiveCurrentYear precision="INF" unitRef="EUR" contextRef="ctx_1">11</p-ca-2006-07-01:IncomePositiveCurrentYear>
+  <p-ca-2006-07-01:EligibleCapital precision="INF" unitRef="EUR" contextRef="ctx_1">3</p-ca-2006-07-01:EligibleCapital>
+  <p-ca-de-2007-01:SAECCorporates precision="INF" unitRef="EUR" contextRef="ctx_1">7</p-ca-de-2007-01:SAECCorporates>
+  <p-ca-2006-07-01:OtherInstrumentsEligibleCapital precision="INF" unitRef="EUR" contextRef="ctx_1">7</p-ca-2006-07-01:OtherInstrumentsEligibleCapital>
+  <p-cm-ca-2006-07-01:SettlementRiskCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-cm-ca-2006-07-01:SettlementRiskCapitalRequirements>
+  <p-ca-de-2007-01:CreditRiskIRBOtherNonCreditObligationAssets precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:CreditRiskIRBOtherNonCreditObligationAssets>
+  <p-ca-de-2007-01:SAECCentralGovernmentsCentralBanks precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:SAECCentralGovernmentsCentralBanks>
+  <p-ca-de-2007-01:OwnShares precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:OwnShares>
+  <p-cm-ca-2006-07-01:SurplusDeficitOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-cm-ca-2006-07-01:SurplusDeficitOwnFunds>
+  <p-ca-de-2007-01:HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital precision="INF" unitRef="EUR" contextRef="ctx_1">7</p-ca-de-2007-01:HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital>
+  <p-cm-ca-2006-07-01:TotalOwnFundsSolvencyPurposes precision="INF" unitRef="EUR" contextRef="ctx_1">1</p-cm-ca-2006-07-01:TotalOwnFundsSolvencyPurposes>
+  <p-ca-2006-07-01:OfWhichGeneralProvisionCollectiveImpairment precision="INF" unitRef="EUR" contextRef="ctx_1">9</p-ca-2006-07-01:OfWhichGeneralProvisionCollectiveImpairment>
+  <p-basis-2006-06:Version contextRef="ctx_basis">1.0</p-basis-2006-06:Version>
+  <p-ca-2006-07-01:TotalAdditionalOwnFundsSpecificCoverMarketRisks precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-2006-07-01:TotalAdditionalOwnFundsSpecificCoverMarketRisks>
+  <p-ca-2006-07-01:AdditionalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-2006-07-01:AdditionalOwnFunds>
+  <p-ca-2006-07-01:TotalAdditionalOwnFundsGeneralSolvencyPurposes precision="INF" unitRef="EUR" contextRef="ctx_1">7</p-ca-2006-07-01:TotalAdditionalOwnFundsGeneralSolvencyPurposes>
+  <p-ca-de-2007-01:IncomeNegativeCurrentYear precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:IncomeNegativeCurrentYear>
+  <p-ca-de-2007-01:SAECRegionalGovernmentsLocalAuthorities precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:SAECRegionalGovernmentsLocalAuthorities>
+  <p-ca-2006-07-01:MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:MemorandumItemOwnFundsRelevantLimitsLargeExposuresAdditionalCapitalCoverMarketRisksIsNotUsedLimitsQualifyingParticipatingInterests>
+  <p-basis-2006-06:IdentificationCodeType contextRef="ctx_basis">InstitutionNumber</p-basis-2006-06:IdentificationCodeType>
+  <p-cm-ca-2006-07-01:TotalOriginalOwnFundsGeneralSolvencyPurposes precision="INF" unitRef="EUR" contextRef="ctx_1">9</p-cm-ca-2006-07-01:TotalOriginalOwnFundsGeneralSolvencyPurposes>
+  <p-ca-de-2007-01:MRiskSA precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:MRiskSA>
+  <p-ca-de-2007-01:ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies precision="INF" unitRef="EUR" contextRef="ctx_1">1</p-ca-de-2007-01:ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies>
+  <p-ca-2006-07-01:AmountProvisionsIRB precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:AmountProvisionsIRB>
+  <p-ca-de-2007-01:TotalBankingActivitiesSubjectBIA precision="INF" unitRef="EUR" contextRef="ctx_1">54</p-ca-de-2007-01:TotalBankingActivitiesSubjectBIA>
+  <p-ca-de-2007-01:FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:FreeDeliveriesFiveBusinessDaysPostSecondContractualPaymentDeliveryLegUntilExtinctionTransaction>
+  <p-ca-de-2007-01:CreditOvershootingCountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:CreditOvershootingCountrySpecificDeductionsOwnFundsSpecificCoverMarketRisks>
+  <p-ca-de-2007-01:SAECCoveredBonds precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:SAECCoveredBonds>
+  <p-ca-de-2007-01:CreditRiskSA precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-de-2007-01:CreditRiskSA>
+  <p-ca-de-2007-01:SAECAdministrativeBodiesNonCommercialUndertakings precision="INF" unitRef="EUR" contextRef="ctx_1">1</p-ca-de-2007-01:SAECAdministrativeBodiesNonCommercialUndertakings>
+  <p-cm-ca-2006-07-01:OperationalRiskCapitalRequirements precision="INF" unitRef="EUR" contextRef="ctx_1">2</p-cm-ca-2006-07-01:OperationalRiskCapitalRequirements>
+  <p-ca-2006-07-01:CountrySpecificDeductionsTotalOwnFunds precision="INF" unitRef="EUR" contextRef="ctx_1">6</p-ca-2006-07-01:CountrySpecificDeductionsTotalOwnFunds>
+  <p-ca-de-2007-01:SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital precision="INF" unitRef="EUR" contextRef="ctx_1">8</p-ca-de-2007-01:SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital>
+  <p-ca-de-2007-01:OwnEstimatesLGDRetail precision="INF" unitRef="EUR" contextRef="ctx_1">5</p-ca-de-2007-01:OwnEstimatesLGDRetail>
+  <p-ca-2006-07-01:Reserves precision="INF" unitRef="EUR" contextRef="ctx_1">9</p-ca-2006-07-01:Reserves>
+  <p-ca-de-2007-01:OwnEstimatesLGDCorporates precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:OwnEstimatesLGDCorporates>
+  <p-ca-de-2007-01:NotOwnEstimatesGovernmentsCentralBanks precision="INF" unitRef="EUR" contextRef="ctx_1">7</p-ca-de-2007-01:NotOwnEstimatesGovernmentsCentralBanks>
+  <p-ca-de-2007-01:CertainSecuritisationExposuresNotIncludedRiskWeightedAssets precision="INF" unitRef="EUR" contextRef="ctx_1">4</p-ca-de-2007-01:CertainSecuritisationExposuresNotIncludedRiskWeightedAssets>
+  <p-basis-2006-06:IdentificationCode contextRef="ctx_basis">99912347</p-basis-2006-06:IdentificationCode>
+  <xbrli:context id="ctx_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="testSchema">9991234</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:typedMember dimension="d-cm-report-2006-06:ReportDimension">
+          <d-cm-report-2006-06:Report>
+            <d-cm-report-2006-06:TemplateName>EUEB</d-cm-report-2006-06:TemplateName>
+            <d-cm-report-2006-06:GIAIndicator>Inland=Gesamt</d-cm-report-2006-06:GIAIndicator>
+            <d-cm-report-2006-06:CodesType>InstitutionNumber</d-cm-report-2006-06:CodesType>
+            <d-cm-report-2006-06:CompanyName>---</d-cm-report-2006-06:CompanyName>
+            <d-cm-report-2006-06:Address>
+              <d-cm-report-2006-06:Town>---</d-cm-report-2006-06:Town>
+              <d-cm-report-2006-06:Contact>
+                <d-cm-report-2006-06:LastName>Intern</d-cm-report-2006-06:LastName>
+                <d-cm-report-2006-06:ExtranetID>EXNPPPPP</d-cm-report-2006-06:ExtranetID>
+              </d-cm-report-2006-06:Contact>
+            </d-cm-report-2006-06:Address>
+          </d-cm-report-2006-06:Report>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-11-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-am-2007-01:AmountDimension">d-am-2007-01:Amount</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx_basis">
+    <xbrli:entity>
+      <xbrli:identifier scheme="scheme_sender">id_sender</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="d-basis-2006-06:DocumentEntitiesDimension">d-basis-2006-06:DocumentSender</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2006-12-18</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="PURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+</xbrli:xbrl>
+

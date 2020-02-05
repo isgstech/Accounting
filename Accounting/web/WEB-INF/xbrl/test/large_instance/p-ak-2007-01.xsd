@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/p-ak-2007-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:p-ak="http://www.bundesbank.de/fr/ba/bakisw/p-ak-2007-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dt="http://xbrl.c-ebs.org/dt">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ak-2007-01.xsd-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ak-2007-01.xsd-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ak-2007-01.xsd-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.bundesbank.de/dt-de" schemaLocation="dt-de-2006-03-30.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element name="AktiennettopositionDomain" id="p-ak_AktiennettopositionDomain" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Aktiennettoeinzelpositionen" id="p-ak_Aktiennettoeinzelpositionen" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AktiennettoeinzelpositionenAktivischeAusrichtung" id="p-ak_AktiennettoeinzelpositionenAktivischeAusrichtung" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AktiennettoeinzelpositionenPassivischeAusrichtung" id="p-ak_AktiennettoeinzelpositionenPassivischeAusrichtung" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Aktiennettoposition" id="p-ak_Aktiennettoposition" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AktiennettopositionSaldierteNettoPosition" id="p-ak_AktiennettopositionSaldierteNettoPosition" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Anrechnungsbetraege" id="p-ak_Anrechnungsbetraege" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AnrechnungsbetraegeAllgemeineKursrisiko" id="p-ak_AnrechnungsbetraegeAllgemeineKursrisiko" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Aktienbruttoposition" id="p-ak_Aktienbruttoposition" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AktienbruttopositionInsgesamt" id="p-ak_AktienbruttopositionInsgesamt" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AktienbruttopositionDarunter" id="p-ak_AktienbruttopositionDarunter" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="HochliquideAktienMitHoherAnlageQualitaet" id="p-ak_HochliquideAktienMitHoherAnlageQualitaet" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="UebrigeAktienpositionenOhneIndexPositionen" id="p-ak_UebrigeAktienpositionenOhneIndexPositionen" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

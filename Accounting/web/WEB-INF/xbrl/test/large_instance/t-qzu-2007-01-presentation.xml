@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:t-qzu="http://www.bundesbank.de/fr/ba/bakisw/t-qzu-2007-01">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/gd" xlink:type="simple" xlink:href="p-gd-2006-07-01.xsd#rt_gd"/>
+  <link:roleRef roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-qzu/DimensionPresentation" xlink:type="simple" xlink:href="t-qzu-2007-01.xsd#rt_t-qzu_DimensionPresentation"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.bundesbank.de/fr/ba/bakisw/t-qzu/DimensionPresentation">
+    <link:loc xlink:type="locator" xlink:href="d-qzu-2007-01.xsd#d-qzu_GruppensolvabilitaetsbetragDomain" xlink:label="GruppensolvabilitaetsbetragDomain" xlink:title="GruppensolvabilitaetsbetragDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-qzu-2007-01.xsd#d-qzu_Gesamtsumme" xlink:label="Gesamtsumme" xlink:title="Gesamtsumme"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GruppensolvabilitaetsbetragDomain" xlink:to="Gesamtsumme" xlink:title="presentation: GruppensolvabilitaetsbetragDomain to Gesamtsumme" order="1.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/gd">
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CapitalRequirements" xlink:label="CapitalRequirements" xlink:title="CapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CreditRiskCapitalRequirements" xlink:label="CreditRiskCapitalRequirements" xlink:title="CreditRiskCapitalRequirements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CapitalRequirements" xlink:to="CreditRiskCapitalRequirements" xlink:title="presentation: CapitalRequirements to CreditRiskCapitalRequirements" use="prohibited" priority="1" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_MarketRiskCapitalRequirements" xlink:label="MarketRiskCapitalRequirements" xlink:title="MarketRiskCapitalRequirements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CapitalRequirements" xlink:to="MarketRiskCapitalRequirements" xlink:title="presentation: CapitalRequirements to MarketRiskCapitalRequirements" use="prohibited" priority="1" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_OtherTransitionalCapitalRequirements" xlink:label="OtherTransitionalCapitalRequirements" xlink:title="OtherTransitionalCapitalRequirements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CapitalRequirements" xlink:to="OtherTransitionalCapitalRequirements" xlink:title="presentation: CapitalRequirements to OtherTransitionalCapitalRequirements" use="prohibited" priority="1" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-gd-2006-07-01.xsd#p-gd_GroupSolvencyDetailsInformationAffiliatesDomain" xlink:label="GroupSolvencyDetailsInformationAffiliatesDomain" xlink:title="GroupSolvencyDetailsDomain"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SurplusDeficitOwnFunds" xlink:label="SurplusDeficitOwnFunds" xlink:title="SurplusDeficitOwnFunds"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GroupSolvencyDetailsInformationAffiliatesDomain" xlink:to="SurplusDeficitOwnFunds" xlink:title="presentation: GroupSolvencyDetailsDomain to SurplusDeficitOwnFunds" use="prohibited" priority="1" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:label="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:title="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GroupSolvencyDetailsInformationAffiliatesDomain" xlink:to="SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" xlink:title="presentation: GroupSolvencyDetailsDomain to SurplusDeficitOwnFundsTakingIntoAccountSupervisoryReviewProcess" use="prohibited" priority="1" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-gd-de-2007-01.xsd#p-gd-de_BankenaufsichtlicherKonsolidierungskreisEinbezogeneUnternehmen" xlink:label="BankenaufsichtlicherKonsolidierungskreisEinbezogeneUnternehmen" xlink:title="BankenaufsichtlicherKonsolidierungskreisEinbezogeneUnternehmen"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GroupSolvencyDetailsInformationAffiliatesDomain" xlink:to="BankenaufsichtlicherKonsolidierungskreisEinbezogeneUnternehmen" xlink:title="presentation: GroupSolvencyDetailsInformationAffiliatesDomain to BankenaufsichtlicherKonsolidierungskreisEinbezogeneUnternehmen" order="0.5"/>
+    <link:loc xlink:type="locator" xlink:href="d-ty-de-2007-01.xsd#d-ty-de_NameDimension" xlink:label="NameDimension" xlink:title="NameDimension"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="BankenaufsichtlicherKonsolidierungskreisEinbezogeneUnternehmen" xlink:to="NameDimension" xlink:title="presentation: BankenaufsichtlicherKonsolidierungskreisEinbezogeneUnternehmen to NameDimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ty-de-2007-01.xsd#d-ty-de_CodeDimension" xlink:label="CodeDimension" xlink:title="CodeDimension"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="BankenaufsichtlicherKonsolidierungskreisEinbezogeneUnternehmen" xlink:to="CodeDimension" xlink:title="presentation: BankenaufsichtlicherKonsolidierungskreisEinbezogeneUnternehmen to CodeDimension" order="2.0"/>
+  </link:presentationLink>
+</link:linkbase>

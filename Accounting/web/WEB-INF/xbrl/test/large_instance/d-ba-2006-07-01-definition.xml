@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-ba="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ba-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_BankingActivitiesDomain" xlink:label="BankingActivitiesDomain" xlink:title="BankingActivitiesDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivities" xlink:label="TotalBankingActivities" xlink:title="TotalBankingActivities"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="BankingActivitiesDomain" xlink:to="TotalBankingActivities" xlink:title="definition: BankingActivitiesDomain to TotalBankingActivities" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectBIA" xlink:label="TotalBankingActivitiesSubjectBIA" xlink:title="TotalBankingActivitiesSubjectBIA"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBankingActivities" xlink:to="TotalBankingActivitiesSubjectBIA" xlink:title="definition: TotalBankingActivities to TotalBankingActivitiesSubjectBIA" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectSTAAlternative" xlink:label="TotalBankingActivitiesSubjectSTAAlternative" xlink:title="TotalBankingActivitiesSubjectSTAAlternative"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBankingActivities" xlink:to="TotalBankingActivitiesSubjectSTAAlternative" xlink:title="definition: TotalBankingActivities to TotalBankingActivitiesSubjectSTAAlternative" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectSTA" xlink:label="TotalBankingActivitiesSubjectSTA" xlink:title="TotalBankingActivitiesSubjectSTA"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBankingActivitiesSubjectSTAAlternative" xlink:to="TotalBankingActivitiesSubjectSTA" xlink:title="definition: TotalBankingActivitiesSubjectSTAAlternative to TotalBankingActivitiesSubjectSTA" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectASA" xlink:label="TotalBankingActivitiesSubjectASA" xlink:title="TotalBankingActivitiesSubjectASA"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBankingActivitiesSubjectSTAAlternative" xlink:to="TotalBankingActivitiesSubjectASA" xlink:title="definition: TotalBankingActivitiesSubjectSTAAlternative to TotalBankingActivitiesSubjectASA" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="d-ba-2006-07-01.xsd#d-ba_TotalBankingActivitiesSubjectAMA" xlink:label="TotalBankingActivitiesSubjectAMA" xlink:title="TotalBankingActivitiesSubjectAMA"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="TotalBankingActivities" xlink:to="TotalBankingActivitiesSubjectAMA" xlink:title="definition: TotalBankingActivities to TotalBankingActivitiesSubjectAMA" use="optional" order="3.0"/>
+  </link:definitionLink>
+</link:linkbase>

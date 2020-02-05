@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<xsd:schema elementFormDefault="qualified" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bundesbank.de/fr/ba/bakisw/t-ce-de-2007-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:t-ce-de="http://www.bundesbank.de/fr/ba/bakisw/t-ce-de-2007-01" xmlns:d-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-cr-2006-07-01" xmlns:dt="http://xbrl.c-ebs.org/dt" xmlns:d-og-de="http://www.bundesbank.de/fr/ba/bakisw/d-og-de-2007-01" xmlns:p-cm-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-cr-2006-07-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:d-ty="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ty-2006-07-01" xmlns:t-ce="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-ce-2006-07-01" xmlns:d-cm-report="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" xmlns:d-rw="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-rw-2006-07-01" xmlns:p-ce="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ce-2006-07-01" xmlns:p-cm-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01" xmlns:d-hh="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-hh-2006-07-01" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xdt="http://xbrl.org/2005/xdt" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:dt-de="http://xbrl.bundesbank.de/dt-de">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-ce-de-2007-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-ce-de-2007-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="t-ce-de-2007-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="p-ce-2006-07-01-label-de.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="d-rw-2006-07-01-label-de.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/ExcludeTotalExposuresHypercube" id="rt_t-ce-de_ExcludeTotalExposuresHypercube">
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.bundesbank.de/fr/ba/bakisw/t-ce-de/DimensionPresentation" id="rt_t-ce-de_DimensionPresentation">
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-ce-2006-07-01" schemaLocation="t-ce-2006-07-01.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-og-de-2007-01" schemaLocation="d-og-de-2007-01.xsd"/>
+  <xsd:import namespace="http://www.bundesbank.de/fr/ba/bakisw/d-cm-report-2006-06" schemaLocation="d-cm-report-2006-06.xsd"/>
+  <xsd:import namespace="http://xbrl.bundesbank.de/dt-de" schemaLocation="dt-de-2006-03-30.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://xbrl.c-ebs.org/dt" schemaLocation="dt-2005-06-30.xsd"/>
+  <xsd:element name="SubstitutionExposureCRMTotalOutflows" id="t-ce-de_SubstitutionExposureCRMTotalOutflows" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="MemorandumItemsValueAdjustmentsProvisions" id="t-ce-de_MemorandumItemsValueAdjustmentsProvisions" type="dt:nonNegativeMonetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="ExcludeTotalExposuresHypercube" id="t-ce-de_ExcludeTotalExposuresHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:p-gd-de="http://www.bundesbank.de/fr/ba/bakisw/p-gd-de-2007-01">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/gd" xlink:type="simple" xlink:href="p-gd-2006-07-01.xsd#rt_gd"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/gd">
+    <link:loc xlink:type="locator" xlink:href="p-gd-de-2007-01.xsd#p-gd-de_ZusatzinformationenGruppenangehoerigeUnternehmen" xlink:label="ZusatzinformationenGruppenangehoerigeUnternehmen" xlink:title="ZusatzinformationenGruppenangehoerigeUnternehmen"/>
+    <link:loc xlink:type="locator" xlink:href="p-gd-2006-07-01.xsd#p-gd_GroupSolvencyDetailsInformationAffiliatesDomain" xlink:label="GroupSolvencyDetailsInformationAffiliatesDomain" xlink:title="GroupSolvencyDetailsInformationAffiliatesDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ZusatzinformationenGruppenangehoerigeUnternehmen" xlink:to="GroupSolvencyDetailsInformationAffiliatesDomain" xlink:title="presentation: ZusatzinformationenGruppenangehoerigeUnternehmen to GroupSolvencyDetailsInformationAffiliatesDomain" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-gd-de-2007-01.xsd#p-gd-de_Gesamtsumme" xlink:label="Gesamtsumme" xlink:title="Gesamtsumme"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ZusatzinformationenGruppenangehoerigeUnternehmen" xlink:to="Gesamtsumme" xlink:title="presentation: ZusatzinformationenGruppenangehoerigeUnternehmen to Gesamtsumme" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-gd-de-2007-01.xsd#p-gd-de_CapitalRequirements" xlink:label="CapitalRequirements" xlink:title="CapitalRequirements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Gesamtsumme" xlink:to="CapitalRequirements" xlink:title="presentation: Gesamtsumme to CapitalRequirements" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-gd-de-2007-01.xsd#p-gd-de_SettlementRiskCapitalRequirements" xlink:label="SettlementRiskCapitalRequirements" xlink:title="SettlementRiskCapitalRequirements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CapitalRequirements" xlink:to="SettlementRiskCapitalRequirements" xlink:title="presentation: CapitalRequirements to SettlementRiskCapitalRequirements" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-gd-de-2007-01.xsd#p-gd-de_OperationalRiskCapitalRequirements" xlink:label="OperationalRiskCapitalRequirements" xlink:title="OperationalRiskCapitalRequirements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CapitalRequirements" xlink:to="OperationalRiskCapitalRequirements" xlink:title="presentation: CapitalRequirements to OperationalRiskCapitalRequirements" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-gd-de-2007-01.xsd#p-gd-de_TotalOwnFundsSolvencyPurposes" xlink:label="TotalOwnFundsSolvencyPurposes" xlink:title="TotalOwnFundsSolvencyPurposes"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="Gesamtsumme" xlink:to="TotalOwnFundsSolvencyPurposes" xlink:title="presentation: Gesamtsumme to TotalOwnFundsSolvencyPurposes" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-gd-de-2007-01.xsd#p-gd-de_TotalOriginalOwnFundsGeneralSolvencyPurposes" xlink:label="TotalOriginalOwnFundsGeneralSolvencyPurposes" xlink:title="TotalOriginalOwnFundsGeneralSolvencyPurposes"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="TotalOwnFundsSolvencyPurposes" xlink:to="TotalOriginalOwnFundsGeneralSolvencyPurposes" xlink:title="presentation: TotalOwnFundsSolvencyPurposes to TotalOriginalOwnFundsGeneralSolvencyPurposes" order="1.0"/>
+  </link:presentationLink>
+</link:linkbase>

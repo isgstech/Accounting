@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:p-ct="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ct-2006-07-01">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SettlementRiskCapitalRequirements" xlink:label="SettlementRiskCapitalRequirements" xlink:title="SettlementRiskCapitalRequirements"/>
+    <link:label xlink:type="resource" xlink:label="label_SettlementRiskCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_SettlementRiskCapitalRequirements" xml:lang="de" id="label_SettlementRiskCapitalRequirements">Eigenkapitalanforderung (§ 16 SolvV)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SettlementRiskCapitalRequirements" xlink:to="label_SettlementRiskCapitalRequirements" xlink:title="label: SettlementRiskCapitalRequirements to label_SettlementRiskCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-ct-2006-07-01.xsd#p-ct_UnsettledTransactionsAtSettlementPrice" xlink:label="UnsettledTransactionsAtSettlementPrice" xlink:title="UnsettledTransactionsAtSettlementPrice"/>
+    <link:label xlink:type="resource" xlink:label="label_UnsettledTransactionsAtSettlementPrice" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_UnsettledTransactionsAtSettlementPrice" xml:lang="de" id="label_UnsettledTransactionsAtSettlementPrice">Vereinbarter Abrechnungspreis</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="UnsettledTransactionsAtSettlementPrice" xlink:to="label_UnsettledTransactionsAtSettlementPrice" xlink:title="label: UnsettledTransactionsAtSettlementPrice to label_UnsettledTransactionsAtSettlementPrice"/>
+    <link:loc xlink:type="locator" xlink:href="p-ct-2006-07-01.xsd#p-ct_PriceDifferenceExposureDueToUnsettledTransactions" xlink:label="PriceDifferenceExposureDueToUnsettledTransactions" xlink:title="PriceDifferenceExposureDueToUnsettledTransactions"/>
+    <link:label xlink:type="resource" xlink:label="label_PriceDifferenceExposureDueToUnsettledTransactions" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_PriceDifferenceExposureDueToUnsettledTransactions" xml:lang="de" id="label_PriceDifferenceExposureDueToUnsettledTransactions">Zugunsten des Institutes bestehender Unterschiedsbetrag</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PriceDifferenceExposureDueToUnsettledTransactions" xlink:to="label_PriceDifferenceExposureDueToUnsettledTransactions" xlink:title="label: PriceDifferenceExposureDueToUnsettledTransactions to label_PriceDifferenceExposureDueToUnsettledTransactions"/>
+  </link:labelLink>
+</link:linkbase>

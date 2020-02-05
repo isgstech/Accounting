@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/sd" xlink:type="simple" xlink:href="p-sd-2006-07-01.xsd#rt_sd"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/sd">
+    <link:loc xlink:type="locator" xlink:href="p-sd-2006-07-01.xsd#p-sd_CRSECDetailsDomain" xlink:label="CRSECDetailsDomain" xlink:title="CRSECDetailsDomain"/>
+    <link:loc xlink:type="locator" xlink:href="d-ty-2006-07-01.xsd#d-ty_SecuritizationInternalCodeDimension" xlink:label="SecuritizationInternalCodeDimension" xlink:title="SecuritizationInternalCodeDimension"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CRSECDetailsDomain" xlink:to="SecuritizationInternalCodeDimension" xlink:title="presentation: CRSECDetailsDomain to SecuritizationInternalCodeDimension" order="0.1"/>
+  </link:presentationLink>
+</link:linkbase>

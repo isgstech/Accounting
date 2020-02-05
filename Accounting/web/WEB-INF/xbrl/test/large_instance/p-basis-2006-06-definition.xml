@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:p-basis="http://www.bundesbank.de/fr/ba/bakisw/p-basis-2006-06">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_HeaderInformationDomain" xlink:label="HeaderInformationDomain" xlink:title="HeaderInformationDomain"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_DeliveryInformation" xlink:label="DeliveryInformation" xlink:title="DeliveryInformation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="HeaderInformationDomain" xlink:to="DeliveryInformation" xlink:title="definition: HeaderInformationDomain to DeliveryInformation" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_DateCreated" xlink:label="DateCreated" xlink:title="DateCreated"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DeliveryInformation" xlink:to="DateCreated" xlink:title="definition: DeliveryInformation to DateCreated" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_Version" xlink:label="Version" xlink:title="Version"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DeliveryInformation" xlink:to="Version" xlink:title="definition: DeliveryInformation to Version" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_Stage" xlink:label="Stage" xlink:title="Stage"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DeliveryInformation" xlink:to="Stage" xlink:title="definition: DeliveryInformation to Stage" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_FileReference" xlink:label="FileReference" xlink:title="FileReference"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DeliveryInformation" xlink:to="FileReference" xlink:title="definition: DeliveryInformation to FileReference" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_ReportingReason" xlink:label="ReportingReason" xlink:title="ReportingReason"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DeliveryInformation" xlink:to="ReportingReason" xlink:title="definition: DeliveryInformation to ReportingReason" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_Comment" xlink:label="Comment" xlink:title="Comment"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DeliveryInformation" xlink:to="Comment" xlink:title="definition: DeliveryInformation to Comment" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_ReportingEntityInformation" xlink:label="ReportingEntityInformation" xlink:title="ReportingEntityInformation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="HeaderInformationDomain" xlink:to="ReportingEntityInformation" xlink:title="definition: HeaderInformationDomain to ReportingEntityInformation" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_IdentificationCodeType" xlink:label="IdentificationCodesType" xlink:title="IdentificationCodesType"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingEntityInformation" xlink:to="IdentificationCodesType" xlink:title="definition: ReportingEntityInformation to IdentificationCodesType" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_CompanyName" xlink:label="CompanyName" xlink:title="CompanyName"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingEntityInformation" xlink:to="CompanyName" xlink:title="definition: ReportingEntityInformation to CompanyName" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_Address" xlink:label="Address" xlink:title="Address"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingEntityInformation" xlink:to="Address" xlink:title="definition: ReportingEntityInformation to Address" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_Street" xlink:label="Street" xlink:title="Street"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Address" xlink:to="Street" xlink:title="definition: Address to Street" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_POBox" xlink:label="POBox" xlink:title="POBox"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Address" xlink:to="POBox" xlink:title="definition: Address to POBox" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_PostalCode" xlink:label="PostalCode" xlink:title="PostalCode"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Address" xlink:to="PostalCode" xlink:title="definition: Address to PostalCode" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_Town" xlink:label="Town" xlink:title="Town"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Address" xlink:to="Town" xlink:title="definition: Address to Town" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_State" xlink:label="State" xlink:title="State"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Address" xlink:to="State" xlink:title="definition: Address to State" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_Contact" xlink:label="Contact" xlink:title="Contact"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Address" xlink:to="Contact" xlink:title="definition: Address to Contact" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_FormOfAddress" xlink:label="FormOfAddress" xlink:title="FormOfAddress"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Contact" xlink:to="FormOfAddress" xlink:title="definition: Contact to FormOfAddress" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_FirstName" xlink:label="FirstName" xlink:title="FirstName"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Contact" xlink:to="FirstName" xlink:title="definition: Contact to FirstName" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_LastName" xlink:label="LastName" xlink:title="LastName"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Contact" xlink:to="LastName" xlink:title="definition: Contact to LastName" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_Division" xlink:label="Division" xlink:title="Division"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Contact" xlink:to="Division" xlink:title="definition: Contact to Division" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_PhoneNumber" xlink:label="PhoneNumber" xlink:title="PhoneNumber"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Contact" xlink:to="PhoneNumber" xlink:title="definition: Contact to PhoneNumber" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_FaxNumber" xlink:label="FaxNumber" xlink:title="FaxNumber"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Contact" xlink:to="FaxNumber" xlink:title="definition: Contact to FaxNumber" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_EmailAddress" xlink:label="EmailAddress" xlink:title="EmailAddress"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Contact" xlink:to="EmailAddress" xlink:title="definition: Contact to EmailAddress" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_ExtranetID" xlink:label="ExtranetID" xlink:title="ExtranetID"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Contact" xlink:to="ExtranetID" xlink:title="definition: Contact to ExtranetID" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="p-basis-2006-06.xsd#p-basis_IdentificationCode" xlink:label="IdentificationCode" xlink:title="IdentificationCode"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ReportingEntityInformation" xlink:to="IdentificationCode" xlink:title="definition: ReportingEntityInformation to IdentificationCode" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

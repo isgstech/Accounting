@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- (c) 2005 PricewaterhouseCoopers LLP.  All Rights Reserved. -->
+<xsd:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dt="http://xbrl.c-ebs.org/dt" targetNamespace="http://xbrl.c-ebs.org/dt" elementFormDefault="qualified">
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:complexType name="nonPositiveMonetaryItemType" final="extension">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:monetaryItemType">
+        <xsd:maxInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="nonNegativeMonetaryItemType" final="extension">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:monetaryItemType">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/ct" xlink:type="simple" xlink:href="p-ct-2006-07-01.xsd#rt_ct"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/ct">
+    <link:loc xlink:type="locator" xlink:href="p-ct-2006-07-01.xsd#p-ct_UnsettledTransactionsAtSettlementPrice" xlink:label="UnsettledTransactionsAtSettlementPrice" xlink:title="UnsettledTransactionsAtSettlementPrice"/>
+    <link:reference xlink:type="resource" xlink:label="reference_UnsettledTransactionsAtSettlementPrice" xlink:title="reference_UnsettledTransactionsAtSettlementPrice" id="reference_UnsettledTransactionsAtSettlementPrice_7416">
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+      <ref-corep:Annex>II</ref-corep:Annex>
+      <ref:Paragraph>1</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UnsettledTransactionsAtSettlementPrice" xlink:to="reference_UnsettledTransactionsAtSettlementPrice" xlink:title="reference: UnsettledTransactionsAtSettlementPrice to reference_UnsettledTransactionsAtSettlementPrice"/>
+    <link:loc xlink:type="locator" xlink:href="p-ct-2006-07-01.xsd#p-ct_PriceDifferenceExposureDueToUnsettledTransactions" xlink:label="PriceDifferenceExposureDueToUnsettledTransactions" xlink:title="PriceDifferenceExposureDueToUnsettledTransactions"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PriceDifferenceExposureDueToUnsettledTransactions" xlink:title="reference_PriceDifferenceExposureDueToUnsettledTransactions" id="reference_PriceDifferenceExposureDueToUnsettledTransactions_7423">
+      <ref-corep:Directive>Directive 2006/49/EC</ref-corep:Directive>
+      <ref-corep:Annex>II</ref-corep:Annex>
+      <ref:Paragraph>1</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PriceDifferenceExposureDueToUnsettledTransactions" xlink:to="reference_PriceDifferenceExposureDueToUnsettledTransactions" xlink:title="reference: PriceDifferenceExposureDueToUnsettledTransactions to reference_PriceDifferenceExposureDueToUnsettledTransactions"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_SettlementRiskCapitalRequirements" xlink:label="SettlementRiskCapitalRequirements" xlink:title="SettlementRiskCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SettlementRiskCapitalRequirements" xlink:title="reference_SettlementRiskCapitalRequirements" id="reference_SettlementRiskCapitalRequirements_7430">
+      <ref-corep:Comment>The capital charge for any exposure according to paragraph 1 of annex II Directive 2006/49/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SettlementRiskCapitalRequirements" xlink:to="reference_SettlementRiskCapitalRequirements" xlink:title="reference: SettlementRiskCapitalRequirements to reference_SettlementRiskCapitalRequirements"/>
+  </link:referenceLink>
+</link:linkbase>

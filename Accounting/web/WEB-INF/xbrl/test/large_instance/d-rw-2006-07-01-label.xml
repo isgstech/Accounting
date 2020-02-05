@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:d-rw="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-rw-2006-07-01">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_OtherRiskWeights" xlink:label="d-rw_OtherRiskWeights"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_OtherRiskWeights_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OtherRiskWeights" xml:lang="en" id="label_OtherRiskWeights_1133259821264_1">Other Risk Weights</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_OtherRiskWeights" xlink:to="d-rw_OtherRiskWeights_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight0Percent" xlink:label="d-rw_RiskWeight0Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight0Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight0Percent" xml:lang="en" id="label_RiskWeight0Percent_1133259763571_1">0%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight0Percent" xlink:to="d-rw_RiskWeight0Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight100Percent" xlink:label="d-rw_RiskWeight100Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight100Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight100Percent" xml:lang="en" id="label_RiskWeight100Percent_1133259790449_1">100%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight100Percent" xlink:to="d-rw_RiskWeight100Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight100PercentOfWhichPastDue" xlink:label="d-rw_RiskWeight100PercentPastDue"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight100PercentPastDue_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight100PercentPastDue" xml:lang="en" id="label_RiskWeight100PercentPastDue_1133345401595_1">Of Which: Past due</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight100PercentPastDue" xlink:to="d-rw_RiskWeight100PercentPastDue_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight100PercentOfWhichSecuredByCommercialRealEstate" xlink:label="d-rw_RiskWeight100PercentSecuredByCommercialRealEstate"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight100PercentSecuredByCommercialRealEstate_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight100PercentSecuredByCommercialRealEstate" xml:lang="en" id="label_RiskWeight100PercentSecuredByCommercialRealEstate_1133349142254_1">Of Which: secured by real estate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight100PercentSecuredByCommercialRealEstate" xlink:to="d-rw_RiskWeight100PercentSecuredByCommercialRealEstate_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight100PercentOfWhichWithoutCreditAssessment" xlink:label="d-rw_RiskWeight100PercentWithoutCreditAssessment"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight100PercentWithoutCreditAssessment_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight100PercentWithoutCreditAssessment" xml:lang="en" id="label_RiskWeight100PercentWithoutCreditAssessment_1133349104159_1">Of Which: Without credit assessment by a nominated ECAI</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight100PercentWithoutCreditAssessment" xlink:to="d-rw_RiskWeight100PercentWithoutCreditAssessment_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight10Percent" xlink:label="d-rw_RiskWeight10Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight10Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight10Percent" xml:lang="en" id="label_RiskWeight10Percent_1133259766675_1">10%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight10Percent" xlink:to="d-rw_RiskWeight10Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight115Percent" xlink:label="d-rw_RiskWeight115Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight115Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight115Percent" xml:lang="en" id="label_RiskWeight115Percent_1133259793874_1">115%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight115Percent" xlink:to="d-rw_RiskWeight115Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight150Percent" xlink:label="d-rw_RiskWeight150Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight150Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight150Percent" xml:lang="en" id="label_RiskWeight150Percent_1133259797600_1">150%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight150Percent" xlink:to="d-rw_RiskWeight150Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight150PercentOfWhichPastDue" xlink:label="d-rw_RiskWeight150PercentPastDue"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight150PercentPastDue_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight150PercentPastDue" xml:lang="en" id="label_RiskWeight150PercentPastDue_1133349174891_1">Of Which: Past due</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight150PercentPastDue" xlink:to="d-rw_RiskWeight150PercentPastDue_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight190Percent" xlink:label="d-rw_RiskWeight190Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight190Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight190Percent" xml:lang="en" id="label_RiskWeight190Percent_1133259800854_1">190%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight190Percent" xlink:to="d-rw_RiskWeight190Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight20Percent" xlink:label="d-rw_RiskWeight20Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight20Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight20Percent" xml:lang="en" id="label_RiskWeight20Percent_1133259769509_1">20%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight20Percent" xlink:to="d-rw_RiskWeight20Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight250Percent" xlink:label="d-rw_RiskWeight250Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight250Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight250Percent" xml:lang="en" id="label_RiskWeight250Percent_1133259805651_1">250%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight250Percent" xlink:to="d-rw_RiskWeight250Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight290Percent" xlink:label="d-rw_RiskWeight290Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight290Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight290Percent" xml:lang="en" id="label_RiskWeight290Percent_1133259809156_1">290%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight290Percent" xlink:to="d-rw_RiskWeight290Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight35Percent" xlink:label="d-rw_RiskWeight35Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight35Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight35Percent" xml:lang="en" id="label_RiskWeight35Percent_1133259773205_1">35%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight35Percent" xlink:to="d-rw_RiskWeight35Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight370Percent" xlink:label="d-rw_RiskWeight370Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight370Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight370Percent" xml:lang="en" id="label_RiskWeight370Percent_1133259813252_1">370%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight370Percent" xlink:to="d-rw_RiskWeight370Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight50Percent" xlink:label="d-rw_RiskWeight50Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight50Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight50Percent" xml:lang="en" id="label_RiskWeight50Percent_1133259776609_1">50%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight50Percent" xlink:to="d-rw_RiskWeight50Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight50PercentOfWhichPastDue" xlink:label="d-rw_RiskWeight50PercentPastDue"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight50PercentPastDue_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight50PercentPastDue" xml:lang="en" id="label_RiskWeight50PercentPastDue_1133343016015_2">Of Which: Past due</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight50PercentPastDue" xlink:to="d-rw_RiskWeight50PercentPastDue_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight50PercentOfWhichSecuredByCommercialRealEstate" xlink:label="d-rw_RiskWeight50PercentSecuredByCommercialRealEstate"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight50PercentSecuredByCommercialRealEstate_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight50PercentSecuredByCommercialRealEstate" xml:lang="en" id="label_RiskWeight50PercentSecuredByCommercialRealEstate_1133349061037_1">Of Which: secured by commercial real estate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight50PercentSecuredByCommercialRealEstate" xlink:to="d-rw_RiskWeight50PercentSecuredByCommercialRealEstate_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight50PercentOfWhichWithoutCreditAssessment" xlink:label="d-rw_RiskWeight50PercentWithoutCreditAssessment"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight50PercentWithoutCreditAssessment_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight50PercentWithoutCreditAssessment" xml:lang="en" id="label_RiskWeight50PercentWithoutCreditAssessment_1133347825811_1">Of Which: Without credit assessment by a nominated ECAI</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight50PercentWithoutCreditAssessment" xlink:to="d-rw_RiskWeight50PercentWithoutCreditAssessment_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight70Percent" xlink:label="d-rw_RiskWeight70Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight70Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight70Percent" xml:lang="en" id="label_RiskWeight70Percent_1133259779834_1">70%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight70Percent" xlink:to="d-rw_RiskWeight70Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight70PercentOfWhichCategory1" xlink:label="d-rw_RiskWeight70PercentOfWhichCategory1"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight70PercentOfWhichCategory1_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight70PercentOfWhichCategory1" xml:lang="en" id="label_RiskWeight70PercentOfWhichCategory1">Of Which In Category 1</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight70PercentOfWhichCategory1" xlink:to="d-rw_RiskWeight70PercentOfWhichCategory1_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight75Percent" xlink:label="d-rw_RiskWeight75Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight75Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight75Percent" xml:lang="en" id="label_RiskWeight75Percent_1133259783640_1">75%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight75Percent" xlink:to="d-rw_RiskWeight75Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight90Percent" xlink:label="d-rw_RiskWeight90Percent"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight90Percent_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight90Percent" xml:lang="en" id="label_RiskWeight90Percent_1133259787465_1">90%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight90Percent" xlink:to="d-rw_RiskWeight90Percent_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeightBreakdownDomain" xlink:label="d-rw_RiskWeightBreakdown"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeightBreakdown_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeightBreakdown" xml:lang="en" id="label_RiskWeightBreakdown_1133343072846_1">Risk Weight Breakdown (Domain)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeightBreakdown" xlink:to="d-rw_RiskWeightBreakdown_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeightDomain" xlink:label="d-rw_RiskWeight"/>
+    <link:label xlink:type="resource" xlink:label="d-rw_RiskWeight_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight" xml:lang="en" id="label_RiskWeight_1133259760306_1">Risk Weight (Domain)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="d-rw_RiskWeight" xlink:to="d-rw_RiskWeight_lbl"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight200Percent" xlink:label="RiskWeight200Percent" xlink:title="RiskWeight200Percent"/>
+    <link:label xlink:type="resource" xlink:label="label_RiskWeight200Percent" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeight200Percent" xml:lang="en" id="label_RiskWeight200Percent">200%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskWeight200Percent" xlink:to="label_RiskWeight200Percent" xlink:title="label: RiskWeight200Percent to label_RiskWeight200Percent"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeightDimension" xlink:label="RiskWeightDimension" xlink:title="RiskWeightDimension"/>
+    <link:label xlink:type="resource" xlink:label="label_RiskWeightDimension" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_RiskWeightDimension" xml:lang="en" id="label_RiskWeightDimension">Risk Weight (Dimension)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskWeightDimension" xlink:to="label_RiskWeightDimension" xlink:title="label: RiskWeightDimension to label_RiskWeightDimension"/>
+  </link:labelLink>
+</link:linkbase>

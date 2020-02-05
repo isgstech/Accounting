@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd" xmlns:p-op="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-op-2006-07-01" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/op" xlink:type="simple" xlink:href="p-op-2006-07-01.xsd#rt_op"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/op">
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_GrossIncome" xlink:label="GrossIncome" xlink:title="GrossIncome"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GrossIncome" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_GrossIncome" id="reference_GrossIncome">
+      <ref-corep:Comment>For the definition and time horizon see annex X part 1 points 2-9 and part 2 points 2 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GrossIncome" xlink:to="reference_GrossIncome" xlink:title="reference: GrossIncome to reference_GrossIncome"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_LoansAdvances" xlink:label="LoansAdvances" xlink:title="LoansAdvances"/>
+    <link:reference xlink:type="resource" xlink:label="reference_LoansAdvances" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_LoansAdvances" id="reference_LoansAdvances">
+      <ref-corep:Comment>Annex X part 2 points 6-7 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LoansAdvances" xlink:to="reference_LoansAdvances" xlink:title="reference: LoansAdvances to reference_LoansAdvances"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_OfWhichAllocationMechanism" xlink:label="OfWhichAllocationMechanism" xlink:title="OfWhichAllocationMechanism"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OfWhichAllocationMechanism" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OfWhichAllocationMechanism" id="reference_OfWhichAllocationMechanism">
+      <ref-corep:Comment>Annex X part 3 points 30-31 of Directive 2006/48/EC. To be reported only by those institutions that apply the allocation mechanism.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OfWhichAllocationMechanism" xlink:to="reference_OfWhichAllocationMechanism" xlink:title="reference: OfWhichAllocationMechanism to reference_OfWhichAllocationMechanism"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_CapitalRequirementsBeforeAlleviation" xlink:label="CapitalRequirementsBeforeAlleviation" xlink:title="CapitalRequirementsBeforeAlleviation"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirementsBeforeAlleviation_2" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirementsBeforeAlleviation" id="reference_CapitalRequirementsBeforeAlleviation_2">
+      <ref-corep:Comment>For the treatment of expected loss see annex X part 3 point 8 of Directive 2006/48/EC. Risk transfer mechanisms encompass insurance and other risk transfer mechanisms as referred to in annex X part 3 point 25 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirementsBeforeAlleviation" xlink:to="reference_CapitalRequirementsBeforeAlleviation_2" xlink:title="reference: CapitalRequirementsBeforeAlleviation to reference_CapitalRequirementsBeforeAlleviation"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirementsBeforeAlleviation" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirementsBeforeAlleviation" id="reference_CapitalRequirementsBeforeAlleviation">
+      <ref-corep:Directive>2000/12/EC</ref-corep:Directive>
+      <ref-corep:Annex>X</ref-corep:Annex>
+      <ref-corep:Part>3</ref-corep:Part>
+      <ref:Paragraph>25</ref:Paragraph>
+      <ref-corep:Comment>Risk Transfer Mechanisms encompass insurance and other risk transfer mechanisms.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirementsBeforeAlleviation" xlink:to="reference_CapitalRequirementsBeforeAlleviation" xlink:title="reference: CapitalRequirementsBeforeAlleviation to reference_CapitalRequirementsBeforeAlleviation"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_AlleviationCapitalRequirementsDueRiskTransferMechanisms" xlink:label="AlleviationCapitalRequirementsDueRiskTransferMechanisms" xlink:title="AlleviationCapitalRequirementsDueRiskTransferMechanisms"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AlleviationCapitalRequirementsDueRiskTransferMechanisms" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AlleviationCapitalRequirementsDueRiskTransferMechanisms" id="reference_AlleviationCapitalRequirementsDueRiskTransferMechanisms">
+      <ref-corep:Comment>Annex X  part 3 points 25-29 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AlleviationCapitalRequirementsDueRiskTransferMechanisms" xlink:to="reference_AlleviationCapitalRequirementsDueRiskTransferMechanisms" xlink:title="reference: AlleviationCapitalRequirementsDueRiskTransferMechanisms to reference_AlleviationCapitalRequirementsDueRiskTransferMechanisms"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_AlleviationCapitalRequirementsCapturedInBusinessPractices" xlink:label="AlleviationCapitalRequirementsCapturedInBusinessPractices" xlink:title="AlleviationCapitalRequirementsCapturedInBusinessPractices"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AlleviationCapitalRequirementsCapturedInBusinessPractices" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AlleviationCapitalRequirementsCapturedInBusinessPractices" id="reference_AlleviationCapitalRequirementsCapturedInBusinessPractices">
+      <ref-corep:Comment>For the treatment of expected loss see Annex X part 3 point 8 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AlleviationCapitalRequirementsCapturedInBusinessPractices" xlink:to="reference_AlleviationCapitalRequirementsCapturedInBusinessPractices" xlink:title="reference: AlleviationCapitalRequirementsCapturedInBusinessPractices to reference_AlleviationCapitalRequirementsCapturedInBusinessPractices"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_ExcessOnLimitCapitalAlleviation" xlink:label="ExcessOnLimitCapitalAlleviation" xlink:title="ExcessOnLimitCapitalAlleviation"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ExcessOnLimitCapitalAlleviation" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ExcessOnLimitCapitalAlleviation" id="reference_ExcessOnLimitCapitalAlleviation">
+      <ref-corep:Comment>Annex X  part 3 points 29 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ExcessOnLimitCapitalAlleviation" xlink:to="reference_ExcessOnLimitCapitalAlleviation" xlink:title="reference: ExcessOnLimitCapitalAlleviation to reference_ExcessOnLimitCapitalAlleviation"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_OperationalRiskCapitalRequirements" xlink:label="OperationalRiskCapitalRequirements" xlink:title="OperationalRiskCapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OperationalRiskCapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OperationalRiskCapitalRequirements" id="reference_OperationalRiskCapitalRequirements">
+      <ref-corep:Annex>X</ref-corep:Annex>
+      <ref-corep:Directive>2000/12/EC</ref-corep:Directive>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OperationalRiskCapitalRequirements" xlink:to="reference_OperationalRiskCapitalRequirements" xlink:title="reference: OperationalRiskCapitalRequirements to reference_OperationalRiskCapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-cm-ca-2006-07-01.xsd#p-cm-ca_CapitalRequirements" xlink:label="CapitalRequirements" xlink:title="CapitalRequirements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalRequirements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CapitalRequirements" id="reference_CapitalRequirements">
+      <ref-corep:Comment>The capital charge for operational risk calculated according to annex X of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalRequirements" xlink:to="reference_CapitalRequirements" xlink:title="reference: CapitalRequirements to reference_CapitalRequirements"/>
+    <link:loc xlink:type="locator" xlink:href="p-op-2006-07-01.xsd#p-op_OfWhichDueInsurance" xlink:label="OfWhichDueInsurance" xlink:title="OfWhichDueInsurance"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OfWhichDueInsurance" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OfWhichDueInsurance" id="reference_OfWhichDueInsurance">
+      <ref-corep:Comment>Annex X  part 3 points 25-29 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OfWhichDueInsurance" xlink:to="reference_OfWhichDueInsurance" xlink:title="reference: OfWhichDueInsurance to reference_OfWhichDueInsurance"/>
+  </link:referenceLink>
+</link:linkbase>

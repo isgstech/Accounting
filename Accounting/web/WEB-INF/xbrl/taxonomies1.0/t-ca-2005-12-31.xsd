@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Taxonomy based on XBRL standard Version 2.1.
+Created by UBmatrix Automator Professional Edition 6.403.2201.29023 (2006-01-10 17:07).  
+Contact www.ubmatrix.com
+Software Copyright (c) 2002-2006 Universal Business Matrix inc., All Rights Reserved
+Produced on 2006-01-13 20:30:36
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:t-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-ca-2005-12-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" targetNamespace="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/t-ca-2005-12-31" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo />
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.c-ebs.org/eu/fr/esrs/corep/2005-12-31/p-ca-2005-12-31" schemaLocation="p-ca-2005-12-31.xsd" />
+</schema>

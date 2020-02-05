@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.2.2?>
+<!-- Copyright (C) 2005 CEBS Secretariat Ltd., Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30 ref-corep-2005-09-30.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd" xmlns:ref-corep="http://www.c-ebs.org/eu/fr/esrs/corep/2005-09-30/ref-corep-2005-09-30" xmlns:ref="http://www.xbrl.org/2004/ref">
+  <link:roleRef roleURI="http://www.c-ebs.org/2006/corep/eu/cs" xlink:type="simple" xlink:href="p-cs-2006-07-01.xsd#rt_cs"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.c-ebs.org/2006/corep/eu/cs">
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_TotalSAExposureClass" xlink:label="TotalSAExposureClass" xlink:title="TotalSAExposureClass"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalSAExposureClass" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TotalSAExposureClass" id="reference_TotalSAExposureClass">
+      <ref-corep:Comment>SA exposure classes will comprise those in article 79 (1) of Directive 2006/48/EC plus the "Total". In principle, for Institutions applying the Standardized Approach (SA) to all their exposures subject to minimum own funds requirements for credit risk, the SA exposure classes breakdown will apply. </ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalSAExposureClass" xlink:to="reference_TotalSAExposureClass" xlink:title="reference: TotalSAExposureClass to reference_TotalSAExposureClass"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight50PercentOfWhichPastDue" xlink:label="RiskWeight50PercentOfWhichPastDue" xlink:title="RiskWeight50PercentOfWhichPastDue"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RiskWeight50PercentOfWhichPastDue" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_RiskWeight50PercentOfWhichPastDue" id="reference_RiskWeight50PercentOfWhichPastDue">
+      <ref-corep:Comment>Article 79 paragraph 1.j) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskWeight50PercentOfWhichPastDue" xlink:to="reference_RiskWeight50PercentOfWhichPastDue" xlink:title="reference: RiskWeight50PercentOfWhichPastDue to reference_RiskWeight50PercentOfWhichPastDue"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight50PercentOfWhichSecuredByCommercialRealEstate" xlink:label="RiskWeight50PercentOfWhichSecuredByCommercialRealEstate" xlink:title="RiskWeight50PercentOfWhichSecuredByCommercialRealEstate"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RiskWeight50PercentOfWhichSecuredByCommercialRealEstate" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_RiskWeight50PercentOfWhichSecuredByCommercialRealEstate" id="reference_RiskWeight50PercentOfWhichSecuredByCommercialRealEstate">
+      <ref-corep:Comment>Annex VI part 1 points 51 to 60 of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskWeight50PercentOfWhichSecuredByCommercialRealEstate" xlink:to="reference_RiskWeight50PercentOfWhichSecuredByCommercialRealEstate" xlink:title="reference: RiskWeight50PercentOfWhichSecuredByCommercialRealEstate to reference_RiskWeight50PercentOfWhichSecuredByCommercialRealEstate"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight100PercentOfWhichSecuredByCommercialRealEstate" xlink:label="RiskWeight100PercentOfWhichSecuredByCommercialRealEstate" xlink:title="RiskWeight100PercentOfWhichSecuredByCommercialRealEstate"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RiskWeight100PercentOfWhichSecuredByCommercialRealEstate" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_RiskWeight100PercentOfWhichSecuredByCommercialRealEstate" id="reference_RiskWeight100PercentOfWhichSecuredByCommercialRealEstate">
+      <ref-corep:Comment>Exposures under article 79 paragraph 1.i) of Directive 2006/48/EC that are subject to a 100% risk weight.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskWeight100PercentOfWhichSecuredByCommercialRealEstate" xlink:to="reference_RiskWeight100PercentOfWhichSecuredByCommercialRealEstate" xlink:title="reference: RiskWeight100PercentOfWhichSecuredByCommercialRealEstate to reference_RiskWeight100PercentOfWhichSecuredByCommercialRealEstate"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight100PercentOfWhichPastDue" xlink:label="RiskWeight100PercentOfWhichPastDue" xlink:title="RiskWeight100PercentOfWhichPastDue"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RiskWeight100PercentOfWhichPastDue" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_RiskWeight100PercentOfWhichPastDue" id="reference_RiskWeight100PercentOfWhichPastDue">
+      <ref-corep:Comment>Article 79 paragraph 1.j) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskWeight100PercentOfWhichPastDue" xlink:to="reference_RiskWeight100PercentOfWhichPastDue" xlink:title="reference: RiskWeight100PercentOfWhichPastDue to reference_RiskWeight100PercentOfWhichPastDue"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight100PercentOfWhichWithoutCreditAssessment" xlink:label="RiskWeight100PercentOfWhichWithoutCreditAssessment" xlink:title="RiskWeight100PercentOfWhichWithoutCreditAssessment"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RiskWeight100PercentOfWhichWithoutCreditAssessment" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_RiskWeight100PercentOfWhichWithoutCreditAssessment" id="reference_RiskWeight100PercentOfWhichWithoutCreditAssessment">
+      <ref-corep:Comment>See article 81 and annex VI of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskWeight100PercentOfWhichWithoutCreditAssessment" xlink:to="reference_RiskWeight100PercentOfWhichWithoutCreditAssessment" xlink:title="reference: RiskWeight100PercentOfWhichWithoutCreditAssessment to reference_RiskWeight100PercentOfWhichWithoutCreditAssessment"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight150PercentOfWhichPastDue" xlink:label="RiskWeight150PercentOfWhichPastDue" xlink:title="RiskWeight150PercentOfWhichPastDue"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RiskWeight150PercentOfWhichPastDue" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_RiskWeight150PercentOfWhichPastDue" id="reference_RiskWeight150PercentOfWhichPastDue">
+      <ref-corep:Comment>Article 79 paragraph 1.j) of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskWeight150PercentOfWhichPastDue" xlink:to="reference_RiskWeight150PercentOfWhichPastDue" xlink:title="reference: RiskWeight150PercentOfWhichPastDue to reference_RiskWeight150PercentOfWhichPastDue"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_OtherRiskWeights" xlink:label="OtherRiskWeights" xlink:title="OtherRiskWeights"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherRiskWeights" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherRiskWeights" id="reference_OtherRiskWeights">
+      <ref-corep:Comment>For reporting those exposures not subject to the risk weights listed in the template, as a result of national discretion. Countries may require a further breakdown of this line.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherRiskWeights" xlink:to="reference_OtherRiskWeights" xlink:title="reference: OtherRiskWeights to reference_OtherRiskWeights"/>
+    <link:loc xlink:type="locator" xlink:href="d-rw-2006-07-01.xsd#d-rw_RiskWeight50PercentOfWhichWithoutCreditAssessment" xlink:label="RiskWeight50PercentOfWhichWithoutCreditAssessment" xlink:title="RiskWeight50PercentOfWhichWithoutCreditAssessment"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RiskWeight50PercentOfWhichWithoutCreditAssessment" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_RiskWeight50PercentOfWhichWithoutCreditAssessment" id="reference_RiskWeight50PercentOfWhichWithoutCreditAssessment">
+      <ref-corep:Comment>See article 81 and annex VI of Directive 2006/48/EC.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RiskWeight50PercentOfWhichWithoutCreditAssessment" xlink:to="reference_RiskWeight50PercentOfWhichWithoutCreditAssessment" xlink:title="reference: RiskWeight50PercentOfWhichWithoutCreditAssessment to reference_RiskWeight50PercentOfWhichWithoutCreditAssessment"/>
+    <link:loc xlink:type="locator" xlink:href="d-ec-2006-07-01.xsd#d-ec_TotalIRBExposureClass" xlink:label="TotalIRBExposureClass" xlink:title="TotalIRBExposureClass"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalIRBExposureClass" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TotalIRBExposureClass" id="reference_TotalIRBExposureClass">
+      <ref-corep:Comment> IRB exposure classes will comprise those cited below plus the "Total". In principle, for Institutions applying only to part of their exposures the SA, the IRB exposure classes' breakdown will apply.</ref-corep:Comment>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalIRBExposureClass" xlink:to="reference_TotalIRBExposureClass" xlink:title="reference: TotalIRBExposureClass to reference_TotalIRBExposureClass"/>
+  </link:referenceLink>
+</link:linkbase>

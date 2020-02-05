@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?taxonomy-version 1.0?>
+<!-- Copyright (C) 2006 Deutsche Bundesbank,  Wilhelm-Epstein-Strasse 14, Frankfurt -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:p-ci-de="http://www.bundesbank.de/fr/ba/bakisw/p-ci-de-2007-01">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="p-ci-de-2007-01.xsd#p-ci-de_EigeneSchaetzungenIRBAKonversionsfaktoren" xlink:label="EigeneSchaetzungenIRBAKonversionsfaktoren" xlink:title="EigeneSchaetzungenIRBAKonversionsfaktoren"/>
+    <link:label xlink:type="resource" xlink:label="label_EigeneSchaetzungenIRBAKonversionsfaktoren" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_EigeneSchaetzungenIRBAKonversionsfaktoren" xml:lang="de" id="label_EigeneSchaetzungenIRBAKonversionsfaktoren">Eigene Schätzungen von Verlustquote bei Ausfall (LGD) und/oder IRBA-Konversionsfaktoren:</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EigeneSchaetzungenIRBAKonversionsfaktoren" xlink:to="label_EigeneSchaetzungenIRBAKonversionsfaktoren" xlink:title="label: EigeneSchaetzungenIRBAKonversionsfaktoren to label_EigeneSchaetzungenIRBAKonversionsfaktoren"/>
+  </link:labelLink>
+</link:linkbase>
